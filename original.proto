@@ -1,0 +1,493 @@
+syntax = "proto3";
+
+package patient;
+
+//enums
+enum Status {
+    ACTIVE = 0;
+    COMPLETED = 1;
+    FINAL = 2;
+    STOPPED = 3;
+    INACTIVE = 4;
+}
+
+enum Gender {
+    MALE = 0;
+    FEMALE = 1;
+    OTHER = 2;
+}
+
+message Activity {
+    repeated Detail detail = 1;
+}
+
+message Address {
+    string city = 1;
+    string country = 2;
+    repeated Extension extension = 3;
+    repeated string line = 4;
+    string postalCode = 5;
+    string state = 6;
+}
+
+message Addresses { //only has reference
+    string reference = 1;
+}
+
+message Adjudication {
+    Amount amount = 1;
+    Category category = 2;
+}
+
+message Amount {
+    string currency = 1;
+    float value = 2;
+}
+
+message Beneficiary { //only has reference
+    string reference = 1;
+}
+
+message BillablePeriod { //same as period
+    string end = 1;
+    string start = 2;
+}
+
+message CareTeam {
+    Provider provider = 1;
+    Role role = 2;
+    int32 sequence = 3;
+    string reference = 4;
+}
+
+message Category { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Claim { //only has reference
+    string reference = 1;
+}
+
+message Class {
+    string code = 1;
+    string system = 2;
+}
+
+message ClinicalStatus { // only has coding
+    repeated Coding coding = 1;
+}
+
+message Code { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Coding {
+    string code = 1;
+    string display = 2;
+    string system = 3;
+}
+
+message Communication { //only has language
+    Language language = 1;
+}
+
+message Component { //only has code and valueQuantity
+    Code code = 1;
+    ValueQuantity valueQuantity = 2;
+}
+
+message Contained {
+    string id = 1;
+    string intent = 2;
+    repeated Performer performer = 3;
+    Requester requester = 4;
+    string resourceType = 5;    
+    Status status = 6;
+    Subject subject = 7;
+    //Maybe split
+    Beneficiary beneficiary = 8;
+    repeated Payor payor = 9;
+    Type type = 10;
+}
+
+message Coverage {
+    string display = 1;
+    string reference = 2;
+}
+
+message Detail {
+    Code code = 1;
+    Location location = 2;
+    Status status = 3;
+}
+
+message Diagnosis {
+    DiagnosisReference diagnosisReference = 1;
+    int32 sequence = 2;
+    repeated Type type = 3;
+}
+
+message DiagnosisReference { //only has reference
+    string reference = 1;
+}
+
+message Encounter { //only has reference
+    string reference = 1;
+}
+
+message Entry {
+    string fullUrl = 1;
+    Request request = 2;
+    Resource resource = 3;
+}
+
+message Extension {
+    repeated Extension extension = 1;
+    string url = 2;
+    ValueCoding valueCoding = 3;
+    string valueString = 4;
+    float valueDecimal = 5;
+}
+
+message Identifier {
+    string system = 1;
+    string value = 2;
+    Type type = 3;
+}
+
+message Individual {
+    string display = 1;
+    string reference = 2;
+}
+
+message Insurance {
+    Coverage coverage = 1;
+    bool focal = 2;
+    int32 sequence = 3;
+}
+
+message Insurer { //only has display
+    string display = 1;
+}
+
+message Item {
+    repeated Encounter encounter = 1;
+    ProductOrService productOrService = 2;
+    int32 sequence = 3;
+    repeated int32 informationSequence = 4;
+    Net net = 5;
+    Category category = 6;
+    LocationCodeableConcept locationCodeableConcept = 7;
+    ServicedPeriod servicedPeriod = 8;
+    repeated Adjudication adjudication = 9;
+}
+
+message Language { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Location { //only has display
+    string display = 1;
+}
+
+message LocationCodeableConcept { //only has coding
+    repeated Coding coding = 1;
+}
+
+message ManagingOrganization { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message MaritalStatus { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message MedicationCodeableConcept { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Member { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message Name {
+    string family = 1;
+    repeated string given = 2;
+    repeated string prefix = 3;
+    string use = 4;
+}
+
+message Net { //same as amount
+    string currency = 1;
+    float value = 2;
+}
+
+message Participant {
+    Individual individual = 1;
+    Member member = 2;
+    repeated Role role = 3;
+}
+
+message Patient { //only has display and reference
+    string reference = 1;
+    string display = 2;
+}
+
+message Payment {
+    Amount amount = 1;
+}
+
+message Payor { //only has display
+    string display = 1;
+}
+
+message PerformedPeriod { //same as Period
+    string end = 1;
+    string start = 2;
+}
+
+message Performer { //only has reference
+    string reference = 1;
+}
+
+message Period { //same as Period
+    string end = 1;
+    string start = 2;
+}
+
+message Prescription { //only has reference
+    string reference = 1;
+}
+
+message Priority { //only has coding
+    repeated Coding coding = 1;
+}
+
+message Procedure {
+    ProcedureReference procedureReference = 1;
+    int32 sequence = 2;
+}
+
+message ProcedureReference { //only has reference
+    string reference = 1;
+}
+
+message ProductOrService { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Provider { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message ReasonCode { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message ReasonReference { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message Referral { //only has reference
+    string reference = 1;
+}
+
+message Request {
+    string method = 1;
+    string url = 2;
+}
+
+message Requester { //only has display and reference
+    string reference = 1;
+    string display = 2;
+}
+
+message Resource { //Possibly (definitely) split into multiple resource types
+    //Patient
+    repeated Address address = 1;
+    string birthDate = 2;
+    repeated Communication communication = 3;
+    repeated Extension extension = 4;
+    Gender gender = 5;
+    string id = 6;
+    repeated Identifier identifier = 7;
+    MaritalStatus maritalStatus = 8;
+    bool multipleBirthBoolean = 9;
+    repeated Name name = 10;
+    string resourceType = 11;
+    repeated Telecom telecom = 12;
+    Text text = 13;
+    //Organization
+    bool active = 14;
+    repeated Type type = 15;
+    //Practioner
+    //Encounter
+    Class class = 16;
+    repeated Participant participant = 17;
+    Period period = 18;
+    ServiceProvider serviceProvider = 19;
+    Status status = 21;
+    Subject subject = 20;
+    //Observation
+    repeated Category category = 22;
+    Code code = 23;
+    string effectiveDateTime = 24;
+    Encounter encounter = 25;
+    string issued = 26;
+    ValueQuantity valueQuantity = 27;
+    ValueCodeableConcept valueCodeableConcept = 28;
+    //Immunization
+    string occurenceDateTime = 29;
+    Patient patient = 30;
+    bool primarySource = 31;
+    VaccineCode vaccineCode = 32;
+    //Claim
+    BillablePeriod billabePeriod = 33;
+    string created = 34;
+    repeated Diagnosis diagnosis = 45;
+    repeated Insurance insurance = 35;
+    repeated Item item = 36;
+    Priority priority = 37;
+    Provider provider = 38;
+    repeated SupportingInfo supportingInfo = 39;
+    Total total = 40;
+    string use = 41;
+    //ExplanationOfBenefit
+    repeated CareTeam careteam = 42;
+    Claim claim = 43;
+    repeated Contained contained = 44;
+    Insurer insurer = 46;
+    string outcome = 47;
+    Payment payment = 48;
+    Referral referral = 49;
+    repeated Total total2 = 50;
+    //Organization
+    //MedicationRequest
+    string authoredOn = 51;
+    MedicationCodeableConcept medicationCodeableConcept = 52;
+    Requester requester = 53;
+    //Condition
+    string abatementDateTime = 54;
+    ClinicalStatus clinicalStatus = 55;
+    string onsetDateTime = 56;
+    string recordedDate = 57;
+    VerificationStatus verificationStatus = 58;
+    //Procedure
+    PerformedPeriod performedPeriod = 59;
+    repeated ReasonReference ReasonReference = 60;
+    //CareTeam
+    ManagingOrganization managingOrganization = 61;
+    repeated ReasonCode reasoncode = 62;
+    //CarePlan
+    repeated Activity activity = 63;
+    repeated Addresses adresses = 64;
+    // And I'm sure there's more
+}
+
+message Result { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message Role { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message Root {
+    repeated Entry entry = 1;
+    string resourceType = 2;
+    string type = 3;
+}
+
+message ServiceProvider { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message ServicedPeriod { //same as period
+    string end = 1;
+    string start = 2;
+}
+
+message Subject { //only has display and reference
+    string display = 1;
+    string reference = 2;
+}
+
+message SupportingInfo {
+    Category category = 1;
+    int32 sequence = 2;
+    ValueReference valueReference = 3;
+}
+
+message Telecom {
+    string system = 1;
+    string use = 2;
+    string value = 3;
+}
+
+message Text {
+    string div = 1;
+    string status = 2;
+}
+
+message Total {
+    string currency = 1;
+    float value = 2;
+    Amount amount = 3;
+    Category category = 4;
+}
+
+message Type { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message VaccineCode { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message valueAddress {
+    string city = 1;
+    string country = 2;
+    string state = 3;
+}
+
+message ValueCodeableConcept { //only has coding and text
+    repeated Coding coding = 1;
+    string text = 2;
+}
+
+message ValueCoding {
+    string code = 1;
+    string display = 2;
+    string system = 3;
+}
+
+message ValueQuantity {
+    string code = 1;
+    string system = 2;
+    string unit = 3;
+    float value = 4;
+}
+
+message ValueReference { //only has reference
+    string reference = 1;
+}
+
+message VerificationStatus { //only has coding
+    repeated Coding coding = 1;
+}

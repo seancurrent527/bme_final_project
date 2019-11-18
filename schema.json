@@ -1,0 +1,1135 @@
+{
+    "CarePlan": {
+        "activity": [
+            {
+                "detail": {
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : 304510005",
+                                "display": "<class 'str'> : ex : Recommendation to avoid exercise",
+                                "system": "<class 'str'> : ex : http://snomed.info/sct"
+                            }
+                        ],
+                        "text": "<class 'str'> : ex : Recommendation to avoid exercise"
+                    },
+                    "location": {
+                        "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+                    },
+                    "status": "<class 'str'> : ex : completed"
+                }
+            },
+            {
+                "detail": {
+                    "code": {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : 371605008",
+                                "display": "<class 'str'> : ex : Deep breathing and coughing exercises",
+                                "system": "<class 'str'> : ex : http://snomed.info/sct"
+                            }
+                        ],
+                        "text": "<class 'str'> : ex : Deep breathing and coughing exercises"
+                    },
+                    "location": {
+                        "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+                    },
+                    "status": "<class 'str'> : ex : completed"
+                }
+            }
+        ],
+        "addresses": [
+            {
+                "reference": "<class 'str'> : ex : urn:uuid:cd18d141-030d-421c-946d-db0ec1c20327"
+            }
+        ],
+        "careTeam": [
+            {
+                "reference": "<class 'str'> : ex : urn:uuid:36aff660-18f8-4cbc-883b-1acd92a93e28"
+            }
+        ],
+        "category": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : 53950000",
+                        "display": "<class 'str'> : ex : Respiratory therapy",
+                        "system": "<class 'str'> : ex : http://snomed.info/sct"
+                    }
+                ],
+                "text": "<class 'str'> : ex : Respiratory therapy"
+            }
+        ],
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:615eba36-c2dd-4346-91ee-2a0b5e309e8f"
+        },
+        "id": "<class 'str'> : ex : f4c82f39-5483-4910-9fbf-f320c469a2e2",
+        "intent": "<class 'str'> : ex : order",
+        "period": {
+            "end": "<class 'str'> : ex : 2014-03-06T06:57:15-07:00",
+            "start": "<class 'str'> : ex : 2014-02-27T06:57:15-07:00"
+        },
+        "resourceType": "<class 'str'> : ex : CarePlan",
+        "status": "<class 'str'> : ex : completed",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "text": {
+            "div": "<class 'str'> : ex : <div xmlns=\"http://www.w3.org/1999/xhtml\">Care Plan for Respiratory therapy.<br/>Activities: <ul><li>Respiratory therapy</li><li>Respiratory therapy</li></ul><br/>Care plan is meant to treat Acute bronchitis (disorder).</div>",
+            "status": "<class 'str'> : ex : generated"
+        }
+    },
+    "CareTeam": {
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:615eba36-c2dd-4346-91ee-2a0b5e309e8f"
+        },
+        "id": "<class 'str'> : ex : 36aff660-18f8-4cbc-883b-1acd92a93e28",
+        "managingOrganization": [
+            {
+                "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",
+                "reference": "<class 'str'> : ex : urn:uuid:6f122869-a856-3d65-8db9-099bf4f5bbb8"
+            }
+        ],
+        "participant": [
+            {
+                "member": {
+                    "display": "<class 'str'> : ex : Ms. Cristy798 Schroeder447",
+                    "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+                },
+                "role": [
+                    {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : 116153009",
+                                "display": "<class 'str'> : ex : Patient",
+                                "system": "<class 'str'> : ex : http://snomed.info/sct"
+                            }
+                        ],
+                        "text": "<class 'str'> : ex : Patient"
+                    }
+                ]
+            },
+            {
+                "member": {
+                    "display": "<class 'str'> : ex : Dr. Dennis979 Stehr398",
+                    "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+                },
+                "role": [
+                    {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : 303118004",
+                                "display": "<class 'str'> : ex : Person in the healthcare environment (person)",
+                                "system": "<class 'str'> : ex : http://snomed.info/sct"
+                            }
+                        ],
+                        "text": "<class 'str'> : ex : Person in the healthcare environment (person)"
+                    }
+                ]
+            },
+            {
+                "member": {
+                    "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",
+                    "reference": "<class 'str'> : ex : urn:uuid:6f122869-a856-3d65-8db9-099bf4f5bbb8"
+                },
+                "role": [
+                    {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : 303118004",
+                                "display": "<class 'str'> : ex : Healthcare related organization (qualifier value)",
+                                "system": "<class 'str'> : ex : http://snomed.info/sct"
+                            }
+                        ],
+                        "text": "<class 'str'> : ex : Healthcare related organization (qualifier value)"
+                    }
+                ]
+            }
+        ],
+        "period": {
+            "end": "<class 'str'> : ex : 2014-03-06T06:57:15-07:00",
+            "start": "<class 'str'> : ex : 2014-02-27T06:57:15-07:00"
+        },
+        "reasonCode": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : 10509002",
+                        "display": "<class 'str'> : ex : Acute bronchitis (disorder)",
+                        "system": "<class 'str'> : ex : http://snomed.info/sct"
+                    }
+                ],
+                "text": "<class 'str'> : ex : Acute bronchitis (disorder)"
+            }
+        ],
+        "resourceType": "<class 'str'> : ex : CareTeam",
+        "status": "<class 'str'> : ex : inactive",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        }
+    },
+    "Claim": {
+        "billablePeriod": {
+            "end": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00",
+            "start": "<class 'str'> : ex : 2018-09-12T06:57:15-07:00"
+        },
+        "created": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00",
+        "diagnosis": [
+            {
+                "diagnosisReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:92f0c6ef-2e65-463e-8175-48c20db7fd16"
+                },
+                "sequence": "<class 'int'> : ex : 1"
+            }
+        ],
+        "id": "<class 'str'> : ex : 94d11a97-a25e-471d-a147-d6daa76231ac",
+        "insurance": [
+            {
+                "coverage": {
+                    "display": "<class 'str'> : ex : NO_INSURANCE"
+                },
+                "focal": "<class 'bool'> : ex : True",
+                "sequence": "<class 'int'> : ex : 1"
+            }
+        ],
+        "item": [
+            {
+                "encounter": [
+                    {
+                        "reference": "<class 'str'> : ex : urn:uuid:acbe67fb-41e3-4fa1-8449-ecda568df95b"
+                    }
+                ],
+                "productOrService": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 698314001",
+                            "display": "<class 'str'> : ex : Consultation for treatment",
+                            "system": "<class 'str'> : ex : http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Consultation for treatment"
+                },
+                "sequence": "<class 'int'> : ex : 1"
+            }
+        ],
+        "patient": {
+            "display": "<class 'str'> : ex : Cristy798 Schroeder447",
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "prescription": {
+            "reference": "<class 'str'> : ex : urn:uuid:ba5e39cc-a929-4e59-b7c5-67b7787af255"
+        },
+        "priority": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : normal",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/processpriority"
+                }
+            ]
+        },
+        "procedure": [
+            {
+                "procedureReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:62f87daa-3fc9-4303-8cf9-c576a254dfad"
+                },
+                "sequence": "<class 'int'> : ex : 1"
+            }
+        ],
+        "provider": {
+            "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",
+            "reference": "<class 'str'> : ex : urn:uuid:6f122869-a856-3d65-8db9-099bf4f5bbb8"
+        },
+        "resourceType": "<class 'str'> : ex : Claim",
+        "status": "<class 'str'> : ex : active",
+        "supportingInfo": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : info",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+                        }
+                    ]
+                },
+                "sequence": "<class 'int'> : ex : 1",
+                "valueReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:0970c362-1bc4-4900-9a8a-9474fa708955"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : info",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+                        }
+                    ]
+                },
+                "sequence": "<class 'int'> : ex : 2",
+                "valueReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:4eb4311f-31ad-4e8a-ad7e-833490aeff2e"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : info",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+                        }
+                    ]
+                },
+                "sequence": "<class 'int'> : ex : 3",
+                "valueReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:bb94c4d8-a755-406b-a988-6902a054a0ef"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : info",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+                        }
+                    ]
+                },
+                "sequence": "<class 'int'> : ex : 4",
+                "valueReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:adcbe2a7-917f-4f28-afd7-1f56992d7fe5"
+                }
+            }
+        ],
+        "total": {
+            "currency": "<class 'str'> : ex : USD",
+            "value": "<class 'float'> : ex : 129.16"
+        },
+        "type": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : institutional",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claim-type"
+                }
+            ]
+        },
+        "use": "<class 'str'> : ex : claim"
+    },
+    "Condition": {
+        "abatementDateTime": "<class 'str'> : ex : 2017-05-26T06:57:15-07:00",
+        "clinicalStatus": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : resolved",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/condition-clinical"
+                }
+            ]
+        },
+        "code": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 444814009",
+                    "display": "<class 'str'> : ex : Viral sinusitis (disorder)",
+                    "system": "<class 'str'> : ex : http://snomed.info/sct"
+                }
+            ],
+            "text": "<class 'str'> : ex : Viral sinusitis (disorder)"
+        },
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:060a4d8d-75ef-4693-863d-96407e6ea34f"
+        },
+        "id": "<class 'str'> : ex : 92f0c6ef-2e65-463e-8175-48c20db7fd16",
+        "onsetDateTime": "<class 'str'> : ex : 2017-05-19T06:57:15-07:00",
+        "recordedDate": "<class 'str'> : ex : 2017-05-19T06:57:15-07:00",
+        "resourceType": "<class 'str'> : ex : Condition",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "verificationStatus": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : confirmed",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/condition-ver-status"
+                }
+            ]
+        }
+    },
+    "DiagnosticReport": {
+        "category": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : LAB",
+                        "display": "<class 'str'> : ex : Laboratory",
+                        "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v2-0074"
+                    }
+                ]
+            }
+        ],
+        "code": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 58410-2",
+                    "display": "<class 'str'> : ex : Complete blood count (hemogram) panel - Blood by Automated count",
+                    "system": "<class 'str'> : ex : http://loinc.org"
+                }
+            ],
+            "text": "<class 'str'> : ex : Complete blood count (hemogram) panel - Blood by Automated count"
+        },
+        "effectiveDateTime": "<class 'str'> : ex : 2018-01-04T06:57:15-07:00",
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:659bdef1-460e-412f-95a9-4a979f350dd5"
+        },
+        "id": "<class 'str'> : ex : a1c84658-8771-4b33-a27c-00e52e1e3e87",
+        "issued": "<class 'str'> : ex : 2018-01-04T06:57:15.830-07:00",
+        "resourceType": "<class 'str'> : ex : DiagnosticReport",
+        "result": [
+            {
+                "display": "<class 'str'> : ex : Leukocytes [#/volume] in Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:585faaf6-4a6f-493e-86f5-d55273b73401"
+            },
+            {
+                "display": "<class 'str'> : ex : Erythrocytes [#/volume] in Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:30eb02e4-de88-4590-b881-310f660268f7"
+            },
+            {
+                "display": "<class 'str'> : ex : Hemoglobin [Mass/volume] in Blood",
+                "reference": "<class 'str'> : ex : urn:uuid:d10897cc-09b9-49f4-b5c8-58301a1fe4b3"
+            },
+            {
+                "display": "<class 'str'> : ex : Hematocrit [Volume Fraction] of Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:1df8dec8-5c5a-4344-b46e-194fbacaa0de"
+            },
+            {
+                "display": "<class 'str'> : ex : MCV [Entitic volume] by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:d29222e6-1fb8-4d94-a5cf-c5dfbc59af00"
+            },
+            {
+                "display": "<class 'str'> : ex : MCH [Entitic mass] by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:023ab97d-0def-4f37-9dd1-4cf8c536d6ff"
+            },
+            {
+                "display": "<class 'str'> : ex : MCHC [Mass/volume] by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:e6f4b30f-5d80-4f53-9b12-6cf162a977b9"
+            },
+            {
+                "display": "<class 'str'> : ex : Erythrocyte distribution width [Entitic volume] by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:5276fa94-afb1-40fa-ad82-39168970222e"
+            },
+            {
+                "display": "<class 'str'> : ex : Platelets [#/volume] in Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:368c253b-f26e-4f50-aa46-b449c5d47e6e"
+            },
+            {
+                "display": "<class 'str'> : ex : Platelet distribution width [Entitic volume] in Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:bfa364b8-e19e-4e34-a7cd-df0f29f23844"
+            },
+            {
+                "display": "<class 'str'> : ex : Platelet mean volume [Entitic volume] in Blood by Automated count",
+                "reference": "<class 'str'> : ex : urn:uuid:5817e9bb-ecec-41d7-a647-569cd80e124f"
+            }
+        ],
+        "status": "<class 'str'> : ex : final",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        }
+    },
+    "Encounter": {
+        "class": {
+            "code": "<class 'str'> : ex : AMB",
+            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v3-ActCode"
+        },
+        "id": "<class 'str'> : ex : acbe67fb-41e3-4fa1-8449-ecda568df95b",
+        "participant": [
+            {
+                "individual": {
+                    "display": "<class 'str'> : ex : Dr. Dennis979 Stehr398",
+                    "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+                }
+            }
+        ],
+        "period": {
+            "end": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00",
+            "start": "<class 'str'> : ex : 2018-09-12T06:57:15-07:00"
+        },
+        "reasonCode": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : 444814009",
+                        "display": "<class 'str'> : ex : Viral sinusitis (disorder)",
+                        "system": "<class 'str'> : ex : http://snomed.info/sct"
+                    }
+                ]
+            }
+        ],
+        "resourceType": "<class 'str'> : ex : Encounter",
+        "serviceProvider": {
+            "display": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",
+            "reference": "<class 'str'> : ex : urn:uuid:6f122869-a856-3d65-8db9-099bf4f5bbb8"
+        },
+        "status": "<class 'str'> : ex : finished",
+        "subject": {
+            "display": "<class 'str'> : ex : Ms. Cristy798 Schroeder447",
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "type": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : 698314001",
+                        "display": "<class 'str'> : ex : Consultation for treatment",
+                        "system": "<class 'str'> : ex : http://snomed.info/sct"
+                    }
+                ],
+                "text": "<class 'str'> : ex : Consultation for treatment"
+            }
+        ]
+    },
+    "ExplanationOfBenefit": {
+        "billablePeriod": {
+            "end": "<class 'str'> : ex : 2019-09-12T07:12:15-07:00",
+            "start": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00"
+        },
+        "careTeam": [
+            {
+                "provider": {
+                    "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+                },
+                "role": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : primary",
+                            "display": "<class 'str'> : ex : Primary Care Practitioner",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claimcareteamrole"
+                        }
+                    ]
+                },
+                "sequence": "<class 'int'> : ex : 1"
+            }
+        ],
+        "claim": {
+            "reference": "<class 'str'> : ex : urn:uuid:94d11a97-a25e-471d-a147-d6daa76231ac"
+        },
+        "contained": [
+            {
+                "id": "<class 'str'> : ex : referral",
+                "intent": "<class 'str'> : ex : order",
+                "performer": [
+                    {
+                        "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+                    }
+                ],
+                "requester": {
+                    "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+                },
+                "resourceType": "<class 'str'> : ex : ServiceRequest",
+                "status": "<class 'str'> : ex : completed",
+                "subject": {
+                    "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+                }
+            },
+            {
+                "beneficiary": {
+                    "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+                },
+                "id": "<class 'str'> : ex : coverage",
+                "payor": [
+                    {
+                        "display": "<class 'str'> : ex : NO_INSURANCE"
+                    }
+                ],
+                "resourceType": "<class 'str'> : ex : Coverage",
+                "status": "<class 'str'> : ex : active",
+                "type": {
+                    "text": "<class 'str'> : ex : NO_INSURANCE"
+                }
+            }
+        ],
+        "created": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00",
+        "diagnosis": [
+            {
+                "diagnosisReference": {
+                    "reference": "<class 'str'> : ex : urn:uuid:92f0c6ef-2e65-463e-8175-48c20db7fd16"
+                },
+                "sequence": "<class 'int'> : ex : 1",
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "code": "<class 'str'> : ex : principal",
+                                "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/ex-diagnosistype"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "id": "<class 'str'> : ex : 31091ac0-f00b-49e2-a8d5-1b5c0f5d2b49",
+        "identifier": [
+            {
+                "system": "<class 'str'> : ex : https://bluebutton.cms.gov/resources/variables/clm_id",
+                "value": "<class 'str'> : ex : 94d11a97-a25e-471d-a147-d6daa76231ac"
+            },
+            {
+                "system": "<class 'str'> : ex : https://bluebutton.cms.gov/resources/identifier/claim-group",
+                "value": "<class 'str'> : ex : 99999999999"
+            }
+        ],
+        "insurance": [
+            {
+                "coverage": {
+                    "display": "<class 'str'> : ex : NO_INSURANCE",
+                    "reference": "<class 'str'> : ex : #coverage"
+                },
+                "focal": "<class 'bool'> : ex : True"
+            }
+        ],
+        "insurer": {
+            "display": "<class 'str'> : ex : NO_INSURANCE"
+        },
+        "item": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 1",
+                            "display": "<class 'str'> : ex : Medical care",
+                            "system": "<class 'str'> : ex : https://bluebutton.cms.gov/resources/variables/line_cms_type_srvc_cd"
+                        }
+                    ]
+                },
+                "encounter": [
+                    {
+                        "reference": "<class 'str'> : ex : urn:uuid:acbe67fb-41e3-4fa1-8449-ecda568df95b"
+                    }
+                ],
+                "locationCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 21",
+                            "display": "<class 'str'> : ex : Inpatient Hospital",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/ex-serviceplace"
+                        }
+                    ]
+                },
+                "productOrService": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 698314001",
+                            "display": "<class 'str'> : ex : Consultation for treatment",
+                            "system": "<class 'str'> : ex : http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Consultation for treatment"
+                },
+                "sequence": "<class 'int'> : ex : 1",
+                "servicedPeriod": {
+                    "end": "<class 'str'> : ex : 2018-09-12T07:12:15-07:00",
+                    "start": "<class 'str'> : ex : 2018-09-12T06:57:15-07:00"
+                }
+            }
+        ],
+        "outcome": "<class 'str'> : ex : complete",
+        "patient": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "payment": {
+            "amount": {
+                "currency": "<class 'str'> : ex : USD",
+                "value": "<class 'float'> : ex : 0.0"
+            }
+        },
+        "provider": {
+            "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+        },
+        "referral": {
+            "reference": "<class 'str'> : ex : #referral"
+        },
+        "resourceType": "<class 'str'> : ex : ExplanationOfBenefit",
+        "status": "<class 'str'> : ex : active",
+        "total": [
+            {
+                "amount": {
+                    "currency": "<class 'str'> : ex : USD",
+                    "value": "<class 'float'> : ex : 129.16"
+                },
+                "category": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : submitted",
+                            "display": "<class 'str'> : ex : Submitted Amount",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/adjudication"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Submitted Amount"
+                }
+            }
+        ],
+        "type": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : institutional",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/claim-type"
+                }
+            ]
+        },
+        "use": "<class 'str'> : ex : claim"
+    },
+    "Immunization": {
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:659bdef1-460e-412f-95a9-4a979f350dd5"
+        },
+        "id": "<class 'str'> : ex : adcbe2a7-917f-4f28-afd7-1f56992d7fe5",
+        "occurrenceDateTime": "<class 'str'> : ex : 2018-01-04T06:57:15-07:00",
+        "patient": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "primarySource": "<class 'bool'> : ex : True",
+        "resourceType": "<class 'str'> : ex : Immunization",
+        "status": "<class 'str'> : ex : completed",
+        "vaccineCode": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 114",
+                    "display": "<class 'str'> : ex : meningococcal MCV4P",
+                    "system": "<class 'str'> : ex : http://hl7.org/fhir/sid/cvx"
+                }
+            ],
+            "text": "<class 'str'> : ex : meningococcal MCV4P"
+        }
+    },
+    "MedicationRequest": {
+        "authoredOn": "<class 'str'> : ex : 2018-09-12T06:57:15-07:00",
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:acbe67fb-41e3-4fa1-8449-ecda568df95b"
+        },
+        "id": "<class 'str'> : ex : ba5e39cc-a929-4e59-b7c5-67b7787af255",
+        "intent": "<class 'str'> : ex : order",
+        "medicationCodeableConcept": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 978950",
+                    "display": "<class 'str'> : ex : Natazia 28 Day Pack",
+                    "system": "<class 'str'> : ex : http://www.nlm.nih.gov/research/umls/rxnorm"
+                }
+            ],
+            "text": "<class 'str'> : ex : Natazia 28 Day Pack"
+        },
+        "reasonReference": [
+            {
+                "reference": "<class 'str'> : ex : urn:uuid:cd18d141-030d-421c-946d-db0ec1c20327"
+            }
+        ],
+        "requester": {
+            "display": "<class 'str'> : ex : Dr. Dennis979 Stehr398",
+            "reference": "<class 'str'> : ex : urn:uuid:0000016e-19f1-1d03-0000-000000000208"
+        },
+        "resourceType": "<class 'str'> : ex : MedicationRequest",
+        "status": "<class 'str'> : ex : stopped",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        }
+    },
+    "Observation": {
+        "category": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : survey",
+                        "display": "<class 'str'> : ex : survey",
+                        "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/observation-category"
+                    }
+                ]
+            }
+        ],
+        "code": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 72166-2",
+                    "display": "<class 'str'> : ex : Tobacco smoking status NHIS",
+                    "system": "<class 'str'> : ex : http://loinc.org"
+                }
+            ],
+            "text": "<class 'str'> : ex : Tobacco smoking status NHIS"
+        },
+        "component": [
+            {
+                "code": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 8462-4",
+                            "display": "<class 'str'> : ex : Diastolic Blood Pressure",
+                            "system": "<class 'str'> : ex : http://loinc.org"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Diastolic Blood Pressure"
+                },
+                "valueQuantity": {
+                    "code": "<class 'str'> : ex : mm[Hg]",
+                    "system": "<class 'str'> : ex : http://unitsofmeasure.org",
+                    "unit": "<class 'str'> : ex : mm[Hg]",
+                    "value": "<class 'int'> : ex : 82"
+                }
+            },
+            {
+                "code": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : 8480-6",
+                            "display": "<class 'str'> : ex : Systolic Blood Pressure",
+                            "system": "<class 'str'> : ex : http://loinc.org"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Systolic Blood Pressure"
+                },
+                "valueQuantity": {
+                    "code": "<class 'str'> : ex : mm[Hg]",
+                    "system": "<class 'str'> : ex : http://unitsofmeasure.org",
+                    "unit": "<class 'str'> : ex : mm[Hg]",
+                    "value": "<class 'int'> : ex : 128"
+                }
+            }
+        ],
+        "effectiveDateTime": "<class 'str'> : ex : 2018-01-04T06:57:15-07:00",
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:659bdef1-460e-412f-95a9-4a979f350dd5"
+        },
+        "id": "<class 'str'> : ex : 933b125a-1f7f-411e-a5cc-ad0a302e8d40",
+        "issued": "<class 'str'> : ex : 2018-01-04T06:57:15.830-07:00",
+        "resourceType": "<class 'str'> : ex : Observation",
+        "status": "<class 'str'> : ex : final",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        },
+        "valueCodeableConcept": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 8517006",
+                    "display": "<class 'str'> : ex : Former smoker",
+                    "system": "<class 'str'> : ex : http://snomed.info/sct"
+                }
+            ],
+            "text": "<class 'str'> : ex : Former smoker"
+        },
+        "valueQuantity": {
+            "code": "<class 'str'> : ex : fL",
+            "system": "<class 'str'> : ex : http://unitsofmeasure.org",
+            "unit": "<class 'str'> : ex : fL",
+            "value": "<class 'float'> : ex : 9.9431"
+        }
+    },
+    "Organization": {
+        "active": "<class 'bool'> : ex : True",
+        "address": [
+            {
+                "city": "<class 'str'> : ex : BURLINGTON",
+                "country": "<class 'str'> : ex : US",
+                "line": [
+                    "<class 'str'> : ex : 41 & 45 MALL ROAD"
+                ],
+                "postalCode": "<class 'str'> : ex : 01803",
+                "state": "<class 'str'> : ex : MA"
+            }
+        ],
+        "id": "<class 'str'> : ex : 6f122869-a856-3d65-8db9-099bf4f5bbb8",
+        "identifier": [
+            {
+                "system": "<class 'str'> : ex : https://github.com/synthetichealth/synthea",
+                "value": "<class 'str'> : ex : 6f122869-a856-3d65-8db9-099bf4f5bbb8"
+            }
+        ],
+        "name": "<class 'str'> : ex : LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON",
+        "resourceType": "<class 'str'> : ex : Organization",
+        "telecom": [
+            {
+                "system": "<class 'str'> : ex : phone",
+                "value": "<class 'str'> : ex : 7817445100"
+            }
+        ],
+        "type": [
+            {
+                "coding": [
+                    {
+                        "code": "<class 'str'> : ex : prov",
+                        "display": "<class 'str'> : ex : Healthcare Provider",
+                        "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/organization-type"
+                    }
+                ],
+                "text": "<class 'str'> : ex : Healthcare Provider"
+            }
+        ]
+    },
+    "Patient": {
+        "address": [
+            {
+                "city": "<class 'str'> : ex : Burlington",
+                "country": "<class 'str'> : ex : US",
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "url": "<class 'str'> : ex : latitude",
+                                "valueDecimal": "<class 'float'> : ex : 42.46128885515526"
+                            },
+                            {
+                                "url": "<class 'str'> : ex : longitude",
+                                "valueDecimal": "<class 'float'> : ex : -71.24788556442503"
+                            }
+                        ],
+                        "url": "<class 'str'> : ex : http://hl7.org/fhir/StructureDefinition/geolocation"
+                    }
+                ],
+                "line": [
+                    "<class 'str'> : ex : 811 Olson Mews"
+                ],
+                "postalCode": "<class 'str'> : ex : 01730",
+                "state": "<class 'str'> : ex : Massachusetts"
+            }
+        ],
+        "birthDate": "<class 'str'> : ex : 1995-11-02",
+        "communication": [
+            {
+                "language": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : en-US",
+                            "display": "<class 'str'> : ex : English",
+                            "system": "<class 'str'> : ex : urn:ietf:bcp:47"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : English"
+                }
+            }
+        ],
+        "extension": [
+            {
+                "extension": [
+                    {
+                        "url": "<class 'str'> : ex : ombCategory",
+                        "valueCoding": {
+                            "code": "<class 'str'> : ex : 2106-3",
+                            "display": "<class 'str'> : ex : White",
+                            "system": "<class 'str'> : ex : urn:oid:2.16.840.1.113883.6.238"
+                        }
+                    },
+                    {
+                        "url": "<class 'str'> : ex : text",
+                        "valueString": "<class 'str'> : ex : White"
+                    }
+                ],
+                "url": "<class 'str'> : ex : http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+            },
+            {
+                "extension": [
+                    {
+                        "url": "<class 'str'> : ex : ombCategory",
+                        "valueCoding": {
+                            "code": "<class 'str'> : ex : 2186-5",
+                            "display": "<class 'str'> : ex : Not Hispanic or Latino",
+                            "system": "<class 'str'> : ex : urn:oid:2.16.840.1.113883.6.238"
+                        }
+                    },
+                    {
+                        "url": "<class 'str'> : ex : text",
+                        "valueString": "<class 'str'> : ex : Not Hispanic or Latino"
+                    }
+                ],
+                "url": "<class 'str'> : ex : http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+            },
+            {
+                "url": "<class 'str'> : ex : http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+                "valueString": "<class 'str'> : ex : Suzanne628 Treutel973"
+            },
+            {
+                "url": "<class 'str'> : ex : http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                "valueCode": "<class 'str'> : ex : F"
+            },
+            {
+                "url": "<class 'str'> : ex : http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+                "valueAddress": {
+                    "city": "<class 'str'> : ex : Scituate",
+                    "country": "<class 'str'> : ex : US",
+                    "state": "<class 'str'> : ex : Massachusetts"
+                }
+            },
+            {
+                "url": "<class 'str'> : ex : http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+                "valueDecimal": "<class 'float'> : ex : 0.035293035064796745"
+            },
+            {
+                "url": "<class 'str'> : ex : http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+                "valueDecimal": "<class 'float'> : ex : 22.964706964935203"
+            }
+        ],
+        "gender": "<class 'str'> : ex : female",
+        "id": "<class 'str'> : ex : 62ee6ce4-3225-4b90-b282-26c0603000ee",
+        "identifier": [
+            {
+                "system": "<class 'str'> : ex : https://github.com/synthetichealth/synthea",
+                "value": "<class 'str'> : ex : eaecbe09-10af-41b5-8d0f-a95b941b3ced"
+            },
+            {
+                "system": "<class 'str'> : ex : http://hospital.smarthealthit.org",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : MR",
+                            "display": "<class 'str'> : ex : Medical Record Number",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v2-0203"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Medical Record Number"
+                },
+                "value": "<class 'str'> : ex : eaecbe09-10af-41b5-8d0f-a95b941b3ced"
+            },
+            {
+                "system": "<class 'str'> : ex : http://hl7.org/fhir/sid/us-ssn",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : SS",
+                            "display": "<class 'str'> : ex : Social Security Number",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v2-0203"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Social Security Number"
+                },
+                "value": "<class 'str'> : ex : 999-35-7656"
+            },
+            {
+                "system": "<class 'str'> : ex : urn:oid:2.16.840.1.113883.4.3.25",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : DL",
+                            "display": "<class 'str'> : ex : Driver's License",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v2-0203"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Driver's License"
+                },
+                "value": "<class 'str'> : ex : S99995138"
+            },
+            {
+                "system": "<class 'str'> : ex : http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "<class 'str'> : ex : PPN",
+                            "display": "<class 'str'> : ex : Passport Number",
+                            "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v2-0203"
+                        }
+                    ],
+                    "text": "<class 'str'> : ex : Passport Number"
+                },
+                "value": "<class 'str'> : ex : X56234236X"
+            }
+        ],
+        "maritalStatus": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : S",
+                    "display": "<class 'str'> : ex : Never Married",
+                    "system": "<class 'str'> : ex : http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+                }
+            ],
+            "text": "<class 'str'> : ex : Never Married"
+        },
+        "multipleBirthBoolean": "<class 'bool'> : ex : False",
+        "name": [
+            {
+                "family": "<class 'str'> : ex : Schroeder447",
+                "given": [
+                    "<class 'str'> : ex : Cristy798"
+                ],
+                "prefix": [
+                    "<class 'str'> : ex : Ms."
+                ],
+                "use": "<class 'str'> : ex : official"
+            }
+        ],
+        "resourceType": "<class 'str'> : ex : Patient",
+        "telecom": [
+            {
+                "system": "<class 'str'> : ex : phone",
+                "use": "<class 'str'> : ex : home",
+                "value": "<class 'str'> : ex : 555-464-3520"
+            }
+        ],
+        "text": {
+            "div": "<class 'str'> : ex : <div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: v2.4.0-460-g351054ba\n .   Person seed: 4619475606005295965  Population seed: 1572393262339</div>",
+            "status": "<class 'str'> : ex : generated"
+        }
+    },
+    "Practitioner": {
+        "active": "<class 'bool'> : ex : True",
+        "address": [
+            {
+                "city": "<class 'str'> : ex : BURLINGTON",
+                "country": "<class 'str'> : ex : US",
+                "line": [
+                    "<class 'str'> : ex : 41 & 45 MALL ROAD"
+                ],
+                "postalCode": "<class 'str'> : ex : 01803",
+                "state": "<class 'str'> : ex : MA"
+            }
+        ],
+        "gender": "<class 'str'> : ex : male",
+        "id": "<class 'str'> : ex : 0000016e-19f1-1d03-0000-000000000208",
+        "identifier": [
+            {
+                "system": "<class 'str'> : ex : http://hl7.org/fhir/sid/us-npi",
+                "value": "<class 'str'> : ex : 520"
+            }
+        ],
+        "name": [
+            {
+                "family": "<class 'str'> : ex : Stehr398",
+                "given": [
+                    "<class 'str'> : ex : Dennis979"
+                ],
+                "prefix": [
+                    "<class 'str'> : ex : Dr."
+                ]
+            }
+        ],
+        "resourceType": "<class 'str'> : ex : Practitioner",
+        "telecom": [
+            {
+                "system": "<class 'str'> : ex : email",
+                "use": "<class 'str'> : ex : work",
+                "value": "<class 'str'> : ex : Dennis979.Stehr398@example.com"
+            }
+        ]
+    },
+    "Procedure": {
+        "code": {
+            "coding": [
+                {
+                    "code": "<class 'str'> : ex : 430193006",
+                    "display": "<class 'str'> : ex : Medication Reconciliation (procedure)",
+                    "system": "<class 'str'> : ex : http://snomed.info/sct"
+                }
+            ],
+            "text": "<class 'str'> : ex : Medication Reconciliation (procedure)"
+        },
+        "encounter": {
+            "reference": "<class 'str'> : ex : urn:uuid:659bdef1-460e-412f-95a9-4a979f350dd5"
+        },
+        "id": "<class 'str'> : ex : 62f87daa-3fc9-4303-8cf9-c576a254dfad",
+        "performedPeriod": {
+            "end": "<class 'str'> : ex : 2018-01-04T07:12:15-07:00",
+            "start": "<class 'str'> : ex : 2018-01-04T06:57:15-07:00"
+        },
+        "reasonReference": [
+            {
+                "display": "<class 'str'> : ex : Acute bronchitis (disorder)",
+                "reference": "<class 'str'> : ex : urn:uuid:cd18d141-030d-421c-946d-db0ec1c20327"
+            }
+        ],
+        "resourceType": "<class 'str'> : ex : Procedure",
+        "status": "<class 'str'> : ex : completed",
+        "subject": {
+            "reference": "<class 'str'> : ex : urn:uuid:62ee6ce4-3225-4b90-b282-26c0603000ee"
+        }
+    }
+}
