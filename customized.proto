@@ -2,41 +2,8 @@ syntax = "proto3";
 
 package patient;
 
-//enums
-enum Status {
-    ACTIVE = 0;
-    COMPLETED = 1;
-    FINAL = 2;
-    STOPPED = 3;
-    INACTIVE = 4;
-    FINISHED = 5;
-}
-
-enum Gender {
-    MALE = 0;
-    FEMALE = 1;
-    OTHER = 2;
-}
-
-enum ResourceType {
-    CARE_PLAN = 0;
-    CARE_TEAM = 1;
-    CLAIM = 2;
-    CONDITION = 3;
-    DIAGNOSTIC_REPORT = 4;
-    ENCOUNTER = 5;
-    EXPLANATION_OF_BENEFIT = 6;
-    IMMUNIZATION = 7;
-    MEDICATION_REQUEST = 8;
-    OBSERVATION = 9;
-    ORGANIZATION = 10;
-    PATIENT = 11;
-    PRACTITIONER = 12;
-    PROCEDURE = 13;
-}
-
 message Activity { //only has detail
-    repeated Detail detail = 1;
+    Detail detail = 1;
 }
 
 message Address {
@@ -80,7 +47,7 @@ message Contained {
     repeated Reference performer = 3;
     Reference requester = 4;
     string resourceType = 5;    
-    Status status = 6;
+    string status = 6;
     Reference subject = 7;
     //Maybe split
     Reference beneficiary = 8;
@@ -91,7 +58,7 @@ message Contained {
 message Detail {
     Category code = 1;
     Reference location = 2;
-    Status status = 3;
+    string status = 3;
 }
 
 message Diagnosis {
@@ -112,6 +79,8 @@ message Extension {
     Coding valueCoding = 3;
     string valueString = 4;
     float valueDecimal = 5;
+    string valueCode = 6;
+    Address valueAddress = 7;
 }
 
 message Identifier {
@@ -136,6 +105,8 @@ message Item {
     Category locationCodeableConcept = 7;
     Period servicedPeriod = 8;
     repeated Adjudication adjudication = 9;
+    repeated int32 procedureSequence = 10;
+    repeated int32 diagnosisSequence = 11;
 }
 
 message Name {
@@ -224,7 +195,7 @@ message Period {
 }
 
 message Resource {
-    ResourceType resourceType = 1;
+    string resourceType = 1;
     oneof resource {
         CarePlanObject carePlan = 2;
         CareTeamObject careTeam = 3;
@@ -236,7 +207,7 @@ message Resource {
         ImmunizationObject immunization = 9;
         MedicationRequestObject medicationRequest = 10;
         ObservationObject observation = 11;
-        OrganizationObject organiation = 12;
+        OrganizationObject organization = 12;
         PatientObject patient = 13;
         PractitionerObject practitioner = 14;
         ProcedureObject procedure = 15;
@@ -248,25 +219,25 @@ message CarePlanObject {
     repeated Reference addresses = 2;
     repeated CareTeam careTeam = 3;
     repeated Category category = 4;
-    Reference Encounter = 5;
+    Reference encounter = 5;
     string id = 6;
     string intent = 7;
     Period period = 8;
-    ResourceType resourceType = 9;
-    Status status = 10;
+    string resourceType = 9;
+    string status = 10;
     Reference subject = 11;
-    string text = 12;
+    Text text = 12;
 }
 
 message CareTeamObject {
-    Reference Encounter = 1;
+    Reference encounter = 1;
     string id = 2;
     repeated Reference managingOrganization = 3;
     repeated Participant participant = 4;
     Period period = 5;
     repeated Category reasonCode = 6;
-    ResourceType resourceType = 7;
-    Status status = 8;
+    string resourceType = 7;
+    string status = 8;
     Reference subject = 9;
 }
 
@@ -282,8 +253,8 @@ message ClaimObject {
     Category priority = 9;
     repeated Procedure procedure = 10;
     Reference provider = 11;
-    ResourceType resourceType = 12;
-    Status status = 13;
+    string resourceType = 12;
+    string status = 13;
     repeated SupportingInfo supportingInfo = 14;
     Total total = 15;
     Category type = 16;
@@ -298,7 +269,7 @@ message ConditionObject {
     string id = 5;
     string onsetDateTime = 6;
     string recordedDate = 7;
-    ResourceType resourceType = 8;
+    string resourceType = 8;
     Reference subject = 9;
     Category verificationStatus = 10;
 }
@@ -310,28 +281,28 @@ message DiagnosticReportObject {
     Reference encounter = 4;
     string id = 5;
     string issued = 6;
-    ResourceType resourceType = 7;
+    string resourceType = 7;
     repeated Reference result = 8;
-    Status status = 9;
-    Reference Subject = 10;
+    string status = 9;
+    Reference subject = 10;
 }
 
 message EncounterObject {
-    Category class = 1;
+    Coding class = 1;
     string id = 2;
-    repeated Participant  participant = 3;
+    repeated Participant participant = 3;
     Period period = 4;
     repeated Category reasonCode = 5;
-    ResourceType resourceType = 6;
+    string resourceType = 6;
     Reference serviceProvider = 7;
-    Status status = 8;
+    string status = 8;
     Reference subject = 9;
     repeated Category type = 10;
 }
 
 message ExplanationOfBenefitObject {
     Period billablePeriod = 1;
-    repeated CareTeam careteam = 2;
+    repeated CareTeam careTeam = 2;
     Reference claim = 3;
     repeated Contained contained = 4;
     string created = 5;
@@ -346,8 +317,8 @@ message ExplanationOfBenefitObject {
     Payment payment = 14;
     Reference provider = 15;
     Reference referral = 16;
-    ResourceType resourceType = 17;
-    Status status = 18;
+    string resourceType = 17;
+    string status = 18;
     repeated Total total = 19;
     Category type = 20;
     string use = 21;
@@ -356,11 +327,11 @@ message ExplanationOfBenefitObject {
 message ImmunizationObject {
     Reference encounter = 1;
     string id = 2;
-    string occurenceDateTime = 3;
+    string occurrenceDateTime = 3;
     Reference patient = 4;
     bool primarySource = 5;
-    ResourceType resourceType = 6;
-    Status status = 7;
+    string resourceType = 6;
+    string status = 7;
     Category vaccineCode = 8;
 }
 
@@ -372,8 +343,8 @@ message MedicationRequestObject {
     Category medicationCodeableConcept = 5;
     repeated Reference reasonReference = 6;
     Reference requester = 7;
-    ResourceType resourceType = 8;
-    Status status = 9;
+    string resourceType = 8;
+    string status = 9;
     Reference subject = 10;
 }
 
@@ -385,8 +356,8 @@ message ObservationObject {
     Reference encounter = 5;
     string id = 6;
     string issued = 7;
-    ResourceType resourceType = 8;
-    Status status = 9;
+    string resourceType = 8;
+    string status = 9;
     Reference subject = 10;
     Category valueCodeableConcept = 11;
     Quantity valueQuantity = 12;
@@ -398,7 +369,7 @@ message OrganizationObject {
     string id = 3;
     repeated Identifier identifier = 4;
     string name = 5;
-    ResourceType resourceType = 6;
+    string resourceType = 6;
     repeated Telecom telecom = 7;
     repeated Category type = 8;    
 }
@@ -408,25 +379,25 @@ message PatientObject {
     string birthDate = 2;
     repeated Communication communication = 3;
     repeated Extension extension = 4;
-    Gender gender = 5;
+    string gender = 5;
     string id = 6;
     repeated Identifier identifier = 7;
     Category maritalStatus = 8;
     bool multipleBirthBoolean = 9;
     repeated Name name = 10;
-    ResourceType resourceType = 11;
+    string resourceType = 11;
     repeated Telecom telecom = 12;
-    string text = 13;
+    Text text = 13;
 }
 
 message PractitionerObject {
     bool active = 1;
     repeated Address address = 2;
-    Gender gender = 3;
+    string gender = 3;
     string id = 4;
     repeated Identifier identifier = 5;
     repeated Name name = 6;
-    ResourceType resourceType = 7;
+    string resourceType = 7;
     repeated Telecom telecom = 8;
 }
 
@@ -436,8 +407,8 @@ message ProcedureObject {
     string id = 3;
     Period performedPeriod = 4;
     repeated Reference reasonReference = 5;
-    ResourceType resourceType = 6;
-    Status status = 7;
+    string resourceType = 6;
+    string status = 7;
     Reference subject = 8;
 }
 
@@ -453,7 +424,7 @@ message PatientRecord {
     repeated ImmunizationObject immunization = 9;
     repeated MedicationRequestObject medicationRequest = 10;
     repeated ObservationObject observation = 11;
-    repeated OrganizationObject organiation = 12;
+    repeated OrganizationObject organization = 12;
     repeated PractitionerObject practitioner = 13;
     repeated ProcedureObject procedure = 14;
 }

@@ -2,6 +2,8 @@ import json
 
 FNAME = 'synthea/output/fhir/Cristy798_Schroeder447_eaecbe09-10af-41b5-8d0f-a95b941b3ced.json'
 
+FIELD_TYPE_CONVERSIONS = {}
+
 def parse_json(fname):
     with open(fname, 'r') as fp:
         return json.load(fp)
