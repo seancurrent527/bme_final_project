@@ -1,6 +1,7 @@
 import custom_python.customized_pb2 as pb2
 import google.protobuf.internal as pb
-import json
+import json, os
+from tqdm import tqdm
 
 FNAME = 'synthea/output/fhir/Cristy798_Schroeder447_eaecbe09-10af-41b5-8d0f-a95b941b3ced.json'
 
@@ -32,6 +33,9 @@ def convert_json(js, message_map):
 
 def convert_resource(base, js, message_map):
     for key in js:
+        #print(js)
+        #print(type(base))
+        #print(key)
         if type(js[key]) not in (list, dict):
             setattr(base, key, js[key])
             continue
@@ -48,9 +52,14 @@ def convert_resource(base, js, message_map):
         
 def main():
     message_map = parse_proto('customized.proto')
-    with open(FNAME) as fp:
-        js = json.load(fp)
-    print(convert_json(js, message_map))
+    for fname in tqdm(os.listdir('synthea/output/fhir/')):
+        with open('synthea/output/fhir/' + fname, encoding = 'utf-8') as fp:
+            js = json.load(fp)
+        try:
+            convert_json(js, message_map)
+        except:
+            print(fname)
+            raise
 
 if __name__ == '__main__':
     main()

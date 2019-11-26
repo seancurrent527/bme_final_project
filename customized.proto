@@ -81,12 +81,14 @@ message Extension {
     float valueDecimal = 5;
     string valueCode = 6;
     Address valueAddress = 7;
+    int32 valueInteger = 8;
 }
 
 message Identifier {
     string system = 1;
     string value = 2;
     Category type = 3;
+    string use = 4;
 }
 
 message Insurance {
@@ -114,6 +116,7 @@ message Name {
     repeated string given = 2;
     repeated string prefix = 3;
     string use = 4;
+    repeated string suffix = 5;
 }
 
 message Participant {
@@ -214,6 +217,98 @@ message Resource {
     }
 }
 
+message DosageInstruction {
+    int32 sequence = 1;
+    bool asNeededBoolean = 2;
+    repeated DoseAndRate doseAndRate = 3;
+    Timing timing = 4;
+    repeated Category additionalInstruction = 5;
+}
+
+message Repeat {
+    int32 frequency = 1;
+    float period = 2;
+    string periodUnit = 3;
+}
+
+message Timing {
+    Repeat repeat = 1;
+}
+
+message DoseAndRate {
+    Category type = 1;
+    Quantity doseQuantity = 2;
+}
+
+message Onset {
+    string onsetDateTime = 1;
+    int32 onsetAge = 2;
+    Period onsetPeriod = 3;
+    string onsetString = 4;
+}
+
+message Reaction {
+    Category substance = 1;
+    Category manifestation = 2;
+    string description = 3;
+    string onset = 4;
+    Category severity = 5;
+    Category exposureRoute = 6;
+    string note = 7;
+}
+
+message Instance {
+    string uid = 1;
+    Coding sopClass = 2;
+    int32 number = 3;
+    string title = 4;
+}
+
+message Series {
+    string uid = 1;
+    int32 number = 2;
+    Coding modality = 3;
+    int32 numberOfInstances = 4;
+    Coding bodySite = 5;
+    string started = 6;
+    repeated Instance instance = 7;
+}
+
+message Hospitalization {
+    Category dischargeDisposition = 1;
+}
+
+message Carrier {
+    string deviceIdentifier = 1;
+    string carrierHRF = 2;
+}
+
+message DeviceName {
+    string name = 1;
+    string type = 2;
+}
+
+message AllergyIntoleranceObject {
+    Identifier identifier = 1;
+    Category clinicalStatus = 2;
+    Category verificationStatus = 3;
+    string type = 4;
+    repeated string category = 5;
+    string criticality = 6;
+    Category code = 7;
+    Reference patient = 8;
+    Reference encounter = 9;
+    Onset onset = 10;
+    string recordedDate = 11;
+    Reference recorder = 12;
+    Reference asserter = 13;
+    string lastOccurrence = 14;
+    string note = 15;
+    string resourceType = 16;
+    Reaction reaction = 17;
+    string id = 18;
+}
+
 message CarePlanObject {
     repeated Activity activity = 1;
     repeated Reference addresses = 2;
@@ -227,6 +322,7 @@ message CarePlanObject {
     string status = 10;
     Reference subject = 11;
     Text text = 12;
+    repeated Reference goal = 13;
 }
 
 message CareTeamObject {
@@ -274,6 +370,21 @@ message ConditionObject {
     Category verificationStatus = 10;
 }
 
+message DeviceObject {
+    string resourceType = 1;
+    string id = 2;
+    repeated Carrier udiCarrier = 3;
+    string status = 4;
+    string distinctIdentifier = 5;
+    string manufactureDate = 6;
+    string expirationDate = 7;
+    string lotNumber = 8;
+    string serialNumber = 9;
+    repeated DeviceName deviceName = 10;
+    Category type = 11;
+    Reference patient = 12;
+}
+
 message DiagnosticReportObject {
     repeated Category category = 1;
     Category code = 2;
@@ -298,6 +409,7 @@ message EncounterObject {
     string status = 8;
     Reference subject = 9;
     repeated Category type = 10;
+    Hospitalization hospitalization = 11;
 }
 
 message ExplanationOfBenefitObject {
@@ -324,6 +436,28 @@ message ExplanationOfBenefitObject {
     string use = 21;
 }
 
+message GoalObject {
+    string resourceType = 1;
+    string id = 2;
+    string lifecycleStatus = 3;
+    Category achievementStatus = 4;
+    Category description = 5;
+    Reference subject = 6;
+}
+
+message ImagingStudyObject {
+    string resourceType = 1;
+    string id = 2;
+    repeated Identifier identifier = 3;
+    string status = 4;
+    Reference subject = 5;
+    Reference encounter = 6;
+    string started = 7;
+    int32 numberOfSeries = 8;
+    int32 numberOfInstances = 9;
+    repeated Series series = 10;
+}
+
 message ImmunizationObject {
     Reference encounter = 1;
     string id = 2;
@@ -346,6 +480,18 @@ message MedicationRequestObject {
     string resourceType = 8;
     string status = 9;
     Reference subject = 10;
+    repeated DosageInstruction dosageInstruction = 11;
+}
+
+message MedicationAdministrationObject {
+    string resourceType = 1;
+    string id = 2;
+    string status = 3;
+    Category medicationCodeableConcept = 4;
+    Reference subject = 5;
+    Reference context = 6;
+    string effectiveDateTime = 7;
+    repeated Reference reasonReference = 8;
 }
 
 message ObservationObject {
@@ -361,6 +507,7 @@ message ObservationObject {
     Reference subject = 10;
     Category valueCodeableConcept = 11;
     Quantity valueQuantity = 12;
+    string valueString = 13;
 }
 
 message OrganizationObject {
@@ -371,7 +518,8 @@ message OrganizationObject {
     string name = 5;
     string resourceType = 6;
     repeated Telecom telecom = 7;
-    repeated Category type = 8;    
+    repeated Category type = 8;
+    repeated Extension extension = 9;    
 }
 
 message PatientObject {
@@ -388,6 +536,8 @@ message PatientObject {
     string resourceType = 11;
     repeated Telecom telecom = 12;
     Text text = 13;
+    string deceasedDateTime = 14;
+    int32 multipleBirthInteger = 15;
 }
 
 message PractitionerObject {
@@ -399,6 +549,7 @@ message PractitionerObject {
     repeated Name name = 6;
     string resourceType = 7;
     repeated Telecom telecom = 8;
+    repeated Extension extension = 9;
 }
 
 message ProcedureObject {
@@ -427,4 +578,9 @@ message PatientRecord {
     repeated OrganizationObject organization = 12;
     repeated PractitionerObject practitioner = 13;
     repeated ProcedureObject procedure = 14;
+    repeated AllergyIntoleranceObject allergyIntolerance = 15;
+    repeated GoalObject goal = 16;
+    repeated ImagingStudyObject imagingStudy = 17;
+    repeated DeviceObject device = 18;
+    repeated MedicationAdministrationObject medicationAdministration = 19;
 }
