@@ -33,9 +33,6 @@ def convert_json(js, message_map):
 
 def convert_resource(base, js, message_map):
     for key in js:
-        #print(js)
-        #print(type(base))
-        #print(key)
         if type(js[key]) not in (list, dict):
             setattr(base, key, js[key])
             continue
@@ -50,13 +47,23 @@ def convert_resource(base, js, message_map):
         else:
             convert_resource(new_base, js[key], message_map)
         
+def write_proto(pr, fname):
+    with open(fname, 'wb') as fp:
+        fp.write(pr.SerializeToString())
+
+def read_proto(fname):
+    with open(fname, 'rb') as fp:
+        return pb2.PatientRecord().ParseFromString(fp.read())
+
 def main():
     message_map = parse_proto('customized.proto')
     for fname in tqdm(os.listdir('synthea/output/fhir/')):
         with open('synthea/output/fhir/' + fname, encoding = 'utf-8') as fp:
             js = json.load(fp)
         try:
-            convert_json(js, message_map)
+            pr = convert_json(js, message_map)
+            write_proto(pr, 'proto_outputs/' + fname[:-5] + '.pb')
+            read_proto('proto_outputs/' + fname[:-5] + '.pb')
         except:
             print(fname)
             raise

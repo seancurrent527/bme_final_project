@@ -31,7 +31,6 @@
 #include <google/protobuf/message.h>
 #include <google/protobuf/repeated_field.h>  // IWYU pragma: export
 #include <google/protobuf/extension_set.h>  // IWYU pragma: export
-#include <google/protobuf/generated_enum_reflection.h>
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
@@ -48,7 +47,7 @@ struct TableStruct_customized_2eproto {
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::AuxillaryParseTableField aux[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
-  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[46]
+  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[62]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::FieldMetadata field_metadata[];
   static const ::PROTOBUF_NAMESPACE_ID::internal::SerializationTable serialization_table[];
@@ -65,6 +64,9 @@ extern AddressDefaultTypeInternal _Address_default_instance_;
 class Adjudication;
 class AdjudicationDefaultTypeInternal;
 extern AdjudicationDefaultTypeInternal _Adjudication_default_instance_;
+class AllergyIntoleranceObject;
+class AllergyIntoleranceObjectDefaultTypeInternal;
+extern AllergyIntoleranceObjectDefaultTypeInternal _AllergyIntoleranceObject_default_instance_;
 class Amount;
 class AmountDefaultTypeInternal;
 extern AmountDefaultTypeInternal _Amount_default_instance_;
@@ -77,6 +79,9 @@ extern CareTeamDefaultTypeInternal _CareTeam_default_instance_;
 class CareTeamObject;
 class CareTeamObjectDefaultTypeInternal;
 extern CareTeamObjectDefaultTypeInternal _CareTeamObject_default_instance_;
+class Carrier;
+class CarrierDefaultTypeInternal;
+extern CarrierDefaultTypeInternal _Carrier_default_instance_;
 class Category;
 class CategoryDefaultTypeInternal;
 extern CategoryDefaultTypeInternal _Category_default_instance_;
@@ -101,12 +106,24 @@ extern ContainedDefaultTypeInternal _Contained_default_instance_;
 class Detail;
 class DetailDefaultTypeInternal;
 extern DetailDefaultTypeInternal _Detail_default_instance_;
+class DeviceName;
+class DeviceNameDefaultTypeInternal;
+extern DeviceNameDefaultTypeInternal _DeviceName_default_instance_;
+class DeviceObject;
+class DeviceObjectDefaultTypeInternal;
+extern DeviceObjectDefaultTypeInternal _DeviceObject_default_instance_;
 class Diagnosis;
 class DiagnosisDefaultTypeInternal;
 extern DiagnosisDefaultTypeInternal _Diagnosis_default_instance_;
 class DiagnosticReportObject;
 class DiagnosticReportObjectDefaultTypeInternal;
 extern DiagnosticReportObjectDefaultTypeInternal _DiagnosticReportObject_default_instance_;
+class DosageInstruction;
+class DosageInstructionDefaultTypeInternal;
+extern DosageInstructionDefaultTypeInternal _DosageInstruction_default_instance_;
+class DoseAndRate;
+class DoseAndRateDefaultTypeInternal;
+extern DoseAndRateDefaultTypeInternal _DoseAndRate_default_instance_;
 class EncounterObject;
 class EncounterObjectDefaultTypeInternal;
 extern EncounterObjectDefaultTypeInternal _EncounterObject_default_instance_;
@@ -119,18 +136,33 @@ extern ExplanationOfBenefitObjectDefaultTypeInternal _ExplanationOfBenefitObject
 class Extension;
 class ExtensionDefaultTypeInternal;
 extern ExtensionDefaultTypeInternal _Extension_default_instance_;
+class GoalObject;
+class GoalObjectDefaultTypeInternal;
+extern GoalObjectDefaultTypeInternal _GoalObject_default_instance_;
+class Hospitalization;
+class HospitalizationDefaultTypeInternal;
+extern HospitalizationDefaultTypeInternal _Hospitalization_default_instance_;
 class Identifier;
 class IdentifierDefaultTypeInternal;
 extern IdentifierDefaultTypeInternal _Identifier_default_instance_;
+class ImagingStudyObject;
+class ImagingStudyObjectDefaultTypeInternal;
+extern ImagingStudyObjectDefaultTypeInternal _ImagingStudyObject_default_instance_;
 class ImmunizationObject;
 class ImmunizationObjectDefaultTypeInternal;
 extern ImmunizationObjectDefaultTypeInternal _ImmunizationObject_default_instance_;
+class Instance;
+class InstanceDefaultTypeInternal;
+extern InstanceDefaultTypeInternal _Instance_default_instance_;
 class Insurance;
 class InsuranceDefaultTypeInternal;
 extern InsuranceDefaultTypeInternal _Insurance_default_instance_;
 class Item;
 class ItemDefaultTypeInternal;
 extern ItemDefaultTypeInternal _Item_default_instance_;
+class MedicationAdministrationObject;
+class MedicationAdministrationObjectDefaultTypeInternal;
+extern MedicationAdministrationObjectDefaultTypeInternal _MedicationAdministrationObject_default_instance_;
 class MedicationRequestObject;
 class MedicationRequestObjectDefaultTypeInternal;
 extern MedicationRequestObjectDefaultTypeInternal _MedicationRequestObject_default_instance_;
@@ -140,6 +172,9 @@ extern NameDefaultTypeInternal _Name_default_instance_;
 class ObservationObject;
 class ObservationObjectDefaultTypeInternal;
 extern ObservationObjectDefaultTypeInternal _ObservationObject_default_instance_;
+class Onset;
+class OnsetDefaultTypeInternal;
+extern OnsetDefaultTypeInternal _Onset_default_instance_;
 class OrganizationObject;
 class OrganizationObjectDefaultTypeInternal;
 extern OrganizationObjectDefaultTypeInternal _OrganizationObject_default_instance_;
@@ -170,9 +205,15 @@ extern ProcedureObjectDefaultTypeInternal _ProcedureObject_default_instance_;
 class Quantity;
 class QuantityDefaultTypeInternal;
 extern QuantityDefaultTypeInternal _Quantity_default_instance_;
+class Reaction;
+class ReactionDefaultTypeInternal;
+extern ReactionDefaultTypeInternal _Reaction_default_instance_;
 class Reference;
 class ReferenceDefaultTypeInternal;
 extern ReferenceDefaultTypeInternal _Reference_default_instance_;
+class Repeat;
+class RepeatDefaultTypeInternal;
+extern RepeatDefaultTypeInternal _Repeat_default_instance_;
 class Request;
 class RequestDefaultTypeInternal;
 extern RequestDefaultTypeInternal _Request_default_instance_;
@@ -182,6 +223,9 @@ extern ResourceDefaultTypeInternal _Resource_default_instance_;
 class Root;
 class RootDefaultTypeInternal;
 extern RootDefaultTypeInternal _Root_default_instance_;
+class Series;
+class SeriesDefaultTypeInternal;
+extern SeriesDefaultTypeInternal _Series_default_instance_;
 class SupportingInfo;
 class SupportingInfoDefaultTypeInternal;
 extern SupportingInfoDefaultTypeInternal _SupportingInfo_default_instance_;
@@ -191,6 +235,9 @@ extern TelecomDefaultTypeInternal _Telecom_default_instance_;
 class Text;
 class TextDefaultTypeInternal;
 extern TextDefaultTypeInternal _Text_default_instance_;
+class Timing;
+class TimingDefaultTypeInternal;
+extern TimingDefaultTypeInternal _Timing_default_instance_;
 class Total;
 class TotalDefaultTypeInternal;
 extern TotalDefaultTypeInternal _Total_default_instance_;
@@ -199,10 +246,12 @@ PROTOBUF_NAMESPACE_OPEN
 template<> ::patient::Activity* Arena::CreateMaybeMessage<::patient::Activity>(Arena*);
 template<> ::patient::Address* Arena::CreateMaybeMessage<::patient::Address>(Arena*);
 template<> ::patient::Adjudication* Arena::CreateMaybeMessage<::patient::Adjudication>(Arena*);
+template<> ::patient::AllergyIntoleranceObject* Arena::CreateMaybeMessage<::patient::AllergyIntoleranceObject>(Arena*);
 template<> ::patient::Amount* Arena::CreateMaybeMessage<::patient::Amount>(Arena*);
 template<> ::patient::CarePlanObject* Arena::CreateMaybeMessage<::patient::CarePlanObject>(Arena*);
 template<> ::patient::CareTeam* Arena::CreateMaybeMessage<::patient::CareTeam>(Arena*);
 template<> ::patient::CareTeamObject* Arena::CreateMaybeMessage<::patient::CareTeamObject>(Arena*);
+template<> ::patient::Carrier* Arena::CreateMaybeMessage<::patient::Carrier>(Arena*);
 template<> ::patient::Category* Arena::CreateMaybeMessage<::patient::Category>(Arena*);
 template<> ::patient::ClaimObject* Arena::CreateMaybeMessage<::patient::ClaimObject>(Arena*);
 template<> ::patient::Coding* Arena::CreateMaybeMessage<::patient::Coding>(Arena*);
@@ -211,19 +260,29 @@ template<> ::patient::Component* Arena::CreateMaybeMessage<::patient::Component>
 template<> ::patient::ConditionObject* Arena::CreateMaybeMessage<::patient::ConditionObject>(Arena*);
 template<> ::patient::Contained* Arena::CreateMaybeMessage<::patient::Contained>(Arena*);
 template<> ::patient::Detail* Arena::CreateMaybeMessage<::patient::Detail>(Arena*);
+template<> ::patient::DeviceName* Arena::CreateMaybeMessage<::patient::DeviceName>(Arena*);
+template<> ::patient::DeviceObject* Arena::CreateMaybeMessage<::patient::DeviceObject>(Arena*);
 template<> ::patient::Diagnosis* Arena::CreateMaybeMessage<::patient::Diagnosis>(Arena*);
 template<> ::patient::DiagnosticReportObject* Arena::CreateMaybeMessage<::patient::DiagnosticReportObject>(Arena*);
+template<> ::patient::DosageInstruction* Arena::CreateMaybeMessage<::patient::DosageInstruction>(Arena*);
+template<> ::patient::DoseAndRate* Arena::CreateMaybeMessage<::patient::DoseAndRate>(Arena*);
 template<> ::patient::EncounterObject* Arena::CreateMaybeMessage<::patient::EncounterObject>(Arena*);
 template<> ::patient::Entry* Arena::CreateMaybeMessage<::patient::Entry>(Arena*);
 template<> ::patient::ExplanationOfBenefitObject* Arena::CreateMaybeMessage<::patient::ExplanationOfBenefitObject>(Arena*);
 template<> ::patient::Extension* Arena::CreateMaybeMessage<::patient::Extension>(Arena*);
+template<> ::patient::GoalObject* Arena::CreateMaybeMessage<::patient::GoalObject>(Arena*);
+template<> ::patient::Hospitalization* Arena::CreateMaybeMessage<::patient::Hospitalization>(Arena*);
 template<> ::patient::Identifier* Arena::CreateMaybeMessage<::patient::Identifier>(Arena*);
+template<> ::patient::ImagingStudyObject* Arena::CreateMaybeMessage<::patient::ImagingStudyObject>(Arena*);
 template<> ::patient::ImmunizationObject* Arena::CreateMaybeMessage<::patient::ImmunizationObject>(Arena*);
+template<> ::patient::Instance* Arena::CreateMaybeMessage<::patient::Instance>(Arena*);
 template<> ::patient::Insurance* Arena::CreateMaybeMessage<::patient::Insurance>(Arena*);
 template<> ::patient::Item* Arena::CreateMaybeMessage<::patient::Item>(Arena*);
+template<> ::patient::MedicationAdministrationObject* Arena::CreateMaybeMessage<::patient::MedicationAdministrationObject>(Arena*);
 template<> ::patient::MedicationRequestObject* Arena::CreateMaybeMessage<::patient::MedicationRequestObject>(Arena*);
 template<> ::patient::Name* Arena::CreateMaybeMessage<::patient::Name>(Arena*);
 template<> ::patient::ObservationObject* Arena::CreateMaybeMessage<::patient::ObservationObject>(Arena*);
+template<> ::patient::Onset* Arena::CreateMaybeMessage<::patient::Onset>(Arena*);
 template<> ::patient::OrganizationObject* Arena::CreateMaybeMessage<::patient::OrganizationObject>(Arena*);
 template<> ::patient::Participant* Arena::CreateMaybeMessage<::patient::Participant>(Arena*);
 template<> ::patient::PatientObject* Arena::CreateMaybeMessage<::patient::PatientObject>(Arena*);
@@ -234,109 +293,21 @@ template<> ::patient::PractitionerObject* Arena::CreateMaybeMessage<::patient::P
 template<> ::patient::Procedure* Arena::CreateMaybeMessage<::patient::Procedure>(Arena*);
 template<> ::patient::ProcedureObject* Arena::CreateMaybeMessage<::patient::ProcedureObject>(Arena*);
 template<> ::patient::Quantity* Arena::CreateMaybeMessage<::patient::Quantity>(Arena*);
+template<> ::patient::Reaction* Arena::CreateMaybeMessage<::patient::Reaction>(Arena*);
 template<> ::patient::Reference* Arena::CreateMaybeMessage<::patient::Reference>(Arena*);
+template<> ::patient::Repeat* Arena::CreateMaybeMessage<::patient::Repeat>(Arena*);
 template<> ::patient::Request* Arena::CreateMaybeMessage<::patient::Request>(Arena*);
 template<> ::patient::Resource* Arena::CreateMaybeMessage<::patient::Resource>(Arena*);
 template<> ::patient::Root* Arena::CreateMaybeMessage<::patient::Root>(Arena*);
+template<> ::patient::Series* Arena::CreateMaybeMessage<::patient::Series>(Arena*);
 template<> ::patient::SupportingInfo* Arena::CreateMaybeMessage<::patient::SupportingInfo>(Arena*);
 template<> ::patient::Telecom* Arena::CreateMaybeMessage<::patient::Telecom>(Arena*);
 template<> ::patient::Text* Arena::CreateMaybeMessage<::patient::Text>(Arena*);
+template<> ::patient::Timing* Arena::CreateMaybeMessage<::patient::Timing>(Arena*);
 template<> ::patient::Total* Arena::CreateMaybeMessage<::patient::Total>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
 namespace patient {
 
-enum Status : int {
-  ACTIVE = 0,
-  COMPLETED = 1,
-  FINAL = 2,
-  STOPPED = 3,
-  INACTIVE = 4,
-  FINISHED = 5,
-  Status_INT_MIN_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::min(),
-  Status_INT_MAX_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::max()
-};
-bool Status_IsValid(int value);
-constexpr Status Status_MIN = ACTIVE;
-constexpr Status Status_MAX = FINISHED;
-constexpr int Status_ARRAYSIZE = Status_MAX + 1;
-
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Status_descriptor();
-template<typename T>
-inline const std::string& Status_Name(T enum_t_value) {
-  static_assert(::std::is_same<T, Status>::value ||
-    ::std::is_integral<T>::value,
-    "Incorrect type passed to function Status_Name.");
-  return ::PROTOBUF_NAMESPACE_ID::internal::NameOfEnum(
-    Status_descriptor(), enum_t_value);
-}
-inline bool Status_Parse(
-    const std::string& name, Status* value) {
-  return ::PROTOBUF_NAMESPACE_ID::internal::ParseNamedEnum<Status>(
-    Status_descriptor(), name, value);
-}
-enum Gender : int {
-  MALE = 0,
-  FEMALE = 1,
-  OTHER = 2,
-  Gender_INT_MIN_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::min(),
-  Gender_INT_MAX_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::max()
-};
-bool Gender_IsValid(int value);
-constexpr Gender Gender_MIN = MALE;
-constexpr Gender Gender_MAX = OTHER;
-constexpr int Gender_ARRAYSIZE = Gender_MAX + 1;
-
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Gender_descriptor();
-template<typename T>
-inline const std::string& Gender_Name(T enum_t_value) {
-  static_assert(::std::is_same<T, Gender>::value ||
-    ::std::is_integral<T>::value,
-    "Incorrect type passed to function Gender_Name.");
-  return ::PROTOBUF_NAMESPACE_ID::internal::NameOfEnum(
-    Gender_descriptor(), enum_t_value);
-}
-inline bool Gender_Parse(
-    const std::string& name, Gender* value) {
-  return ::PROTOBUF_NAMESPACE_ID::internal::ParseNamedEnum<Gender>(
-    Gender_descriptor(), name, value);
-}
-enum ResourceType : int {
-  CARE_PLAN = 0,
-  CARE_TEAM = 1,
-  CLAIM = 2,
-  CONDITION = 3,
-  DIAGNOSTIC_REPORT = 4,
-  ENCOUNTER = 5,
-  EXPLANATION_OF_BENEFIT = 6,
-  IMMUNIZATION = 7,
-  MEDICATION_REQUEST = 8,
-  OBSERVATION = 9,
-  ORGANIZATION = 10,
-  PATIENT = 11,
-  PRACTITIONER = 12,
-  PROCEDURE = 13,
-  ResourceType_INT_MIN_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::min(),
-  ResourceType_INT_MAX_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::max()
-};
-bool ResourceType_IsValid(int value);
-constexpr ResourceType ResourceType_MIN = CARE_PLAN;
-constexpr ResourceType ResourceType_MAX = PROCEDURE;
-constexpr int ResourceType_ARRAYSIZE = ResourceType_MAX + 1;
-
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* ResourceType_descriptor();
-template<typename T>
-inline const std::string& ResourceType_Name(T enum_t_value) {
-  static_assert(::std::is_same<T, ResourceType>::value ||
-    ::std::is_integral<T>::value,
-    "Incorrect type passed to function ResourceType_Name.");
-  return ::PROTOBUF_NAMESPACE_ID::internal::NameOfEnum(
-    ResourceType_descriptor(), enum_t_value);
-}
-inline bool ResourceType_Parse(
-    const std::string& name, ResourceType* value) {
-  return ::PROTOBUF_NAMESPACE_ID::internal::ParseNamedEnum<ResourceType>(
-    ResourceType_descriptor(), name, value);
-}
 // ===================================================================
 
 class Activity :
@@ -447,30 +418,27 @@ class Activity :
   enum : int {
     kDetailFieldNumber = 1,
   };
-  // repeated .patient.Detail detail = 1;
-  int detail_size() const;
+  // .patient.Detail detail = 1;
+  bool has_detail() const;
   private:
-  int _internal_detail_size() const;
+  bool _internal_has_detail() const;
   public:
   void clear_detail();
-  ::patient::Detail* mutable_detail(int index);
-  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Detail >*
-      mutable_detail();
+  const ::patient::Detail& detail() const;
+  ::patient::Detail* release_detail();
+  ::patient::Detail* mutable_detail();
+  void set_allocated_detail(::patient::Detail* detail);
   private:
-  const ::patient::Detail& _internal_detail(int index) const;
-  ::patient::Detail* _internal_add_detail();
+  const ::patient::Detail& _internal_detail() const;
+  ::patient::Detail* _internal_mutable_detail();
   public:
-  const ::patient::Detail& detail(int index) const;
-  ::patient::Detail* add_detail();
-  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Detail >&
-      detail() const;
 
   // @@protoc_insertion_point(class_scope:patient.Activity)
  private:
   class _Internal;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
-  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Detail > detail_;
+  ::patient::Detail* detail_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -1584,11 +1552,11 @@ class Contained :
     kIdFieldNumber = 1,
     kIntentFieldNumber = 2,
     kResourceTypeFieldNumber = 5,
+    kStatusFieldNumber = 6,
     kRequesterFieldNumber = 4,
     kSubjectFieldNumber = 7,
     kBeneficiaryFieldNumber = 8,
     kTypeFieldNumber = 10,
-    kStatusFieldNumber = 6,
   };
   // repeated .patient.Reference performer = 3;
   int performer_size() const;
@@ -1674,6 +1642,22 @@ class Contained :
   std::string* _internal_mutable_resourcetype();
   public:
 
+  // string status = 6;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
   // .patient.Reference requester = 4;
   bool has_requester() const;
   private:
@@ -1734,15 +1718,6 @@ class Contained :
   ::patient::Category* _internal_mutable_type();
   public:
 
-  // .patient.Status status = 6;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.Contained)
  private:
   class _Internal;
@@ -1753,11 +1728,11 @@ class Contained :
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr intent_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Reference* requester_;
   ::patient::Reference* subject_;
   ::patient::Reference* beneficiary_;
   ::patient::Category* type_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -1869,10 +1844,26 @@ class Detail :
   // accessors -------------------------------------------------------
 
   enum : int {
+    kStatusFieldNumber = 3,
     kCodeFieldNumber = 1,
     kLocationFieldNumber = 2,
-    kStatusFieldNumber = 3,
   };
+  // string status = 3;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
   // .patient.Category code = 1;
   bool has_code() const;
   private:
@@ -1903,23 +1894,14 @@ class Detail :
   ::patient::Reference* _internal_mutable_location();
   public:
 
-  // .patient.Status status = 3;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.Detail)
  private:
   class _Internal;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Category* code_;
   ::patient::Reference* location_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -2371,8 +2353,11 @@ class Extension :
     kExtensionFieldNumber = 1,
     kUrlFieldNumber = 2,
     kValueStringFieldNumber = 4,
+    kValueCodeFieldNumber = 6,
     kValueCodingFieldNumber = 3,
+    kValueAddressFieldNumber = 7,
     kValueDecimalFieldNumber = 5,
+    kValueIntegerFieldNumber = 8,
   };
   // repeated .patient.Extension extension = 1;
   int extension_size() const;
@@ -2424,6 +2409,22 @@ class Extension :
   std::string* _internal_mutable_valuestring();
   public:
 
+  // string valueCode = 6;
+  void clear_valuecode();
+  const std::string& valuecode() const;
+  void set_valuecode(const std::string& value);
+  void set_valuecode(std::string&& value);
+  void set_valuecode(const char* value);
+  void set_valuecode(const char* value, size_t size);
+  std::string* mutable_valuecode();
+  std::string* release_valuecode();
+  void set_allocated_valuecode(std::string* valuecode);
+  private:
+  const std::string& _internal_valuecode() const;
+  void _internal_set_valuecode(const std::string& value);
+  std::string* _internal_mutable_valuecode();
+  public:
+
   // .patient.Coding valueCoding = 3;
   bool has_valuecoding() const;
   private:
@@ -2439,6 +2440,21 @@ class Extension :
   ::patient::Coding* _internal_mutable_valuecoding();
   public:
 
+  // .patient.Address valueAddress = 7;
+  bool has_valueaddress() const;
+  private:
+  bool _internal_has_valueaddress() const;
+  public:
+  void clear_valueaddress();
+  const ::patient::Address& valueaddress() const;
+  ::patient::Address* release_valueaddress();
+  ::patient::Address* mutable_valueaddress();
+  void set_allocated_valueaddress(::patient::Address* valueaddress);
+  private:
+  const ::patient::Address& _internal_valueaddress() const;
+  ::patient::Address* _internal_mutable_valueaddress();
+  public:
+
   // float valueDecimal = 5;
   void clear_valuedecimal();
   float valuedecimal() const;
@@ -2446,6 +2462,15 @@ class Extension :
   private:
   float _internal_valuedecimal() const;
   void _internal_set_valuedecimal(float value);
+  public:
+
+  // int32 valueInteger = 8;
+  void clear_valueinteger();
+  ::PROTOBUF_NAMESPACE_ID::int32 valueinteger() const;
+  void set_valueinteger(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_valueinteger() const;
+  void _internal_set_valueinteger(::PROTOBUF_NAMESPACE_ID::int32 value);
   public:
 
   // @@protoc_insertion_point(class_scope:patient.Extension)
@@ -2456,8 +2481,11 @@ class Extension :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension > extension_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr url_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr valuestring_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr valuecode_;
   ::patient::Coding* valuecoding_;
+  ::patient::Address* valueaddress_;
   float valuedecimal_;
+  ::PROTOBUF_NAMESPACE_ID::int32 valueinteger_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -2571,6 +2599,7 @@ class Identifier :
   enum : int {
     kSystemFieldNumber = 1,
     kValueFieldNumber = 2,
+    kUseFieldNumber = 4,
     kTypeFieldNumber = 3,
   };
   // string system = 1;
@@ -2605,6 +2634,22 @@ class Identifier :
   std::string* _internal_mutable_value();
   public:
 
+  // string use = 4;
+  void clear_use();
+  const std::string& use() const;
+  void set_use(const std::string& value);
+  void set_use(std::string&& value);
+  void set_use(const char* value);
+  void set_use(const char* value, size_t size);
+  std::string* mutable_use();
+  std::string* release_use();
+  void set_allocated_use(std::string* use);
+  private:
+  const std::string& _internal_use() const;
+  void _internal_set_use(const std::string& value);
+  std::string* _internal_mutable_use();
+  public:
+
   // .patient.Category type = 3;
   bool has_type() const;
   private:
@@ -2627,6 +2672,7 @@ class Identifier :
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr system_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr value_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr use_;
   ::patient::Category* type_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
@@ -2898,6 +2944,8 @@ class Item :
     kEncounterFieldNumber = 1,
     kInformationSequenceFieldNumber = 4,
     kAdjudicationFieldNumber = 9,
+    kProcedureSequenceFieldNumber = 10,
+    kDiagnosisSequenceFieldNumber = 11,
     kProductOrServiceFieldNumber = 2,
     kNetFieldNumber = 5,
     kCategoryFieldNumber = 6,
@@ -2962,6 +3010,50 @@ class Item :
   ::patient::Adjudication* add_adjudication();
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Adjudication >&
       adjudication() const;
+
+  // repeated int32 procedureSequence = 10;
+  int proceduresequence_size() const;
+  private:
+  int _internal_proceduresequence_size() const;
+  public:
+  void clear_proceduresequence();
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_proceduresequence(int index) const;
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+      _internal_proceduresequence() const;
+  void _internal_add_proceduresequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+      _internal_mutable_proceduresequence();
+  public:
+  ::PROTOBUF_NAMESPACE_ID::int32 proceduresequence(int index) const;
+  void set_proceduresequence(int index, ::PROTOBUF_NAMESPACE_ID::int32 value);
+  void add_proceduresequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+      proceduresequence() const;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+      mutable_proceduresequence();
+
+  // repeated int32 diagnosisSequence = 11;
+  int diagnosissequence_size() const;
+  private:
+  int _internal_diagnosissequence_size() const;
+  public:
+  void clear_diagnosissequence();
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_diagnosissequence(int index) const;
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+      _internal_diagnosissequence() const;
+  void _internal_add_diagnosissequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+      _internal_mutable_diagnosissequence();
+  public:
+  ::PROTOBUF_NAMESPACE_ID::int32 diagnosissequence(int index) const;
+  void set_diagnosissequence(int index, ::PROTOBUF_NAMESPACE_ID::int32 value);
+  void add_diagnosissequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+      diagnosissequence() const;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+      mutable_diagnosissequence();
 
   // .patient.Category productOrService = 2;
   bool has_productorservice() const;
@@ -3056,6 +3148,10 @@ class Item :
   ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 > informationsequence_;
   mutable std::atomic<int> _informationsequence_cached_byte_size_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Adjudication > adjudication_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 > proceduresequence_;
+  mutable std::atomic<int> _proceduresequence_cached_byte_size_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 > diagnosissequence_;
+  mutable std::atomic<int> _diagnosissequence_cached_byte_size_;
   ::patient::Category* productorservice_;
   ::patient::Amount* net_;
   ::patient::Category* category_;
@@ -3175,6 +3271,7 @@ class Name :
   enum : int {
     kGivenFieldNumber = 2,
     kPrefixFieldNumber = 3,
+    kSuffixFieldNumber = 5,
     kFamilyFieldNumber = 1,
     kUseFieldNumber = 4,
   };
@@ -3226,6 +3323,30 @@ class Name :
   std::string* _internal_add_prefix();
   public:
 
+  // repeated string suffix = 5;
+  int suffix_size() const;
+  private:
+  int _internal_suffix_size() const;
+  public:
+  void clear_suffix();
+  const std::string& suffix(int index) const;
+  std::string* mutable_suffix(int index);
+  void set_suffix(int index, const std::string& value);
+  void set_suffix(int index, std::string&& value);
+  void set_suffix(int index, const char* value);
+  void set_suffix(int index, const char* value, size_t size);
+  std::string* add_suffix();
+  void add_suffix(const std::string& value);
+  void add_suffix(std::string&& value);
+  void add_suffix(const char* value);
+  void add_suffix(const char* value, size_t size);
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>& suffix() const;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>* mutable_suffix();
+  private:
+  const std::string& _internal_suffix(int index) const;
+  std::string* _internal_add_suffix();
+  public:
+
   // string family = 1;
   void clear_family();
   const std::string& family() const;
@@ -3265,6 +3386,7 @@ class Name :
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string> given_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string> prefix_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string> suffix_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr family_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr use_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
@@ -5575,7 +5697,7 @@ class Resource :
     kImmunization = 9,
     kMedicationRequest = 10,
     kObservation = 11,
-    kOrganiation = 12,
+    kOrganization = 12,
     kPatient = 13,
     kPractitioner = 14,
     kProcedure = 15,
@@ -5663,18 +5785,25 @@ class Resource :
     kImmunizationFieldNumber = 9,
     kMedicationRequestFieldNumber = 10,
     kObservationFieldNumber = 11,
-    kOrganiationFieldNumber = 12,
+    kOrganizationFieldNumber = 12,
     kPatientFieldNumber = 13,
     kPractitionerFieldNumber = 14,
     kProcedureFieldNumber = 15,
   };
-  // .patient.ResourceType resourceType = 1;
+  // string resourceType = 1;
   void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
   private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
   public:
 
   // .patient.CarePlanObject carePlan = 2;
@@ -5827,19 +5956,19 @@ class Resource :
   ::patient::ObservationObject* _internal_mutable_observation();
   public:
 
-  // .patient.OrganizationObject organiation = 12;
-  bool has_organiation() const;
+  // .patient.OrganizationObject organization = 12;
+  bool has_organization() const;
   private:
-  bool _internal_has_organiation() const;
+  bool _internal_has_organization() const;
   public:
-  void clear_organiation();
-  const ::patient::OrganizationObject& organiation() const;
-  ::patient::OrganizationObject* release_organiation();
-  ::patient::OrganizationObject* mutable_organiation();
-  void set_allocated_organiation(::patient::OrganizationObject* organiation);
+  void clear_organization();
+  const ::patient::OrganizationObject& organization() const;
+  ::patient::OrganizationObject* release_organization();
+  ::patient::OrganizationObject* mutable_organization();
+  void set_allocated_organization(::patient::OrganizationObject* organization);
   private:
-  const ::patient::OrganizationObject& _internal_organiation() const;
-  ::patient::OrganizationObject* _internal_mutable_organiation();
+  const ::patient::OrganizationObject& _internal_organization() const;
+  ::patient::OrganizationObject* _internal_mutable_organization();
   public:
 
   // .patient.PatientObject patient = 13;
@@ -5902,7 +6031,7 @@ class Resource :
   void set_has_immunization();
   void set_has_medicationrequest();
   void set_has_observation();
-  void set_has_organiation();
+  void set_has_organization();
   void set_has_patient();
   void set_has_practitioner();
   void set_has_procedure();
@@ -5911,7 +6040,7 @@ class Resource :
   inline void clear_has_resource();
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
-  int resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
   union ResourceUnion {
     ResourceUnion() {}
     ::patient::CarePlanObject* careplan_;
@@ -5924,7 +6053,7 @@ class Resource :
     ::patient::ImmunizationObject* immunization_;
     ::patient::MedicationRequestObject* medicationrequest_;
     ::patient::ObservationObject* observation_;
-    ::patient::OrganizationObject* organiation_;
+    ::patient::OrganizationObject* organization_;
     ::patient::PatientObject* patient_;
     ::patient::PractitionerObject* practitioner_;
     ::patient::ProcedureObject* procedure_;
@@ -5932,6 +6061,2353 @@ class Resource :
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   ::PROTOBUF_NAMESPACE_ID::uint32 _oneof_case_[1];
 
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class DosageInstruction :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.DosageInstruction) */ {
+ public:
+  DosageInstruction();
+  virtual ~DosageInstruction();
+
+  DosageInstruction(const DosageInstruction& from);
+  DosageInstruction(DosageInstruction&& from) noexcept
+    : DosageInstruction() {
+    *this = ::std::move(from);
+  }
+
+  inline DosageInstruction& operator=(const DosageInstruction& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline DosageInstruction& operator=(DosageInstruction&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const DosageInstruction& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const DosageInstruction* internal_default_instance() {
+    return reinterpret_cast<const DosageInstruction*>(
+               &_DosageInstruction_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    31;
+
+  friend void swap(DosageInstruction& a, DosageInstruction& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(DosageInstruction* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline DosageInstruction* New() const final {
+    return CreateMaybeMessage<DosageInstruction>(nullptr);
+  }
+
+  DosageInstruction* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<DosageInstruction>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const DosageInstruction& from);
+  void MergeFrom(const DosageInstruction& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(DosageInstruction* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.DosageInstruction";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kDoseAndRateFieldNumber = 3,
+    kAdditionalInstructionFieldNumber = 5,
+    kTimingFieldNumber = 4,
+    kSequenceFieldNumber = 1,
+    kAsNeededBooleanFieldNumber = 2,
+  };
+  // repeated .patient.DoseAndRate doseAndRate = 3;
+  int doseandrate_size() const;
+  private:
+  int _internal_doseandrate_size() const;
+  public:
+  void clear_doseandrate();
+  ::patient::DoseAndRate* mutable_doseandrate(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DoseAndRate >*
+      mutable_doseandrate();
+  private:
+  const ::patient::DoseAndRate& _internal_doseandrate(int index) const;
+  ::patient::DoseAndRate* _internal_add_doseandrate();
+  public:
+  const ::patient::DoseAndRate& doseandrate(int index) const;
+  ::patient::DoseAndRate* add_doseandrate();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DoseAndRate >&
+      doseandrate() const;
+
+  // repeated .patient.Category additionalInstruction = 5;
+  int additionalinstruction_size() const;
+  private:
+  int _internal_additionalinstruction_size() const;
+  public:
+  void clear_additionalinstruction();
+  ::patient::Category* mutable_additionalinstruction(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >*
+      mutable_additionalinstruction();
+  private:
+  const ::patient::Category& _internal_additionalinstruction(int index) const;
+  ::patient::Category* _internal_add_additionalinstruction();
+  public:
+  const ::patient::Category& additionalinstruction(int index) const;
+  ::patient::Category* add_additionalinstruction();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >&
+      additionalinstruction() const;
+
+  // .patient.Timing timing = 4;
+  bool has_timing() const;
+  private:
+  bool _internal_has_timing() const;
+  public:
+  void clear_timing();
+  const ::patient::Timing& timing() const;
+  ::patient::Timing* release_timing();
+  ::patient::Timing* mutable_timing();
+  void set_allocated_timing(::patient::Timing* timing);
+  private:
+  const ::patient::Timing& _internal_timing() const;
+  ::patient::Timing* _internal_mutable_timing();
+  public:
+
+  // int32 sequence = 1;
+  void clear_sequence();
+  ::PROTOBUF_NAMESPACE_ID::int32 sequence() const;
+  void set_sequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_sequence() const;
+  void _internal_set_sequence(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // bool asNeededBoolean = 2;
+  void clear_asneededboolean();
+  bool asneededboolean() const;
+  void set_asneededboolean(bool value);
+  private:
+  bool _internal_asneededboolean() const;
+  void _internal_set_asneededboolean(bool value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.DosageInstruction)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DoseAndRate > doseandrate_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > additionalinstruction_;
+  ::patient::Timing* timing_;
+  ::PROTOBUF_NAMESPACE_ID::int32 sequence_;
+  bool asneededboolean_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Repeat :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Repeat) */ {
+ public:
+  Repeat();
+  virtual ~Repeat();
+
+  Repeat(const Repeat& from);
+  Repeat(Repeat&& from) noexcept
+    : Repeat() {
+    *this = ::std::move(from);
+  }
+
+  inline Repeat& operator=(const Repeat& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Repeat& operator=(Repeat&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Repeat& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Repeat* internal_default_instance() {
+    return reinterpret_cast<const Repeat*>(
+               &_Repeat_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    32;
+
+  friend void swap(Repeat& a, Repeat& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Repeat* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Repeat* New() const final {
+    return CreateMaybeMessage<Repeat>(nullptr);
+  }
+
+  Repeat* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Repeat>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Repeat& from);
+  void MergeFrom(const Repeat& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Repeat* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Repeat";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kPeriodUnitFieldNumber = 3,
+    kFrequencyFieldNumber = 1,
+    kPeriodFieldNumber = 2,
+  };
+  // string periodUnit = 3;
+  void clear_periodunit();
+  const std::string& periodunit() const;
+  void set_periodunit(const std::string& value);
+  void set_periodunit(std::string&& value);
+  void set_periodunit(const char* value);
+  void set_periodunit(const char* value, size_t size);
+  std::string* mutable_periodunit();
+  std::string* release_periodunit();
+  void set_allocated_periodunit(std::string* periodunit);
+  private:
+  const std::string& _internal_periodunit() const;
+  void _internal_set_periodunit(const std::string& value);
+  std::string* _internal_mutable_periodunit();
+  public:
+
+  // int32 frequency = 1;
+  void clear_frequency();
+  ::PROTOBUF_NAMESPACE_ID::int32 frequency() const;
+  void set_frequency(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_frequency() const;
+  void _internal_set_frequency(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // float period = 2;
+  void clear_period();
+  float period() const;
+  void set_period(float value);
+  private:
+  float _internal_period() const;
+  void _internal_set_period(float value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Repeat)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr periodunit_;
+  ::PROTOBUF_NAMESPACE_ID::int32 frequency_;
+  float period_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Timing :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Timing) */ {
+ public:
+  Timing();
+  virtual ~Timing();
+
+  Timing(const Timing& from);
+  Timing(Timing&& from) noexcept
+    : Timing() {
+    *this = ::std::move(from);
+  }
+
+  inline Timing& operator=(const Timing& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Timing& operator=(Timing&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Timing& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Timing* internal_default_instance() {
+    return reinterpret_cast<const Timing*>(
+               &_Timing_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    33;
+
+  friend void swap(Timing& a, Timing& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Timing* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Timing* New() const final {
+    return CreateMaybeMessage<Timing>(nullptr);
+  }
+
+  Timing* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Timing>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Timing& from);
+  void MergeFrom(const Timing& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Timing* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Timing";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kRepeatFieldNumber = 1,
+  };
+  // .patient.Repeat repeat = 1;
+  bool has_repeat() const;
+  private:
+  bool _internal_has_repeat() const;
+  public:
+  void clear_repeat();
+  const ::patient::Repeat& repeat() const;
+  ::patient::Repeat* release_repeat();
+  ::patient::Repeat* mutable_repeat();
+  void set_allocated_repeat(::patient::Repeat* repeat);
+  private:
+  const ::patient::Repeat& _internal_repeat() const;
+  ::patient::Repeat* _internal_mutable_repeat();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Timing)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::patient::Repeat* repeat_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class DoseAndRate :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.DoseAndRate) */ {
+ public:
+  DoseAndRate();
+  virtual ~DoseAndRate();
+
+  DoseAndRate(const DoseAndRate& from);
+  DoseAndRate(DoseAndRate&& from) noexcept
+    : DoseAndRate() {
+    *this = ::std::move(from);
+  }
+
+  inline DoseAndRate& operator=(const DoseAndRate& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline DoseAndRate& operator=(DoseAndRate&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const DoseAndRate& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const DoseAndRate* internal_default_instance() {
+    return reinterpret_cast<const DoseAndRate*>(
+               &_DoseAndRate_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    34;
+
+  friend void swap(DoseAndRate& a, DoseAndRate& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(DoseAndRate* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline DoseAndRate* New() const final {
+    return CreateMaybeMessage<DoseAndRate>(nullptr);
+  }
+
+  DoseAndRate* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<DoseAndRate>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const DoseAndRate& from);
+  void MergeFrom(const DoseAndRate& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(DoseAndRate* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.DoseAndRate";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kTypeFieldNumber = 1,
+    kDoseQuantityFieldNumber = 2,
+  };
+  // .patient.Category type = 1;
+  bool has_type() const;
+  private:
+  bool _internal_has_type() const;
+  public:
+  void clear_type();
+  const ::patient::Category& type() const;
+  ::patient::Category* release_type();
+  ::patient::Category* mutable_type();
+  void set_allocated_type(::patient::Category* type);
+  private:
+  const ::patient::Category& _internal_type() const;
+  ::patient::Category* _internal_mutable_type();
+  public:
+
+  // .patient.Quantity doseQuantity = 2;
+  bool has_dosequantity() const;
+  private:
+  bool _internal_has_dosequantity() const;
+  public:
+  void clear_dosequantity();
+  const ::patient::Quantity& dosequantity() const;
+  ::patient::Quantity* release_dosequantity();
+  ::patient::Quantity* mutable_dosequantity();
+  void set_allocated_dosequantity(::patient::Quantity* dosequantity);
+  private:
+  const ::patient::Quantity& _internal_dosequantity() const;
+  ::patient::Quantity* _internal_mutable_dosequantity();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.DoseAndRate)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::patient::Category* type_;
+  ::patient::Quantity* dosequantity_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Onset :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Onset) */ {
+ public:
+  Onset();
+  virtual ~Onset();
+
+  Onset(const Onset& from);
+  Onset(Onset&& from) noexcept
+    : Onset() {
+    *this = ::std::move(from);
+  }
+
+  inline Onset& operator=(const Onset& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Onset& operator=(Onset&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Onset& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Onset* internal_default_instance() {
+    return reinterpret_cast<const Onset*>(
+               &_Onset_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    35;
+
+  friend void swap(Onset& a, Onset& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Onset* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Onset* New() const final {
+    return CreateMaybeMessage<Onset>(nullptr);
+  }
+
+  Onset* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Onset>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Onset& from);
+  void MergeFrom(const Onset& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Onset* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Onset";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kOnsetDateTimeFieldNumber = 1,
+    kOnsetStringFieldNumber = 4,
+    kOnsetPeriodFieldNumber = 3,
+    kOnsetAgeFieldNumber = 2,
+  };
+  // string onsetDateTime = 1;
+  void clear_onsetdatetime();
+  const std::string& onsetdatetime() const;
+  void set_onsetdatetime(const std::string& value);
+  void set_onsetdatetime(std::string&& value);
+  void set_onsetdatetime(const char* value);
+  void set_onsetdatetime(const char* value, size_t size);
+  std::string* mutable_onsetdatetime();
+  std::string* release_onsetdatetime();
+  void set_allocated_onsetdatetime(std::string* onsetdatetime);
+  private:
+  const std::string& _internal_onsetdatetime() const;
+  void _internal_set_onsetdatetime(const std::string& value);
+  std::string* _internal_mutable_onsetdatetime();
+  public:
+
+  // string onsetString = 4;
+  void clear_onsetstring();
+  const std::string& onsetstring() const;
+  void set_onsetstring(const std::string& value);
+  void set_onsetstring(std::string&& value);
+  void set_onsetstring(const char* value);
+  void set_onsetstring(const char* value, size_t size);
+  std::string* mutable_onsetstring();
+  std::string* release_onsetstring();
+  void set_allocated_onsetstring(std::string* onsetstring);
+  private:
+  const std::string& _internal_onsetstring() const;
+  void _internal_set_onsetstring(const std::string& value);
+  std::string* _internal_mutable_onsetstring();
+  public:
+
+  // .patient.Period onsetPeriod = 3;
+  bool has_onsetperiod() const;
+  private:
+  bool _internal_has_onsetperiod() const;
+  public:
+  void clear_onsetperiod();
+  const ::patient::Period& onsetperiod() const;
+  ::patient::Period* release_onsetperiod();
+  ::patient::Period* mutable_onsetperiod();
+  void set_allocated_onsetperiod(::patient::Period* onsetperiod);
+  private:
+  const ::patient::Period& _internal_onsetperiod() const;
+  ::patient::Period* _internal_mutable_onsetperiod();
+  public:
+
+  // int32 onsetAge = 2;
+  void clear_onsetage();
+  ::PROTOBUF_NAMESPACE_ID::int32 onsetage() const;
+  void set_onsetage(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_onsetage() const;
+  void _internal_set_onsetage(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Onset)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr onsetdatetime_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr onsetstring_;
+  ::patient::Period* onsetperiod_;
+  ::PROTOBUF_NAMESPACE_ID::int32 onsetage_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Reaction :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Reaction) */ {
+ public:
+  Reaction();
+  virtual ~Reaction();
+
+  Reaction(const Reaction& from);
+  Reaction(Reaction&& from) noexcept
+    : Reaction() {
+    *this = ::std::move(from);
+  }
+
+  inline Reaction& operator=(const Reaction& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Reaction& operator=(Reaction&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Reaction& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Reaction* internal_default_instance() {
+    return reinterpret_cast<const Reaction*>(
+               &_Reaction_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    36;
+
+  friend void swap(Reaction& a, Reaction& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Reaction* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Reaction* New() const final {
+    return CreateMaybeMessage<Reaction>(nullptr);
+  }
+
+  Reaction* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Reaction>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Reaction& from);
+  void MergeFrom(const Reaction& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Reaction* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Reaction";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kDescriptionFieldNumber = 3,
+    kOnsetFieldNumber = 4,
+    kNoteFieldNumber = 7,
+    kSubstanceFieldNumber = 1,
+    kManifestationFieldNumber = 2,
+    kSeverityFieldNumber = 5,
+    kExposureRouteFieldNumber = 6,
+  };
+  // string description = 3;
+  void clear_description();
+  const std::string& description() const;
+  void set_description(const std::string& value);
+  void set_description(std::string&& value);
+  void set_description(const char* value);
+  void set_description(const char* value, size_t size);
+  std::string* mutable_description();
+  std::string* release_description();
+  void set_allocated_description(std::string* description);
+  private:
+  const std::string& _internal_description() const;
+  void _internal_set_description(const std::string& value);
+  std::string* _internal_mutable_description();
+  public:
+
+  // string onset = 4;
+  void clear_onset();
+  const std::string& onset() const;
+  void set_onset(const std::string& value);
+  void set_onset(std::string&& value);
+  void set_onset(const char* value);
+  void set_onset(const char* value, size_t size);
+  std::string* mutable_onset();
+  std::string* release_onset();
+  void set_allocated_onset(std::string* onset);
+  private:
+  const std::string& _internal_onset() const;
+  void _internal_set_onset(const std::string& value);
+  std::string* _internal_mutable_onset();
+  public:
+
+  // string note = 7;
+  void clear_note();
+  const std::string& note() const;
+  void set_note(const std::string& value);
+  void set_note(std::string&& value);
+  void set_note(const char* value);
+  void set_note(const char* value, size_t size);
+  std::string* mutable_note();
+  std::string* release_note();
+  void set_allocated_note(std::string* note);
+  private:
+  const std::string& _internal_note() const;
+  void _internal_set_note(const std::string& value);
+  std::string* _internal_mutable_note();
+  public:
+
+  // .patient.Category substance = 1;
+  bool has_substance() const;
+  private:
+  bool _internal_has_substance() const;
+  public:
+  void clear_substance();
+  const ::patient::Category& substance() const;
+  ::patient::Category* release_substance();
+  ::patient::Category* mutable_substance();
+  void set_allocated_substance(::patient::Category* substance);
+  private:
+  const ::patient::Category& _internal_substance() const;
+  ::patient::Category* _internal_mutable_substance();
+  public:
+
+  // .patient.Category manifestation = 2;
+  bool has_manifestation() const;
+  private:
+  bool _internal_has_manifestation() const;
+  public:
+  void clear_manifestation();
+  const ::patient::Category& manifestation() const;
+  ::patient::Category* release_manifestation();
+  ::patient::Category* mutable_manifestation();
+  void set_allocated_manifestation(::patient::Category* manifestation);
+  private:
+  const ::patient::Category& _internal_manifestation() const;
+  ::patient::Category* _internal_mutable_manifestation();
+  public:
+
+  // .patient.Category severity = 5;
+  bool has_severity() const;
+  private:
+  bool _internal_has_severity() const;
+  public:
+  void clear_severity();
+  const ::patient::Category& severity() const;
+  ::patient::Category* release_severity();
+  ::patient::Category* mutable_severity();
+  void set_allocated_severity(::patient::Category* severity);
+  private:
+  const ::patient::Category& _internal_severity() const;
+  ::patient::Category* _internal_mutable_severity();
+  public:
+
+  // .patient.Category exposureRoute = 6;
+  bool has_exposureroute() const;
+  private:
+  bool _internal_has_exposureroute() const;
+  public:
+  void clear_exposureroute();
+  const ::patient::Category& exposureroute() const;
+  ::patient::Category* release_exposureroute();
+  ::patient::Category* mutable_exposureroute();
+  void set_allocated_exposureroute(::patient::Category* exposureroute);
+  private:
+  const ::patient::Category& _internal_exposureroute() const;
+  ::patient::Category* _internal_mutable_exposureroute();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Reaction)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr description_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr onset_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr note_;
+  ::patient::Category* substance_;
+  ::patient::Category* manifestation_;
+  ::patient::Category* severity_;
+  ::patient::Category* exposureroute_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Instance :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Instance) */ {
+ public:
+  Instance();
+  virtual ~Instance();
+
+  Instance(const Instance& from);
+  Instance(Instance&& from) noexcept
+    : Instance() {
+    *this = ::std::move(from);
+  }
+
+  inline Instance& operator=(const Instance& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Instance& operator=(Instance&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Instance& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Instance* internal_default_instance() {
+    return reinterpret_cast<const Instance*>(
+               &_Instance_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    37;
+
+  friend void swap(Instance& a, Instance& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Instance* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Instance* New() const final {
+    return CreateMaybeMessage<Instance>(nullptr);
+  }
+
+  Instance* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Instance>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Instance& from);
+  void MergeFrom(const Instance& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Instance* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Instance";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kUidFieldNumber = 1,
+    kTitleFieldNumber = 4,
+    kSopClassFieldNumber = 2,
+    kNumberFieldNumber = 3,
+  };
+  // string uid = 1;
+  void clear_uid();
+  const std::string& uid() const;
+  void set_uid(const std::string& value);
+  void set_uid(std::string&& value);
+  void set_uid(const char* value);
+  void set_uid(const char* value, size_t size);
+  std::string* mutable_uid();
+  std::string* release_uid();
+  void set_allocated_uid(std::string* uid);
+  private:
+  const std::string& _internal_uid() const;
+  void _internal_set_uid(const std::string& value);
+  std::string* _internal_mutable_uid();
+  public:
+
+  // string title = 4;
+  void clear_title();
+  const std::string& title() const;
+  void set_title(const std::string& value);
+  void set_title(std::string&& value);
+  void set_title(const char* value);
+  void set_title(const char* value, size_t size);
+  std::string* mutable_title();
+  std::string* release_title();
+  void set_allocated_title(std::string* title);
+  private:
+  const std::string& _internal_title() const;
+  void _internal_set_title(const std::string& value);
+  std::string* _internal_mutable_title();
+  public:
+
+  // .patient.Coding sopClass = 2;
+  bool has_sopclass() const;
+  private:
+  bool _internal_has_sopclass() const;
+  public:
+  void clear_sopclass();
+  const ::patient::Coding& sopclass() const;
+  ::patient::Coding* release_sopclass();
+  ::patient::Coding* mutable_sopclass();
+  void set_allocated_sopclass(::patient::Coding* sopclass);
+  private:
+  const ::patient::Coding& _internal_sopclass() const;
+  ::patient::Coding* _internal_mutable_sopclass();
+  public:
+
+  // int32 number = 3;
+  void clear_number();
+  ::PROTOBUF_NAMESPACE_ID::int32 number() const;
+  void set_number(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_number() const;
+  void _internal_set_number(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Instance)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr uid_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr title_;
+  ::patient::Coding* sopclass_;
+  ::PROTOBUF_NAMESPACE_ID::int32 number_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Series :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Series) */ {
+ public:
+  Series();
+  virtual ~Series();
+
+  Series(const Series& from);
+  Series(Series&& from) noexcept
+    : Series() {
+    *this = ::std::move(from);
+  }
+
+  inline Series& operator=(const Series& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Series& operator=(Series&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Series& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Series* internal_default_instance() {
+    return reinterpret_cast<const Series*>(
+               &_Series_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    38;
+
+  friend void swap(Series& a, Series& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Series* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Series* New() const final {
+    return CreateMaybeMessage<Series>(nullptr);
+  }
+
+  Series* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Series>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Series& from);
+  void MergeFrom(const Series& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Series* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Series";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kInstanceFieldNumber = 7,
+    kUidFieldNumber = 1,
+    kStartedFieldNumber = 6,
+    kModalityFieldNumber = 3,
+    kBodySiteFieldNumber = 5,
+    kNumberFieldNumber = 2,
+    kNumberOfInstancesFieldNumber = 4,
+  };
+  // repeated .patient.Instance instance = 7;
+  int instance_size() const;
+  private:
+  int _internal_instance_size() const;
+  public:
+  void clear_instance();
+  ::patient::Instance* mutable_instance(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Instance >*
+      mutable_instance();
+  private:
+  const ::patient::Instance& _internal_instance(int index) const;
+  ::patient::Instance* _internal_add_instance();
+  public:
+  const ::patient::Instance& instance(int index) const;
+  ::patient::Instance* add_instance();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Instance >&
+      instance() const;
+
+  // string uid = 1;
+  void clear_uid();
+  const std::string& uid() const;
+  void set_uid(const std::string& value);
+  void set_uid(std::string&& value);
+  void set_uid(const char* value);
+  void set_uid(const char* value, size_t size);
+  std::string* mutable_uid();
+  std::string* release_uid();
+  void set_allocated_uid(std::string* uid);
+  private:
+  const std::string& _internal_uid() const;
+  void _internal_set_uid(const std::string& value);
+  std::string* _internal_mutable_uid();
+  public:
+
+  // string started = 6;
+  void clear_started();
+  const std::string& started() const;
+  void set_started(const std::string& value);
+  void set_started(std::string&& value);
+  void set_started(const char* value);
+  void set_started(const char* value, size_t size);
+  std::string* mutable_started();
+  std::string* release_started();
+  void set_allocated_started(std::string* started);
+  private:
+  const std::string& _internal_started() const;
+  void _internal_set_started(const std::string& value);
+  std::string* _internal_mutable_started();
+  public:
+
+  // .patient.Coding modality = 3;
+  bool has_modality() const;
+  private:
+  bool _internal_has_modality() const;
+  public:
+  void clear_modality();
+  const ::patient::Coding& modality() const;
+  ::patient::Coding* release_modality();
+  ::patient::Coding* mutable_modality();
+  void set_allocated_modality(::patient::Coding* modality);
+  private:
+  const ::patient::Coding& _internal_modality() const;
+  ::patient::Coding* _internal_mutable_modality();
+  public:
+
+  // .patient.Coding bodySite = 5;
+  bool has_bodysite() const;
+  private:
+  bool _internal_has_bodysite() const;
+  public:
+  void clear_bodysite();
+  const ::patient::Coding& bodysite() const;
+  ::patient::Coding* release_bodysite();
+  ::patient::Coding* mutable_bodysite();
+  void set_allocated_bodysite(::patient::Coding* bodysite);
+  private:
+  const ::patient::Coding& _internal_bodysite() const;
+  ::patient::Coding* _internal_mutable_bodysite();
+  public:
+
+  // int32 number = 2;
+  void clear_number();
+  ::PROTOBUF_NAMESPACE_ID::int32 number() const;
+  void set_number(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_number() const;
+  void _internal_set_number(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // int32 numberOfInstances = 4;
+  void clear_numberofinstances();
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofinstances() const;
+  void set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_numberofinstances() const;
+  void _internal_set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Series)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Instance > instance_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr uid_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr started_;
+  ::patient::Coding* modality_;
+  ::patient::Coding* bodysite_;
+  ::PROTOBUF_NAMESPACE_ID::int32 number_;
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofinstances_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Hospitalization :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Hospitalization) */ {
+ public:
+  Hospitalization();
+  virtual ~Hospitalization();
+
+  Hospitalization(const Hospitalization& from);
+  Hospitalization(Hospitalization&& from) noexcept
+    : Hospitalization() {
+    *this = ::std::move(from);
+  }
+
+  inline Hospitalization& operator=(const Hospitalization& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Hospitalization& operator=(Hospitalization&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Hospitalization& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Hospitalization* internal_default_instance() {
+    return reinterpret_cast<const Hospitalization*>(
+               &_Hospitalization_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    39;
+
+  friend void swap(Hospitalization& a, Hospitalization& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Hospitalization* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Hospitalization* New() const final {
+    return CreateMaybeMessage<Hospitalization>(nullptr);
+  }
+
+  Hospitalization* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Hospitalization>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Hospitalization& from);
+  void MergeFrom(const Hospitalization& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Hospitalization* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Hospitalization";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kDischargeDispositionFieldNumber = 1,
+  };
+  // .patient.Category dischargeDisposition = 1;
+  bool has_dischargedisposition() const;
+  private:
+  bool _internal_has_dischargedisposition() const;
+  public:
+  void clear_dischargedisposition();
+  const ::patient::Category& dischargedisposition() const;
+  ::patient::Category* release_dischargedisposition();
+  ::patient::Category* mutable_dischargedisposition();
+  void set_allocated_dischargedisposition(::patient::Category* dischargedisposition);
+  private:
+  const ::patient::Category& _internal_dischargedisposition() const;
+  ::patient::Category* _internal_mutable_dischargedisposition();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Hospitalization)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::patient::Category* dischargedisposition_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class Carrier :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.Carrier) */ {
+ public:
+  Carrier();
+  virtual ~Carrier();
+
+  Carrier(const Carrier& from);
+  Carrier(Carrier&& from) noexcept
+    : Carrier() {
+    *this = ::std::move(from);
+  }
+
+  inline Carrier& operator=(const Carrier& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline Carrier& operator=(Carrier&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const Carrier& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Carrier* internal_default_instance() {
+    return reinterpret_cast<const Carrier*>(
+               &_Carrier_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    40;
+
+  friend void swap(Carrier& a, Carrier& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(Carrier* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Carrier* New() const final {
+    return CreateMaybeMessage<Carrier>(nullptr);
+  }
+
+  Carrier* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<Carrier>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const Carrier& from);
+  void MergeFrom(const Carrier& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Carrier* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.Carrier";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kDeviceIdentifierFieldNumber = 1,
+    kCarrierHRFFieldNumber = 2,
+  };
+  // string deviceIdentifier = 1;
+  void clear_deviceidentifier();
+  const std::string& deviceidentifier() const;
+  void set_deviceidentifier(const std::string& value);
+  void set_deviceidentifier(std::string&& value);
+  void set_deviceidentifier(const char* value);
+  void set_deviceidentifier(const char* value, size_t size);
+  std::string* mutable_deviceidentifier();
+  std::string* release_deviceidentifier();
+  void set_allocated_deviceidentifier(std::string* deviceidentifier);
+  private:
+  const std::string& _internal_deviceidentifier() const;
+  void _internal_set_deviceidentifier(const std::string& value);
+  std::string* _internal_mutable_deviceidentifier();
+  public:
+
+  // string carrierHRF = 2;
+  void clear_carrierhrf();
+  const std::string& carrierhrf() const;
+  void set_carrierhrf(const std::string& value);
+  void set_carrierhrf(std::string&& value);
+  void set_carrierhrf(const char* value);
+  void set_carrierhrf(const char* value, size_t size);
+  std::string* mutable_carrierhrf();
+  std::string* release_carrierhrf();
+  void set_allocated_carrierhrf(std::string* carrierhrf);
+  private:
+  const std::string& _internal_carrierhrf() const;
+  void _internal_set_carrierhrf(const std::string& value);
+  std::string* _internal_mutable_carrierhrf();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.Carrier)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr deviceidentifier_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr carrierhrf_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class DeviceName :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.DeviceName) */ {
+ public:
+  DeviceName();
+  virtual ~DeviceName();
+
+  DeviceName(const DeviceName& from);
+  DeviceName(DeviceName&& from) noexcept
+    : DeviceName() {
+    *this = ::std::move(from);
+  }
+
+  inline DeviceName& operator=(const DeviceName& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline DeviceName& operator=(DeviceName&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const DeviceName& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const DeviceName* internal_default_instance() {
+    return reinterpret_cast<const DeviceName*>(
+               &_DeviceName_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    41;
+
+  friend void swap(DeviceName& a, DeviceName& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(DeviceName* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline DeviceName* New() const final {
+    return CreateMaybeMessage<DeviceName>(nullptr);
+  }
+
+  DeviceName* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<DeviceName>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const DeviceName& from);
+  void MergeFrom(const DeviceName& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(DeviceName* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.DeviceName";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kNameFieldNumber = 1,
+    kTypeFieldNumber = 2,
+  };
+  // string name = 1;
+  void clear_name();
+  const std::string& name() const;
+  void set_name(const std::string& value);
+  void set_name(std::string&& value);
+  void set_name(const char* value);
+  void set_name(const char* value, size_t size);
+  std::string* mutable_name();
+  std::string* release_name();
+  void set_allocated_name(std::string* name);
+  private:
+  const std::string& _internal_name() const;
+  void _internal_set_name(const std::string& value);
+  std::string* _internal_mutable_name();
+  public:
+
+  // string type = 2;
+  void clear_type();
+  const std::string& type() const;
+  void set_type(const std::string& value);
+  void set_type(std::string&& value);
+  void set_type(const char* value);
+  void set_type(const char* value, size_t size);
+  std::string* mutable_type();
+  std::string* release_type();
+  void set_allocated_type(std::string* type);
+  private:
+  const std::string& _internal_type() const;
+  void _internal_set_type(const std::string& value);
+  std::string* _internal_mutable_type();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.DeviceName)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr name_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr type_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class AllergyIntoleranceObject :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.AllergyIntoleranceObject) */ {
+ public:
+  AllergyIntoleranceObject();
+  virtual ~AllergyIntoleranceObject();
+
+  AllergyIntoleranceObject(const AllergyIntoleranceObject& from);
+  AllergyIntoleranceObject(AllergyIntoleranceObject&& from) noexcept
+    : AllergyIntoleranceObject() {
+    *this = ::std::move(from);
+  }
+
+  inline AllergyIntoleranceObject& operator=(const AllergyIntoleranceObject& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline AllergyIntoleranceObject& operator=(AllergyIntoleranceObject&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const AllergyIntoleranceObject& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const AllergyIntoleranceObject* internal_default_instance() {
+    return reinterpret_cast<const AllergyIntoleranceObject*>(
+               &_AllergyIntoleranceObject_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    42;
+
+  friend void swap(AllergyIntoleranceObject& a, AllergyIntoleranceObject& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(AllergyIntoleranceObject* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline AllergyIntoleranceObject* New() const final {
+    return CreateMaybeMessage<AllergyIntoleranceObject>(nullptr);
+  }
+
+  AllergyIntoleranceObject* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<AllergyIntoleranceObject>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const AllergyIntoleranceObject& from);
+  void MergeFrom(const AllergyIntoleranceObject& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(AllergyIntoleranceObject* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.AllergyIntoleranceObject";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kCategoryFieldNumber = 5,
+    kTypeFieldNumber = 4,
+    kCriticalityFieldNumber = 6,
+    kRecordedDateFieldNumber = 11,
+    kLastOccurrenceFieldNumber = 14,
+    kNoteFieldNumber = 15,
+    kResourceTypeFieldNumber = 16,
+    kIdFieldNumber = 18,
+    kIdentifierFieldNumber = 1,
+    kClinicalStatusFieldNumber = 2,
+    kVerificationStatusFieldNumber = 3,
+    kCodeFieldNumber = 7,
+    kPatientFieldNumber = 8,
+    kEncounterFieldNumber = 9,
+    kOnsetFieldNumber = 10,
+    kRecorderFieldNumber = 12,
+    kAsserterFieldNumber = 13,
+    kReactionFieldNumber = 17,
+  };
+  // repeated string category = 5;
+  int category_size() const;
+  private:
+  int _internal_category_size() const;
+  public:
+  void clear_category();
+  const std::string& category(int index) const;
+  std::string* mutable_category(int index);
+  void set_category(int index, const std::string& value);
+  void set_category(int index, std::string&& value);
+  void set_category(int index, const char* value);
+  void set_category(int index, const char* value, size_t size);
+  std::string* add_category();
+  void add_category(const std::string& value);
+  void add_category(std::string&& value);
+  void add_category(const char* value);
+  void add_category(const char* value, size_t size);
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>& category() const;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>* mutable_category();
+  private:
+  const std::string& _internal_category(int index) const;
+  std::string* _internal_add_category();
+  public:
+
+  // string type = 4;
+  void clear_type();
+  const std::string& type() const;
+  void set_type(const std::string& value);
+  void set_type(std::string&& value);
+  void set_type(const char* value);
+  void set_type(const char* value, size_t size);
+  std::string* mutable_type();
+  std::string* release_type();
+  void set_allocated_type(std::string* type);
+  private:
+  const std::string& _internal_type() const;
+  void _internal_set_type(const std::string& value);
+  std::string* _internal_mutable_type();
+  public:
+
+  // string criticality = 6;
+  void clear_criticality();
+  const std::string& criticality() const;
+  void set_criticality(const std::string& value);
+  void set_criticality(std::string&& value);
+  void set_criticality(const char* value);
+  void set_criticality(const char* value, size_t size);
+  std::string* mutable_criticality();
+  std::string* release_criticality();
+  void set_allocated_criticality(std::string* criticality);
+  private:
+  const std::string& _internal_criticality() const;
+  void _internal_set_criticality(const std::string& value);
+  std::string* _internal_mutable_criticality();
+  public:
+
+  // string recordedDate = 11;
+  void clear_recordeddate();
+  const std::string& recordeddate() const;
+  void set_recordeddate(const std::string& value);
+  void set_recordeddate(std::string&& value);
+  void set_recordeddate(const char* value);
+  void set_recordeddate(const char* value, size_t size);
+  std::string* mutable_recordeddate();
+  std::string* release_recordeddate();
+  void set_allocated_recordeddate(std::string* recordeddate);
+  private:
+  const std::string& _internal_recordeddate() const;
+  void _internal_set_recordeddate(const std::string& value);
+  std::string* _internal_mutable_recordeddate();
+  public:
+
+  // string lastOccurrence = 14;
+  void clear_lastoccurrence();
+  const std::string& lastoccurrence() const;
+  void set_lastoccurrence(const std::string& value);
+  void set_lastoccurrence(std::string&& value);
+  void set_lastoccurrence(const char* value);
+  void set_lastoccurrence(const char* value, size_t size);
+  std::string* mutable_lastoccurrence();
+  std::string* release_lastoccurrence();
+  void set_allocated_lastoccurrence(std::string* lastoccurrence);
+  private:
+  const std::string& _internal_lastoccurrence() const;
+  void _internal_set_lastoccurrence(const std::string& value);
+  std::string* _internal_mutable_lastoccurrence();
+  public:
+
+  // string note = 15;
+  void clear_note();
+  const std::string& note() const;
+  void set_note(const std::string& value);
+  void set_note(std::string&& value);
+  void set_note(const char* value);
+  void set_note(const char* value, size_t size);
+  std::string* mutable_note();
+  std::string* release_note();
+  void set_allocated_note(std::string* note);
+  private:
+  const std::string& _internal_note() const;
+  void _internal_set_note(const std::string& value);
+  std::string* _internal_mutable_note();
+  public:
+
+  // string resourceType = 16;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string id = 18;
+  void clear_id();
+  const std::string& id() const;
+  void set_id(const std::string& value);
+  void set_id(std::string&& value);
+  void set_id(const char* value);
+  void set_id(const char* value, size_t size);
+  std::string* mutable_id();
+  std::string* release_id();
+  void set_allocated_id(std::string* id);
+  private:
+  const std::string& _internal_id() const;
+  void _internal_set_id(const std::string& value);
+  std::string* _internal_mutable_id();
+  public:
+
+  // .patient.Identifier identifier = 1;
+  bool has_identifier() const;
+  private:
+  bool _internal_has_identifier() const;
+  public:
+  void clear_identifier();
+  const ::patient::Identifier& identifier() const;
+  ::patient::Identifier* release_identifier();
+  ::patient::Identifier* mutable_identifier();
+  void set_allocated_identifier(::patient::Identifier* identifier);
+  private:
+  const ::patient::Identifier& _internal_identifier() const;
+  ::patient::Identifier* _internal_mutable_identifier();
+  public:
+
+  // .patient.Category clinicalStatus = 2;
+  bool has_clinicalstatus() const;
+  private:
+  bool _internal_has_clinicalstatus() const;
+  public:
+  void clear_clinicalstatus();
+  const ::patient::Category& clinicalstatus() const;
+  ::patient::Category* release_clinicalstatus();
+  ::patient::Category* mutable_clinicalstatus();
+  void set_allocated_clinicalstatus(::patient::Category* clinicalstatus);
+  private:
+  const ::patient::Category& _internal_clinicalstatus() const;
+  ::patient::Category* _internal_mutable_clinicalstatus();
+  public:
+
+  // .patient.Category verificationStatus = 3;
+  bool has_verificationstatus() const;
+  private:
+  bool _internal_has_verificationstatus() const;
+  public:
+  void clear_verificationstatus();
+  const ::patient::Category& verificationstatus() const;
+  ::patient::Category* release_verificationstatus();
+  ::patient::Category* mutable_verificationstatus();
+  void set_allocated_verificationstatus(::patient::Category* verificationstatus);
+  private:
+  const ::patient::Category& _internal_verificationstatus() const;
+  ::patient::Category* _internal_mutable_verificationstatus();
+  public:
+
+  // .patient.Category code = 7;
+  bool has_code() const;
+  private:
+  bool _internal_has_code() const;
+  public:
+  void clear_code();
+  const ::patient::Category& code() const;
+  ::patient::Category* release_code();
+  ::patient::Category* mutable_code();
+  void set_allocated_code(::patient::Category* code);
+  private:
+  const ::patient::Category& _internal_code() const;
+  ::patient::Category* _internal_mutable_code();
+  public:
+
+  // .patient.Reference patient = 8;
+  bool has_patient() const;
+  private:
+  bool _internal_has_patient() const;
+  public:
+  void clear_patient();
+  const ::patient::Reference& patient() const;
+  ::patient::Reference* release_patient();
+  ::patient::Reference* mutable_patient();
+  void set_allocated_patient(::patient::Reference* patient);
+  private:
+  const ::patient::Reference& _internal_patient() const;
+  ::patient::Reference* _internal_mutable_patient();
+  public:
+
+  // .patient.Reference encounter = 9;
+  bool has_encounter() const;
+  private:
+  bool _internal_has_encounter() const;
+  public:
+  void clear_encounter();
+  const ::patient::Reference& encounter() const;
+  ::patient::Reference* release_encounter();
+  ::patient::Reference* mutable_encounter();
+  void set_allocated_encounter(::patient::Reference* encounter);
+  private:
+  const ::patient::Reference& _internal_encounter() const;
+  ::patient::Reference* _internal_mutable_encounter();
+  public:
+
+  // .patient.Onset onset = 10;
+  bool has_onset() const;
+  private:
+  bool _internal_has_onset() const;
+  public:
+  void clear_onset();
+  const ::patient::Onset& onset() const;
+  ::patient::Onset* release_onset();
+  ::patient::Onset* mutable_onset();
+  void set_allocated_onset(::patient::Onset* onset);
+  private:
+  const ::patient::Onset& _internal_onset() const;
+  ::patient::Onset* _internal_mutable_onset();
+  public:
+
+  // .patient.Reference recorder = 12;
+  bool has_recorder() const;
+  private:
+  bool _internal_has_recorder() const;
+  public:
+  void clear_recorder();
+  const ::patient::Reference& recorder() const;
+  ::patient::Reference* release_recorder();
+  ::patient::Reference* mutable_recorder();
+  void set_allocated_recorder(::patient::Reference* recorder);
+  private:
+  const ::patient::Reference& _internal_recorder() const;
+  ::patient::Reference* _internal_mutable_recorder();
+  public:
+
+  // .patient.Reference asserter = 13;
+  bool has_asserter() const;
+  private:
+  bool _internal_has_asserter() const;
+  public:
+  void clear_asserter();
+  const ::patient::Reference& asserter() const;
+  ::patient::Reference* release_asserter();
+  ::patient::Reference* mutable_asserter();
+  void set_allocated_asserter(::patient::Reference* asserter);
+  private:
+  const ::patient::Reference& _internal_asserter() const;
+  ::patient::Reference* _internal_mutable_asserter();
+  public:
+
+  // .patient.Reaction reaction = 17;
+  bool has_reaction() const;
+  private:
+  bool _internal_has_reaction() const;
+  public:
+  void clear_reaction();
+  const ::patient::Reaction& reaction() const;
+  ::patient::Reaction* release_reaction();
+  ::patient::Reaction* mutable_reaction();
+  void set_allocated_reaction(::patient::Reaction* reaction);
+  private:
+  const ::patient::Reaction& _internal_reaction() const;
+  ::patient::Reaction* _internal_mutable_reaction();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.AllergyIntoleranceObject)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string> category_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr type_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr criticality_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr recordeddate_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr lastoccurrence_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr note_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::patient::Identifier* identifier_;
+  ::patient::Category* clinicalstatus_;
+  ::patient::Category* verificationstatus_;
+  ::patient::Category* code_;
+  ::patient::Reference* patient_;
+  ::patient::Reference* encounter_;
+  ::patient::Onset* onset_;
+  ::patient::Reference* recorder_;
+  ::patient::Reference* asserter_;
+  ::patient::Reaction* reaction_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
 // -------------------------------------------------------------------
@@ -5978,7 +8454,7 @@ class CarePlanObject :
                &_CarePlanObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    31;
+    43;
 
   friend void swap(CarePlanObject& a, CarePlanObject& b) {
     a.Swap(&b);
@@ -6046,14 +8522,15 @@ class CarePlanObject :
     kAddressesFieldNumber = 2,
     kCareTeamFieldNumber = 3,
     kCategoryFieldNumber = 4,
+    kGoalFieldNumber = 13,
     kIdFieldNumber = 6,
     kIntentFieldNumber = 7,
-    kTextFieldNumber = 12,
+    kResourceTypeFieldNumber = 9,
+    kStatusFieldNumber = 10,
     kEncounterFieldNumber = 5,
     kPeriodFieldNumber = 8,
     kSubjectFieldNumber = 11,
-    kResourceTypeFieldNumber = 9,
-    kStatusFieldNumber = 10,
+    kTextFieldNumber = 12,
   };
   // repeated .patient.Activity activity = 1;
   int activity_size() const;
@@ -6127,6 +8604,24 @@ class CarePlanObject :
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >&
       category() const;
 
+  // repeated .patient.Reference goal = 13;
+  int goal_size() const;
+  private:
+  int _internal_goal_size() const;
+  public:
+  void clear_goal();
+  ::patient::Reference* mutable_goal(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >*
+      mutable_goal();
+  private:
+  const ::patient::Reference& _internal_goal(int index) const;
+  ::patient::Reference* _internal_add_goal();
+  public:
+  const ::patient::Reference& goal(int index) const;
+  ::patient::Reference* add_goal();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >&
+      goal() const;
+
   // string id = 6;
   void clear_id();
   const std::string& id() const;
@@ -6159,23 +8654,39 @@ class CarePlanObject :
   std::string* _internal_mutable_intent();
   public:
 
-  // string text = 12;
-  void clear_text();
-  const std::string& text() const;
-  void set_text(const std::string& value);
-  void set_text(std::string&& value);
-  void set_text(const char* value);
-  void set_text(const char* value, size_t size);
-  std::string* mutable_text();
-  std::string* release_text();
-  void set_allocated_text(std::string* text);
+  // string resourceType = 9;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
   private:
-  const std::string& _internal_text() const;
-  void _internal_set_text(const std::string& value);
-  std::string* _internal_mutable_text();
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
   public:
 
-  // .patient.Reference Encounter = 5;
+  // string status = 10;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // .patient.Reference encounter = 5;
   bool has_encounter() const;
   private:
   bool _internal_has_encounter() const;
@@ -6220,22 +8731,19 @@ class CarePlanObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 9;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
+  // .patient.Text text = 12;
+  bool has_text() const;
   private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
+  bool _internal_has_text() const;
   public:
-
-  // .patient.Status status = 10;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
+  void clear_text();
+  const ::patient::Text& text() const;
+  ::patient::Text* release_text();
+  ::patient::Text* mutable_text();
+  void set_allocated_text(::patient::Text* text);
   private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
+  const ::patient::Text& _internal_text() const;
+  ::patient::Text* _internal_mutable_text();
   public:
 
   // @@protoc_insertion_point(class_scope:patient.CarePlanObject)
@@ -6247,14 +8755,15 @@ class CarePlanObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference > addresses_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::CareTeam > careteam_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > category_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference > goal_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr intent_;
-  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr text_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Reference* encounter_;
   ::patient::Period* period_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
+  ::patient::Text* text_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -6302,7 +8811,7 @@ class CareTeamObject :
                &_CareTeamObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    32;
+    44;
 
   friend void swap(CareTeamObject& a, CareTeamObject& b) {
     a.Swap(&b);
@@ -6370,11 +8879,11 @@ class CareTeamObject :
     kParticipantFieldNumber = 4,
     kReasonCodeFieldNumber = 6,
     kIdFieldNumber = 2,
+    kResourceTypeFieldNumber = 7,
+    kStatusFieldNumber = 8,
     kEncounterFieldNumber = 1,
     kPeriodFieldNumber = 5,
     kSubjectFieldNumber = 9,
-    kResourceTypeFieldNumber = 7,
-    kStatusFieldNumber = 8,
   };
   // repeated .patient.Reference managingOrganization = 3;
   int managingorganization_size() const;
@@ -6446,7 +8955,39 @@ class CareTeamObject :
   std::string* _internal_mutable_id();
   public:
 
-  // .patient.Reference Encounter = 1;
+  // string resourceType = 7;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 8;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // .patient.Reference encounter = 1;
   bool has_encounter() const;
   private:
   bool _internal_has_encounter() const;
@@ -6491,24 +9032,6 @@ class CareTeamObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 7;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 8;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.CareTeamObject)
  private:
   class _Internal;
@@ -6518,11 +9041,11 @@ class CareTeamObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Participant > participant_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > reasoncode_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Reference* encounter_;
   ::patient::Period* period_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -6570,7 +9093,7 @@ class ClaimObject :
                &_ClaimObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    33;
+    45;
 
   friend void swap(ClaimObject& a, ClaimObject& b) {
     a.Swap(&b);
@@ -6641,6 +9164,8 @@ class ClaimObject :
     kSupportingInfoFieldNumber = 14,
     kCreatedFieldNumber = 2,
     kIdFieldNumber = 4,
+    kResourceTypeFieldNumber = 12,
+    kStatusFieldNumber = 13,
     kUseFieldNumber = 17,
     kBillablePeriodFieldNumber = 1,
     kPatientFieldNumber = 7,
@@ -6649,8 +9174,6 @@ class ClaimObject :
     kProviderFieldNumber = 11,
     kTotalFieldNumber = 15,
     kTypeFieldNumber = 16,
-    kResourceTypeFieldNumber = 12,
-    kStatusFieldNumber = 13,
   };
   // repeated .patient.Diagnosis diagnosis = 3;
   int diagnosis_size() const;
@@ -6774,6 +9297,38 @@ class ClaimObject :
   std::string* _internal_mutable_id();
   public:
 
+  // string resourceType = 12;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 13;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
   // string use = 17;
   void clear_use();
   const std::string& use() const;
@@ -6895,24 +9450,6 @@ class ClaimObject :
   ::patient::Category* _internal_mutable_type();
   public:
 
-  // .patient.ResourceType resourceType = 12;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 13;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ClaimObject)
  private:
   class _Internal;
@@ -6925,6 +9462,8 @@ class ClaimObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::SupportingInfo > supportinginfo_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr created_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr use_;
   ::patient::Period* billableperiod_;
   ::patient::Reference* patient_;
@@ -6933,8 +9472,6 @@ class ClaimObject :
   ::patient::Reference* provider_;
   ::patient::Total* total_;
   ::patient::Category* type_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -6982,7 +9519,7 @@ class ConditionObject :
                &_ConditionObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    34;
+    46;
 
   friend void swap(ConditionObject& a, ConditionObject& b) {
     a.Swap(&b);
@@ -7050,12 +9587,12 @@ class ConditionObject :
     kIdFieldNumber = 5,
     kOnsetDateTimeFieldNumber = 6,
     kRecordedDateFieldNumber = 7,
+    kResourceTypeFieldNumber = 8,
     kClinicalStatusFieldNumber = 2,
     kCodeFieldNumber = 3,
     kEncounterFieldNumber = 4,
     kSubjectFieldNumber = 9,
     kVerificationStatusFieldNumber = 10,
-    kResourceTypeFieldNumber = 8,
   };
   // string abatementDateTime = 1;
   void clear_abatementdatetime();
@@ -7119,6 +9656,22 @@ class ConditionObject :
   const std::string& _internal_recordeddate() const;
   void _internal_set_recordeddate(const std::string& value);
   std::string* _internal_mutable_recordeddate();
+  public:
+
+  // string resourceType = 8;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
   public:
 
   // .patient.Category clinicalStatus = 2;
@@ -7196,15 +9749,6 @@ class ConditionObject :
   ::patient::Category* _internal_mutable_verificationstatus();
   public:
 
-  // .patient.ResourceType resourceType = 8;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ConditionObject)
  private:
   class _Internal;
@@ -7214,12 +9758,347 @@ class ConditionObject :
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr onsetdatetime_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr recordeddate_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
   ::patient::Category* clinicalstatus_;
   ::patient::Category* code_;
   ::patient::Reference* encounter_;
   ::patient::Reference* subject_;
   ::patient::Category* verificationstatus_;
-  int resourcetype_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class DeviceObject :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.DeviceObject) */ {
+ public:
+  DeviceObject();
+  virtual ~DeviceObject();
+
+  DeviceObject(const DeviceObject& from);
+  DeviceObject(DeviceObject&& from) noexcept
+    : DeviceObject() {
+    *this = ::std::move(from);
+  }
+
+  inline DeviceObject& operator=(const DeviceObject& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline DeviceObject& operator=(DeviceObject&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const DeviceObject& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const DeviceObject* internal_default_instance() {
+    return reinterpret_cast<const DeviceObject*>(
+               &_DeviceObject_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    47;
+
+  friend void swap(DeviceObject& a, DeviceObject& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(DeviceObject* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline DeviceObject* New() const final {
+    return CreateMaybeMessage<DeviceObject>(nullptr);
+  }
+
+  DeviceObject* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<DeviceObject>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const DeviceObject& from);
+  void MergeFrom(const DeviceObject& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(DeviceObject* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.DeviceObject";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kUdiCarrierFieldNumber = 3,
+    kDeviceNameFieldNumber = 10,
+    kResourceTypeFieldNumber = 1,
+    kIdFieldNumber = 2,
+    kStatusFieldNumber = 4,
+    kDistinctIdentifierFieldNumber = 5,
+    kManufactureDateFieldNumber = 6,
+    kExpirationDateFieldNumber = 7,
+    kLotNumberFieldNumber = 8,
+    kSerialNumberFieldNumber = 9,
+    kTypeFieldNumber = 11,
+    kPatientFieldNumber = 12,
+  };
+  // repeated .patient.Carrier udiCarrier = 3;
+  int udicarrier_size() const;
+  private:
+  int _internal_udicarrier_size() const;
+  public:
+  void clear_udicarrier();
+  ::patient::Carrier* mutable_udicarrier(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Carrier >*
+      mutable_udicarrier();
+  private:
+  const ::patient::Carrier& _internal_udicarrier(int index) const;
+  ::patient::Carrier* _internal_add_udicarrier();
+  public:
+  const ::patient::Carrier& udicarrier(int index) const;
+  ::patient::Carrier* add_udicarrier();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Carrier >&
+      udicarrier() const;
+
+  // repeated .patient.DeviceName deviceName = 10;
+  int devicename_size() const;
+  private:
+  int _internal_devicename_size() const;
+  public:
+  void clear_devicename();
+  ::patient::DeviceName* mutable_devicename(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceName >*
+      mutable_devicename();
+  private:
+  const ::patient::DeviceName& _internal_devicename(int index) const;
+  ::patient::DeviceName* _internal_add_devicename();
+  public:
+  const ::patient::DeviceName& devicename(int index) const;
+  ::patient::DeviceName* add_devicename();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceName >&
+      devicename() const;
+
+  // string resourceType = 1;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string id = 2;
+  void clear_id();
+  const std::string& id() const;
+  void set_id(const std::string& value);
+  void set_id(std::string&& value);
+  void set_id(const char* value);
+  void set_id(const char* value, size_t size);
+  std::string* mutable_id();
+  std::string* release_id();
+  void set_allocated_id(std::string* id);
+  private:
+  const std::string& _internal_id() const;
+  void _internal_set_id(const std::string& value);
+  std::string* _internal_mutable_id();
+  public:
+
+  // string status = 4;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // string distinctIdentifier = 5;
+  void clear_distinctidentifier();
+  const std::string& distinctidentifier() const;
+  void set_distinctidentifier(const std::string& value);
+  void set_distinctidentifier(std::string&& value);
+  void set_distinctidentifier(const char* value);
+  void set_distinctidentifier(const char* value, size_t size);
+  std::string* mutable_distinctidentifier();
+  std::string* release_distinctidentifier();
+  void set_allocated_distinctidentifier(std::string* distinctidentifier);
+  private:
+  const std::string& _internal_distinctidentifier() const;
+  void _internal_set_distinctidentifier(const std::string& value);
+  std::string* _internal_mutable_distinctidentifier();
+  public:
+
+  // string manufactureDate = 6;
+  void clear_manufacturedate();
+  const std::string& manufacturedate() const;
+  void set_manufacturedate(const std::string& value);
+  void set_manufacturedate(std::string&& value);
+  void set_manufacturedate(const char* value);
+  void set_manufacturedate(const char* value, size_t size);
+  std::string* mutable_manufacturedate();
+  std::string* release_manufacturedate();
+  void set_allocated_manufacturedate(std::string* manufacturedate);
+  private:
+  const std::string& _internal_manufacturedate() const;
+  void _internal_set_manufacturedate(const std::string& value);
+  std::string* _internal_mutable_manufacturedate();
+  public:
+
+  // string expirationDate = 7;
+  void clear_expirationdate();
+  const std::string& expirationdate() const;
+  void set_expirationdate(const std::string& value);
+  void set_expirationdate(std::string&& value);
+  void set_expirationdate(const char* value);
+  void set_expirationdate(const char* value, size_t size);
+  std::string* mutable_expirationdate();
+  std::string* release_expirationdate();
+  void set_allocated_expirationdate(std::string* expirationdate);
+  private:
+  const std::string& _internal_expirationdate() const;
+  void _internal_set_expirationdate(const std::string& value);
+  std::string* _internal_mutable_expirationdate();
+  public:
+
+  // string lotNumber = 8;
+  void clear_lotnumber();
+  const std::string& lotnumber() const;
+  void set_lotnumber(const std::string& value);
+  void set_lotnumber(std::string&& value);
+  void set_lotnumber(const char* value);
+  void set_lotnumber(const char* value, size_t size);
+  std::string* mutable_lotnumber();
+  std::string* release_lotnumber();
+  void set_allocated_lotnumber(std::string* lotnumber);
+  private:
+  const std::string& _internal_lotnumber() const;
+  void _internal_set_lotnumber(const std::string& value);
+  std::string* _internal_mutable_lotnumber();
+  public:
+
+  // string serialNumber = 9;
+  void clear_serialnumber();
+  const std::string& serialnumber() const;
+  void set_serialnumber(const std::string& value);
+  void set_serialnumber(std::string&& value);
+  void set_serialnumber(const char* value);
+  void set_serialnumber(const char* value, size_t size);
+  std::string* mutable_serialnumber();
+  std::string* release_serialnumber();
+  void set_allocated_serialnumber(std::string* serialnumber);
+  private:
+  const std::string& _internal_serialnumber() const;
+  void _internal_set_serialnumber(const std::string& value);
+  std::string* _internal_mutable_serialnumber();
+  public:
+
+  // .patient.Category type = 11;
+  bool has_type() const;
+  private:
+  bool _internal_has_type() const;
+  public:
+  void clear_type();
+  const ::patient::Category& type() const;
+  ::patient::Category* release_type();
+  ::patient::Category* mutable_type();
+  void set_allocated_type(::patient::Category* type);
+  private:
+  const ::patient::Category& _internal_type() const;
+  ::patient::Category* _internal_mutable_type();
+  public:
+
+  // .patient.Reference patient = 12;
+  bool has_patient() const;
+  private:
+  bool _internal_has_patient() const;
+  public:
+  void clear_patient();
+  const ::patient::Reference& patient() const;
+  ::patient::Reference* release_patient();
+  ::patient::Reference* mutable_patient();
+  void set_allocated_patient(::patient::Reference* patient);
+  private:
+  const ::patient::Reference& _internal_patient() const;
+  ::patient::Reference* _internal_mutable_patient();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.DeviceObject)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Carrier > udicarrier_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceName > devicename_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr distinctidentifier_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr manufacturedate_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr expirationdate_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr lotnumber_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr serialnumber_;
+  ::patient::Category* type_;
+  ::patient::Reference* patient_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -7267,7 +10146,7 @@ class DiagnosticReportObject :
                &_DiagnosticReportObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    35;
+    48;
 
   friend void swap(DiagnosticReportObject& a, DiagnosticReportObject& b) {
     a.Swap(&b);
@@ -7336,11 +10215,11 @@ class DiagnosticReportObject :
     kEffectiveDateTimeFieldNumber = 3,
     kIdFieldNumber = 5,
     kIssuedFieldNumber = 6,
+    kResourceTypeFieldNumber = 7,
+    kStatusFieldNumber = 9,
     kCodeFieldNumber = 2,
     kEncounterFieldNumber = 4,
     kSubjectFieldNumber = 10,
-    kResourceTypeFieldNumber = 7,
-    kStatusFieldNumber = 9,
   };
   // repeated .patient.Category category = 1;
   int category_size() const;
@@ -7426,6 +10305,38 @@ class DiagnosticReportObject :
   std::string* _internal_mutable_issued();
   public:
 
+  // string resourceType = 7;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 9;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
   // .patient.Category code = 2;
   bool has_code() const;
   private:
@@ -7456,7 +10367,7 @@ class DiagnosticReportObject :
   ::patient::Reference* _internal_mutable_encounter();
   public:
 
-  // .patient.Reference Subject = 10;
+  // .patient.Reference subject = 10;
   bool has_subject() const;
   private:
   bool _internal_has_subject() const;
@@ -7471,24 +10382,6 @@ class DiagnosticReportObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 7;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 9;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.DiagnosticReportObject)
  private:
   class _Internal;
@@ -7499,11 +10392,11 @@ class DiagnosticReportObject :
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr effectivedatetime_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr issued_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Category* code_;
   ::patient::Reference* encounter_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -7551,7 +10444,7 @@ class EncounterObject :
                &_EncounterObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    36;
+    49;
 
   friend void swap(EncounterObject& a, EncounterObject& b) {
     a.Swap(&b);
@@ -7619,12 +10512,13 @@ class EncounterObject :
     kReasonCodeFieldNumber = 5,
     kTypeFieldNumber = 10,
     kIdFieldNumber = 2,
+    kResourceTypeFieldNumber = 6,
+    kStatusFieldNumber = 8,
     kClassFieldNumber = 1,
     kPeriodFieldNumber = 4,
     kServiceProviderFieldNumber = 7,
     kSubjectFieldNumber = 9,
-    kResourceTypeFieldNumber = 6,
-    kStatusFieldNumber = 8,
+    kHospitalizationFieldNumber = 11,
   };
   // repeated .patient.Participant participant = 3;
   int participant_size() const;
@@ -7696,19 +10590,51 @@ class EncounterObject :
   std::string* _internal_mutable_id();
   public:
 
-  // .patient.Category class = 1;
+  // string resourceType = 6;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 8;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // .patient.Coding class = 1;
   bool has_class_() const;
   private:
   bool _internal_has_class_() const;
   public:
   void clear_class_();
-  const ::patient::Category& class_() const;
-  ::patient::Category* release_class_();
-  ::patient::Category* mutable_class_();
-  void set_allocated_class_(::patient::Category* class_);
+  const ::patient::Coding& class_() const;
+  ::patient::Coding* release_class_();
+  ::patient::Coding* mutable_class_();
+  void set_allocated_class_(::patient::Coding* class_);
   private:
-  const ::patient::Category& _internal_class_() const;
-  ::patient::Category* _internal_mutable_class_();
+  const ::patient::Coding& _internal_class_() const;
+  ::patient::Coding* _internal_mutable_class_();
   public:
 
   // .patient.Period period = 4;
@@ -7756,22 +10682,19 @@ class EncounterObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 6;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
+  // .patient.Hospitalization hospitalization = 11;
+  bool has_hospitalization() const;
   private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
+  bool _internal_has_hospitalization() const;
   public:
-
-  // .patient.Status status = 8;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
+  void clear_hospitalization();
+  const ::patient::Hospitalization& hospitalization() const;
+  ::patient::Hospitalization* release_hospitalization();
+  ::patient::Hospitalization* mutable_hospitalization();
+  void set_allocated_hospitalization(::patient::Hospitalization* hospitalization);
   private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
+  const ::patient::Hospitalization& _internal_hospitalization() const;
+  ::patient::Hospitalization* _internal_mutable_hospitalization();
   public:
 
   // @@protoc_insertion_point(class_scope:patient.EncounterObject)
@@ -7783,12 +10706,13 @@ class EncounterObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > reasoncode_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > type_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
-  ::patient::Category* class__;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
+  ::patient::Coding* class__;
   ::patient::Period* period_;
   ::patient::Reference* serviceprovider_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
+  ::patient::Hospitalization* hospitalization_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -7836,7 +10760,7 @@ class ExplanationOfBenefitObject :
                &_ExplanationOfBenefitObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    37;
+    50;
 
   friend void swap(ExplanationOfBenefitObject& a, ExplanationOfBenefitObject& b) {
     a.Swap(&b);
@@ -7900,7 +10824,7 @@ class ExplanationOfBenefitObject :
   // accessors -------------------------------------------------------
 
   enum : int {
-    kCareteamFieldNumber = 2,
+    kCareTeamFieldNumber = 2,
     kContainedFieldNumber = 4,
     kDiagnosisFieldNumber = 6,
     kIdentifierFieldNumber = 8,
@@ -7910,6 +10834,8 @@ class ExplanationOfBenefitObject :
     kCreatedFieldNumber = 5,
     kIdFieldNumber = 7,
     kOutcomeFieldNumber = 12,
+    kResourceTypeFieldNumber = 17,
+    kStatusFieldNumber = 18,
     kUseFieldNumber = 21,
     kBillablePeriodFieldNumber = 1,
     kClaimFieldNumber = 3,
@@ -7919,10 +10845,8 @@ class ExplanationOfBenefitObject :
     kProviderFieldNumber = 15,
     kReferralFieldNumber = 16,
     kTypeFieldNumber = 20,
-    kResourceTypeFieldNumber = 17,
-    kStatusFieldNumber = 18,
   };
-  // repeated .patient.CareTeam careteam = 2;
+  // repeated .patient.CareTeam careTeam = 2;
   int careteam_size() const;
   private:
   int _internal_careteam_size() const;
@@ -8096,6 +11020,38 @@ class ExplanationOfBenefitObject :
   std::string* _internal_mutable_outcome();
   public:
 
+  // string resourceType = 17;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 18;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
   // string use = 21;
   void clear_use();
   const std::string& use() const;
@@ -8232,24 +11188,6 @@ class ExplanationOfBenefitObject :
   ::patient::Category* _internal_mutable_type();
   public:
 
-  // .patient.ResourceType resourceType = 17;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 18;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ExplanationOfBenefitObject)
  private:
   class _Internal;
@@ -8265,6 +11203,8 @@ class ExplanationOfBenefitObject :
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr created_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr outcome_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr use_;
   ::patient::Period* billableperiod_;
   ::patient::Reference* claim_;
@@ -8274,8 +11214,513 @@ class ExplanationOfBenefitObject :
   ::patient::Reference* provider_;
   ::patient::Reference* referral_;
   ::patient::Category* type_;
-  int resourcetype_;
-  int status_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class GoalObject :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.GoalObject) */ {
+ public:
+  GoalObject();
+  virtual ~GoalObject();
+
+  GoalObject(const GoalObject& from);
+  GoalObject(GoalObject&& from) noexcept
+    : GoalObject() {
+    *this = ::std::move(from);
+  }
+
+  inline GoalObject& operator=(const GoalObject& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline GoalObject& operator=(GoalObject&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const GoalObject& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const GoalObject* internal_default_instance() {
+    return reinterpret_cast<const GoalObject*>(
+               &_GoalObject_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    51;
+
+  friend void swap(GoalObject& a, GoalObject& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(GoalObject* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline GoalObject* New() const final {
+    return CreateMaybeMessage<GoalObject>(nullptr);
+  }
+
+  GoalObject* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<GoalObject>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const GoalObject& from);
+  void MergeFrom(const GoalObject& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(GoalObject* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.GoalObject";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kResourceTypeFieldNumber = 1,
+    kIdFieldNumber = 2,
+    kLifecycleStatusFieldNumber = 3,
+    kAchievementStatusFieldNumber = 4,
+    kDescriptionFieldNumber = 5,
+    kSubjectFieldNumber = 6,
+  };
+  // string resourceType = 1;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string id = 2;
+  void clear_id();
+  const std::string& id() const;
+  void set_id(const std::string& value);
+  void set_id(std::string&& value);
+  void set_id(const char* value);
+  void set_id(const char* value, size_t size);
+  std::string* mutable_id();
+  std::string* release_id();
+  void set_allocated_id(std::string* id);
+  private:
+  const std::string& _internal_id() const;
+  void _internal_set_id(const std::string& value);
+  std::string* _internal_mutable_id();
+  public:
+
+  // string lifecycleStatus = 3;
+  void clear_lifecyclestatus();
+  const std::string& lifecyclestatus() const;
+  void set_lifecyclestatus(const std::string& value);
+  void set_lifecyclestatus(std::string&& value);
+  void set_lifecyclestatus(const char* value);
+  void set_lifecyclestatus(const char* value, size_t size);
+  std::string* mutable_lifecyclestatus();
+  std::string* release_lifecyclestatus();
+  void set_allocated_lifecyclestatus(std::string* lifecyclestatus);
+  private:
+  const std::string& _internal_lifecyclestatus() const;
+  void _internal_set_lifecyclestatus(const std::string& value);
+  std::string* _internal_mutable_lifecyclestatus();
+  public:
+
+  // .patient.Category achievementStatus = 4;
+  bool has_achievementstatus() const;
+  private:
+  bool _internal_has_achievementstatus() const;
+  public:
+  void clear_achievementstatus();
+  const ::patient::Category& achievementstatus() const;
+  ::patient::Category* release_achievementstatus();
+  ::patient::Category* mutable_achievementstatus();
+  void set_allocated_achievementstatus(::patient::Category* achievementstatus);
+  private:
+  const ::patient::Category& _internal_achievementstatus() const;
+  ::patient::Category* _internal_mutable_achievementstatus();
+  public:
+
+  // .patient.Category description = 5;
+  bool has_description() const;
+  private:
+  bool _internal_has_description() const;
+  public:
+  void clear_description();
+  const ::patient::Category& description() const;
+  ::patient::Category* release_description();
+  ::patient::Category* mutable_description();
+  void set_allocated_description(::patient::Category* description);
+  private:
+  const ::patient::Category& _internal_description() const;
+  ::patient::Category* _internal_mutable_description();
+  public:
+
+  // .patient.Reference subject = 6;
+  bool has_subject() const;
+  private:
+  bool _internal_has_subject() const;
+  public:
+  void clear_subject();
+  const ::patient::Reference& subject() const;
+  ::patient::Reference* release_subject();
+  ::patient::Reference* mutable_subject();
+  void set_allocated_subject(::patient::Reference* subject);
+  private:
+  const ::patient::Reference& _internal_subject() const;
+  ::patient::Reference* _internal_mutable_subject();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.GoalObject)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr lifecyclestatus_;
+  ::patient::Category* achievementstatus_;
+  ::patient::Category* description_;
+  ::patient::Reference* subject_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class ImagingStudyObject :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.ImagingStudyObject) */ {
+ public:
+  ImagingStudyObject();
+  virtual ~ImagingStudyObject();
+
+  ImagingStudyObject(const ImagingStudyObject& from);
+  ImagingStudyObject(ImagingStudyObject&& from) noexcept
+    : ImagingStudyObject() {
+    *this = ::std::move(from);
+  }
+
+  inline ImagingStudyObject& operator=(const ImagingStudyObject& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline ImagingStudyObject& operator=(ImagingStudyObject&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const ImagingStudyObject& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const ImagingStudyObject* internal_default_instance() {
+    return reinterpret_cast<const ImagingStudyObject*>(
+               &_ImagingStudyObject_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    52;
+
+  friend void swap(ImagingStudyObject& a, ImagingStudyObject& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(ImagingStudyObject* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline ImagingStudyObject* New() const final {
+    return CreateMaybeMessage<ImagingStudyObject>(nullptr);
+  }
+
+  ImagingStudyObject* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<ImagingStudyObject>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const ImagingStudyObject& from);
+  void MergeFrom(const ImagingStudyObject& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(ImagingStudyObject* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.ImagingStudyObject";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kIdentifierFieldNumber = 3,
+    kSeriesFieldNumber = 10,
+    kResourceTypeFieldNumber = 1,
+    kIdFieldNumber = 2,
+    kStatusFieldNumber = 4,
+    kStartedFieldNumber = 7,
+    kSubjectFieldNumber = 5,
+    kEncounterFieldNumber = 6,
+    kNumberOfSeriesFieldNumber = 8,
+    kNumberOfInstancesFieldNumber = 9,
+  };
+  // repeated .patient.Identifier identifier = 3;
+  int identifier_size() const;
+  private:
+  int _internal_identifier_size() const;
+  public:
+  void clear_identifier();
+  ::patient::Identifier* mutable_identifier(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier >*
+      mutable_identifier();
+  private:
+  const ::patient::Identifier& _internal_identifier(int index) const;
+  ::patient::Identifier* _internal_add_identifier();
+  public:
+  const ::patient::Identifier& identifier(int index) const;
+  ::patient::Identifier* add_identifier();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier >&
+      identifier() const;
+
+  // repeated .patient.Series series = 10;
+  int series_size() const;
+  private:
+  int _internal_series_size() const;
+  public:
+  void clear_series();
+  ::patient::Series* mutable_series(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Series >*
+      mutable_series();
+  private:
+  const ::patient::Series& _internal_series(int index) const;
+  ::patient::Series* _internal_add_series();
+  public:
+  const ::patient::Series& series(int index) const;
+  ::patient::Series* add_series();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Series >&
+      series() const;
+
+  // string resourceType = 1;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string id = 2;
+  void clear_id();
+  const std::string& id() const;
+  void set_id(const std::string& value);
+  void set_id(std::string&& value);
+  void set_id(const char* value);
+  void set_id(const char* value, size_t size);
+  std::string* mutable_id();
+  std::string* release_id();
+  void set_allocated_id(std::string* id);
+  private:
+  const std::string& _internal_id() const;
+  void _internal_set_id(const std::string& value);
+  std::string* _internal_mutable_id();
+  public:
+
+  // string status = 4;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // string started = 7;
+  void clear_started();
+  const std::string& started() const;
+  void set_started(const std::string& value);
+  void set_started(std::string&& value);
+  void set_started(const char* value);
+  void set_started(const char* value, size_t size);
+  std::string* mutable_started();
+  std::string* release_started();
+  void set_allocated_started(std::string* started);
+  private:
+  const std::string& _internal_started() const;
+  void _internal_set_started(const std::string& value);
+  std::string* _internal_mutable_started();
+  public:
+
+  // .patient.Reference subject = 5;
+  bool has_subject() const;
+  private:
+  bool _internal_has_subject() const;
+  public:
+  void clear_subject();
+  const ::patient::Reference& subject() const;
+  ::patient::Reference* release_subject();
+  ::patient::Reference* mutable_subject();
+  void set_allocated_subject(::patient::Reference* subject);
+  private:
+  const ::patient::Reference& _internal_subject() const;
+  ::patient::Reference* _internal_mutable_subject();
+  public:
+
+  // .patient.Reference encounter = 6;
+  bool has_encounter() const;
+  private:
+  bool _internal_has_encounter() const;
+  public:
+  void clear_encounter();
+  const ::patient::Reference& encounter() const;
+  ::patient::Reference* release_encounter();
+  ::patient::Reference* mutable_encounter();
+  void set_allocated_encounter(::patient::Reference* encounter);
+  private:
+  const ::patient::Reference& _internal_encounter() const;
+  ::patient::Reference* _internal_mutable_encounter();
+  public:
+
+  // int32 numberOfSeries = 8;
+  void clear_numberofseries();
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofseries() const;
+  void set_numberofseries(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_numberofseries() const;
+  void _internal_set_numberofseries(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // int32 numberOfInstances = 9;
+  void clear_numberofinstances();
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofinstances() const;
+  void set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value);
+  private:
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_numberofinstances() const;
+  void _internal_set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value);
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.ImagingStudyObject)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier > identifier_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Series > series_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr started_;
+  ::patient::Reference* subject_;
+  ::patient::Reference* encounter_;
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofseries_;
+  ::PROTOBUF_NAMESPACE_ID::int32 numberofinstances_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -8323,7 +11768,7 @@ class ImmunizationObject :
                &_ImmunizationObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    38;
+    53;
 
   friend void swap(ImmunizationObject& a, ImmunizationObject& b) {
     a.Swap(&b);
@@ -8388,13 +11833,13 @@ class ImmunizationObject :
 
   enum : int {
     kIdFieldNumber = 2,
-    kOccurenceDateTimeFieldNumber = 3,
+    kOccurrenceDateTimeFieldNumber = 3,
+    kResourceTypeFieldNumber = 6,
+    kStatusFieldNumber = 7,
     kEncounterFieldNumber = 1,
     kPatientFieldNumber = 4,
     kVaccineCodeFieldNumber = 8,
     kPrimarySourceFieldNumber = 5,
-    kResourceTypeFieldNumber = 6,
-    kStatusFieldNumber = 7,
   };
   // string id = 2;
   void clear_id();
@@ -8412,20 +11857,52 @@ class ImmunizationObject :
   std::string* _internal_mutable_id();
   public:
 
-  // string occurenceDateTime = 3;
-  void clear_occurencedatetime();
-  const std::string& occurencedatetime() const;
-  void set_occurencedatetime(const std::string& value);
-  void set_occurencedatetime(std::string&& value);
-  void set_occurencedatetime(const char* value);
-  void set_occurencedatetime(const char* value, size_t size);
-  std::string* mutable_occurencedatetime();
-  std::string* release_occurencedatetime();
-  void set_allocated_occurencedatetime(std::string* occurencedatetime);
+  // string occurrenceDateTime = 3;
+  void clear_occurrencedatetime();
+  const std::string& occurrencedatetime() const;
+  void set_occurrencedatetime(const std::string& value);
+  void set_occurrencedatetime(std::string&& value);
+  void set_occurrencedatetime(const char* value);
+  void set_occurrencedatetime(const char* value, size_t size);
+  std::string* mutable_occurrencedatetime();
+  std::string* release_occurrencedatetime();
+  void set_allocated_occurrencedatetime(std::string* occurrencedatetime);
   private:
-  const std::string& _internal_occurencedatetime() const;
-  void _internal_set_occurencedatetime(const std::string& value);
-  std::string* _internal_mutable_occurencedatetime();
+  const std::string& _internal_occurrencedatetime() const;
+  void _internal_set_occurrencedatetime(const std::string& value);
+  std::string* _internal_mutable_occurrencedatetime();
+  public:
+
+  // string resourceType = 6;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 7;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
   public:
 
   // .patient.Reference encounter = 1;
@@ -8482,37 +11959,19 @@ class ImmunizationObject :
   void _internal_set_primarysource(bool value);
   public:
 
-  // .patient.ResourceType resourceType = 6;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 7;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ImmunizationObject)
  private:
   class _Internal;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
-  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr occurencedatetime_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr occurrencedatetime_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Reference* encounter_;
   ::patient::Reference* patient_;
   ::patient::Category* vaccinecode_;
   bool primarysource_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -8560,7 +12019,7 @@ class MedicationRequestObject :
                &_MedicationRequestObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    39;
+    54;
 
   friend void swap(MedicationRequestObject& a, MedicationRequestObject& b) {
     a.Swap(&b);
@@ -8625,15 +12084,16 @@ class MedicationRequestObject :
 
   enum : int {
     kReasonReferenceFieldNumber = 6,
+    kDosageInstructionFieldNumber = 11,
     kAuthoredOnFieldNumber = 1,
     kIdFieldNumber = 3,
     kIntentFieldNumber = 4,
+    kResourceTypeFieldNumber = 8,
+    kStatusFieldNumber = 9,
     kEncounterFieldNumber = 2,
     kMedicationCodeableConceptFieldNumber = 5,
     kRequesterFieldNumber = 7,
     kSubjectFieldNumber = 10,
-    kResourceTypeFieldNumber = 8,
-    kStatusFieldNumber = 9,
   };
   // repeated .patient.Reference reasonReference = 6;
   int reasonreference_size() const;
@@ -8652,6 +12112,24 @@ class MedicationRequestObject :
   ::patient::Reference* add_reasonreference();
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >&
       reasonreference() const;
+
+  // repeated .patient.DosageInstruction dosageInstruction = 11;
+  int dosageinstruction_size() const;
+  private:
+  int _internal_dosageinstruction_size() const;
+  public:
+  void clear_dosageinstruction();
+  ::patient::DosageInstruction* mutable_dosageinstruction(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DosageInstruction >*
+      mutable_dosageinstruction();
+  private:
+  const ::patient::DosageInstruction& _internal_dosageinstruction(int index) const;
+  ::patient::DosageInstruction* _internal_add_dosageinstruction();
+  public:
+  const ::patient::DosageInstruction& dosageinstruction(int index) const;
+  ::patient::DosageInstruction* add_dosageinstruction();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DosageInstruction >&
+      dosageinstruction() const;
 
   // string authoredOn = 1;
   void clear_authoredon();
@@ -8699,6 +12177,38 @@ class MedicationRequestObject :
   const std::string& _internal_intent() const;
   void _internal_set_intent(const std::string& value);
   std::string* _internal_mutable_intent();
+  public:
+
+  // string resourceType = 8;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 9;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
   public:
 
   // .patient.Reference encounter = 2;
@@ -8761,39 +12271,282 @@ class MedicationRequestObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 8;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 9;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.MedicationRequestObject)
  private:
   class _Internal;
 
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference > reasonreference_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DosageInstruction > dosageinstruction_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr authoredon_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr intent_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Reference* encounter_;
   ::patient::Category* medicationcodeableconcept_;
   ::patient::Reference* requester_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_customized_2eproto;
+};
+// -------------------------------------------------------------------
+
+class MedicationAdministrationObject :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:patient.MedicationAdministrationObject) */ {
+ public:
+  MedicationAdministrationObject();
+  virtual ~MedicationAdministrationObject();
+
+  MedicationAdministrationObject(const MedicationAdministrationObject& from);
+  MedicationAdministrationObject(MedicationAdministrationObject&& from) noexcept
+    : MedicationAdministrationObject() {
+    *this = ::std::move(from);
+  }
+
+  inline MedicationAdministrationObject& operator=(const MedicationAdministrationObject& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline MedicationAdministrationObject& operator=(MedicationAdministrationObject&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return GetMetadataStatic().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return GetMetadataStatic().reflection;
+  }
+  static const MedicationAdministrationObject& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const MedicationAdministrationObject* internal_default_instance() {
+    return reinterpret_cast<const MedicationAdministrationObject*>(
+               &_MedicationAdministrationObject_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    55;
+
+  friend void swap(MedicationAdministrationObject& a, MedicationAdministrationObject& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(MedicationAdministrationObject* other) {
+    if (other == this) return;
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline MedicationAdministrationObject* New() const final {
+    return CreateMaybeMessage<MedicationAdministrationObject>(nullptr);
+  }
+
+  MedicationAdministrationObject* New(::PROTOBUF_NAMESPACE_ID::Arena* arena) const final {
+    return CreateMaybeMessage<MedicationAdministrationObject>(arena);
+  }
+  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;
+  void CopyFrom(const MedicationAdministrationObject& from);
+  void MergeFrom(const MedicationAdministrationObject& from);
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  ::PROTOBUF_NAMESPACE_ID::uint8* InternalSerializeWithCachedSizesToArray(
+      ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  inline void SharedCtor();
+  inline void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(MedicationAdministrationObject* other);
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "patient.MedicationAdministrationObject";
+  }
+  private:
+  inline ::PROTOBUF_NAMESPACE_ID::Arena* GetArenaNoVirtual() const {
+    return nullptr;
+  }
+  inline void* MaybeArenaPtr() const {
+    return nullptr;
+  }
+  public:
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  private:
+  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {
+    ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&::descriptor_table_customized_2eproto);
+    return ::descriptor_table_customized_2eproto.file_level_metadata[kIndexInFileMessages];
+  }
+
+  public:
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kReasonReferenceFieldNumber = 8,
+    kResourceTypeFieldNumber = 1,
+    kIdFieldNumber = 2,
+    kStatusFieldNumber = 3,
+    kEffectiveDateTimeFieldNumber = 7,
+    kMedicationCodeableConceptFieldNumber = 4,
+    kSubjectFieldNumber = 5,
+    kContextFieldNumber = 6,
+  };
+  // repeated .patient.Reference reasonReference = 8;
+  int reasonreference_size() const;
+  private:
+  int _internal_reasonreference_size() const;
+  public:
+  void clear_reasonreference();
+  ::patient::Reference* mutable_reasonreference(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >*
+      mutable_reasonreference();
+  private:
+  const ::patient::Reference& _internal_reasonreference(int index) const;
+  ::patient::Reference* _internal_add_reasonreference();
+  public:
+  const ::patient::Reference& reasonreference(int index) const;
+  ::patient::Reference* add_reasonreference();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >&
+      reasonreference() const;
+
+  // string resourceType = 1;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string id = 2;
+  void clear_id();
+  const std::string& id() const;
+  void set_id(const std::string& value);
+  void set_id(std::string&& value);
+  void set_id(const char* value);
+  void set_id(const char* value, size_t size);
+  std::string* mutable_id();
+  std::string* release_id();
+  void set_allocated_id(std::string* id);
+  private:
+  const std::string& _internal_id() const;
+  void _internal_set_id(const std::string& value);
+  std::string* _internal_mutable_id();
+  public:
+
+  // string status = 3;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // string effectiveDateTime = 7;
+  void clear_effectivedatetime();
+  const std::string& effectivedatetime() const;
+  void set_effectivedatetime(const std::string& value);
+  void set_effectivedatetime(std::string&& value);
+  void set_effectivedatetime(const char* value);
+  void set_effectivedatetime(const char* value, size_t size);
+  std::string* mutable_effectivedatetime();
+  std::string* release_effectivedatetime();
+  void set_allocated_effectivedatetime(std::string* effectivedatetime);
+  private:
+  const std::string& _internal_effectivedatetime() const;
+  void _internal_set_effectivedatetime(const std::string& value);
+  std::string* _internal_mutable_effectivedatetime();
+  public:
+
+  // .patient.Category medicationCodeableConcept = 4;
+  bool has_medicationcodeableconcept() const;
+  private:
+  bool _internal_has_medicationcodeableconcept() const;
+  public:
+  void clear_medicationcodeableconcept();
+  const ::patient::Category& medicationcodeableconcept() const;
+  ::patient::Category* release_medicationcodeableconcept();
+  ::patient::Category* mutable_medicationcodeableconcept();
+  void set_allocated_medicationcodeableconcept(::patient::Category* medicationcodeableconcept);
+  private:
+  const ::patient::Category& _internal_medicationcodeableconcept() const;
+  ::patient::Category* _internal_mutable_medicationcodeableconcept();
+  public:
+
+  // .patient.Reference subject = 5;
+  bool has_subject() const;
+  private:
+  bool _internal_has_subject() const;
+  public:
+  void clear_subject();
+  const ::patient::Reference& subject() const;
+  ::patient::Reference* release_subject();
+  ::patient::Reference* mutable_subject();
+  void set_allocated_subject(::patient::Reference* subject);
+  private:
+  const ::patient::Reference& _internal_subject() const;
+  ::patient::Reference* _internal_mutable_subject();
+  public:
+
+  // .patient.Reference context = 6;
+  bool has_context() const;
+  private:
+  bool _internal_has_context() const;
+  public:
+  void clear_context();
+  const ::patient::Reference& context() const;
+  ::patient::Reference* release_context();
+  ::patient::Reference* mutable_context();
+  void set_allocated_context(::patient::Reference* context);
+  private:
+  const ::patient::Reference& _internal_context() const;
+  ::patient::Reference* _internal_mutable_context();
+  public:
+
+  // @@protoc_insertion_point(class_scope:patient.MedicationAdministrationObject)
+ private:
+  class _Internal;
+
+  ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference > reasonreference_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr effectivedatetime_;
+  ::patient::Category* medicationcodeableconcept_;
+  ::patient::Reference* subject_;
+  ::patient::Reference* context_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -8841,7 +12594,7 @@ class ObservationObject :
                &_ObservationObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    40;
+    56;
 
   friend void swap(ObservationObject& a, ObservationObject& b) {
     a.Swap(&b);
@@ -8910,13 +12663,14 @@ class ObservationObject :
     kEffectiveDateTimeFieldNumber = 4,
     kIdFieldNumber = 6,
     kIssuedFieldNumber = 7,
+    kResourceTypeFieldNumber = 8,
+    kStatusFieldNumber = 9,
+    kValueStringFieldNumber = 13,
     kCodeFieldNumber = 2,
     kEncounterFieldNumber = 5,
     kSubjectFieldNumber = 10,
     kValueCodeableConceptFieldNumber = 11,
     kValueQuantityFieldNumber = 12,
-    kResourceTypeFieldNumber = 8,
-    kStatusFieldNumber = 9,
   };
   // repeated .patient.Category category = 1;
   int category_size() const;
@@ -9002,6 +12756,54 @@ class ObservationObject :
   std::string* _internal_mutable_issued();
   public:
 
+  // string resourceType = 8;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 9;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
+  public:
+
+  // string valueString = 13;
+  void clear_valuestring();
+  const std::string& valuestring() const;
+  void set_valuestring(const std::string& value);
+  void set_valuestring(std::string&& value);
+  void set_valuestring(const char* value);
+  void set_valuestring(const char* value, size_t size);
+  std::string* mutable_valuestring();
+  std::string* release_valuestring();
+  void set_allocated_valuestring(std::string* valuestring);
+  private:
+  const std::string& _internal_valuestring() const;
+  void _internal_set_valuestring(const std::string& value);
+  std::string* _internal_mutable_valuestring();
+  public:
+
   // .patient.Category code = 2;
   bool has_code() const;
   private:
@@ -9077,24 +12879,6 @@ class ObservationObject :
   ::patient::Quantity* _internal_mutable_valuequantity();
   public:
 
-  // .patient.ResourceType resourceType = 8;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 9;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ObservationObject)
  private:
   class _Internal;
@@ -9105,13 +12889,14 @@ class ObservationObject :
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr effectivedatetime_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr issued_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr valuestring_;
   ::patient::Category* code_;
   ::patient::Reference* encounter_;
   ::patient::Reference* subject_;
   ::patient::Category* valuecodeableconcept_;
   ::patient::Quantity* valuequantity_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -9159,7 +12944,7 @@ class OrganizationObject :
                &_OrganizationObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    41;
+    57;
 
   friend void swap(OrganizationObject& a, OrganizationObject& b) {
     a.Swap(&b);
@@ -9227,10 +13012,11 @@ class OrganizationObject :
     kIdentifierFieldNumber = 4,
     kTelecomFieldNumber = 7,
     kTypeFieldNumber = 8,
+    kExtensionFieldNumber = 9,
     kIdFieldNumber = 3,
     kNameFieldNumber = 5,
-    kActiveFieldNumber = 1,
     kResourceTypeFieldNumber = 6,
+    kActiveFieldNumber = 1,
   };
   // repeated .patient.Address address = 2;
   int address_size() const;
@@ -9304,6 +13090,24 @@ class OrganizationObject :
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >&
       type() const;
 
+  // repeated .patient.Extension extension = 9;
+  int extension_size() const;
+  private:
+  int _internal_extension_size() const;
+  public:
+  void clear_extension();
+  ::patient::Extension* mutable_extension(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >*
+      mutable_extension();
+  private:
+  const ::patient::Extension& _internal_extension(int index) const;
+  ::patient::Extension* _internal_add_extension();
+  public:
+  const ::patient::Extension& extension(int index) const;
+  ::patient::Extension* add_extension();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >&
+      extension() const;
+
   // string id = 3;
   void clear_id();
   const std::string& id() const;
@@ -9336,6 +13140,22 @@ class OrganizationObject :
   std::string* _internal_mutable_name();
   public:
 
+  // string resourceType = 6;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
   // bool active = 1;
   void clear_active();
   bool active() const;
@@ -9343,15 +13163,6 @@ class OrganizationObject :
   private:
   bool _internal_active() const;
   void _internal_set_active(bool value);
-  public:
-
-  // .patient.ResourceType resourceType = 6;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
   public:
 
   // @@protoc_insertion_point(class_scope:patient.OrganizationObject)
@@ -9363,10 +13174,11 @@ class OrganizationObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier > identifier_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Telecom > telecom_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category > type_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension > extension_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr name_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
   bool active_;
-  int resourcetype_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -9414,7 +13226,7 @@ class PatientObject :
                &_PatientObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    42;
+    58;
 
   friend void swap(PatientObject& a, PatientObject& b) {
     a.Swap(&b);
@@ -9485,12 +13297,14 @@ class PatientObject :
     kNameFieldNumber = 10,
     kTelecomFieldNumber = 12,
     kBirthDateFieldNumber = 2,
-    kIdFieldNumber = 6,
-    kTextFieldNumber = 13,
-    kMaritalStatusFieldNumber = 8,
     kGenderFieldNumber = 5,
-    kMultipleBirthBooleanFieldNumber = 9,
+    kIdFieldNumber = 6,
     kResourceTypeFieldNumber = 11,
+    kDeceasedDateTimeFieldNumber = 14,
+    kMaritalStatusFieldNumber = 8,
+    kTextFieldNumber = 13,
+    kMultipleBirthBooleanFieldNumber = 9,
+    kMultipleBirthIntegerFieldNumber = 15,
   };
   // repeated .patient.Address address = 1;
   int address_size() const;
@@ -9616,6 +13430,22 @@ class PatientObject :
   std::string* _internal_mutable_birthdate();
   public:
 
+  // string gender = 5;
+  void clear_gender();
+  const std::string& gender() const;
+  void set_gender(const std::string& value);
+  void set_gender(std::string&& value);
+  void set_gender(const char* value);
+  void set_gender(const char* value, size_t size);
+  std::string* mutable_gender();
+  std::string* release_gender();
+  void set_allocated_gender(std::string* gender);
+  private:
+  const std::string& _internal_gender() const;
+  void _internal_set_gender(const std::string& value);
+  std::string* _internal_mutable_gender();
+  public:
+
   // string id = 6;
   void clear_id();
   const std::string& id() const;
@@ -9632,20 +13462,36 @@ class PatientObject :
   std::string* _internal_mutable_id();
   public:
 
-  // string text = 13;
-  void clear_text();
-  const std::string& text() const;
-  void set_text(const std::string& value);
-  void set_text(std::string&& value);
-  void set_text(const char* value);
-  void set_text(const char* value, size_t size);
-  std::string* mutable_text();
-  std::string* release_text();
-  void set_allocated_text(std::string* text);
+  // string resourceType = 11;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
   private:
-  const std::string& _internal_text() const;
-  void _internal_set_text(const std::string& value);
-  std::string* _internal_mutable_text();
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string deceasedDateTime = 14;
+  void clear_deceaseddatetime();
+  const std::string& deceaseddatetime() const;
+  void set_deceaseddatetime(const std::string& value);
+  void set_deceaseddatetime(std::string&& value);
+  void set_deceaseddatetime(const char* value);
+  void set_deceaseddatetime(const char* value, size_t size);
+  std::string* mutable_deceaseddatetime();
+  std::string* release_deceaseddatetime();
+  void set_allocated_deceaseddatetime(std::string* deceaseddatetime);
+  private:
+  const std::string& _internal_deceaseddatetime() const;
+  void _internal_set_deceaseddatetime(const std::string& value);
+  std::string* _internal_mutable_deceaseddatetime();
   public:
 
   // .patient.Category maritalStatus = 8;
@@ -9663,13 +13509,19 @@ class PatientObject :
   ::patient::Category* _internal_mutable_maritalstatus();
   public:
 
-  // .patient.Gender gender = 5;
-  void clear_gender();
-  ::patient::Gender gender() const;
-  void set_gender(::patient::Gender value);
+  // .patient.Text text = 13;
+  bool has_text() const;
   private:
-  ::patient::Gender _internal_gender() const;
-  void _internal_set_gender(::patient::Gender value);
+  bool _internal_has_text() const;
+  public:
+  void clear_text();
+  const ::patient::Text& text() const;
+  ::patient::Text* release_text();
+  ::patient::Text* mutable_text();
+  void set_allocated_text(::patient::Text* text);
+  private:
+  const ::patient::Text& _internal_text() const;
+  ::patient::Text* _internal_mutable_text();
   public:
 
   // bool multipleBirthBoolean = 9;
@@ -9681,13 +13533,13 @@ class PatientObject :
   void _internal_set_multiplebirthboolean(bool value);
   public:
 
-  // .patient.ResourceType resourceType = 11;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
+  // int32 multipleBirthInteger = 15;
+  void clear_multiplebirthinteger();
+  ::PROTOBUF_NAMESPACE_ID::int32 multiplebirthinteger() const;
+  void set_multiplebirthinteger(::PROTOBUF_NAMESPACE_ID::int32 value);
   private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_multiplebirthinteger() const;
+  void _internal_set_multiplebirthinteger(::PROTOBUF_NAMESPACE_ID::int32 value);
   public:
 
   // @@protoc_insertion_point(class_scope:patient.PatientObject)
@@ -9702,12 +13554,14 @@ class PatientObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Name > name_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Telecom > telecom_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr birthdate_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr gender_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
-  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr text_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr deceaseddatetime_;
   ::patient::Category* maritalstatus_;
-  int gender_;
+  ::patient::Text* text_;
   bool multiplebirthboolean_;
-  int resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::int32 multiplebirthinteger_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -9755,7 +13609,7 @@ class PractitionerObject :
                &_PractitionerObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    43;
+    59;
 
   friend void swap(PractitionerObject& a, PractitionerObject& b) {
     a.Swap(&b);
@@ -9823,10 +13677,11 @@ class PractitionerObject :
     kIdentifierFieldNumber = 5,
     kNameFieldNumber = 6,
     kTelecomFieldNumber = 8,
-    kIdFieldNumber = 4,
-    kActiveFieldNumber = 1,
+    kExtensionFieldNumber = 9,
     kGenderFieldNumber = 3,
+    kIdFieldNumber = 4,
     kResourceTypeFieldNumber = 7,
+    kActiveFieldNumber = 1,
   };
   // repeated .patient.Address address = 2;
   int address_size() const;
@@ -9900,6 +13755,40 @@ class PractitionerObject :
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Telecom >&
       telecom() const;
 
+  // repeated .patient.Extension extension = 9;
+  int extension_size() const;
+  private:
+  int _internal_extension_size() const;
+  public:
+  void clear_extension();
+  ::patient::Extension* mutable_extension(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >*
+      mutable_extension();
+  private:
+  const ::patient::Extension& _internal_extension(int index) const;
+  ::patient::Extension* _internal_add_extension();
+  public:
+  const ::patient::Extension& extension(int index) const;
+  ::patient::Extension* add_extension();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >&
+      extension() const;
+
+  // string gender = 3;
+  void clear_gender();
+  const std::string& gender() const;
+  void set_gender(const std::string& value);
+  void set_gender(std::string&& value);
+  void set_gender(const char* value);
+  void set_gender(const char* value, size_t size);
+  std::string* mutable_gender();
+  std::string* release_gender();
+  void set_allocated_gender(std::string* gender);
+  private:
+  const std::string& _internal_gender() const;
+  void _internal_set_gender(const std::string& value);
+  std::string* _internal_mutable_gender();
+  public:
+
   // string id = 4;
   void clear_id();
   const std::string& id() const;
@@ -9916,6 +13805,22 @@ class PractitionerObject :
   std::string* _internal_mutable_id();
   public:
 
+  // string resourceType = 7;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
   // bool active = 1;
   void clear_active();
   bool active() const;
@@ -9923,24 +13828,6 @@ class PractitionerObject :
   private:
   bool _internal_active() const;
   void _internal_set_active(bool value);
-  public:
-
-  // .patient.Gender gender = 3;
-  void clear_gender();
-  ::patient::Gender gender() const;
-  void set_gender(::patient::Gender value);
-  private:
-  ::patient::Gender _internal_gender() const;
-  void _internal_set_gender(::patient::Gender value);
-  public:
-
-  // .patient.ResourceType resourceType = 7;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
   public:
 
   // @@protoc_insertion_point(class_scope:patient.PractitionerObject)
@@ -9952,10 +13839,11 @@ class PractitionerObject :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier > identifier_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Name > name_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Telecom > telecom_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension > extension_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr gender_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
   bool active_;
-  int gender_;
-  int resourcetype_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -10003,7 +13891,7 @@ class ProcedureObject :
                &_ProcedureObject_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    44;
+    60;
 
   friend void swap(ProcedureObject& a, ProcedureObject& b) {
     a.Swap(&b);
@@ -10069,12 +13957,12 @@ class ProcedureObject :
   enum : int {
     kReasonReferenceFieldNumber = 5,
     kIdFieldNumber = 3,
+    kResourceTypeFieldNumber = 6,
+    kStatusFieldNumber = 7,
     kCodeFieldNumber = 1,
     kEncounterFieldNumber = 2,
     kPerformedPeriodFieldNumber = 4,
     kSubjectFieldNumber = 8,
-    kResourceTypeFieldNumber = 6,
-    kStatusFieldNumber = 7,
   };
   // repeated .patient.Reference reasonReference = 5;
   int reasonreference_size() const;
@@ -10108,6 +13996,38 @@ class ProcedureObject :
   const std::string& _internal_id() const;
   void _internal_set_id(const std::string& value);
   std::string* _internal_mutable_id();
+  public:
+
+  // string resourceType = 6;
+  void clear_resourcetype();
+  const std::string& resourcetype() const;
+  void set_resourcetype(const std::string& value);
+  void set_resourcetype(std::string&& value);
+  void set_resourcetype(const char* value);
+  void set_resourcetype(const char* value, size_t size);
+  std::string* mutable_resourcetype();
+  std::string* release_resourcetype();
+  void set_allocated_resourcetype(std::string* resourcetype);
+  private:
+  const std::string& _internal_resourcetype() const;
+  void _internal_set_resourcetype(const std::string& value);
+  std::string* _internal_mutable_resourcetype();
+  public:
+
+  // string status = 7;
+  void clear_status();
+  const std::string& status() const;
+  void set_status(const std::string& value);
+  void set_status(std::string&& value);
+  void set_status(const char* value);
+  void set_status(const char* value, size_t size);
+  std::string* mutable_status();
+  std::string* release_status();
+  void set_allocated_status(std::string* status);
+  private:
+  const std::string& _internal_status() const;
+  void _internal_set_status(const std::string& value);
+  std::string* _internal_mutable_status();
   public:
 
   // .patient.Category code = 1;
@@ -10170,24 +14090,6 @@ class ProcedureObject :
   ::patient::Reference* _internal_mutable_subject();
   public:
 
-  // .patient.ResourceType resourceType = 6;
-  void clear_resourcetype();
-  ::patient::ResourceType resourcetype() const;
-  void set_resourcetype(::patient::ResourceType value);
-  private:
-  ::patient::ResourceType _internal_resourcetype() const;
-  void _internal_set_resourcetype(::patient::ResourceType value);
-  public:
-
-  // .patient.Status status = 7;
-  void clear_status();
-  ::patient::Status status() const;
-  void set_status(::patient::Status value);
-  private:
-  ::patient::Status _internal_status() const;
-  void _internal_set_status(::patient::Status value);
-  public:
-
   // @@protoc_insertion_point(class_scope:patient.ProcedureObject)
  private:
   class _Internal;
@@ -10195,12 +14097,12 @@ class ProcedureObject :
   ::PROTOBUF_NAMESPACE_ID::internal::InternalMetadataWithArena _internal_metadata_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference > reasonreference_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr id_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr resourcetype_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;
   ::patient::Category* code_;
   ::patient::Reference* encounter_;
   ::patient::Period* performedperiod_;
   ::patient::Reference* subject_;
-  int resourcetype_;
-  int status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
 };
@@ -10248,7 +14150,7 @@ class PatientRecord :
                &_PatientRecord_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    45;
+    61;
 
   friend void swap(PatientRecord& a, PatientRecord& b) {
     a.Swap(&b);
@@ -10322,9 +14224,14 @@ class PatientRecord :
     kImmunizationFieldNumber = 9,
     kMedicationRequestFieldNumber = 10,
     kObservationFieldNumber = 11,
-    kOrganiationFieldNumber = 12,
+    kOrganizationFieldNumber = 12,
     kPractitionerFieldNumber = 13,
     kProcedureFieldNumber = 14,
+    kAllergyIntoleranceFieldNumber = 15,
+    kGoalFieldNumber = 16,
+    kImagingStudyFieldNumber = 17,
+    kDeviceFieldNumber = 18,
+    kMedicationAdministrationFieldNumber = 19,
     kPatientFieldNumber = 1,
   };
   // repeated .patient.CarePlanObject carePlan = 2;
@@ -10507,23 +14414,23 @@ class PatientRecord :
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ObservationObject >&
       observation() const;
 
-  // repeated .patient.OrganizationObject organiation = 12;
-  int organiation_size() const;
+  // repeated .patient.OrganizationObject organization = 12;
+  int organization_size() const;
   private:
-  int _internal_organiation_size() const;
+  int _internal_organization_size() const;
   public:
-  void clear_organiation();
-  ::patient::OrganizationObject* mutable_organiation(int index);
+  void clear_organization();
+  ::patient::OrganizationObject* mutable_organization(int index);
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject >*
-      mutable_organiation();
+      mutable_organization();
   private:
-  const ::patient::OrganizationObject& _internal_organiation(int index) const;
-  ::patient::OrganizationObject* _internal_add_organiation();
+  const ::patient::OrganizationObject& _internal_organization(int index) const;
+  ::patient::OrganizationObject* _internal_add_organization();
   public:
-  const ::patient::OrganizationObject& organiation(int index) const;
-  ::patient::OrganizationObject* add_organiation();
+  const ::patient::OrganizationObject& organization(int index) const;
+  ::patient::OrganizationObject* add_organization();
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject >&
-      organiation() const;
+      organization() const;
 
   // repeated .patient.PractitionerObject practitioner = 13;
   int practitioner_size() const;
@@ -10561,6 +14468,96 @@ class PatientRecord :
   const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ProcedureObject >&
       procedure() const;
 
+  // repeated .patient.AllergyIntoleranceObject allergyIntolerance = 15;
+  int allergyintolerance_size() const;
+  private:
+  int _internal_allergyintolerance_size() const;
+  public:
+  void clear_allergyintolerance();
+  ::patient::AllergyIntoleranceObject* mutable_allergyintolerance(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::AllergyIntoleranceObject >*
+      mutable_allergyintolerance();
+  private:
+  const ::patient::AllergyIntoleranceObject& _internal_allergyintolerance(int index) const;
+  ::patient::AllergyIntoleranceObject* _internal_add_allergyintolerance();
+  public:
+  const ::patient::AllergyIntoleranceObject& allergyintolerance(int index) const;
+  ::patient::AllergyIntoleranceObject* add_allergyintolerance();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::AllergyIntoleranceObject >&
+      allergyintolerance() const;
+
+  // repeated .patient.GoalObject goal = 16;
+  int goal_size() const;
+  private:
+  int _internal_goal_size() const;
+  public:
+  void clear_goal();
+  ::patient::GoalObject* mutable_goal(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::GoalObject >*
+      mutable_goal();
+  private:
+  const ::patient::GoalObject& _internal_goal(int index) const;
+  ::patient::GoalObject* _internal_add_goal();
+  public:
+  const ::patient::GoalObject& goal(int index) const;
+  ::patient::GoalObject* add_goal();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::GoalObject >&
+      goal() const;
+
+  // repeated .patient.ImagingStudyObject imagingStudy = 17;
+  int imagingstudy_size() const;
+  private:
+  int _internal_imagingstudy_size() const;
+  public:
+  void clear_imagingstudy();
+  ::patient::ImagingStudyObject* mutable_imagingstudy(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImagingStudyObject >*
+      mutable_imagingstudy();
+  private:
+  const ::patient::ImagingStudyObject& _internal_imagingstudy(int index) const;
+  ::patient::ImagingStudyObject* _internal_add_imagingstudy();
+  public:
+  const ::patient::ImagingStudyObject& imagingstudy(int index) const;
+  ::patient::ImagingStudyObject* add_imagingstudy();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImagingStudyObject >&
+      imagingstudy() const;
+
+  // repeated .patient.DeviceObject device = 18;
+  int device_size() const;
+  private:
+  int _internal_device_size() const;
+  public:
+  void clear_device();
+  ::patient::DeviceObject* mutable_device(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceObject >*
+      mutable_device();
+  private:
+  const ::patient::DeviceObject& _internal_device(int index) const;
+  ::patient::DeviceObject* _internal_add_device();
+  public:
+  const ::patient::DeviceObject& device(int index) const;
+  ::patient::DeviceObject* add_device();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceObject >&
+      device() const;
+
+  // repeated .patient.MedicationAdministrationObject medicationAdministration = 19;
+  int medicationadministration_size() const;
+  private:
+  int _internal_medicationadministration_size() const;
+  public:
+  void clear_medicationadministration();
+  ::patient::MedicationAdministrationObject* mutable_medicationadministration(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationAdministrationObject >*
+      mutable_medicationadministration();
+  private:
+  const ::patient::MedicationAdministrationObject& _internal_medicationadministration(int index) const;
+  ::patient::MedicationAdministrationObject* _internal_add_medicationadministration();
+  public:
+  const ::patient::MedicationAdministrationObject& medicationadministration(int index) const;
+  ::patient::MedicationAdministrationObject* add_medicationadministration();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationAdministrationObject >&
+      medicationadministration() const;
+
   // .patient.PatientObject patient = 1;
   bool has_patient() const;
   private:
@@ -10591,9 +14588,14 @@ class PatientRecord :
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImmunizationObject > immunization_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationRequestObject > medicationrequest_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ObservationObject > observation_;
-  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject > organiation_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject > organization_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::PractitionerObject > practitioner_;
   ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ProcedureObject > procedure_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::AllergyIntoleranceObject > allergyintolerance_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::GoalObject > goal_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImagingStudyObject > imagingstudy_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceObject > device_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationAdministrationObject > medicationadministration_;
   ::patient::PatientObject* patient_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_customized_2eproto;
@@ -10609,43 +14611,64 @@ class PatientRecord :
 #endif  // __GNUC__
 // Activity
 
-// repeated .patient.Detail detail = 1;
-inline int Activity::_internal_detail_size() const {
-  return detail_.size();
+// .patient.Detail detail = 1;
+inline bool Activity::_internal_has_detail() const {
+  return this != internal_default_instance() && detail_ != nullptr;
 }
-inline int Activity::detail_size() const {
-  return _internal_detail_size();
+inline bool Activity::has_detail() const {
+  return _internal_has_detail();
 }
 inline void Activity::clear_detail() {
-  detail_.Clear();
+  if (GetArenaNoVirtual() == nullptr && detail_ != nullptr) {
+    delete detail_;
+  }
+  detail_ = nullptr;
 }
-inline ::patient::Detail* Activity::mutable_detail(int index) {
-  // @@protoc_insertion_point(field_mutable:patient.Activity.detail)
-  return detail_.Mutable(index);
+inline const ::patient::Detail& Activity::_internal_detail() const {
+  const ::patient::Detail* p = detail_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Detail*>(
+      &::patient::_Detail_default_instance_);
 }
-inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Detail >*
-Activity::mutable_detail() {
-  // @@protoc_insertion_point(field_mutable_list:patient.Activity.detail)
-  return &detail_;
-}
-inline const ::patient::Detail& Activity::_internal_detail(int index) const {
-  return detail_.Get(index);
-}
-inline const ::patient::Detail& Activity::detail(int index) const {
+inline const ::patient::Detail& Activity::detail() const {
   // @@protoc_insertion_point(field_get:patient.Activity.detail)
-  return _internal_detail(index);
+  return _internal_detail();
 }
-inline ::patient::Detail* Activity::_internal_add_detail() {
-  return detail_.Add();
+inline ::patient::Detail* Activity::release_detail() {
+  // @@protoc_insertion_point(field_release:patient.Activity.detail)
+  
+  ::patient::Detail* temp = detail_;
+  detail_ = nullptr;
+  return temp;
 }
-inline ::patient::Detail* Activity::add_detail() {
-  // @@protoc_insertion_point(field_add:patient.Activity.detail)
-  return _internal_add_detail();
-}
-inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Detail >&
-Activity::detail() const {
-  // @@protoc_insertion_point(field_list:patient.Activity.detail)
+inline ::patient::Detail* Activity::_internal_mutable_detail() {
+  
+  if (detail_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Detail>(GetArenaNoVirtual());
+    detail_ = p;
+  }
   return detail_;
+}
+inline ::patient::Detail* Activity::mutable_detail() {
+  // @@protoc_insertion_point(field_mutable:patient.Activity.detail)
+  return _internal_mutable_detail();
+}
+inline void Activity::set_allocated_detail(::patient::Detail* detail) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete detail_;
+  }
+  if (detail) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      detail = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, detail, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  detail_ = detail;
+  // @@protoc_insertion_point(field_set_allocated:patient.Activity.detail)
 }
 
 // -------------------------------------------------------------------
@@ -11888,24 +15911,64 @@ inline void Contained::set_allocated_resourcetype(std::string* resourcetype) {
   // @@protoc_insertion_point(field_set_allocated:patient.Contained.resourceType)
 }
 
-// .patient.Status status = 6;
+// string status = 6;
 inline void Contained::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status Contained::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status Contained::status() const {
+inline const std::string& Contained::status() const {
   // @@protoc_insertion_point(field_get:patient.Contained.status)
   return _internal_status();
 }
-inline void Contained::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void Contained::set_status(::patient::Status value) {
+inline void Contained::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.Contained.status)
+}
+inline std::string* Contained::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.Contained.status)
+  return _internal_mutable_status();
+}
+inline const std::string& Contained::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void Contained::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Contained::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Contained.status)
+}
+inline void Contained::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Contained.status)
+}
+inline void Contained::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Contained.status)
+}
+inline std::string* Contained::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Contained::release_status() {
+  // @@protoc_insertion_point(field_release:patient.Contained.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Contained::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.Contained.status)
 }
 
 // .patient.Reference subject = 7;
@@ -12251,24 +16314,64 @@ inline void Detail::set_allocated_location(::patient::Reference* location) {
   // @@protoc_insertion_point(field_set_allocated:patient.Detail.location)
 }
 
-// .patient.Status status = 3;
+// string status = 3;
 inline void Detail::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status Detail::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status Detail::status() const {
+inline const std::string& Detail::status() const {
   // @@protoc_insertion_point(field_get:patient.Detail.status)
   return _internal_status();
 }
-inline void Detail::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void Detail::set_status(::patient::Status value) {
+inline void Detail::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.Detail.status)
+}
+inline std::string* Detail::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.Detail.status)
+  return _internal_mutable_status();
+}
+inline const std::string& Detail::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void Detail::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Detail::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Detail.status)
+}
+inline void Detail::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Detail.status)
+}
+inline void Detail::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Detail.status)
+}
+inline std::string* Detail::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Detail::release_status() {
+  // @@protoc_insertion_point(field_release:patient.Detail.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Detail::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.Detail.status)
 }
 
 // -------------------------------------------------------------------
@@ -12800,6 +16903,146 @@ inline void Extension::set_valuedecimal(float value) {
   // @@protoc_insertion_point(field_set:patient.Extension.valueDecimal)
 }
 
+// string valueCode = 6;
+inline void Extension::clear_valuecode() {
+  valuecode_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Extension::valuecode() const {
+  // @@protoc_insertion_point(field_get:patient.Extension.valueCode)
+  return _internal_valuecode();
+}
+inline void Extension::set_valuecode(const std::string& value) {
+  _internal_set_valuecode(value);
+  // @@protoc_insertion_point(field_set:patient.Extension.valueCode)
+}
+inline std::string* Extension::mutable_valuecode() {
+  // @@protoc_insertion_point(field_mutable:patient.Extension.valueCode)
+  return _internal_mutable_valuecode();
+}
+inline const std::string& Extension::_internal_valuecode() const {
+  return valuecode_.GetNoArena();
+}
+inline void Extension::_internal_set_valuecode(const std::string& value) {
+  
+  valuecode_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Extension::set_valuecode(std::string&& value) {
+  
+  valuecode_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Extension.valueCode)
+}
+inline void Extension::set_valuecode(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  valuecode_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Extension.valueCode)
+}
+inline void Extension::set_valuecode(const char* value, size_t size) {
+  
+  valuecode_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Extension.valueCode)
+}
+inline std::string* Extension::_internal_mutable_valuecode() {
+  
+  return valuecode_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Extension::release_valuecode() {
+  // @@protoc_insertion_point(field_release:patient.Extension.valueCode)
+  
+  return valuecode_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Extension::set_allocated_valuecode(std::string* valuecode) {
+  if (valuecode != nullptr) {
+    
+  } else {
+    
+  }
+  valuecode_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), valuecode);
+  // @@protoc_insertion_point(field_set_allocated:patient.Extension.valueCode)
+}
+
+// .patient.Address valueAddress = 7;
+inline bool Extension::_internal_has_valueaddress() const {
+  return this != internal_default_instance() && valueaddress_ != nullptr;
+}
+inline bool Extension::has_valueaddress() const {
+  return _internal_has_valueaddress();
+}
+inline void Extension::clear_valueaddress() {
+  if (GetArenaNoVirtual() == nullptr && valueaddress_ != nullptr) {
+    delete valueaddress_;
+  }
+  valueaddress_ = nullptr;
+}
+inline const ::patient::Address& Extension::_internal_valueaddress() const {
+  const ::patient::Address* p = valueaddress_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Address*>(
+      &::patient::_Address_default_instance_);
+}
+inline const ::patient::Address& Extension::valueaddress() const {
+  // @@protoc_insertion_point(field_get:patient.Extension.valueAddress)
+  return _internal_valueaddress();
+}
+inline ::patient::Address* Extension::release_valueaddress() {
+  // @@protoc_insertion_point(field_release:patient.Extension.valueAddress)
+  
+  ::patient::Address* temp = valueaddress_;
+  valueaddress_ = nullptr;
+  return temp;
+}
+inline ::patient::Address* Extension::_internal_mutable_valueaddress() {
+  
+  if (valueaddress_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Address>(GetArenaNoVirtual());
+    valueaddress_ = p;
+  }
+  return valueaddress_;
+}
+inline ::patient::Address* Extension::mutable_valueaddress() {
+  // @@protoc_insertion_point(field_mutable:patient.Extension.valueAddress)
+  return _internal_mutable_valueaddress();
+}
+inline void Extension::set_allocated_valueaddress(::patient::Address* valueaddress) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete valueaddress_;
+  }
+  if (valueaddress) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      valueaddress = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, valueaddress, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  valueaddress_ = valueaddress;
+  // @@protoc_insertion_point(field_set_allocated:patient.Extension.valueAddress)
+}
+
+// int32 valueInteger = 8;
+inline void Extension::clear_valueinteger() {
+  valueinteger_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Extension::_internal_valueinteger() const {
+  return valueinteger_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Extension::valueinteger() const {
+  // @@protoc_insertion_point(field_get:patient.Extension.valueInteger)
+  return _internal_valueinteger();
+}
+inline void Extension::_internal_set_valueinteger(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  valueinteger_ = value;
+}
+inline void Extension::set_valueinteger(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_valueinteger(value);
+  // @@protoc_insertion_point(field_set:patient.Extension.valueInteger)
+}
+
 // -------------------------------------------------------------------
 
 // Identifier
@@ -12982,6 +17225,66 @@ inline void Identifier::set_allocated_type(::patient::Category* type) {
   }
   type_ = type;
   // @@protoc_insertion_point(field_set_allocated:patient.Identifier.type)
+}
+
+// string use = 4;
+inline void Identifier::clear_use() {
+  use_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Identifier::use() const {
+  // @@protoc_insertion_point(field_get:patient.Identifier.use)
+  return _internal_use();
+}
+inline void Identifier::set_use(const std::string& value) {
+  _internal_set_use(value);
+  // @@protoc_insertion_point(field_set:patient.Identifier.use)
+}
+inline std::string* Identifier::mutable_use() {
+  // @@protoc_insertion_point(field_mutable:patient.Identifier.use)
+  return _internal_mutable_use();
+}
+inline const std::string& Identifier::_internal_use() const {
+  return use_.GetNoArena();
+}
+inline void Identifier::_internal_set_use(const std::string& value) {
+  
+  use_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Identifier::set_use(std::string&& value) {
+  
+  use_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Identifier.use)
+}
+inline void Identifier::set_use(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  use_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Identifier.use)
+}
+inline void Identifier::set_use(const char* value, size_t size) {
+  
+  use_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Identifier.use)
+}
+inline std::string* Identifier::_internal_mutable_use() {
+  
+  return use_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Identifier::release_use() {
+  // @@protoc_insertion_point(field_release:patient.Identifier.use)
+  
+  return use_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Identifier::set_allocated_use(std::string* use) {
+  if (use != nullptr) {
+    
+  } else {
+    
+  }
+  use_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), use);
+  // @@protoc_insertion_point(field_set_allocated:patient.Identifier.use)
 }
 
 // -------------------------------------------------------------------
@@ -13537,6 +17840,100 @@ Item::adjudication() const {
   return adjudication_;
 }
 
+// repeated int32 procedureSequence = 10;
+inline int Item::_internal_proceduresequence_size() const {
+  return proceduresequence_.size();
+}
+inline int Item::proceduresequence_size() const {
+  return _internal_proceduresequence_size();
+}
+inline void Item::clear_proceduresequence() {
+  proceduresequence_.Clear();
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Item::_internal_proceduresequence(int index) const {
+  return proceduresequence_.Get(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Item::proceduresequence(int index) const {
+  // @@protoc_insertion_point(field_get:patient.Item.procedureSequence)
+  return _internal_proceduresequence(index);
+}
+inline void Item::set_proceduresequence(int index, ::PROTOBUF_NAMESPACE_ID::int32 value) {
+  proceduresequence_.Set(index, value);
+  // @@protoc_insertion_point(field_set:patient.Item.procedureSequence)
+}
+inline void Item::_internal_add_proceduresequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  proceduresequence_.Add(value);
+}
+inline void Item::add_proceduresequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_add_proceduresequence(value);
+  // @@protoc_insertion_point(field_add:patient.Item.procedureSequence)
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+Item::_internal_proceduresequence() const {
+  return proceduresequence_;
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+Item::proceduresequence() const {
+  // @@protoc_insertion_point(field_list:patient.Item.procedureSequence)
+  return _internal_proceduresequence();
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+Item::_internal_mutable_proceduresequence() {
+  return &proceduresequence_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+Item::mutable_proceduresequence() {
+  // @@protoc_insertion_point(field_mutable_list:patient.Item.procedureSequence)
+  return _internal_mutable_proceduresequence();
+}
+
+// repeated int32 diagnosisSequence = 11;
+inline int Item::_internal_diagnosissequence_size() const {
+  return diagnosissequence_.size();
+}
+inline int Item::diagnosissequence_size() const {
+  return _internal_diagnosissequence_size();
+}
+inline void Item::clear_diagnosissequence() {
+  diagnosissequence_.Clear();
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Item::_internal_diagnosissequence(int index) const {
+  return diagnosissequence_.Get(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Item::diagnosissequence(int index) const {
+  // @@protoc_insertion_point(field_get:patient.Item.diagnosisSequence)
+  return _internal_diagnosissequence(index);
+}
+inline void Item::set_diagnosissequence(int index, ::PROTOBUF_NAMESPACE_ID::int32 value) {
+  diagnosissequence_.Set(index, value);
+  // @@protoc_insertion_point(field_set:patient.Item.diagnosisSequence)
+}
+inline void Item::_internal_add_diagnosissequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  diagnosissequence_.Add(value);
+}
+inline void Item::add_diagnosissequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_add_diagnosissequence(value);
+  // @@protoc_insertion_point(field_add:patient.Item.diagnosisSequence)
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+Item::_internal_diagnosissequence() const {
+  return diagnosissequence_;
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >&
+Item::diagnosissequence() const {
+  // @@protoc_insertion_point(field_list:patient.Item.diagnosisSequence)
+  return _internal_diagnosissequence();
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+Item::_internal_mutable_diagnosissequence() {
+  return &diagnosissequence_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedField< ::PROTOBUF_NAMESPACE_ID::int32 >*
+Item::mutable_diagnosissequence() {
+  // @@protoc_insertion_point(field_mutable_list:patient.Item.diagnosisSequence)
+  return _internal_mutable_diagnosissequence();
+}
+
 // -------------------------------------------------------------------
 
 // Name
@@ -13807,6 +18204,80 @@ inline void Name::set_allocated_use(std::string* use) {
   }
   use_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), use);
   // @@protoc_insertion_point(field_set_allocated:patient.Name.use)
+}
+
+// repeated string suffix = 5;
+inline int Name::_internal_suffix_size() const {
+  return suffix_.size();
+}
+inline int Name::suffix_size() const {
+  return _internal_suffix_size();
+}
+inline void Name::clear_suffix() {
+  suffix_.Clear();
+}
+inline std::string* Name::add_suffix() {
+  // @@protoc_insertion_point(field_add_mutable:patient.Name.suffix)
+  return _internal_add_suffix();
+}
+inline const std::string& Name::_internal_suffix(int index) const {
+  return suffix_.Get(index);
+}
+inline const std::string& Name::suffix(int index) const {
+  // @@protoc_insertion_point(field_get:patient.Name.suffix)
+  return _internal_suffix(index);
+}
+inline std::string* Name::mutable_suffix(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.Name.suffix)
+  return suffix_.Mutable(index);
+}
+inline void Name::set_suffix(int index, const std::string& value) {
+  // @@protoc_insertion_point(field_set:patient.Name.suffix)
+  suffix_.Mutable(index)->assign(value);
+}
+inline void Name::set_suffix(int index, std::string&& value) {
+  // @@protoc_insertion_point(field_set:patient.Name.suffix)
+  suffix_.Mutable(index)->assign(std::move(value));
+}
+inline void Name::set_suffix(int index, const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  suffix_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:patient.Name.suffix)
+}
+inline void Name::set_suffix(int index, const char* value, size_t size) {
+  suffix_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:patient.Name.suffix)
+}
+inline std::string* Name::_internal_add_suffix() {
+  return suffix_.Add();
+}
+inline void Name::add_suffix(const std::string& value) {
+  suffix_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:patient.Name.suffix)
+}
+inline void Name::add_suffix(std::string&& value) {
+  suffix_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:patient.Name.suffix)
+}
+inline void Name::add_suffix(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  suffix_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:patient.Name.suffix)
+}
+inline void Name::add_suffix(const char* value, size_t size) {
+  suffix_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:patient.Name.suffix)
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>&
+Name::suffix() const {
+  // @@protoc_insertion_point(field_list:patient.Name.suffix)
+  return suffix_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>*
+Name::mutable_suffix() {
+  // @@protoc_insertion_point(field_mutable_list:patient.Name.suffix)
+  return &suffix_;
 }
 
 // -------------------------------------------------------------------
@@ -15806,24 +20277,64 @@ inline void Period::set_allocated_start(std::string* start) {
 
 // Resource
 
-// .patient.ResourceType resourceType = 1;
+// string resourceType = 1;
 inline void Resource::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType Resource::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType Resource::resourcetype() const {
+inline const std::string& Resource::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.Resource.resourceType)
   return _internal_resourcetype();
 }
-inline void Resource::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void Resource::set_resourcetype(::patient::ResourceType value) {
+inline void Resource::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.Resource.resourceType)
+}
+inline std::string* Resource::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.Resource.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& Resource::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void Resource::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Resource::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Resource.resourceType)
+}
+inline void Resource::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Resource.resourceType)
+}
+inline void Resource::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Resource.resourceType)
+}
+inline std::string* Resource::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Resource::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.Resource.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Resource::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.Resource.resourceType)
 }
 
 // .patient.CarePlanObject carePlan = 2;
@@ -16326,54 +20837,54 @@ inline ::patient::ObservationObject* Resource::mutable_observation() {
   return _internal_mutable_observation();
 }
 
-// .patient.OrganizationObject organiation = 12;
-inline bool Resource::_internal_has_organiation() const {
-  return resource_case() == kOrganiation;
+// .patient.OrganizationObject organization = 12;
+inline bool Resource::_internal_has_organization() const {
+  return resource_case() == kOrganization;
 }
-inline bool Resource::has_organiation() const {
-  return _internal_has_organiation();
+inline bool Resource::has_organization() const {
+  return _internal_has_organization();
 }
-inline void Resource::set_has_organiation() {
-  _oneof_case_[0] = kOrganiation;
+inline void Resource::set_has_organization() {
+  _oneof_case_[0] = kOrganization;
 }
-inline void Resource::clear_organiation() {
-  if (_internal_has_organiation()) {
-    delete resource_.organiation_;
+inline void Resource::clear_organization() {
+  if (_internal_has_organization()) {
+    delete resource_.organization_;
     clear_has_resource();
   }
 }
-inline ::patient::OrganizationObject* Resource::release_organiation() {
-  // @@protoc_insertion_point(field_release:patient.Resource.organiation)
-  if (has_organiation()) {
+inline ::patient::OrganizationObject* Resource::release_organization() {
+  // @@protoc_insertion_point(field_release:patient.Resource.organization)
+  if (has_organization()) {
     clear_has_resource();
-      ::patient::OrganizationObject* temp = resource_.organiation_;
-    resource_.organiation_ = nullptr;
+      ::patient::OrganizationObject* temp = resource_.organization_;
+    resource_.organization_ = nullptr;
     return temp;
   } else {
     return nullptr;
   }
 }
-inline const ::patient::OrganizationObject& Resource::_internal_organiation() const {
-  return _internal_has_organiation()
-      ? *resource_.organiation_
+inline const ::patient::OrganizationObject& Resource::_internal_organization() const {
+  return _internal_has_organization()
+      ? *resource_.organization_
       : *reinterpret_cast< ::patient::OrganizationObject*>(&::patient::_OrganizationObject_default_instance_);
 }
-inline const ::patient::OrganizationObject& Resource::organiation() const {
-  // @@protoc_insertion_point(field_get:patient.Resource.organiation)
-  return _internal_organiation();
+inline const ::patient::OrganizationObject& Resource::organization() const {
+  // @@protoc_insertion_point(field_get:patient.Resource.organization)
+  return _internal_organization();
 }
-inline ::patient::OrganizationObject* Resource::_internal_mutable_organiation() {
-  if (!_internal_has_organiation()) {
+inline ::patient::OrganizationObject* Resource::_internal_mutable_organization() {
+  if (!_internal_has_organization()) {
     clear_resource();
-    set_has_organiation();
-    resource_.organiation_ = CreateMaybeMessage< ::patient::OrganizationObject >(
+    set_has_organization();
+    resource_.organization_ = CreateMaybeMessage< ::patient::OrganizationObject >(
         GetArenaNoVirtual());
   }
-  return resource_.organiation_;
+  return resource_.organization_;
 }
-inline ::patient::OrganizationObject* Resource::mutable_organiation() {
-  // @@protoc_insertion_point(field_mutable:patient.Resource.organiation)
-  return _internal_mutable_organiation();
+inline ::patient::OrganizationObject* Resource::mutable_organization() {
+  // @@protoc_insertion_point(field_mutable:patient.Resource.organization)
+  return _internal_mutable_organization();
 }
 
 // .patient.PatientObject patient = 13;
@@ -16537,6 +21048,3045 @@ inline Resource::ResourceCase Resource::resource_case() const {
 }
 // -------------------------------------------------------------------
 
+// DosageInstruction
+
+// int32 sequence = 1;
+inline void DosageInstruction::clear_sequence() {
+  sequence_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 DosageInstruction::_internal_sequence() const {
+  return sequence_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 DosageInstruction::sequence() const {
+  // @@protoc_insertion_point(field_get:patient.DosageInstruction.sequence)
+  return _internal_sequence();
+}
+inline void DosageInstruction::_internal_set_sequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  sequence_ = value;
+}
+inline void DosageInstruction::set_sequence(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_sequence(value);
+  // @@protoc_insertion_point(field_set:patient.DosageInstruction.sequence)
+}
+
+// bool asNeededBoolean = 2;
+inline void DosageInstruction::clear_asneededboolean() {
+  asneededboolean_ = false;
+}
+inline bool DosageInstruction::_internal_asneededboolean() const {
+  return asneededboolean_;
+}
+inline bool DosageInstruction::asneededboolean() const {
+  // @@protoc_insertion_point(field_get:patient.DosageInstruction.asNeededBoolean)
+  return _internal_asneededboolean();
+}
+inline void DosageInstruction::_internal_set_asneededboolean(bool value) {
+  
+  asneededboolean_ = value;
+}
+inline void DosageInstruction::set_asneededboolean(bool value) {
+  _internal_set_asneededboolean(value);
+  // @@protoc_insertion_point(field_set:patient.DosageInstruction.asNeededBoolean)
+}
+
+// repeated .patient.DoseAndRate doseAndRate = 3;
+inline int DosageInstruction::_internal_doseandrate_size() const {
+  return doseandrate_.size();
+}
+inline int DosageInstruction::doseandrate_size() const {
+  return _internal_doseandrate_size();
+}
+inline void DosageInstruction::clear_doseandrate() {
+  doseandrate_.Clear();
+}
+inline ::patient::DoseAndRate* DosageInstruction::mutable_doseandrate(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.DosageInstruction.doseAndRate)
+  return doseandrate_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DoseAndRate >*
+DosageInstruction::mutable_doseandrate() {
+  // @@protoc_insertion_point(field_mutable_list:patient.DosageInstruction.doseAndRate)
+  return &doseandrate_;
+}
+inline const ::patient::DoseAndRate& DosageInstruction::_internal_doseandrate(int index) const {
+  return doseandrate_.Get(index);
+}
+inline const ::patient::DoseAndRate& DosageInstruction::doseandrate(int index) const {
+  // @@protoc_insertion_point(field_get:patient.DosageInstruction.doseAndRate)
+  return _internal_doseandrate(index);
+}
+inline ::patient::DoseAndRate* DosageInstruction::_internal_add_doseandrate() {
+  return doseandrate_.Add();
+}
+inline ::patient::DoseAndRate* DosageInstruction::add_doseandrate() {
+  // @@protoc_insertion_point(field_add:patient.DosageInstruction.doseAndRate)
+  return _internal_add_doseandrate();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DoseAndRate >&
+DosageInstruction::doseandrate() const {
+  // @@protoc_insertion_point(field_list:patient.DosageInstruction.doseAndRate)
+  return doseandrate_;
+}
+
+// .patient.Timing timing = 4;
+inline bool DosageInstruction::_internal_has_timing() const {
+  return this != internal_default_instance() && timing_ != nullptr;
+}
+inline bool DosageInstruction::has_timing() const {
+  return _internal_has_timing();
+}
+inline void DosageInstruction::clear_timing() {
+  if (GetArenaNoVirtual() == nullptr && timing_ != nullptr) {
+    delete timing_;
+  }
+  timing_ = nullptr;
+}
+inline const ::patient::Timing& DosageInstruction::_internal_timing() const {
+  const ::patient::Timing* p = timing_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Timing*>(
+      &::patient::_Timing_default_instance_);
+}
+inline const ::patient::Timing& DosageInstruction::timing() const {
+  // @@protoc_insertion_point(field_get:patient.DosageInstruction.timing)
+  return _internal_timing();
+}
+inline ::patient::Timing* DosageInstruction::release_timing() {
+  // @@protoc_insertion_point(field_release:patient.DosageInstruction.timing)
+  
+  ::patient::Timing* temp = timing_;
+  timing_ = nullptr;
+  return temp;
+}
+inline ::patient::Timing* DosageInstruction::_internal_mutable_timing() {
+  
+  if (timing_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Timing>(GetArenaNoVirtual());
+    timing_ = p;
+  }
+  return timing_;
+}
+inline ::patient::Timing* DosageInstruction::mutable_timing() {
+  // @@protoc_insertion_point(field_mutable:patient.DosageInstruction.timing)
+  return _internal_mutable_timing();
+}
+inline void DosageInstruction::set_allocated_timing(::patient::Timing* timing) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete timing_;
+  }
+  if (timing) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      timing = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, timing, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  timing_ = timing;
+  // @@protoc_insertion_point(field_set_allocated:patient.DosageInstruction.timing)
+}
+
+// repeated .patient.Category additionalInstruction = 5;
+inline int DosageInstruction::_internal_additionalinstruction_size() const {
+  return additionalinstruction_.size();
+}
+inline int DosageInstruction::additionalinstruction_size() const {
+  return _internal_additionalinstruction_size();
+}
+inline void DosageInstruction::clear_additionalinstruction() {
+  additionalinstruction_.Clear();
+}
+inline ::patient::Category* DosageInstruction::mutable_additionalinstruction(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.DosageInstruction.additionalInstruction)
+  return additionalinstruction_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >*
+DosageInstruction::mutable_additionalinstruction() {
+  // @@protoc_insertion_point(field_mutable_list:patient.DosageInstruction.additionalInstruction)
+  return &additionalinstruction_;
+}
+inline const ::patient::Category& DosageInstruction::_internal_additionalinstruction(int index) const {
+  return additionalinstruction_.Get(index);
+}
+inline const ::patient::Category& DosageInstruction::additionalinstruction(int index) const {
+  // @@protoc_insertion_point(field_get:patient.DosageInstruction.additionalInstruction)
+  return _internal_additionalinstruction(index);
+}
+inline ::patient::Category* DosageInstruction::_internal_add_additionalinstruction() {
+  return additionalinstruction_.Add();
+}
+inline ::patient::Category* DosageInstruction::add_additionalinstruction() {
+  // @@protoc_insertion_point(field_add:patient.DosageInstruction.additionalInstruction)
+  return _internal_add_additionalinstruction();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >&
+DosageInstruction::additionalinstruction() const {
+  // @@protoc_insertion_point(field_list:patient.DosageInstruction.additionalInstruction)
+  return additionalinstruction_;
+}
+
+// -------------------------------------------------------------------
+
+// Repeat
+
+// int32 frequency = 1;
+inline void Repeat::clear_frequency() {
+  frequency_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Repeat::_internal_frequency() const {
+  return frequency_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Repeat::frequency() const {
+  // @@protoc_insertion_point(field_get:patient.Repeat.frequency)
+  return _internal_frequency();
+}
+inline void Repeat::_internal_set_frequency(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  frequency_ = value;
+}
+inline void Repeat::set_frequency(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_frequency(value);
+  // @@protoc_insertion_point(field_set:patient.Repeat.frequency)
+}
+
+// float period = 2;
+inline void Repeat::clear_period() {
+  period_ = 0;
+}
+inline float Repeat::_internal_period() const {
+  return period_;
+}
+inline float Repeat::period() const {
+  // @@protoc_insertion_point(field_get:patient.Repeat.period)
+  return _internal_period();
+}
+inline void Repeat::_internal_set_period(float value) {
+  
+  period_ = value;
+}
+inline void Repeat::set_period(float value) {
+  _internal_set_period(value);
+  // @@protoc_insertion_point(field_set:patient.Repeat.period)
+}
+
+// string periodUnit = 3;
+inline void Repeat::clear_periodunit() {
+  periodunit_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Repeat::periodunit() const {
+  // @@protoc_insertion_point(field_get:patient.Repeat.periodUnit)
+  return _internal_periodunit();
+}
+inline void Repeat::set_periodunit(const std::string& value) {
+  _internal_set_periodunit(value);
+  // @@protoc_insertion_point(field_set:patient.Repeat.periodUnit)
+}
+inline std::string* Repeat::mutable_periodunit() {
+  // @@protoc_insertion_point(field_mutable:patient.Repeat.periodUnit)
+  return _internal_mutable_periodunit();
+}
+inline const std::string& Repeat::_internal_periodunit() const {
+  return periodunit_.GetNoArena();
+}
+inline void Repeat::_internal_set_periodunit(const std::string& value) {
+  
+  periodunit_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Repeat::set_periodunit(std::string&& value) {
+  
+  periodunit_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Repeat.periodUnit)
+}
+inline void Repeat::set_periodunit(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  periodunit_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Repeat.periodUnit)
+}
+inline void Repeat::set_periodunit(const char* value, size_t size) {
+  
+  periodunit_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Repeat.periodUnit)
+}
+inline std::string* Repeat::_internal_mutable_periodunit() {
+  
+  return periodunit_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Repeat::release_periodunit() {
+  // @@protoc_insertion_point(field_release:patient.Repeat.periodUnit)
+  
+  return periodunit_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Repeat::set_allocated_periodunit(std::string* periodunit) {
+  if (periodunit != nullptr) {
+    
+  } else {
+    
+  }
+  periodunit_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), periodunit);
+  // @@protoc_insertion_point(field_set_allocated:patient.Repeat.periodUnit)
+}
+
+// -------------------------------------------------------------------
+
+// Timing
+
+// .patient.Repeat repeat = 1;
+inline bool Timing::_internal_has_repeat() const {
+  return this != internal_default_instance() && repeat_ != nullptr;
+}
+inline bool Timing::has_repeat() const {
+  return _internal_has_repeat();
+}
+inline void Timing::clear_repeat() {
+  if (GetArenaNoVirtual() == nullptr && repeat_ != nullptr) {
+    delete repeat_;
+  }
+  repeat_ = nullptr;
+}
+inline const ::patient::Repeat& Timing::_internal_repeat() const {
+  const ::patient::Repeat* p = repeat_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Repeat*>(
+      &::patient::_Repeat_default_instance_);
+}
+inline const ::patient::Repeat& Timing::repeat() const {
+  // @@protoc_insertion_point(field_get:patient.Timing.repeat)
+  return _internal_repeat();
+}
+inline ::patient::Repeat* Timing::release_repeat() {
+  // @@protoc_insertion_point(field_release:patient.Timing.repeat)
+  
+  ::patient::Repeat* temp = repeat_;
+  repeat_ = nullptr;
+  return temp;
+}
+inline ::patient::Repeat* Timing::_internal_mutable_repeat() {
+  
+  if (repeat_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Repeat>(GetArenaNoVirtual());
+    repeat_ = p;
+  }
+  return repeat_;
+}
+inline ::patient::Repeat* Timing::mutable_repeat() {
+  // @@protoc_insertion_point(field_mutable:patient.Timing.repeat)
+  return _internal_mutable_repeat();
+}
+inline void Timing::set_allocated_repeat(::patient::Repeat* repeat) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete repeat_;
+  }
+  if (repeat) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      repeat = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, repeat, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  repeat_ = repeat;
+  // @@protoc_insertion_point(field_set_allocated:patient.Timing.repeat)
+}
+
+// -------------------------------------------------------------------
+
+// DoseAndRate
+
+// .patient.Category type = 1;
+inline bool DoseAndRate::_internal_has_type() const {
+  return this != internal_default_instance() && type_ != nullptr;
+}
+inline bool DoseAndRate::has_type() const {
+  return _internal_has_type();
+}
+inline void DoseAndRate::clear_type() {
+  if (GetArenaNoVirtual() == nullptr && type_ != nullptr) {
+    delete type_;
+  }
+  type_ = nullptr;
+}
+inline const ::patient::Category& DoseAndRate::_internal_type() const {
+  const ::patient::Category* p = type_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& DoseAndRate::type() const {
+  // @@protoc_insertion_point(field_get:patient.DoseAndRate.type)
+  return _internal_type();
+}
+inline ::patient::Category* DoseAndRate::release_type() {
+  // @@protoc_insertion_point(field_release:patient.DoseAndRate.type)
+  
+  ::patient::Category* temp = type_;
+  type_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* DoseAndRate::_internal_mutable_type() {
+  
+  if (type_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    type_ = p;
+  }
+  return type_;
+}
+inline ::patient::Category* DoseAndRate::mutable_type() {
+  // @@protoc_insertion_point(field_mutable:patient.DoseAndRate.type)
+  return _internal_mutable_type();
+}
+inline void DoseAndRate::set_allocated_type(::patient::Category* type) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete type_;
+  }
+  if (type) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      type = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, type, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  type_ = type;
+  // @@protoc_insertion_point(field_set_allocated:patient.DoseAndRate.type)
+}
+
+// .patient.Quantity doseQuantity = 2;
+inline bool DoseAndRate::_internal_has_dosequantity() const {
+  return this != internal_default_instance() && dosequantity_ != nullptr;
+}
+inline bool DoseAndRate::has_dosequantity() const {
+  return _internal_has_dosequantity();
+}
+inline void DoseAndRate::clear_dosequantity() {
+  if (GetArenaNoVirtual() == nullptr && dosequantity_ != nullptr) {
+    delete dosequantity_;
+  }
+  dosequantity_ = nullptr;
+}
+inline const ::patient::Quantity& DoseAndRate::_internal_dosequantity() const {
+  const ::patient::Quantity* p = dosequantity_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Quantity*>(
+      &::patient::_Quantity_default_instance_);
+}
+inline const ::patient::Quantity& DoseAndRate::dosequantity() const {
+  // @@protoc_insertion_point(field_get:patient.DoseAndRate.doseQuantity)
+  return _internal_dosequantity();
+}
+inline ::patient::Quantity* DoseAndRate::release_dosequantity() {
+  // @@protoc_insertion_point(field_release:patient.DoseAndRate.doseQuantity)
+  
+  ::patient::Quantity* temp = dosequantity_;
+  dosequantity_ = nullptr;
+  return temp;
+}
+inline ::patient::Quantity* DoseAndRate::_internal_mutable_dosequantity() {
+  
+  if (dosequantity_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Quantity>(GetArenaNoVirtual());
+    dosequantity_ = p;
+  }
+  return dosequantity_;
+}
+inline ::patient::Quantity* DoseAndRate::mutable_dosequantity() {
+  // @@protoc_insertion_point(field_mutable:patient.DoseAndRate.doseQuantity)
+  return _internal_mutable_dosequantity();
+}
+inline void DoseAndRate::set_allocated_dosequantity(::patient::Quantity* dosequantity) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete dosequantity_;
+  }
+  if (dosequantity) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      dosequantity = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, dosequantity, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  dosequantity_ = dosequantity;
+  // @@protoc_insertion_point(field_set_allocated:patient.DoseAndRate.doseQuantity)
+}
+
+// -------------------------------------------------------------------
+
+// Onset
+
+// string onsetDateTime = 1;
+inline void Onset::clear_onsetdatetime() {
+  onsetdatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Onset::onsetdatetime() const {
+  // @@protoc_insertion_point(field_get:patient.Onset.onsetDateTime)
+  return _internal_onsetdatetime();
+}
+inline void Onset::set_onsetdatetime(const std::string& value) {
+  _internal_set_onsetdatetime(value);
+  // @@protoc_insertion_point(field_set:patient.Onset.onsetDateTime)
+}
+inline std::string* Onset::mutable_onsetdatetime() {
+  // @@protoc_insertion_point(field_mutable:patient.Onset.onsetDateTime)
+  return _internal_mutable_onsetdatetime();
+}
+inline const std::string& Onset::_internal_onsetdatetime() const {
+  return onsetdatetime_.GetNoArena();
+}
+inline void Onset::_internal_set_onsetdatetime(const std::string& value) {
+  
+  onsetdatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Onset::set_onsetdatetime(std::string&& value) {
+  
+  onsetdatetime_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Onset.onsetDateTime)
+}
+inline void Onset::set_onsetdatetime(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  onsetdatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Onset.onsetDateTime)
+}
+inline void Onset::set_onsetdatetime(const char* value, size_t size) {
+  
+  onsetdatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Onset.onsetDateTime)
+}
+inline std::string* Onset::_internal_mutable_onsetdatetime() {
+  
+  return onsetdatetime_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Onset::release_onsetdatetime() {
+  // @@protoc_insertion_point(field_release:patient.Onset.onsetDateTime)
+  
+  return onsetdatetime_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Onset::set_allocated_onsetdatetime(std::string* onsetdatetime) {
+  if (onsetdatetime != nullptr) {
+    
+  } else {
+    
+  }
+  onsetdatetime_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), onsetdatetime);
+  // @@protoc_insertion_point(field_set_allocated:patient.Onset.onsetDateTime)
+}
+
+// int32 onsetAge = 2;
+inline void Onset::clear_onsetage() {
+  onsetage_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Onset::_internal_onsetage() const {
+  return onsetage_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Onset::onsetage() const {
+  // @@protoc_insertion_point(field_get:patient.Onset.onsetAge)
+  return _internal_onsetage();
+}
+inline void Onset::_internal_set_onsetage(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  onsetage_ = value;
+}
+inline void Onset::set_onsetage(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_onsetage(value);
+  // @@protoc_insertion_point(field_set:patient.Onset.onsetAge)
+}
+
+// .patient.Period onsetPeriod = 3;
+inline bool Onset::_internal_has_onsetperiod() const {
+  return this != internal_default_instance() && onsetperiod_ != nullptr;
+}
+inline bool Onset::has_onsetperiod() const {
+  return _internal_has_onsetperiod();
+}
+inline void Onset::clear_onsetperiod() {
+  if (GetArenaNoVirtual() == nullptr && onsetperiod_ != nullptr) {
+    delete onsetperiod_;
+  }
+  onsetperiod_ = nullptr;
+}
+inline const ::patient::Period& Onset::_internal_onsetperiod() const {
+  const ::patient::Period* p = onsetperiod_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Period*>(
+      &::patient::_Period_default_instance_);
+}
+inline const ::patient::Period& Onset::onsetperiod() const {
+  // @@protoc_insertion_point(field_get:patient.Onset.onsetPeriod)
+  return _internal_onsetperiod();
+}
+inline ::patient::Period* Onset::release_onsetperiod() {
+  // @@protoc_insertion_point(field_release:patient.Onset.onsetPeriod)
+  
+  ::patient::Period* temp = onsetperiod_;
+  onsetperiod_ = nullptr;
+  return temp;
+}
+inline ::patient::Period* Onset::_internal_mutable_onsetperiod() {
+  
+  if (onsetperiod_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Period>(GetArenaNoVirtual());
+    onsetperiod_ = p;
+  }
+  return onsetperiod_;
+}
+inline ::patient::Period* Onset::mutable_onsetperiod() {
+  // @@protoc_insertion_point(field_mutable:patient.Onset.onsetPeriod)
+  return _internal_mutable_onsetperiod();
+}
+inline void Onset::set_allocated_onsetperiod(::patient::Period* onsetperiod) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete onsetperiod_;
+  }
+  if (onsetperiod) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      onsetperiod = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, onsetperiod, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  onsetperiod_ = onsetperiod;
+  // @@protoc_insertion_point(field_set_allocated:patient.Onset.onsetPeriod)
+}
+
+// string onsetString = 4;
+inline void Onset::clear_onsetstring() {
+  onsetstring_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Onset::onsetstring() const {
+  // @@protoc_insertion_point(field_get:patient.Onset.onsetString)
+  return _internal_onsetstring();
+}
+inline void Onset::set_onsetstring(const std::string& value) {
+  _internal_set_onsetstring(value);
+  // @@protoc_insertion_point(field_set:patient.Onset.onsetString)
+}
+inline std::string* Onset::mutable_onsetstring() {
+  // @@protoc_insertion_point(field_mutable:patient.Onset.onsetString)
+  return _internal_mutable_onsetstring();
+}
+inline const std::string& Onset::_internal_onsetstring() const {
+  return onsetstring_.GetNoArena();
+}
+inline void Onset::_internal_set_onsetstring(const std::string& value) {
+  
+  onsetstring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Onset::set_onsetstring(std::string&& value) {
+  
+  onsetstring_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Onset.onsetString)
+}
+inline void Onset::set_onsetstring(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  onsetstring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Onset.onsetString)
+}
+inline void Onset::set_onsetstring(const char* value, size_t size) {
+  
+  onsetstring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Onset.onsetString)
+}
+inline std::string* Onset::_internal_mutable_onsetstring() {
+  
+  return onsetstring_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Onset::release_onsetstring() {
+  // @@protoc_insertion_point(field_release:patient.Onset.onsetString)
+  
+  return onsetstring_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Onset::set_allocated_onsetstring(std::string* onsetstring) {
+  if (onsetstring != nullptr) {
+    
+  } else {
+    
+  }
+  onsetstring_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), onsetstring);
+  // @@protoc_insertion_point(field_set_allocated:patient.Onset.onsetString)
+}
+
+// -------------------------------------------------------------------
+
+// Reaction
+
+// .patient.Category substance = 1;
+inline bool Reaction::_internal_has_substance() const {
+  return this != internal_default_instance() && substance_ != nullptr;
+}
+inline bool Reaction::has_substance() const {
+  return _internal_has_substance();
+}
+inline void Reaction::clear_substance() {
+  if (GetArenaNoVirtual() == nullptr && substance_ != nullptr) {
+    delete substance_;
+  }
+  substance_ = nullptr;
+}
+inline const ::patient::Category& Reaction::_internal_substance() const {
+  const ::patient::Category* p = substance_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& Reaction::substance() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.substance)
+  return _internal_substance();
+}
+inline ::patient::Category* Reaction::release_substance() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.substance)
+  
+  ::patient::Category* temp = substance_;
+  substance_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* Reaction::_internal_mutable_substance() {
+  
+  if (substance_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    substance_ = p;
+  }
+  return substance_;
+}
+inline ::patient::Category* Reaction::mutable_substance() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.substance)
+  return _internal_mutable_substance();
+}
+inline void Reaction::set_allocated_substance(::patient::Category* substance) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete substance_;
+  }
+  if (substance) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      substance = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, substance, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  substance_ = substance;
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.substance)
+}
+
+// .patient.Category manifestation = 2;
+inline bool Reaction::_internal_has_manifestation() const {
+  return this != internal_default_instance() && manifestation_ != nullptr;
+}
+inline bool Reaction::has_manifestation() const {
+  return _internal_has_manifestation();
+}
+inline void Reaction::clear_manifestation() {
+  if (GetArenaNoVirtual() == nullptr && manifestation_ != nullptr) {
+    delete manifestation_;
+  }
+  manifestation_ = nullptr;
+}
+inline const ::patient::Category& Reaction::_internal_manifestation() const {
+  const ::patient::Category* p = manifestation_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& Reaction::manifestation() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.manifestation)
+  return _internal_manifestation();
+}
+inline ::patient::Category* Reaction::release_manifestation() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.manifestation)
+  
+  ::patient::Category* temp = manifestation_;
+  manifestation_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* Reaction::_internal_mutable_manifestation() {
+  
+  if (manifestation_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    manifestation_ = p;
+  }
+  return manifestation_;
+}
+inline ::patient::Category* Reaction::mutable_manifestation() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.manifestation)
+  return _internal_mutable_manifestation();
+}
+inline void Reaction::set_allocated_manifestation(::patient::Category* manifestation) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete manifestation_;
+  }
+  if (manifestation) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      manifestation = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, manifestation, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  manifestation_ = manifestation;
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.manifestation)
+}
+
+// string description = 3;
+inline void Reaction::clear_description() {
+  description_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Reaction::description() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.description)
+  return _internal_description();
+}
+inline void Reaction::set_description(const std::string& value) {
+  _internal_set_description(value);
+  // @@protoc_insertion_point(field_set:patient.Reaction.description)
+}
+inline std::string* Reaction::mutable_description() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.description)
+  return _internal_mutable_description();
+}
+inline const std::string& Reaction::_internal_description() const {
+  return description_.GetNoArena();
+}
+inline void Reaction::_internal_set_description(const std::string& value) {
+  
+  description_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Reaction::set_description(std::string&& value) {
+  
+  description_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Reaction.description)
+}
+inline void Reaction::set_description(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  description_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Reaction.description)
+}
+inline void Reaction::set_description(const char* value, size_t size) {
+  
+  description_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Reaction.description)
+}
+inline std::string* Reaction::_internal_mutable_description() {
+  
+  return description_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Reaction::release_description() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.description)
+  
+  return description_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Reaction::set_allocated_description(std::string* description) {
+  if (description != nullptr) {
+    
+  } else {
+    
+  }
+  description_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), description);
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.description)
+}
+
+// string onset = 4;
+inline void Reaction::clear_onset() {
+  onset_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Reaction::onset() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.onset)
+  return _internal_onset();
+}
+inline void Reaction::set_onset(const std::string& value) {
+  _internal_set_onset(value);
+  // @@protoc_insertion_point(field_set:patient.Reaction.onset)
+}
+inline std::string* Reaction::mutable_onset() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.onset)
+  return _internal_mutable_onset();
+}
+inline const std::string& Reaction::_internal_onset() const {
+  return onset_.GetNoArena();
+}
+inline void Reaction::_internal_set_onset(const std::string& value) {
+  
+  onset_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Reaction::set_onset(std::string&& value) {
+  
+  onset_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Reaction.onset)
+}
+inline void Reaction::set_onset(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  onset_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Reaction.onset)
+}
+inline void Reaction::set_onset(const char* value, size_t size) {
+  
+  onset_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Reaction.onset)
+}
+inline std::string* Reaction::_internal_mutable_onset() {
+  
+  return onset_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Reaction::release_onset() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.onset)
+  
+  return onset_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Reaction::set_allocated_onset(std::string* onset) {
+  if (onset != nullptr) {
+    
+  } else {
+    
+  }
+  onset_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), onset);
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.onset)
+}
+
+// .patient.Category severity = 5;
+inline bool Reaction::_internal_has_severity() const {
+  return this != internal_default_instance() && severity_ != nullptr;
+}
+inline bool Reaction::has_severity() const {
+  return _internal_has_severity();
+}
+inline void Reaction::clear_severity() {
+  if (GetArenaNoVirtual() == nullptr && severity_ != nullptr) {
+    delete severity_;
+  }
+  severity_ = nullptr;
+}
+inline const ::patient::Category& Reaction::_internal_severity() const {
+  const ::patient::Category* p = severity_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& Reaction::severity() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.severity)
+  return _internal_severity();
+}
+inline ::patient::Category* Reaction::release_severity() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.severity)
+  
+  ::patient::Category* temp = severity_;
+  severity_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* Reaction::_internal_mutable_severity() {
+  
+  if (severity_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    severity_ = p;
+  }
+  return severity_;
+}
+inline ::patient::Category* Reaction::mutable_severity() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.severity)
+  return _internal_mutable_severity();
+}
+inline void Reaction::set_allocated_severity(::patient::Category* severity) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete severity_;
+  }
+  if (severity) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      severity = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, severity, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  severity_ = severity;
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.severity)
+}
+
+// .patient.Category exposureRoute = 6;
+inline bool Reaction::_internal_has_exposureroute() const {
+  return this != internal_default_instance() && exposureroute_ != nullptr;
+}
+inline bool Reaction::has_exposureroute() const {
+  return _internal_has_exposureroute();
+}
+inline void Reaction::clear_exposureroute() {
+  if (GetArenaNoVirtual() == nullptr && exposureroute_ != nullptr) {
+    delete exposureroute_;
+  }
+  exposureroute_ = nullptr;
+}
+inline const ::patient::Category& Reaction::_internal_exposureroute() const {
+  const ::patient::Category* p = exposureroute_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& Reaction::exposureroute() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.exposureRoute)
+  return _internal_exposureroute();
+}
+inline ::patient::Category* Reaction::release_exposureroute() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.exposureRoute)
+  
+  ::patient::Category* temp = exposureroute_;
+  exposureroute_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* Reaction::_internal_mutable_exposureroute() {
+  
+  if (exposureroute_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    exposureroute_ = p;
+  }
+  return exposureroute_;
+}
+inline ::patient::Category* Reaction::mutable_exposureroute() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.exposureRoute)
+  return _internal_mutable_exposureroute();
+}
+inline void Reaction::set_allocated_exposureroute(::patient::Category* exposureroute) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete exposureroute_;
+  }
+  if (exposureroute) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      exposureroute = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, exposureroute, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  exposureroute_ = exposureroute;
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.exposureRoute)
+}
+
+// string note = 7;
+inline void Reaction::clear_note() {
+  note_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Reaction::note() const {
+  // @@protoc_insertion_point(field_get:patient.Reaction.note)
+  return _internal_note();
+}
+inline void Reaction::set_note(const std::string& value) {
+  _internal_set_note(value);
+  // @@protoc_insertion_point(field_set:patient.Reaction.note)
+}
+inline std::string* Reaction::mutable_note() {
+  // @@protoc_insertion_point(field_mutable:patient.Reaction.note)
+  return _internal_mutable_note();
+}
+inline const std::string& Reaction::_internal_note() const {
+  return note_.GetNoArena();
+}
+inline void Reaction::_internal_set_note(const std::string& value) {
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Reaction::set_note(std::string&& value) {
+  
+  note_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Reaction.note)
+}
+inline void Reaction::set_note(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Reaction.note)
+}
+inline void Reaction::set_note(const char* value, size_t size) {
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Reaction.note)
+}
+inline std::string* Reaction::_internal_mutable_note() {
+  
+  return note_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Reaction::release_note() {
+  // @@protoc_insertion_point(field_release:patient.Reaction.note)
+  
+  return note_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Reaction::set_allocated_note(std::string* note) {
+  if (note != nullptr) {
+    
+  } else {
+    
+  }
+  note_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), note);
+  // @@protoc_insertion_point(field_set_allocated:patient.Reaction.note)
+}
+
+// -------------------------------------------------------------------
+
+// Instance
+
+// string uid = 1;
+inline void Instance::clear_uid() {
+  uid_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Instance::uid() const {
+  // @@protoc_insertion_point(field_get:patient.Instance.uid)
+  return _internal_uid();
+}
+inline void Instance::set_uid(const std::string& value) {
+  _internal_set_uid(value);
+  // @@protoc_insertion_point(field_set:patient.Instance.uid)
+}
+inline std::string* Instance::mutable_uid() {
+  // @@protoc_insertion_point(field_mutable:patient.Instance.uid)
+  return _internal_mutable_uid();
+}
+inline const std::string& Instance::_internal_uid() const {
+  return uid_.GetNoArena();
+}
+inline void Instance::_internal_set_uid(const std::string& value) {
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Instance::set_uid(std::string&& value) {
+  
+  uid_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Instance.uid)
+}
+inline void Instance::set_uid(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Instance.uid)
+}
+inline void Instance::set_uid(const char* value, size_t size) {
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Instance.uid)
+}
+inline std::string* Instance::_internal_mutable_uid() {
+  
+  return uid_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Instance::release_uid() {
+  // @@protoc_insertion_point(field_release:patient.Instance.uid)
+  
+  return uid_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Instance::set_allocated_uid(std::string* uid) {
+  if (uid != nullptr) {
+    
+  } else {
+    
+  }
+  uid_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), uid);
+  // @@protoc_insertion_point(field_set_allocated:patient.Instance.uid)
+}
+
+// .patient.Coding sopClass = 2;
+inline bool Instance::_internal_has_sopclass() const {
+  return this != internal_default_instance() && sopclass_ != nullptr;
+}
+inline bool Instance::has_sopclass() const {
+  return _internal_has_sopclass();
+}
+inline void Instance::clear_sopclass() {
+  if (GetArenaNoVirtual() == nullptr && sopclass_ != nullptr) {
+    delete sopclass_;
+  }
+  sopclass_ = nullptr;
+}
+inline const ::patient::Coding& Instance::_internal_sopclass() const {
+  const ::patient::Coding* p = sopclass_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Coding*>(
+      &::patient::_Coding_default_instance_);
+}
+inline const ::patient::Coding& Instance::sopclass() const {
+  // @@protoc_insertion_point(field_get:patient.Instance.sopClass)
+  return _internal_sopclass();
+}
+inline ::patient::Coding* Instance::release_sopclass() {
+  // @@protoc_insertion_point(field_release:patient.Instance.sopClass)
+  
+  ::patient::Coding* temp = sopclass_;
+  sopclass_ = nullptr;
+  return temp;
+}
+inline ::patient::Coding* Instance::_internal_mutable_sopclass() {
+  
+  if (sopclass_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Coding>(GetArenaNoVirtual());
+    sopclass_ = p;
+  }
+  return sopclass_;
+}
+inline ::patient::Coding* Instance::mutable_sopclass() {
+  // @@protoc_insertion_point(field_mutable:patient.Instance.sopClass)
+  return _internal_mutable_sopclass();
+}
+inline void Instance::set_allocated_sopclass(::patient::Coding* sopclass) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete sopclass_;
+  }
+  if (sopclass) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      sopclass = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, sopclass, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  sopclass_ = sopclass;
+  // @@protoc_insertion_point(field_set_allocated:patient.Instance.sopClass)
+}
+
+// int32 number = 3;
+inline void Instance::clear_number() {
+  number_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Instance::_internal_number() const {
+  return number_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Instance::number() const {
+  // @@protoc_insertion_point(field_get:patient.Instance.number)
+  return _internal_number();
+}
+inline void Instance::_internal_set_number(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  number_ = value;
+}
+inline void Instance::set_number(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_number(value);
+  // @@protoc_insertion_point(field_set:patient.Instance.number)
+}
+
+// string title = 4;
+inline void Instance::clear_title() {
+  title_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Instance::title() const {
+  // @@protoc_insertion_point(field_get:patient.Instance.title)
+  return _internal_title();
+}
+inline void Instance::set_title(const std::string& value) {
+  _internal_set_title(value);
+  // @@protoc_insertion_point(field_set:patient.Instance.title)
+}
+inline std::string* Instance::mutable_title() {
+  // @@protoc_insertion_point(field_mutable:patient.Instance.title)
+  return _internal_mutable_title();
+}
+inline const std::string& Instance::_internal_title() const {
+  return title_.GetNoArena();
+}
+inline void Instance::_internal_set_title(const std::string& value) {
+  
+  title_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Instance::set_title(std::string&& value) {
+  
+  title_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Instance.title)
+}
+inline void Instance::set_title(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  title_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Instance.title)
+}
+inline void Instance::set_title(const char* value, size_t size) {
+  
+  title_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Instance.title)
+}
+inline std::string* Instance::_internal_mutable_title() {
+  
+  return title_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Instance::release_title() {
+  // @@protoc_insertion_point(field_release:patient.Instance.title)
+  
+  return title_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Instance::set_allocated_title(std::string* title) {
+  if (title != nullptr) {
+    
+  } else {
+    
+  }
+  title_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), title);
+  // @@protoc_insertion_point(field_set_allocated:patient.Instance.title)
+}
+
+// -------------------------------------------------------------------
+
+// Series
+
+// string uid = 1;
+inline void Series::clear_uid() {
+  uid_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Series::uid() const {
+  // @@protoc_insertion_point(field_get:patient.Series.uid)
+  return _internal_uid();
+}
+inline void Series::set_uid(const std::string& value) {
+  _internal_set_uid(value);
+  // @@protoc_insertion_point(field_set:patient.Series.uid)
+}
+inline std::string* Series::mutable_uid() {
+  // @@protoc_insertion_point(field_mutable:patient.Series.uid)
+  return _internal_mutable_uid();
+}
+inline const std::string& Series::_internal_uid() const {
+  return uid_.GetNoArena();
+}
+inline void Series::_internal_set_uid(const std::string& value) {
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Series::set_uid(std::string&& value) {
+  
+  uid_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Series.uid)
+}
+inline void Series::set_uid(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Series.uid)
+}
+inline void Series::set_uid(const char* value, size_t size) {
+  
+  uid_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Series.uid)
+}
+inline std::string* Series::_internal_mutable_uid() {
+  
+  return uid_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Series::release_uid() {
+  // @@protoc_insertion_point(field_release:patient.Series.uid)
+  
+  return uid_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Series::set_allocated_uid(std::string* uid) {
+  if (uid != nullptr) {
+    
+  } else {
+    
+  }
+  uid_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), uid);
+  // @@protoc_insertion_point(field_set_allocated:patient.Series.uid)
+}
+
+// int32 number = 2;
+inline void Series::clear_number() {
+  number_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Series::_internal_number() const {
+  return number_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Series::number() const {
+  // @@protoc_insertion_point(field_get:patient.Series.number)
+  return _internal_number();
+}
+inline void Series::_internal_set_number(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  number_ = value;
+}
+inline void Series::set_number(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_number(value);
+  // @@protoc_insertion_point(field_set:patient.Series.number)
+}
+
+// .patient.Coding modality = 3;
+inline bool Series::_internal_has_modality() const {
+  return this != internal_default_instance() && modality_ != nullptr;
+}
+inline bool Series::has_modality() const {
+  return _internal_has_modality();
+}
+inline void Series::clear_modality() {
+  if (GetArenaNoVirtual() == nullptr && modality_ != nullptr) {
+    delete modality_;
+  }
+  modality_ = nullptr;
+}
+inline const ::patient::Coding& Series::_internal_modality() const {
+  const ::patient::Coding* p = modality_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Coding*>(
+      &::patient::_Coding_default_instance_);
+}
+inline const ::patient::Coding& Series::modality() const {
+  // @@protoc_insertion_point(field_get:patient.Series.modality)
+  return _internal_modality();
+}
+inline ::patient::Coding* Series::release_modality() {
+  // @@protoc_insertion_point(field_release:patient.Series.modality)
+  
+  ::patient::Coding* temp = modality_;
+  modality_ = nullptr;
+  return temp;
+}
+inline ::patient::Coding* Series::_internal_mutable_modality() {
+  
+  if (modality_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Coding>(GetArenaNoVirtual());
+    modality_ = p;
+  }
+  return modality_;
+}
+inline ::patient::Coding* Series::mutable_modality() {
+  // @@protoc_insertion_point(field_mutable:patient.Series.modality)
+  return _internal_mutable_modality();
+}
+inline void Series::set_allocated_modality(::patient::Coding* modality) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete modality_;
+  }
+  if (modality) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      modality = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, modality, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  modality_ = modality;
+  // @@protoc_insertion_point(field_set_allocated:patient.Series.modality)
+}
+
+// int32 numberOfInstances = 4;
+inline void Series::clear_numberofinstances() {
+  numberofinstances_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Series::_internal_numberofinstances() const {
+  return numberofinstances_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 Series::numberofinstances() const {
+  // @@protoc_insertion_point(field_get:patient.Series.numberOfInstances)
+  return _internal_numberofinstances();
+}
+inline void Series::_internal_set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  numberofinstances_ = value;
+}
+inline void Series::set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_numberofinstances(value);
+  // @@protoc_insertion_point(field_set:patient.Series.numberOfInstances)
+}
+
+// .patient.Coding bodySite = 5;
+inline bool Series::_internal_has_bodysite() const {
+  return this != internal_default_instance() && bodysite_ != nullptr;
+}
+inline bool Series::has_bodysite() const {
+  return _internal_has_bodysite();
+}
+inline void Series::clear_bodysite() {
+  if (GetArenaNoVirtual() == nullptr && bodysite_ != nullptr) {
+    delete bodysite_;
+  }
+  bodysite_ = nullptr;
+}
+inline const ::patient::Coding& Series::_internal_bodysite() const {
+  const ::patient::Coding* p = bodysite_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Coding*>(
+      &::patient::_Coding_default_instance_);
+}
+inline const ::patient::Coding& Series::bodysite() const {
+  // @@protoc_insertion_point(field_get:patient.Series.bodySite)
+  return _internal_bodysite();
+}
+inline ::patient::Coding* Series::release_bodysite() {
+  // @@protoc_insertion_point(field_release:patient.Series.bodySite)
+  
+  ::patient::Coding* temp = bodysite_;
+  bodysite_ = nullptr;
+  return temp;
+}
+inline ::patient::Coding* Series::_internal_mutable_bodysite() {
+  
+  if (bodysite_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Coding>(GetArenaNoVirtual());
+    bodysite_ = p;
+  }
+  return bodysite_;
+}
+inline ::patient::Coding* Series::mutable_bodysite() {
+  // @@protoc_insertion_point(field_mutable:patient.Series.bodySite)
+  return _internal_mutable_bodysite();
+}
+inline void Series::set_allocated_bodysite(::patient::Coding* bodysite) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete bodysite_;
+  }
+  if (bodysite) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      bodysite = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, bodysite, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  bodysite_ = bodysite;
+  // @@protoc_insertion_point(field_set_allocated:patient.Series.bodySite)
+}
+
+// string started = 6;
+inline void Series::clear_started() {
+  started_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Series::started() const {
+  // @@protoc_insertion_point(field_get:patient.Series.started)
+  return _internal_started();
+}
+inline void Series::set_started(const std::string& value) {
+  _internal_set_started(value);
+  // @@protoc_insertion_point(field_set:patient.Series.started)
+}
+inline std::string* Series::mutable_started() {
+  // @@protoc_insertion_point(field_mutable:patient.Series.started)
+  return _internal_mutable_started();
+}
+inline const std::string& Series::_internal_started() const {
+  return started_.GetNoArena();
+}
+inline void Series::_internal_set_started(const std::string& value) {
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Series::set_started(std::string&& value) {
+  
+  started_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Series.started)
+}
+inline void Series::set_started(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Series.started)
+}
+inline void Series::set_started(const char* value, size_t size) {
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Series.started)
+}
+inline std::string* Series::_internal_mutable_started() {
+  
+  return started_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Series::release_started() {
+  // @@protoc_insertion_point(field_release:patient.Series.started)
+  
+  return started_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Series::set_allocated_started(std::string* started) {
+  if (started != nullptr) {
+    
+  } else {
+    
+  }
+  started_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), started);
+  // @@protoc_insertion_point(field_set_allocated:patient.Series.started)
+}
+
+// repeated .patient.Instance instance = 7;
+inline int Series::_internal_instance_size() const {
+  return instance_.size();
+}
+inline int Series::instance_size() const {
+  return _internal_instance_size();
+}
+inline void Series::clear_instance() {
+  instance_.Clear();
+}
+inline ::patient::Instance* Series::mutable_instance(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.Series.instance)
+  return instance_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Instance >*
+Series::mutable_instance() {
+  // @@protoc_insertion_point(field_mutable_list:patient.Series.instance)
+  return &instance_;
+}
+inline const ::patient::Instance& Series::_internal_instance(int index) const {
+  return instance_.Get(index);
+}
+inline const ::patient::Instance& Series::instance(int index) const {
+  // @@protoc_insertion_point(field_get:patient.Series.instance)
+  return _internal_instance(index);
+}
+inline ::patient::Instance* Series::_internal_add_instance() {
+  return instance_.Add();
+}
+inline ::patient::Instance* Series::add_instance() {
+  // @@protoc_insertion_point(field_add:patient.Series.instance)
+  return _internal_add_instance();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Instance >&
+Series::instance() const {
+  // @@protoc_insertion_point(field_list:patient.Series.instance)
+  return instance_;
+}
+
+// -------------------------------------------------------------------
+
+// Hospitalization
+
+// .patient.Category dischargeDisposition = 1;
+inline bool Hospitalization::_internal_has_dischargedisposition() const {
+  return this != internal_default_instance() && dischargedisposition_ != nullptr;
+}
+inline bool Hospitalization::has_dischargedisposition() const {
+  return _internal_has_dischargedisposition();
+}
+inline void Hospitalization::clear_dischargedisposition() {
+  if (GetArenaNoVirtual() == nullptr && dischargedisposition_ != nullptr) {
+    delete dischargedisposition_;
+  }
+  dischargedisposition_ = nullptr;
+}
+inline const ::patient::Category& Hospitalization::_internal_dischargedisposition() const {
+  const ::patient::Category* p = dischargedisposition_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& Hospitalization::dischargedisposition() const {
+  // @@protoc_insertion_point(field_get:patient.Hospitalization.dischargeDisposition)
+  return _internal_dischargedisposition();
+}
+inline ::patient::Category* Hospitalization::release_dischargedisposition() {
+  // @@protoc_insertion_point(field_release:patient.Hospitalization.dischargeDisposition)
+  
+  ::patient::Category* temp = dischargedisposition_;
+  dischargedisposition_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* Hospitalization::_internal_mutable_dischargedisposition() {
+  
+  if (dischargedisposition_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    dischargedisposition_ = p;
+  }
+  return dischargedisposition_;
+}
+inline ::patient::Category* Hospitalization::mutable_dischargedisposition() {
+  // @@protoc_insertion_point(field_mutable:patient.Hospitalization.dischargeDisposition)
+  return _internal_mutable_dischargedisposition();
+}
+inline void Hospitalization::set_allocated_dischargedisposition(::patient::Category* dischargedisposition) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete dischargedisposition_;
+  }
+  if (dischargedisposition) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      dischargedisposition = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, dischargedisposition, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  dischargedisposition_ = dischargedisposition;
+  // @@protoc_insertion_point(field_set_allocated:patient.Hospitalization.dischargeDisposition)
+}
+
+// -------------------------------------------------------------------
+
+// Carrier
+
+// string deviceIdentifier = 1;
+inline void Carrier::clear_deviceidentifier() {
+  deviceidentifier_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Carrier::deviceidentifier() const {
+  // @@protoc_insertion_point(field_get:patient.Carrier.deviceIdentifier)
+  return _internal_deviceidentifier();
+}
+inline void Carrier::set_deviceidentifier(const std::string& value) {
+  _internal_set_deviceidentifier(value);
+  // @@protoc_insertion_point(field_set:patient.Carrier.deviceIdentifier)
+}
+inline std::string* Carrier::mutable_deviceidentifier() {
+  // @@protoc_insertion_point(field_mutable:patient.Carrier.deviceIdentifier)
+  return _internal_mutable_deviceidentifier();
+}
+inline const std::string& Carrier::_internal_deviceidentifier() const {
+  return deviceidentifier_.GetNoArena();
+}
+inline void Carrier::_internal_set_deviceidentifier(const std::string& value) {
+  
+  deviceidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Carrier::set_deviceidentifier(std::string&& value) {
+  
+  deviceidentifier_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Carrier.deviceIdentifier)
+}
+inline void Carrier::set_deviceidentifier(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  deviceidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Carrier.deviceIdentifier)
+}
+inline void Carrier::set_deviceidentifier(const char* value, size_t size) {
+  
+  deviceidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Carrier.deviceIdentifier)
+}
+inline std::string* Carrier::_internal_mutable_deviceidentifier() {
+  
+  return deviceidentifier_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Carrier::release_deviceidentifier() {
+  // @@protoc_insertion_point(field_release:patient.Carrier.deviceIdentifier)
+  
+  return deviceidentifier_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Carrier::set_allocated_deviceidentifier(std::string* deviceidentifier) {
+  if (deviceidentifier != nullptr) {
+    
+  } else {
+    
+  }
+  deviceidentifier_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), deviceidentifier);
+  // @@protoc_insertion_point(field_set_allocated:patient.Carrier.deviceIdentifier)
+}
+
+// string carrierHRF = 2;
+inline void Carrier::clear_carrierhrf() {
+  carrierhrf_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& Carrier::carrierhrf() const {
+  // @@protoc_insertion_point(field_get:patient.Carrier.carrierHRF)
+  return _internal_carrierhrf();
+}
+inline void Carrier::set_carrierhrf(const std::string& value) {
+  _internal_set_carrierhrf(value);
+  // @@protoc_insertion_point(field_set:patient.Carrier.carrierHRF)
+}
+inline std::string* Carrier::mutable_carrierhrf() {
+  // @@protoc_insertion_point(field_mutable:patient.Carrier.carrierHRF)
+  return _internal_mutable_carrierhrf();
+}
+inline const std::string& Carrier::_internal_carrierhrf() const {
+  return carrierhrf_.GetNoArena();
+}
+inline void Carrier::_internal_set_carrierhrf(const std::string& value) {
+  
+  carrierhrf_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void Carrier::set_carrierhrf(std::string&& value) {
+  
+  carrierhrf_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.Carrier.carrierHRF)
+}
+inline void Carrier::set_carrierhrf(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  carrierhrf_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.Carrier.carrierHRF)
+}
+inline void Carrier::set_carrierhrf(const char* value, size_t size) {
+  
+  carrierhrf_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.Carrier.carrierHRF)
+}
+inline std::string* Carrier::_internal_mutable_carrierhrf() {
+  
+  return carrierhrf_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* Carrier::release_carrierhrf() {
+  // @@protoc_insertion_point(field_release:patient.Carrier.carrierHRF)
+  
+  return carrierhrf_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void Carrier::set_allocated_carrierhrf(std::string* carrierhrf) {
+  if (carrierhrf != nullptr) {
+    
+  } else {
+    
+  }
+  carrierhrf_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), carrierhrf);
+  // @@protoc_insertion_point(field_set_allocated:patient.Carrier.carrierHRF)
+}
+
+// -------------------------------------------------------------------
+
+// DeviceName
+
+// string name = 1;
+inline void DeviceName::clear_name() {
+  name_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceName::name() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceName.name)
+  return _internal_name();
+}
+inline void DeviceName::set_name(const std::string& value) {
+  _internal_set_name(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceName.name)
+}
+inline std::string* DeviceName::mutable_name() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceName.name)
+  return _internal_mutable_name();
+}
+inline const std::string& DeviceName::_internal_name() const {
+  return name_.GetNoArena();
+}
+inline void DeviceName::_internal_set_name(const std::string& value) {
+  
+  name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceName::set_name(std::string&& value) {
+  
+  name_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceName.name)
+}
+inline void DeviceName::set_name(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceName.name)
+}
+inline void DeviceName::set_name(const char* value, size_t size) {
+  
+  name_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceName.name)
+}
+inline std::string* DeviceName::_internal_mutable_name() {
+  
+  return name_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceName::release_name() {
+  // @@protoc_insertion_point(field_release:patient.DeviceName.name)
+  
+  return name_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceName::set_allocated_name(std::string* name) {
+  if (name != nullptr) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceName.name)
+}
+
+// string type = 2;
+inline void DeviceName::clear_type() {
+  type_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceName::type() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceName.type)
+  return _internal_type();
+}
+inline void DeviceName::set_type(const std::string& value) {
+  _internal_set_type(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceName.type)
+}
+inline std::string* DeviceName::mutable_type() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceName.type)
+  return _internal_mutable_type();
+}
+inline const std::string& DeviceName::_internal_type() const {
+  return type_.GetNoArena();
+}
+inline void DeviceName::_internal_set_type(const std::string& value) {
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceName::set_type(std::string&& value) {
+  
+  type_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceName.type)
+}
+inline void DeviceName::set_type(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceName.type)
+}
+inline void DeviceName::set_type(const char* value, size_t size) {
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceName.type)
+}
+inline std::string* DeviceName::_internal_mutable_type() {
+  
+  return type_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceName::release_type() {
+  // @@protoc_insertion_point(field_release:patient.DeviceName.type)
+  
+  return type_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceName::set_allocated_type(std::string* type) {
+  if (type != nullptr) {
+    
+  } else {
+    
+  }
+  type_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), type);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceName.type)
+}
+
+// -------------------------------------------------------------------
+
+// AllergyIntoleranceObject
+
+// .patient.Identifier identifier = 1;
+inline bool AllergyIntoleranceObject::_internal_has_identifier() const {
+  return this != internal_default_instance() && identifier_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_identifier() const {
+  return _internal_has_identifier();
+}
+inline void AllergyIntoleranceObject::clear_identifier() {
+  if (GetArenaNoVirtual() == nullptr && identifier_ != nullptr) {
+    delete identifier_;
+  }
+  identifier_ = nullptr;
+}
+inline const ::patient::Identifier& AllergyIntoleranceObject::_internal_identifier() const {
+  const ::patient::Identifier* p = identifier_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Identifier*>(
+      &::patient::_Identifier_default_instance_);
+}
+inline const ::patient::Identifier& AllergyIntoleranceObject::identifier() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.identifier)
+  return _internal_identifier();
+}
+inline ::patient::Identifier* AllergyIntoleranceObject::release_identifier() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.identifier)
+  
+  ::patient::Identifier* temp = identifier_;
+  identifier_ = nullptr;
+  return temp;
+}
+inline ::patient::Identifier* AllergyIntoleranceObject::_internal_mutable_identifier() {
+  
+  if (identifier_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Identifier>(GetArenaNoVirtual());
+    identifier_ = p;
+  }
+  return identifier_;
+}
+inline ::patient::Identifier* AllergyIntoleranceObject::mutable_identifier() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.identifier)
+  return _internal_mutable_identifier();
+}
+inline void AllergyIntoleranceObject::set_allocated_identifier(::patient::Identifier* identifier) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete identifier_;
+  }
+  if (identifier) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      identifier = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, identifier, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  identifier_ = identifier;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.identifier)
+}
+
+// .patient.Category clinicalStatus = 2;
+inline bool AllergyIntoleranceObject::_internal_has_clinicalstatus() const {
+  return this != internal_default_instance() && clinicalstatus_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_clinicalstatus() const {
+  return _internal_has_clinicalstatus();
+}
+inline void AllergyIntoleranceObject::clear_clinicalstatus() {
+  if (GetArenaNoVirtual() == nullptr && clinicalstatus_ != nullptr) {
+    delete clinicalstatus_;
+  }
+  clinicalstatus_ = nullptr;
+}
+inline const ::patient::Category& AllergyIntoleranceObject::_internal_clinicalstatus() const {
+  const ::patient::Category* p = clinicalstatus_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& AllergyIntoleranceObject::clinicalstatus() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.clinicalStatus)
+  return _internal_clinicalstatus();
+}
+inline ::patient::Category* AllergyIntoleranceObject::release_clinicalstatus() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.clinicalStatus)
+  
+  ::patient::Category* temp = clinicalstatus_;
+  clinicalstatus_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* AllergyIntoleranceObject::_internal_mutable_clinicalstatus() {
+  
+  if (clinicalstatus_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    clinicalstatus_ = p;
+  }
+  return clinicalstatus_;
+}
+inline ::patient::Category* AllergyIntoleranceObject::mutable_clinicalstatus() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.clinicalStatus)
+  return _internal_mutable_clinicalstatus();
+}
+inline void AllergyIntoleranceObject::set_allocated_clinicalstatus(::patient::Category* clinicalstatus) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete clinicalstatus_;
+  }
+  if (clinicalstatus) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      clinicalstatus = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, clinicalstatus, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  clinicalstatus_ = clinicalstatus;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.clinicalStatus)
+}
+
+// .patient.Category verificationStatus = 3;
+inline bool AllergyIntoleranceObject::_internal_has_verificationstatus() const {
+  return this != internal_default_instance() && verificationstatus_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_verificationstatus() const {
+  return _internal_has_verificationstatus();
+}
+inline void AllergyIntoleranceObject::clear_verificationstatus() {
+  if (GetArenaNoVirtual() == nullptr && verificationstatus_ != nullptr) {
+    delete verificationstatus_;
+  }
+  verificationstatus_ = nullptr;
+}
+inline const ::patient::Category& AllergyIntoleranceObject::_internal_verificationstatus() const {
+  const ::patient::Category* p = verificationstatus_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& AllergyIntoleranceObject::verificationstatus() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.verificationStatus)
+  return _internal_verificationstatus();
+}
+inline ::patient::Category* AllergyIntoleranceObject::release_verificationstatus() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.verificationStatus)
+  
+  ::patient::Category* temp = verificationstatus_;
+  verificationstatus_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* AllergyIntoleranceObject::_internal_mutable_verificationstatus() {
+  
+  if (verificationstatus_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    verificationstatus_ = p;
+  }
+  return verificationstatus_;
+}
+inline ::patient::Category* AllergyIntoleranceObject::mutable_verificationstatus() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.verificationStatus)
+  return _internal_mutable_verificationstatus();
+}
+inline void AllergyIntoleranceObject::set_allocated_verificationstatus(::patient::Category* verificationstatus) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete verificationstatus_;
+  }
+  if (verificationstatus) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      verificationstatus = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, verificationstatus, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  verificationstatus_ = verificationstatus;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.verificationStatus)
+}
+
+// string type = 4;
+inline void AllergyIntoleranceObject::clear_type() {
+  type_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::type() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.type)
+  return _internal_type();
+}
+inline void AllergyIntoleranceObject::set_type(const std::string& value) {
+  _internal_set_type(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.type)
+}
+inline std::string* AllergyIntoleranceObject::mutable_type() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.type)
+  return _internal_mutable_type();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_type() const {
+  return type_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_type(const std::string& value) {
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_type(std::string&& value) {
+  
+  type_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.type)
+}
+inline void AllergyIntoleranceObject::set_type(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.type)
+}
+inline void AllergyIntoleranceObject::set_type(const char* value, size_t size) {
+  
+  type_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.type)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_type() {
+  
+  return type_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_type() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.type)
+  
+  return type_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_type(std::string* type) {
+  if (type != nullptr) {
+    
+  } else {
+    
+  }
+  type_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), type);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.type)
+}
+
+// repeated string category = 5;
+inline int AllergyIntoleranceObject::_internal_category_size() const {
+  return category_.size();
+}
+inline int AllergyIntoleranceObject::category_size() const {
+  return _internal_category_size();
+}
+inline void AllergyIntoleranceObject::clear_category() {
+  category_.Clear();
+}
+inline std::string* AllergyIntoleranceObject::add_category() {
+  // @@protoc_insertion_point(field_add_mutable:patient.AllergyIntoleranceObject.category)
+  return _internal_add_category();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_category(int index) const {
+  return category_.Get(index);
+}
+inline const std::string& AllergyIntoleranceObject::category(int index) const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.category)
+  return _internal_category(index);
+}
+inline std::string* AllergyIntoleranceObject::mutable_category(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.category)
+  return category_.Mutable(index);
+}
+inline void AllergyIntoleranceObject::set_category(int index, const std::string& value) {
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.category)
+  category_.Mutable(index)->assign(value);
+}
+inline void AllergyIntoleranceObject::set_category(int index, std::string&& value) {
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.category)
+  category_.Mutable(index)->assign(std::move(value));
+}
+inline void AllergyIntoleranceObject::set_category(int index, const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  category_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.category)
+}
+inline void AllergyIntoleranceObject::set_category(int index, const char* value, size_t size) {
+  category_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.category)
+}
+inline std::string* AllergyIntoleranceObject::_internal_add_category() {
+  return category_.Add();
+}
+inline void AllergyIntoleranceObject::add_category(const std::string& value) {
+  category_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:patient.AllergyIntoleranceObject.category)
+}
+inline void AllergyIntoleranceObject::add_category(std::string&& value) {
+  category_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:patient.AllergyIntoleranceObject.category)
+}
+inline void AllergyIntoleranceObject::add_category(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  category_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:patient.AllergyIntoleranceObject.category)
+}
+inline void AllergyIntoleranceObject::add_category(const char* value, size_t size) {
+  category_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:patient.AllergyIntoleranceObject.category)
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>&
+AllergyIntoleranceObject::category() const {
+  // @@protoc_insertion_point(field_list:patient.AllergyIntoleranceObject.category)
+  return category_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string>*
+AllergyIntoleranceObject::mutable_category() {
+  // @@protoc_insertion_point(field_mutable_list:patient.AllergyIntoleranceObject.category)
+  return &category_;
+}
+
+// string criticality = 6;
+inline void AllergyIntoleranceObject::clear_criticality() {
+  criticality_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::criticality() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.criticality)
+  return _internal_criticality();
+}
+inline void AllergyIntoleranceObject::set_criticality(const std::string& value) {
+  _internal_set_criticality(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.criticality)
+}
+inline std::string* AllergyIntoleranceObject::mutable_criticality() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.criticality)
+  return _internal_mutable_criticality();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_criticality() const {
+  return criticality_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_criticality(const std::string& value) {
+  
+  criticality_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_criticality(std::string&& value) {
+  
+  criticality_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.criticality)
+}
+inline void AllergyIntoleranceObject::set_criticality(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  criticality_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.criticality)
+}
+inline void AllergyIntoleranceObject::set_criticality(const char* value, size_t size) {
+  
+  criticality_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.criticality)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_criticality() {
+  
+  return criticality_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_criticality() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.criticality)
+  
+  return criticality_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_criticality(std::string* criticality) {
+  if (criticality != nullptr) {
+    
+  } else {
+    
+  }
+  criticality_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), criticality);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.criticality)
+}
+
+// .patient.Category code = 7;
+inline bool AllergyIntoleranceObject::_internal_has_code() const {
+  return this != internal_default_instance() && code_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_code() const {
+  return _internal_has_code();
+}
+inline void AllergyIntoleranceObject::clear_code() {
+  if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
+    delete code_;
+  }
+  code_ = nullptr;
+}
+inline const ::patient::Category& AllergyIntoleranceObject::_internal_code() const {
+  const ::patient::Category* p = code_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& AllergyIntoleranceObject::code() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.code)
+  return _internal_code();
+}
+inline ::patient::Category* AllergyIntoleranceObject::release_code() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.code)
+  
+  ::patient::Category* temp = code_;
+  code_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* AllergyIntoleranceObject::_internal_mutable_code() {
+  
+  if (code_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    code_ = p;
+  }
+  return code_;
+}
+inline ::patient::Category* AllergyIntoleranceObject::mutable_code() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.code)
+  return _internal_mutable_code();
+}
+inline void AllergyIntoleranceObject::set_allocated_code(::patient::Category* code) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete code_;
+  }
+  if (code) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      code = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, code, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  code_ = code;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.code)
+}
+
+// .patient.Reference patient = 8;
+inline bool AllergyIntoleranceObject::_internal_has_patient() const {
+  return this != internal_default_instance() && patient_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_patient() const {
+  return _internal_has_patient();
+}
+inline void AllergyIntoleranceObject::clear_patient() {
+  if (GetArenaNoVirtual() == nullptr && patient_ != nullptr) {
+    delete patient_;
+  }
+  patient_ = nullptr;
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::_internal_patient() const {
+  const ::patient::Reference* p = patient_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::patient() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.patient)
+  return _internal_patient();
+}
+inline ::patient::Reference* AllergyIntoleranceObject::release_patient() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.patient)
+  
+  ::patient::Reference* temp = patient_;
+  patient_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::_internal_mutable_patient() {
+  
+  if (patient_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    patient_ = p;
+  }
+  return patient_;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::mutable_patient() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.patient)
+  return _internal_mutable_patient();
+}
+inline void AllergyIntoleranceObject::set_allocated_patient(::patient::Reference* patient) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete patient_;
+  }
+  if (patient) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      patient = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, patient, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  patient_ = patient;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.patient)
+}
+
+// .patient.Reference encounter = 9;
+inline bool AllergyIntoleranceObject::_internal_has_encounter() const {
+  return this != internal_default_instance() && encounter_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_encounter() const {
+  return _internal_has_encounter();
+}
+inline void AllergyIntoleranceObject::clear_encounter() {
+  if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
+    delete encounter_;
+  }
+  encounter_ = nullptr;
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::_internal_encounter() const {
+  const ::patient::Reference* p = encounter_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::encounter() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.encounter)
+  return _internal_encounter();
+}
+inline ::patient::Reference* AllergyIntoleranceObject::release_encounter() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.encounter)
+  
+  ::patient::Reference* temp = encounter_;
+  encounter_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::_internal_mutable_encounter() {
+  
+  if (encounter_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    encounter_ = p;
+  }
+  return encounter_;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::mutable_encounter() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.encounter)
+  return _internal_mutable_encounter();
+}
+inline void AllergyIntoleranceObject::set_allocated_encounter(::patient::Reference* encounter) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete encounter_;
+  }
+  if (encounter) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      encounter = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, encounter, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  encounter_ = encounter;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.encounter)
+}
+
+// .patient.Onset onset = 10;
+inline bool AllergyIntoleranceObject::_internal_has_onset() const {
+  return this != internal_default_instance() && onset_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_onset() const {
+  return _internal_has_onset();
+}
+inline void AllergyIntoleranceObject::clear_onset() {
+  if (GetArenaNoVirtual() == nullptr && onset_ != nullptr) {
+    delete onset_;
+  }
+  onset_ = nullptr;
+}
+inline const ::patient::Onset& AllergyIntoleranceObject::_internal_onset() const {
+  const ::patient::Onset* p = onset_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Onset*>(
+      &::patient::_Onset_default_instance_);
+}
+inline const ::patient::Onset& AllergyIntoleranceObject::onset() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.onset)
+  return _internal_onset();
+}
+inline ::patient::Onset* AllergyIntoleranceObject::release_onset() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.onset)
+  
+  ::patient::Onset* temp = onset_;
+  onset_ = nullptr;
+  return temp;
+}
+inline ::patient::Onset* AllergyIntoleranceObject::_internal_mutable_onset() {
+  
+  if (onset_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Onset>(GetArenaNoVirtual());
+    onset_ = p;
+  }
+  return onset_;
+}
+inline ::patient::Onset* AllergyIntoleranceObject::mutable_onset() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.onset)
+  return _internal_mutable_onset();
+}
+inline void AllergyIntoleranceObject::set_allocated_onset(::patient::Onset* onset) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete onset_;
+  }
+  if (onset) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      onset = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, onset, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  onset_ = onset;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.onset)
+}
+
+// string recordedDate = 11;
+inline void AllergyIntoleranceObject::clear_recordeddate() {
+  recordeddate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::recordeddate() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.recordedDate)
+  return _internal_recordeddate();
+}
+inline void AllergyIntoleranceObject::set_recordeddate(const std::string& value) {
+  _internal_set_recordeddate(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.recordedDate)
+}
+inline std::string* AllergyIntoleranceObject::mutable_recordeddate() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.recordedDate)
+  return _internal_mutable_recordeddate();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_recordeddate() const {
+  return recordeddate_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_recordeddate(const std::string& value) {
+  
+  recordeddate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_recordeddate(std::string&& value) {
+  
+  recordeddate_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.recordedDate)
+}
+inline void AllergyIntoleranceObject::set_recordeddate(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  recordeddate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.recordedDate)
+}
+inline void AllergyIntoleranceObject::set_recordeddate(const char* value, size_t size) {
+  
+  recordeddate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.recordedDate)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_recordeddate() {
+  
+  return recordeddate_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_recordeddate() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.recordedDate)
+  
+  return recordeddate_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_recordeddate(std::string* recordeddate) {
+  if (recordeddate != nullptr) {
+    
+  } else {
+    
+  }
+  recordeddate_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), recordeddate);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.recordedDate)
+}
+
+// .patient.Reference recorder = 12;
+inline bool AllergyIntoleranceObject::_internal_has_recorder() const {
+  return this != internal_default_instance() && recorder_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_recorder() const {
+  return _internal_has_recorder();
+}
+inline void AllergyIntoleranceObject::clear_recorder() {
+  if (GetArenaNoVirtual() == nullptr && recorder_ != nullptr) {
+    delete recorder_;
+  }
+  recorder_ = nullptr;
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::_internal_recorder() const {
+  const ::patient::Reference* p = recorder_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::recorder() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.recorder)
+  return _internal_recorder();
+}
+inline ::patient::Reference* AllergyIntoleranceObject::release_recorder() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.recorder)
+  
+  ::patient::Reference* temp = recorder_;
+  recorder_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::_internal_mutable_recorder() {
+  
+  if (recorder_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    recorder_ = p;
+  }
+  return recorder_;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::mutable_recorder() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.recorder)
+  return _internal_mutable_recorder();
+}
+inline void AllergyIntoleranceObject::set_allocated_recorder(::patient::Reference* recorder) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete recorder_;
+  }
+  if (recorder) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      recorder = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, recorder, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  recorder_ = recorder;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.recorder)
+}
+
+// .patient.Reference asserter = 13;
+inline bool AllergyIntoleranceObject::_internal_has_asserter() const {
+  return this != internal_default_instance() && asserter_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_asserter() const {
+  return _internal_has_asserter();
+}
+inline void AllergyIntoleranceObject::clear_asserter() {
+  if (GetArenaNoVirtual() == nullptr && asserter_ != nullptr) {
+    delete asserter_;
+  }
+  asserter_ = nullptr;
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::_internal_asserter() const {
+  const ::patient::Reference* p = asserter_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& AllergyIntoleranceObject::asserter() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.asserter)
+  return _internal_asserter();
+}
+inline ::patient::Reference* AllergyIntoleranceObject::release_asserter() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.asserter)
+  
+  ::patient::Reference* temp = asserter_;
+  asserter_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::_internal_mutable_asserter() {
+  
+  if (asserter_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    asserter_ = p;
+  }
+  return asserter_;
+}
+inline ::patient::Reference* AllergyIntoleranceObject::mutable_asserter() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.asserter)
+  return _internal_mutable_asserter();
+}
+inline void AllergyIntoleranceObject::set_allocated_asserter(::patient::Reference* asserter) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete asserter_;
+  }
+  if (asserter) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      asserter = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, asserter, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  asserter_ = asserter;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.asserter)
+}
+
+// string lastOccurrence = 14;
+inline void AllergyIntoleranceObject::clear_lastoccurrence() {
+  lastoccurrence_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::lastoccurrence() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.lastOccurrence)
+  return _internal_lastoccurrence();
+}
+inline void AllergyIntoleranceObject::set_lastoccurrence(const std::string& value) {
+  _internal_set_lastoccurrence(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.lastOccurrence)
+}
+inline std::string* AllergyIntoleranceObject::mutable_lastoccurrence() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.lastOccurrence)
+  return _internal_mutable_lastoccurrence();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_lastoccurrence() const {
+  return lastoccurrence_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_lastoccurrence(const std::string& value) {
+  
+  lastoccurrence_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_lastoccurrence(std::string&& value) {
+  
+  lastoccurrence_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.lastOccurrence)
+}
+inline void AllergyIntoleranceObject::set_lastoccurrence(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  lastoccurrence_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.lastOccurrence)
+}
+inline void AllergyIntoleranceObject::set_lastoccurrence(const char* value, size_t size) {
+  
+  lastoccurrence_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.lastOccurrence)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_lastoccurrence() {
+  
+  return lastoccurrence_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_lastoccurrence() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.lastOccurrence)
+  
+  return lastoccurrence_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_lastoccurrence(std::string* lastoccurrence) {
+  if (lastoccurrence != nullptr) {
+    
+  } else {
+    
+  }
+  lastoccurrence_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), lastoccurrence);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.lastOccurrence)
+}
+
+// string note = 15;
+inline void AllergyIntoleranceObject::clear_note() {
+  note_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::note() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.note)
+  return _internal_note();
+}
+inline void AllergyIntoleranceObject::set_note(const std::string& value) {
+  _internal_set_note(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.note)
+}
+inline std::string* AllergyIntoleranceObject::mutable_note() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.note)
+  return _internal_mutable_note();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_note() const {
+  return note_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_note(const std::string& value) {
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_note(std::string&& value) {
+  
+  note_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.note)
+}
+inline void AllergyIntoleranceObject::set_note(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.note)
+}
+inline void AllergyIntoleranceObject::set_note(const char* value, size_t size) {
+  
+  note_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.note)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_note() {
+  
+  return note_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_note() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.note)
+  
+  return note_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_note(std::string* note) {
+  if (note != nullptr) {
+    
+  } else {
+    
+  }
+  note_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), note);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.note)
+}
+
+// string resourceType = 16;
+inline void AllergyIntoleranceObject::clear_resourcetype() {
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::resourcetype() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.resourceType)
+  return _internal_resourcetype();
+}
+inline void AllergyIntoleranceObject::set_resourcetype(const std::string& value) {
+  _internal_set_resourcetype(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.resourceType)
+}
+inline std::string* AllergyIntoleranceObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.resourceType)
+}
+inline void AllergyIntoleranceObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.resourceType)
+}
+inline void AllergyIntoleranceObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.resourceType)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.resourceType)
+}
+
+// .patient.Reaction reaction = 17;
+inline bool AllergyIntoleranceObject::_internal_has_reaction() const {
+  return this != internal_default_instance() && reaction_ != nullptr;
+}
+inline bool AllergyIntoleranceObject::has_reaction() const {
+  return _internal_has_reaction();
+}
+inline void AllergyIntoleranceObject::clear_reaction() {
+  if (GetArenaNoVirtual() == nullptr && reaction_ != nullptr) {
+    delete reaction_;
+  }
+  reaction_ = nullptr;
+}
+inline const ::patient::Reaction& AllergyIntoleranceObject::_internal_reaction() const {
+  const ::patient::Reaction* p = reaction_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reaction*>(
+      &::patient::_Reaction_default_instance_);
+}
+inline const ::patient::Reaction& AllergyIntoleranceObject::reaction() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.reaction)
+  return _internal_reaction();
+}
+inline ::patient::Reaction* AllergyIntoleranceObject::release_reaction() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.reaction)
+  
+  ::patient::Reaction* temp = reaction_;
+  reaction_ = nullptr;
+  return temp;
+}
+inline ::patient::Reaction* AllergyIntoleranceObject::_internal_mutable_reaction() {
+  
+  if (reaction_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reaction>(GetArenaNoVirtual());
+    reaction_ = p;
+  }
+  return reaction_;
+}
+inline ::patient::Reaction* AllergyIntoleranceObject::mutable_reaction() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.reaction)
+  return _internal_mutable_reaction();
+}
+inline void AllergyIntoleranceObject::set_allocated_reaction(::patient::Reaction* reaction) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete reaction_;
+  }
+  if (reaction) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      reaction = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, reaction, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  reaction_ = reaction;
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.reaction)
+}
+
+// string id = 18;
+inline void AllergyIntoleranceObject::clear_id() {
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& AllergyIntoleranceObject::id() const {
+  // @@protoc_insertion_point(field_get:patient.AllergyIntoleranceObject.id)
+  return _internal_id();
+}
+inline void AllergyIntoleranceObject::set_id(const std::string& value) {
+  _internal_set_id(value);
+  // @@protoc_insertion_point(field_set:patient.AllergyIntoleranceObject.id)
+}
+inline std::string* AllergyIntoleranceObject::mutable_id() {
+  // @@protoc_insertion_point(field_mutable:patient.AllergyIntoleranceObject.id)
+  return _internal_mutable_id();
+}
+inline const std::string& AllergyIntoleranceObject::_internal_id() const {
+  return id_.GetNoArena();
+}
+inline void AllergyIntoleranceObject::_internal_set_id(const std::string& value) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void AllergyIntoleranceObject::set_id(std::string&& value) {
+  
+  id_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.AllergyIntoleranceObject.id)
+}
+inline void AllergyIntoleranceObject::set_id(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.AllergyIntoleranceObject.id)
+}
+inline void AllergyIntoleranceObject::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.AllergyIntoleranceObject.id)
+}
+inline std::string* AllergyIntoleranceObject::_internal_mutable_id() {
+  
+  return id_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* AllergyIntoleranceObject::release_id() {
+  // @@protoc_insertion_point(field_release:patient.AllergyIntoleranceObject.id)
+  
+  return id_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void AllergyIntoleranceObject::set_allocated_id(std::string* id) {
+  if (id != nullptr) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:patient.AllergyIntoleranceObject.id)
+}
+
+// -------------------------------------------------------------------
+
 // CarePlanObject
 
 // repeated .patient.Activity activity = 1;
@@ -16695,7 +24245,7 @@ CarePlanObject::category() const {
   return category_;
 }
 
-// .patient.Reference Encounter = 5;
+// .patient.Reference encounter = 5;
 inline bool CarePlanObject::_internal_has_encounter() const {
   return this != internal_default_instance() && encounter_ != nullptr;
 }
@@ -16714,11 +24264,11 @@ inline const ::patient::Reference& CarePlanObject::_internal_encounter() const {
       &::patient::_Reference_default_instance_);
 }
 inline const ::patient::Reference& CarePlanObject::encounter() const {
-  // @@protoc_insertion_point(field_get:patient.CarePlanObject.Encounter)
+  // @@protoc_insertion_point(field_get:patient.CarePlanObject.encounter)
   return _internal_encounter();
 }
 inline ::patient::Reference* CarePlanObject::release_encounter() {
-  // @@protoc_insertion_point(field_release:patient.CarePlanObject.Encounter)
+  // @@protoc_insertion_point(field_release:patient.CarePlanObject.encounter)
   
   ::patient::Reference* temp = encounter_;
   encounter_ = nullptr;
@@ -16733,7 +24283,7 @@ inline ::patient::Reference* CarePlanObject::_internal_mutable_encounter() {
   return encounter_;
 }
 inline ::patient::Reference* CarePlanObject::mutable_encounter() {
-  // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.Encounter)
+  // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.encounter)
   return _internal_mutable_encounter();
 }
 inline void CarePlanObject::set_allocated_encounter(::patient::Reference* encounter) {
@@ -16752,7 +24302,7 @@ inline void CarePlanObject::set_allocated_encounter(::patient::Reference* encoun
     
   }
   encounter_ = encounter;
-  // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.Encounter)
+  // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.encounter)
 }
 
 // string id = 6;
@@ -16935,44 +24485,124 @@ inline void CarePlanObject::set_allocated_period(::patient::Period* period) {
   // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.period)
 }
 
-// .patient.ResourceType resourceType = 9;
+// string resourceType = 9;
 inline void CarePlanObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType CarePlanObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType CarePlanObject::resourcetype() const {
+inline const std::string& CarePlanObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.CarePlanObject.resourceType)
   return _internal_resourcetype();
 }
-inline void CarePlanObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void CarePlanObject::set_resourcetype(::patient::ResourceType value) {
+inline void CarePlanObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.CarePlanObject.resourceType)
 }
+inline std::string* CarePlanObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& CarePlanObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void CarePlanObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void CarePlanObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.CarePlanObject.resourceType)
+}
+inline void CarePlanObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.CarePlanObject.resourceType)
+}
+inline void CarePlanObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.CarePlanObject.resourceType)
+}
+inline std::string* CarePlanObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* CarePlanObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.CarePlanObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void CarePlanObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.resourceType)
+}
 
-// .patient.Status status = 10;
+// string status = 10;
 inline void CarePlanObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status CarePlanObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status CarePlanObject::status() const {
+inline const std::string& CarePlanObject::status() const {
   // @@protoc_insertion_point(field_get:patient.CarePlanObject.status)
   return _internal_status();
 }
-inline void CarePlanObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void CarePlanObject::set_status(::patient::Status value) {
+inline void CarePlanObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.CarePlanObject.status)
+}
+inline std::string* CarePlanObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& CarePlanObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void CarePlanObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void CarePlanObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.CarePlanObject.status)
+}
+inline void CarePlanObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.CarePlanObject.status)
+}
+inline void CarePlanObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.CarePlanObject.status)
+}
+inline std::string* CarePlanObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* CarePlanObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.CarePlanObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void CarePlanObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.status)
 }
 
 // .patient.Reference subject = 11;
@@ -17035,71 +24665,110 @@ inline void CarePlanObject::set_allocated_subject(::patient::Reference* subject)
   // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.subject)
 }
 
-// string text = 12;
-inline void CarePlanObject::clear_text() {
-  text_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+// .patient.Text text = 12;
+inline bool CarePlanObject::_internal_has_text() const {
+  return this != internal_default_instance() && text_ != nullptr;
 }
-inline const std::string& CarePlanObject::text() const {
+inline bool CarePlanObject::has_text() const {
+  return _internal_has_text();
+}
+inline void CarePlanObject::clear_text() {
+  if (GetArenaNoVirtual() == nullptr && text_ != nullptr) {
+    delete text_;
+  }
+  text_ = nullptr;
+}
+inline const ::patient::Text& CarePlanObject::_internal_text() const {
+  const ::patient::Text* p = text_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Text*>(
+      &::patient::_Text_default_instance_);
+}
+inline const ::patient::Text& CarePlanObject::text() const {
   // @@protoc_insertion_point(field_get:patient.CarePlanObject.text)
   return _internal_text();
 }
-inline void CarePlanObject::set_text(const std::string& value) {
-  _internal_set_text(value);
-  // @@protoc_insertion_point(field_set:patient.CarePlanObject.text)
+inline ::patient::Text* CarePlanObject::release_text() {
+  // @@protoc_insertion_point(field_release:patient.CarePlanObject.text)
+  
+  ::patient::Text* temp = text_;
+  text_ = nullptr;
+  return temp;
 }
-inline std::string* CarePlanObject::mutable_text() {
+inline ::patient::Text* CarePlanObject::_internal_mutable_text() {
+  
+  if (text_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Text>(GetArenaNoVirtual());
+    text_ = p;
+  }
+  return text_;
+}
+inline ::patient::Text* CarePlanObject::mutable_text() {
   // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.text)
   return _internal_mutable_text();
 }
-inline const std::string& CarePlanObject::_internal_text() const {
-  return text_.GetNoArena();
-}
-inline void CarePlanObject::_internal_set_text(const std::string& value) {
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
-}
-inline void CarePlanObject::set_text(std::string&& value) {
-  
-  text_.SetNoArena(
-    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:patient.CarePlanObject.text)
-}
-inline void CarePlanObject::set_text(const char* value) {
-  GOOGLE_DCHECK(value != nullptr);
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:patient.CarePlanObject.text)
-}
-inline void CarePlanObject::set_text(const char* value, size_t size) {
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:patient.CarePlanObject.text)
-}
-inline std::string* CarePlanObject::_internal_mutable_text() {
-  
-  return text_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-}
-inline std::string* CarePlanObject::release_text() {
-  // @@protoc_insertion_point(field_release:patient.CarePlanObject.text)
-  
-  return text_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-}
-inline void CarePlanObject::set_allocated_text(std::string* text) {
-  if (text != nullptr) {
+inline void CarePlanObject::set_allocated_text(::patient::Text* text) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete text_;
+  }
+  if (text) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      text = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, text, submessage_arena);
+    }
     
   } else {
     
   }
-  text_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), text);
+  text_ = text;
   // @@protoc_insertion_point(field_set_allocated:patient.CarePlanObject.text)
+}
+
+// repeated .patient.Reference goal = 13;
+inline int CarePlanObject::_internal_goal_size() const {
+  return goal_.size();
+}
+inline int CarePlanObject::goal_size() const {
+  return _internal_goal_size();
+}
+inline void CarePlanObject::clear_goal() {
+  goal_.Clear();
+}
+inline ::patient::Reference* CarePlanObject::mutable_goal(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.CarePlanObject.goal)
+  return goal_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >*
+CarePlanObject::mutable_goal() {
+  // @@protoc_insertion_point(field_mutable_list:patient.CarePlanObject.goal)
+  return &goal_;
+}
+inline const ::patient::Reference& CarePlanObject::_internal_goal(int index) const {
+  return goal_.Get(index);
+}
+inline const ::patient::Reference& CarePlanObject::goal(int index) const {
+  // @@protoc_insertion_point(field_get:patient.CarePlanObject.goal)
+  return _internal_goal(index);
+}
+inline ::patient::Reference* CarePlanObject::_internal_add_goal() {
+  return goal_.Add();
+}
+inline ::patient::Reference* CarePlanObject::add_goal() {
+  // @@protoc_insertion_point(field_add:patient.CarePlanObject.goal)
+  return _internal_add_goal();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >&
+CarePlanObject::goal() const {
+  // @@protoc_insertion_point(field_list:patient.CarePlanObject.goal)
+  return goal_;
 }
 
 // -------------------------------------------------------------------
 
 // CareTeamObject
 
-// .patient.Reference Encounter = 1;
+// .patient.Reference encounter = 1;
 inline bool CareTeamObject::_internal_has_encounter() const {
   return this != internal_default_instance() && encounter_ != nullptr;
 }
@@ -17118,11 +24787,11 @@ inline const ::patient::Reference& CareTeamObject::_internal_encounter() const {
       &::patient::_Reference_default_instance_);
 }
 inline const ::patient::Reference& CareTeamObject::encounter() const {
-  // @@protoc_insertion_point(field_get:patient.CareTeamObject.Encounter)
+  // @@protoc_insertion_point(field_get:patient.CareTeamObject.encounter)
   return _internal_encounter();
 }
 inline ::patient::Reference* CareTeamObject::release_encounter() {
-  // @@protoc_insertion_point(field_release:patient.CareTeamObject.Encounter)
+  // @@protoc_insertion_point(field_release:patient.CareTeamObject.encounter)
   
   ::patient::Reference* temp = encounter_;
   encounter_ = nullptr;
@@ -17137,7 +24806,7 @@ inline ::patient::Reference* CareTeamObject::_internal_mutable_encounter() {
   return encounter_;
 }
 inline ::patient::Reference* CareTeamObject::mutable_encounter() {
-  // @@protoc_insertion_point(field_mutable:patient.CareTeamObject.Encounter)
+  // @@protoc_insertion_point(field_mutable:patient.CareTeamObject.encounter)
   return _internal_mutable_encounter();
 }
 inline void CareTeamObject::set_allocated_encounter(::patient::Reference* encounter) {
@@ -17156,7 +24825,7 @@ inline void CareTeamObject::set_allocated_encounter(::patient::Reference* encoun
     
   }
   encounter_ = encounter;
-  // @@protoc_insertion_point(field_set_allocated:patient.CareTeamObject.Encounter)
+  // @@protoc_insertion_point(field_set_allocated:patient.CareTeamObject.encounter)
 }
 
 // string id = 2;
@@ -17396,44 +25065,124 @@ CareTeamObject::reasoncode() const {
   return reasoncode_;
 }
 
-// .patient.ResourceType resourceType = 7;
+// string resourceType = 7;
 inline void CareTeamObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType CareTeamObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType CareTeamObject::resourcetype() const {
+inline const std::string& CareTeamObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.CareTeamObject.resourceType)
   return _internal_resourcetype();
 }
-inline void CareTeamObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void CareTeamObject::set_resourcetype(::patient::ResourceType value) {
+inline void CareTeamObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.CareTeamObject.resourceType)
 }
+inline std::string* CareTeamObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.CareTeamObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& CareTeamObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void CareTeamObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void CareTeamObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.CareTeamObject.resourceType)
+}
+inline void CareTeamObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.CareTeamObject.resourceType)
+}
+inline void CareTeamObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.CareTeamObject.resourceType)
+}
+inline std::string* CareTeamObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* CareTeamObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.CareTeamObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void CareTeamObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.CareTeamObject.resourceType)
+}
 
-// .patient.Status status = 8;
+// string status = 8;
 inline void CareTeamObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status CareTeamObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status CareTeamObject::status() const {
+inline const std::string& CareTeamObject::status() const {
   // @@protoc_insertion_point(field_get:patient.CareTeamObject.status)
   return _internal_status();
 }
-inline void CareTeamObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void CareTeamObject::set_status(::patient::Status value) {
+inline void CareTeamObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.CareTeamObject.status)
+}
+inline std::string* CareTeamObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.CareTeamObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& CareTeamObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void CareTeamObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void CareTeamObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.CareTeamObject.status)
+}
+inline void CareTeamObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.CareTeamObject.status)
+}
+inline void CareTeamObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.CareTeamObject.status)
+}
+inline std::string* CareTeamObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* CareTeamObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.CareTeamObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void CareTeamObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.CareTeamObject.status)
 }
 
 // .patient.Reference subject = 9;
@@ -18076,44 +25825,124 @@ inline void ClaimObject::set_allocated_provider(::patient::Reference* provider) 
   // @@protoc_insertion_point(field_set_allocated:patient.ClaimObject.provider)
 }
 
-// .patient.ResourceType resourceType = 12;
+// string resourceType = 12;
 inline void ClaimObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ClaimObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ClaimObject::resourcetype() const {
+inline const std::string& ClaimObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ClaimObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ClaimObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ClaimObject::set_resourcetype(::patient::ResourceType value) {
+inline void ClaimObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ClaimObject.resourceType)
 }
+inline std::string* ClaimObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ClaimObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ClaimObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ClaimObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ClaimObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ClaimObject.resourceType)
+}
+inline void ClaimObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ClaimObject.resourceType)
+}
+inline void ClaimObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ClaimObject.resourceType)
+}
+inline std::string* ClaimObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ClaimObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ClaimObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ClaimObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ClaimObject.resourceType)
+}
 
-// .patient.Status status = 13;
+// string status = 13;
 inline void ClaimObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status ClaimObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status ClaimObject::status() const {
+inline const std::string& ClaimObject::status() const {
   // @@protoc_insertion_point(field_get:patient.ClaimObject.status)
   return _internal_status();
 }
-inline void ClaimObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void ClaimObject::set_status(::patient::Status value) {
+inline void ClaimObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.ClaimObject.status)
+}
+inline std::string* ClaimObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ClaimObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ClaimObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ClaimObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ClaimObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ClaimObject.status)
+}
+inline void ClaimObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ClaimObject.status)
+}
+inline void ClaimObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ClaimObject.status)
+}
+inline std::string* ClaimObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ClaimObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ClaimObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ClaimObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ClaimObject.status)
 }
 
 // repeated .patient.SupportingInfo supportingInfo = 14;
@@ -18759,24 +26588,64 @@ inline void ConditionObject::set_allocated_recordeddate(std::string* recordeddat
   // @@protoc_insertion_point(field_set_allocated:patient.ConditionObject.recordedDate)
 }
 
-// .patient.ResourceType resourceType = 8;
+// string resourceType = 8;
 inline void ConditionObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ConditionObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ConditionObject::resourcetype() const {
+inline const std::string& ConditionObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ConditionObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ConditionObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ConditionObject::set_resourcetype(::patient::ResourceType value) {
+inline void ConditionObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ConditionObject.resourceType)
+}
+inline std::string* ConditionObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ConditionObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ConditionObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ConditionObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ConditionObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ConditionObject.resourceType)
+}
+inline void ConditionObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ConditionObject.resourceType)
+}
+inline void ConditionObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ConditionObject.resourceType)
+}
+inline std::string* ConditionObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ConditionObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ConditionObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ConditionObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ConditionObject.resourceType)
 }
 
 // .patient.Reference subject = 9;
@@ -18897,6 +26766,688 @@ inline void ConditionObject::set_allocated_verificationstatus(::patient::Categor
   }
   verificationstatus_ = verificationstatus;
   // @@protoc_insertion_point(field_set_allocated:patient.ConditionObject.verificationStatus)
+}
+
+// -------------------------------------------------------------------
+
+// DeviceObject
+
+// string resourceType = 1;
+inline void DeviceObject::clear_resourcetype() {
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::resourcetype() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.resourceType)
+  return _internal_resourcetype();
+}
+inline void DeviceObject::set_resourcetype(const std::string& value) {
+  _internal_set_resourcetype(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.resourceType)
+}
+inline std::string* DeviceObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& DeviceObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.resourceType)
+}
+inline void DeviceObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.resourceType)
+}
+inline void DeviceObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.resourceType)
+}
+inline std::string* DeviceObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.resourceType)
+}
+
+// string id = 2;
+inline void DeviceObject::clear_id() {
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::id() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.id)
+  return _internal_id();
+}
+inline void DeviceObject::set_id(const std::string& value) {
+  _internal_set_id(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.id)
+}
+inline std::string* DeviceObject::mutable_id() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.id)
+  return _internal_mutable_id();
+}
+inline const std::string& DeviceObject::_internal_id() const {
+  return id_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_id(const std::string& value) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_id(std::string&& value) {
+  
+  id_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.id)
+}
+inline void DeviceObject::set_id(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.id)
+}
+inline void DeviceObject::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.id)
+}
+inline std::string* DeviceObject::_internal_mutable_id() {
+  
+  return id_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_id() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.id)
+  
+  return id_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_id(std::string* id) {
+  if (id != nullptr) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.id)
+}
+
+// repeated .patient.Carrier udiCarrier = 3;
+inline int DeviceObject::_internal_udicarrier_size() const {
+  return udicarrier_.size();
+}
+inline int DeviceObject::udicarrier_size() const {
+  return _internal_udicarrier_size();
+}
+inline void DeviceObject::clear_udicarrier() {
+  udicarrier_.Clear();
+}
+inline ::patient::Carrier* DeviceObject::mutable_udicarrier(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.udiCarrier)
+  return udicarrier_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Carrier >*
+DeviceObject::mutable_udicarrier() {
+  // @@protoc_insertion_point(field_mutable_list:patient.DeviceObject.udiCarrier)
+  return &udicarrier_;
+}
+inline const ::patient::Carrier& DeviceObject::_internal_udicarrier(int index) const {
+  return udicarrier_.Get(index);
+}
+inline const ::patient::Carrier& DeviceObject::udicarrier(int index) const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.udiCarrier)
+  return _internal_udicarrier(index);
+}
+inline ::patient::Carrier* DeviceObject::_internal_add_udicarrier() {
+  return udicarrier_.Add();
+}
+inline ::patient::Carrier* DeviceObject::add_udicarrier() {
+  // @@protoc_insertion_point(field_add:patient.DeviceObject.udiCarrier)
+  return _internal_add_udicarrier();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Carrier >&
+DeviceObject::udicarrier() const {
+  // @@protoc_insertion_point(field_list:patient.DeviceObject.udiCarrier)
+  return udicarrier_;
+}
+
+// string status = 4;
+inline void DeviceObject::clear_status() {
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::status() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.status)
+  return _internal_status();
+}
+inline void DeviceObject::set_status(const std::string& value) {
+  _internal_set_status(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.status)
+}
+inline std::string* DeviceObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& DeviceObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.status)
+}
+inline void DeviceObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.status)
+}
+inline void DeviceObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.status)
+}
+inline std::string* DeviceObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.status)
+}
+
+// string distinctIdentifier = 5;
+inline void DeviceObject::clear_distinctidentifier() {
+  distinctidentifier_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::distinctidentifier() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.distinctIdentifier)
+  return _internal_distinctidentifier();
+}
+inline void DeviceObject::set_distinctidentifier(const std::string& value) {
+  _internal_set_distinctidentifier(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.distinctIdentifier)
+}
+inline std::string* DeviceObject::mutable_distinctidentifier() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.distinctIdentifier)
+  return _internal_mutable_distinctidentifier();
+}
+inline const std::string& DeviceObject::_internal_distinctidentifier() const {
+  return distinctidentifier_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_distinctidentifier(const std::string& value) {
+  
+  distinctidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_distinctidentifier(std::string&& value) {
+  
+  distinctidentifier_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.distinctIdentifier)
+}
+inline void DeviceObject::set_distinctidentifier(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  distinctidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.distinctIdentifier)
+}
+inline void DeviceObject::set_distinctidentifier(const char* value, size_t size) {
+  
+  distinctidentifier_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.distinctIdentifier)
+}
+inline std::string* DeviceObject::_internal_mutable_distinctidentifier() {
+  
+  return distinctidentifier_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_distinctidentifier() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.distinctIdentifier)
+  
+  return distinctidentifier_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_distinctidentifier(std::string* distinctidentifier) {
+  if (distinctidentifier != nullptr) {
+    
+  } else {
+    
+  }
+  distinctidentifier_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), distinctidentifier);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.distinctIdentifier)
+}
+
+// string manufactureDate = 6;
+inline void DeviceObject::clear_manufacturedate() {
+  manufacturedate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::manufacturedate() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.manufactureDate)
+  return _internal_manufacturedate();
+}
+inline void DeviceObject::set_manufacturedate(const std::string& value) {
+  _internal_set_manufacturedate(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.manufactureDate)
+}
+inline std::string* DeviceObject::mutable_manufacturedate() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.manufactureDate)
+  return _internal_mutable_manufacturedate();
+}
+inline const std::string& DeviceObject::_internal_manufacturedate() const {
+  return manufacturedate_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_manufacturedate(const std::string& value) {
+  
+  manufacturedate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_manufacturedate(std::string&& value) {
+  
+  manufacturedate_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.manufactureDate)
+}
+inline void DeviceObject::set_manufacturedate(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  manufacturedate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.manufactureDate)
+}
+inline void DeviceObject::set_manufacturedate(const char* value, size_t size) {
+  
+  manufacturedate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.manufactureDate)
+}
+inline std::string* DeviceObject::_internal_mutable_manufacturedate() {
+  
+  return manufacturedate_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_manufacturedate() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.manufactureDate)
+  
+  return manufacturedate_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_manufacturedate(std::string* manufacturedate) {
+  if (manufacturedate != nullptr) {
+    
+  } else {
+    
+  }
+  manufacturedate_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), manufacturedate);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.manufactureDate)
+}
+
+// string expirationDate = 7;
+inline void DeviceObject::clear_expirationdate() {
+  expirationdate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::expirationdate() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.expirationDate)
+  return _internal_expirationdate();
+}
+inline void DeviceObject::set_expirationdate(const std::string& value) {
+  _internal_set_expirationdate(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.expirationDate)
+}
+inline std::string* DeviceObject::mutable_expirationdate() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.expirationDate)
+  return _internal_mutable_expirationdate();
+}
+inline const std::string& DeviceObject::_internal_expirationdate() const {
+  return expirationdate_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_expirationdate(const std::string& value) {
+  
+  expirationdate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_expirationdate(std::string&& value) {
+  
+  expirationdate_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.expirationDate)
+}
+inline void DeviceObject::set_expirationdate(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  expirationdate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.expirationDate)
+}
+inline void DeviceObject::set_expirationdate(const char* value, size_t size) {
+  
+  expirationdate_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.expirationDate)
+}
+inline std::string* DeviceObject::_internal_mutable_expirationdate() {
+  
+  return expirationdate_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_expirationdate() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.expirationDate)
+  
+  return expirationdate_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_expirationdate(std::string* expirationdate) {
+  if (expirationdate != nullptr) {
+    
+  } else {
+    
+  }
+  expirationdate_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), expirationdate);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.expirationDate)
+}
+
+// string lotNumber = 8;
+inline void DeviceObject::clear_lotnumber() {
+  lotnumber_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::lotnumber() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.lotNumber)
+  return _internal_lotnumber();
+}
+inline void DeviceObject::set_lotnumber(const std::string& value) {
+  _internal_set_lotnumber(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.lotNumber)
+}
+inline std::string* DeviceObject::mutable_lotnumber() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.lotNumber)
+  return _internal_mutable_lotnumber();
+}
+inline const std::string& DeviceObject::_internal_lotnumber() const {
+  return lotnumber_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_lotnumber(const std::string& value) {
+  
+  lotnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_lotnumber(std::string&& value) {
+  
+  lotnumber_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.lotNumber)
+}
+inline void DeviceObject::set_lotnumber(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  lotnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.lotNumber)
+}
+inline void DeviceObject::set_lotnumber(const char* value, size_t size) {
+  
+  lotnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.lotNumber)
+}
+inline std::string* DeviceObject::_internal_mutable_lotnumber() {
+  
+  return lotnumber_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_lotnumber() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.lotNumber)
+  
+  return lotnumber_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_lotnumber(std::string* lotnumber) {
+  if (lotnumber != nullptr) {
+    
+  } else {
+    
+  }
+  lotnumber_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), lotnumber);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.lotNumber)
+}
+
+// string serialNumber = 9;
+inline void DeviceObject::clear_serialnumber() {
+  serialnumber_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& DeviceObject::serialnumber() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.serialNumber)
+  return _internal_serialnumber();
+}
+inline void DeviceObject::set_serialnumber(const std::string& value) {
+  _internal_set_serialnumber(value);
+  // @@protoc_insertion_point(field_set:patient.DeviceObject.serialNumber)
+}
+inline std::string* DeviceObject::mutable_serialnumber() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.serialNumber)
+  return _internal_mutable_serialnumber();
+}
+inline const std::string& DeviceObject::_internal_serialnumber() const {
+  return serialnumber_.GetNoArena();
+}
+inline void DeviceObject::_internal_set_serialnumber(const std::string& value) {
+  
+  serialnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DeviceObject::set_serialnumber(std::string&& value) {
+  
+  serialnumber_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DeviceObject.serialNumber)
+}
+inline void DeviceObject::set_serialnumber(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  serialnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DeviceObject.serialNumber)
+}
+inline void DeviceObject::set_serialnumber(const char* value, size_t size) {
+  
+  serialnumber_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DeviceObject.serialNumber)
+}
+inline std::string* DeviceObject::_internal_mutable_serialnumber() {
+  
+  return serialnumber_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DeviceObject::release_serialnumber() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.serialNumber)
+  
+  return serialnumber_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DeviceObject::set_allocated_serialnumber(std::string* serialnumber) {
+  if (serialnumber != nullptr) {
+    
+  } else {
+    
+  }
+  serialnumber_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), serialnumber);
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.serialNumber)
+}
+
+// repeated .patient.DeviceName deviceName = 10;
+inline int DeviceObject::_internal_devicename_size() const {
+  return devicename_.size();
+}
+inline int DeviceObject::devicename_size() const {
+  return _internal_devicename_size();
+}
+inline void DeviceObject::clear_devicename() {
+  devicename_.Clear();
+}
+inline ::patient::DeviceName* DeviceObject::mutable_devicename(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.deviceName)
+  return devicename_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceName >*
+DeviceObject::mutable_devicename() {
+  // @@protoc_insertion_point(field_mutable_list:patient.DeviceObject.deviceName)
+  return &devicename_;
+}
+inline const ::patient::DeviceName& DeviceObject::_internal_devicename(int index) const {
+  return devicename_.Get(index);
+}
+inline const ::patient::DeviceName& DeviceObject::devicename(int index) const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.deviceName)
+  return _internal_devicename(index);
+}
+inline ::patient::DeviceName* DeviceObject::_internal_add_devicename() {
+  return devicename_.Add();
+}
+inline ::patient::DeviceName* DeviceObject::add_devicename() {
+  // @@protoc_insertion_point(field_add:patient.DeviceObject.deviceName)
+  return _internal_add_devicename();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceName >&
+DeviceObject::devicename() const {
+  // @@protoc_insertion_point(field_list:patient.DeviceObject.deviceName)
+  return devicename_;
+}
+
+// .patient.Category type = 11;
+inline bool DeviceObject::_internal_has_type() const {
+  return this != internal_default_instance() && type_ != nullptr;
+}
+inline bool DeviceObject::has_type() const {
+  return _internal_has_type();
+}
+inline void DeviceObject::clear_type() {
+  if (GetArenaNoVirtual() == nullptr && type_ != nullptr) {
+    delete type_;
+  }
+  type_ = nullptr;
+}
+inline const ::patient::Category& DeviceObject::_internal_type() const {
+  const ::patient::Category* p = type_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& DeviceObject::type() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.type)
+  return _internal_type();
+}
+inline ::patient::Category* DeviceObject::release_type() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.type)
+  
+  ::patient::Category* temp = type_;
+  type_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* DeviceObject::_internal_mutable_type() {
+  
+  if (type_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    type_ = p;
+  }
+  return type_;
+}
+inline ::patient::Category* DeviceObject::mutable_type() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.type)
+  return _internal_mutable_type();
+}
+inline void DeviceObject::set_allocated_type(::patient::Category* type) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete type_;
+  }
+  if (type) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      type = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, type, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  type_ = type;
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.type)
+}
+
+// .patient.Reference patient = 12;
+inline bool DeviceObject::_internal_has_patient() const {
+  return this != internal_default_instance() && patient_ != nullptr;
+}
+inline bool DeviceObject::has_patient() const {
+  return _internal_has_patient();
+}
+inline void DeviceObject::clear_patient() {
+  if (GetArenaNoVirtual() == nullptr && patient_ != nullptr) {
+    delete patient_;
+  }
+  patient_ = nullptr;
+}
+inline const ::patient::Reference& DeviceObject::_internal_patient() const {
+  const ::patient::Reference* p = patient_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& DeviceObject::patient() const {
+  // @@protoc_insertion_point(field_get:patient.DeviceObject.patient)
+  return _internal_patient();
+}
+inline ::patient::Reference* DeviceObject::release_patient() {
+  // @@protoc_insertion_point(field_release:patient.DeviceObject.patient)
+  
+  ::patient::Reference* temp = patient_;
+  patient_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* DeviceObject::_internal_mutable_patient() {
+  
+  if (patient_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    patient_ = p;
+  }
+  return patient_;
+}
+inline ::patient::Reference* DeviceObject::mutable_patient() {
+  // @@protoc_insertion_point(field_mutable:patient.DeviceObject.patient)
+  return _internal_mutable_patient();
+}
+inline void DeviceObject::set_allocated_patient(::patient::Reference* patient) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete patient_;
+  }
+  if (patient) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      patient = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, patient, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  patient_ = patient;
+  // @@protoc_insertion_point(field_set_allocated:patient.DeviceObject.patient)
 }
 
 // -------------------------------------------------------------------
@@ -19242,24 +27793,64 @@ inline void DiagnosticReportObject::set_allocated_issued(std::string* issued) {
   // @@protoc_insertion_point(field_set_allocated:patient.DiagnosticReportObject.issued)
 }
 
-// .patient.ResourceType resourceType = 7;
+// string resourceType = 7;
 inline void DiagnosticReportObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType DiagnosticReportObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType DiagnosticReportObject::resourcetype() const {
+inline const std::string& DiagnosticReportObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.DiagnosticReportObject.resourceType)
   return _internal_resourcetype();
 }
-inline void DiagnosticReportObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void DiagnosticReportObject::set_resourcetype(::patient::ResourceType value) {
+inline void DiagnosticReportObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.DiagnosticReportObject.resourceType)
+}
+inline std::string* DiagnosticReportObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.DiagnosticReportObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& DiagnosticReportObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void DiagnosticReportObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DiagnosticReportObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DiagnosticReportObject.resourceType)
+}
+inline void DiagnosticReportObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DiagnosticReportObject.resourceType)
+}
+inline void DiagnosticReportObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DiagnosticReportObject.resourceType)
+}
+inline std::string* DiagnosticReportObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DiagnosticReportObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.DiagnosticReportObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DiagnosticReportObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.DiagnosticReportObject.resourceType)
 }
 
 // repeated .patient.Reference result = 8;
@@ -19301,27 +27892,67 @@ DiagnosticReportObject::result() const {
   return result_;
 }
 
-// .patient.Status status = 9;
+// string status = 9;
 inline void DiagnosticReportObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status DiagnosticReportObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status DiagnosticReportObject::status() const {
+inline const std::string& DiagnosticReportObject::status() const {
   // @@protoc_insertion_point(field_get:patient.DiagnosticReportObject.status)
   return _internal_status();
 }
-inline void DiagnosticReportObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void DiagnosticReportObject::set_status(::patient::Status value) {
+inline void DiagnosticReportObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.DiagnosticReportObject.status)
 }
+inline std::string* DiagnosticReportObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.DiagnosticReportObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& DiagnosticReportObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void DiagnosticReportObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void DiagnosticReportObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.DiagnosticReportObject.status)
+}
+inline void DiagnosticReportObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.DiagnosticReportObject.status)
+}
+inline void DiagnosticReportObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.DiagnosticReportObject.status)
+}
+inline std::string* DiagnosticReportObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* DiagnosticReportObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.DiagnosticReportObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void DiagnosticReportObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.DiagnosticReportObject.status)
+}
 
-// .patient.Reference Subject = 10;
+// .patient.Reference subject = 10;
 inline bool DiagnosticReportObject::_internal_has_subject() const {
   return this != internal_default_instance() && subject_ != nullptr;
 }
@@ -19340,11 +27971,11 @@ inline const ::patient::Reference& DiagnosticReportObject::_internal_subject() c
       &::patient::_Reference_default_instance_);
 }
 inline const ::patient::Reference& DiagnosticReportObject::subject() const {
-  // @@protoc_insertion_point(field_get:patient.DiagnosticReportObject.Subject)
+  // @@protoc_insertion_point(field_get:patient.DiagnosticReportObject.subject)
   return _internal_subject();
 }
 inline ::patient::Reference* DiagnosticReportObject::release_subject() {
-  // @@protoc_insertion_point(field_release:patient.DiagnosticReportObject.Subject)
+  // @@protoc_insertion_point(field_release:patient.DiagnosticReportObject.subject)
   
   ::patient::Reference* temp = subject_;
   subject_ = nullptr;
@@ -19359,7 +27990,7 @@ inline ::patient::Reference* DiagnosticReportObject::_internal_mutable_subject()
   return subject_;
 }
 inline ::patient::Reference* DiagnosticReportObject::mutable_subject() {
-  // @@protoc_insertion_point(field_mutable:patient.DiagnosticReportObject.Subject)
+  // @@protoc_insertion_point(field_mutable:patient.DiagnosticReportObject.subject)
   return _internal_mutable_subject();
 }
 inline void DiagnosticReportObject::set_allocated_subject(::patient::Reference* subject) {
@@ -19378,14 +28009,14 @@ inline void DiagnosticReportObject::set_allocated_subject(::patient::Reference* 
     
   }
   subject_ = subject;
-  // @@protoc_insertion_point(field_set_allocated:patient.DiagnosticReportObject.Subject)
+  // @@protoc_insertion_point(field_set_allocated:patient.DiagnosticReportObject.subject)
 }
 
 // -------------------------------------------------------------------
 
 // EncounterObject
 
-// .patient.Category class = 1;
+// .patient.Coding class = 1;
 inline bool EncounterObject::_internal_has_class_() const {
   return this != internal_default_instance() && class__ != nullptr;
 }
@@ -19398,35 +28029,35 @@ inline void EncounterObject::clear_class_() {
   }
   class__ = nullptr;
 }
-inline const ::patient::Category& EncounterObject::_internal_class_() const {
-  const ::patient::Category* p = class__;
-  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
-      &::patient::_Category_default_instance_);
+inline const ::patient::Coding& EncounterObject::_internal_class_() const {
+  const ::patient::Coding* p = class__;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Coding*>(
+      &::patient::_Coding_default_instance_);
 }
-inline const ::patient::Category& EncounterObject::class_() const {
+inline const ::patient::Coding& EncounterObject::class_() const {
   // @@protoc_insertion_point(field_get:patient.EncounterObject.class)
   return _internal_class_();
 }
-inline ::patient::Category* EncounterObject::release_class_() {
+inline ::patient::Coding* EncounterObject::release_class_() {
   // @@protoc_insertion_point(field_release:patient.EncounterObject.class)
   
-  ::patient::Category* temp = class__;
+  ::patient::Coding* temp = class__;
   class__ = nullptr;
   return temp;
 }
-inline ::patient::Category* EncounterObject::_internal_mutable_class_() {
+inline ::patient::Coding* EncounterObject::_internal_mutable_class_() {
   
   if (class__ == nullptr) {
-    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    auto* p = CreateMaybeMessage<::patient::Coding>(GetArenaNoVirtual());
     class__ = p;
   }
   return class__;
 }
-inline ::patient::Category* EncounterObject::mutable_class_() {
+inline ::patient::Coding* EncounterObject::mutable_class_() {
   // @@protoc_insertion_point(field_mutable:patient.EncounterObject.class)
   return _internal_mutable_class_();
 }
-inline void EncounterObject::set_allocated_class_(::patient::Category* class_) {
+inline void EncounterObject::set_allocated_class_(::patient::Coding* class_) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == nullptr) {
     delete class__;
@@ -19643,24 +28274,64 @@ EncounterObject::reasoncode() const {
   return reasoncode_;
 }
 
-// .patient.ResourceType resourceType = 6;
+// string resourceType = 6;
 inline void EncounterObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType EncounterObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType EncounterObject::resourcetype() const {
+inline const std::string& EncounterObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.EncounterObject.resourceType)
   return _internal_resourcetype();
 }
-inline void EncounterObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void EncounterObject::set_resourcetype(::patient::ResourceType value) {
+inline void EncounterObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.EncounterObject.resourceType)
+}
+inline std::string* EncounterObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.EncounterObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& EncounterObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void EncounterObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void EncounterObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.EncounterObject.resourceType)
+}
+inline void EncounterObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.EncounterObject.resourceType)
+}
+inline void EncounterObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.EncounterObject.resourceType)
+}
+inline std::string* EncounterObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* EncounterObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.EncounterObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void EncounterObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.EncounterObject.resourceType)
 }
 
 // .patient.Reference serviceProvider = 7;
@@ -19723,24 +28394,64 @@ inline void EncounterObject::set_allocated_serviceprovider(::patient::Reference*
   // @@protoc_insertion_point(field_set_allocated:patient.EncounterObject.serviceProvider)
 }
 
-// .patient.Status status = 8;
+// string status = 8;
 inline void EncounterObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status EncounterObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status EncounterObject::status() const {
+inline const std::string& EncounterObject::status() const {
   // @@protoc_insertion_point(field_get:patient.EncounterObject.status)
   return _internal_status();
 }
-inline void EncounterObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void EncounterObject::set_status(::patient::Status value) {
+inline void EncounterObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.EncounterObject.status)
+}
+inline std::string* EncounterObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.EncounterObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& EncounterObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void EncounterObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void EncounterObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.EncounterObject.status)
+}
+inline void EncounterObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.EncounterObject.status)
+}
+inline void EncounterObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.EncounterObject.status)
+}
+inline std::string* EncounterObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* EncounterObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.EncounterObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void EncounterObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.EncounterObject.status)
 }
 
 // .patient.Reference subject = 9;
@@ -19842,6 +28553,66 @@ EncounterObject::type() const {
   return type_;
 }
 
+// .patient.Hospitalization hospitalization = 11;
+inline bool EncounterObject::_internal_has_hospitalization() const {
+  return this != internal_default_instance() && hospitalization_ != nullptr;
+}
+inline bool EncounterObject::has_hospitalization() const {
+  return _internal_has_hospitalization();
+}
+inline void EncounterObject::clear_hospitalization() {
+  if (GetArenaNoVirtual() == nullptr && hospitalization_ != nullptr) {
+    delete hospitalization_;
+  }
+  hospitalization_ = nullptr;
+}
+inline const ::patient::Hospitalization& EncounterObject::_internal_hospitalization() const {
+  const ::patient::Hospitalization* p = hospitalization_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Hospitalization*>(
+      &::patient::_Hospitalization_default_instance_);
+}
+inline const ::patient::Hospitalization& EncounterObject::hospitalization() const {
+  // @@protoc_insertion_point(field_get:patient.EncounterObject.hospitalization)
+  return _internal_hospitalization();
+}
+inline ::patient::Hospitalization* EncounterObject::release_hospitalization() {
+  // @@protoc_insertion_point(field_release:patient.EncounterObject.hospitalization)
+  
+  ::patient::Hospitalization* temp = hospitalization_;
+  hospitalization_ = nullptr;
+  return temp;
+}
+inline ::patient::Hospitalization* EncounterObject::_internal_mutable_hospitalization() {
+  
+  if (hospitalization_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Hospitalization>(GetArenaNoVirtual());
+    hospitalization_ = p;
+  }
+  return hospitalization_;
+}
+inline ::patient::Hospitalization* EncounterObject::mutable_hospitalization() {
+  // @@protoc_insertion_point(field_mutable:patient.EncounterObject.hospitalization)
+  return _internal_mutable_hospitalization();
+}
+inline void EncounterObject::set_allocated_hospitalization(::patient::Hospitalization* hospitalization) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete hospitalization_;
+  }
+  if (hospitalization) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      hospitalization = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, hospitalization, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  hospitalization_ = hospitalization;
+  // @@protoc_insertion_point(field_set_allocated:patient.EncounterObject.hospitalization)
+}
+
 // -------------------------------------------------------------------
 
 // ExplanationOfBenefitObject
@@ -19906,7 +28677,7 @@ inline void ExplanationOfBenefitObject::set_allocated_billableperiod(::patient::
   // @@protoc_insertion_point(field_set_allocated:patient.ExplanationOfBenefitObject.billablePeriod)
 }
 
-// repeated .patient.CareTeam careteam = 2;
+// repeated .patient.CareTeam careTeam = 2;
 inline int ExplanationOfBenefitObject::_internal_careteam_size() const {
   return careteam_.size();
 }
@@ -19917,31 +28688,31 @@ inline void ExplanationOfBenefitObject::clear_careteam() {
   careteam_.Clear();
 }
 inline ::patient::CareTeam* ExplanationOfBenefitObject::mutable_careteam(int index) {
-  // @@protoc_insertion_point(field_mutable:patient.ExplanationOfBenefitObject.careteam)
+  // @@protoc_insertion_point(field_mutable:patient.ExplanationOfBenefitObject.careTeam)
   return careteam_.Mutable(index);
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::CareTeam >*
 ExplanationOfBenefitObject::mutable_careteam() {
-  // @@protoc_insertion_point(field_mutable_list:patient.ExplanationOfBenefitObject.careteam)
+  // @@protoc_insertion_point(field_mutable_list:patient.ExplanationOfBenefitObject.careTeam)
   return &careteam_;
 }
 inline const ::patient::CareTeam& ExplanationOfBenefitObject::_internal_careteam(int index) const {
   return careteam_.Get(index);
 }
 inline const ::patient::CareTeam& ExplanationOfBenefitObject::careteam(int index) const {
-  // @@protoc_insertion_point(field_get:patient.ExplanationOfBenefitObject.careteam)
+  // @@protoc_insertion_point(field_get:patient.ExplanationOfBenefitObject.careTeam)
   return _internal_careteam(index);
 }
 inline ::patient::CareTeam* ExplanationOfBenefitObject::_internal_add_careteam() {
   return careteam_.Add();
 }
 inline ::patient::CareTeam* ExplanationOfBenefitObject::add_careteam() {
-  // @@protoc_insertion_point(field_add:patient.ExplanationOfBenefitObject.careteam)
+  // @@protoc_insertion_point(field_add:patient.ExplanationOfBenefitObject.careTeam)
   return _internal_add_careteam();
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::CareTeam >&
 ExplanationOfBenefitObject::careteam() const {
-  // @@protoc_insertion_point(field_list:patient.ExplanationOfBenefitObject.careteam)
+  // @@protoc_insertion_point(field_list:patient.ExplanationOfBenefitObject.careTeam)
   return careteam_;
 }
 
@@ -20680,44 +29451,124 @@ inline void ExplanationOfBenefitObject::set_allocated_referral(::patient::Refere
   // @@protoc_insertion_point(field_set_allocated:patient.ExplanationOfBenefitObject.referral)
 }
 
-// .patient.ResourceType resourceType = 17;
+// string resourceType = 17;
 inline void ExplanationOfBenefitObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ExplanationOfBenefitObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ExplanationOfBenefitObject::resourcetype() const {
+inline const std::string& ExplanationOfBenefitObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ExplanationOfBenefitObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ExplanationOfBenefitObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ExplanationOfBenefitObject::set_resourcetype(::patient::ResourceType value) {
+inline void ExplanationOfBenefitObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ExplanationOfBenefitObject.resourceType)
 }
+inline std::string* ExplanationOfBenefitObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ExplanationOfBenefitObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ExplanationOfBenefitObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ExplanationOfBenefitObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ExplanationOfBenefitObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ExplanationOfBenefitObject.resourceType)
+}
+inline void ExplanationOfBenefitObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ExplanationOfBenefitObject.resourceType)
+}
+inline void ExplanationOfBenefitObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ExplanationOfBenefitObject.resourceType)
+}
+inline std::string* ExplanationOfBenefitObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ExplanationOfBenefitObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ExplanationOfBenefitObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ExplanationOfBenefitObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ExplanationOfBenefitObject.resourceType)
+}
 
-// .patient.Status status = 18;
+// string status = 18;
 inline void ExplanationOfBenefitObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status ExplanationOfBenefitObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status ExplanationOfBenefitObject::status() const {
+inline const std::string& ExplanationOfBenefitObject::status() const {
   // @@protoc_insertion_point(field_get:patient.ExplanationOfBenefitObject.status)
   return _internal_status();
 }
-inline void ExplanationOfBenefitObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void ExplanationOfBenefitObject::set_status(::patient::Status value) {
+inline void ExplanationOfBenefitObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.ExplanationOfBenefitObject.status)
+}
+inline std::string* ExplanationOfBenefitObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ExplanationOfBenefitObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ExplanationOfBenefitObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ExplanationOfBenefitObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ExplanationOfBenefitObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ExplanationOfBenefitObject.status)
+}
+inline void ExplanationOfBenefitObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ExplanationOfBenefitObject.status)
+}
+inline void ExplanationOfBenefitObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ExplanationOfBenefitObject.status)
+}
+inline std::string* ExplanationOfBenefitObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ExplanationOfBenefitObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ExplanationOfBenefitObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ExplanationOfBenefitObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ExplanationOfBenefitObject.status)
 }
 
 // repeated .patient.Total total = 19;
@@ -20881,6 +29732,852 @@ inline void ExplanationOfBenefitObject::set_allocated_use(std::string* use) {
 
 // -------------------------------------------------------------------
 
+// GoalObject
+
+// string resourceType = 1;
+inline void GoalObject::clear_resourcetype() {
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& GoalObject::resourcetype() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.resourceType)
+  return _internal_resourcetype();
+}
+inline void GoalObject::set_resourcetype(const std::string& value) {
+  _internal_set_resourcetype(value);
+  // @@protoc_insertion_point(field_set:patient.GoalObject.resourceType)
+}
+inline std::string* GoalObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& GoalObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void GoalObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void GoalObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.GoalObject.resourceType)
+}
+inline void GoalObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.GoalObject.resourceType)
+}
+inline void GoalObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.GoalObject.resourceType)
+}
+inline std::string* GoalObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* GoalObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void GoalObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.resourceType)
+}
+
+// string id = 2;
+inline void GoalObject::clear_id() {
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& GoalObject::id() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.id)
+  return _internal_id();
+}
+inline void GoalObject::set_id(const std::string& value) {
+  _internal_set_id(value);
+  // @@protoc_insertion_point(field_set:patient.GoalObject.id)
+}
+inline std::string* GoalObject::mutable_id() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.id)
+  return _internal_mutable_id();
+}
+inline const std::string& GoalObject::_internal_id() const {
+  return id_.GetNoArena();
+}
+inline void GoalObject::_internal_set_id(const std::string& value) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void GoalObject::set_id(std::string&& value) {
+  
+  id_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.GoalObject.id)
+}
+inline void GoalObject::set_id(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.GoalObject.id)
+}
+inline void GoalObject::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.GoalObject.id)
+}
+inline std::string* GoalObject::_internal_mutable_id() {
+  
+  return id_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* GoalObject::release_id() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.id)
+  
+  return id_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void GoalObject::set_allocated_id(std::string* id) {
+  if (id != nullptr) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.id)
+}
+
+// string lifecycleStatus = 3;
+inline void GoalObject::clear_lifecyclestatus() {
+  lifecyclestatus_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& GoalObject::lifecyclestatus() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.lifecycleStatus)
+  return _internal_lifecyclestatus();
+}
+inline void GoalObject::set_lifecyclestatus(const std::string& value) {
+  _internal_set_lifecyclestatus(value);
+  // @@protoc_insertion_point(field_set:patient.GoalObject.lifecycleStatus)
+}
+inline std::string* GoalObject::mutable_lifecyclestatus() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.lifecycleStatus)
+  return _internal_mutable_lifecyclestatus();
+}
+inline const std::string& GoalObject::_internal_lifecyclestatus() const {
+  return lifecyclestatus_.GetNoArena();
+}
+inline void GoalObject::_internal_set_lifecyclestatus(const std::string& value) {
+  
+  lifecyclestatus_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void GoalObject::set_lifecyclestatus(std::string&& value) {
+  
+  lifecyclestatus_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.GoalObject.lifecycleStatus)
+}
+inline void GoalObject::set_lifecyclestatus(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  lifecyclestatus_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.GoalObject.lifecycleStatus)
+}
+inline void GoalObject::set_lifecyclestatus(const char* value, size_t size) {
+  
+  lifecyclestatus_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.GoalObject.lifecycleStatus)
+}
+inline std::string* GoalObject::_internal_mutable_lifecyclestatus() {
+  
+  return lifecyclestatus_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* GoalObject::release_lifecyclestatus() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.lifecycleStatus)
+  
+  return lifecyclestatus_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void GoalObject::set_allocated_lifecyclestatus(std::string* lifecyclestatus) {
+  if (lifecyclestatus != nullptr) {
+    
+  } else {
+    
+  }
+  lifecyclestatus_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), lifecyclestatus);
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.lifecycleStatus)
+}
+
+// .patient.Category achievementStatus = 4;
+inline bool GoalObject::_internal_has_achievementstatus() const {
+  return this != internal_default_instance() && achievementstatus_ != nullptr;
+}
+inline bool GoalObject::has_achievementstatus() const {
+  return _internal_has_achievementstatus();
+}
+inline void GoalObject::clear_achievementstatus() {
+  if (GetArenaNoVirtual() == nullptr && achievementstatus_ != nullptr) {
+    delete achievementstatus_;
+  }
+  achievementstatus_ = nullptr;
+}
+inline const ::patient::Category& GoalObject::_internal_achievementstatus() const {
+  const ::patient::Category* p = achievementstatus_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& GoalObject::achievementstatus() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.achievementStatus)
+  return _internal_achievementstatus();
+}
+inline ::patient::Category* GoalObject::release_achievementstatus() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.achievementStatus)
+  
+  ::patient::Category* temp = achievementstatus_;
+  achievementstatus_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* GoalObject::_internal_mutable_achievementstatus() {
+  
+  if (achievementstatus_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    achievementstatus_ = p;
+  }
+  return achievementstatus_;
+}
+inline ::patient::Category* GoalObject::mutable_achievementstatus() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.achievementStatus)
+  return _internal_mutable_achievementstatus();
+}
+inline void GoalObject::set_allocated_achievementstatus(::patient::Category* achievementstatus) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete achievementstatus_;
+  }
+  if (achievementstatus) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      achievementstatus = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, achievementstatus, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  achievementstatus_ = achievementstatus;
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.achievementStatus)
+}
+
+// .patient.Category description = 5;
+inline bool GoalObject::_internal_has_description() const {
+  return this != internal_default_instance() && description_ != nullptr;
+}
+inline bool GoalObject::has_description() const {
+  return _internal_has_description();
+}
+inline void GoalObject::clear_description() {
+  if (GetArenaNoVirtual() == nullptr && description_ != nullptr) {
+    delete description_;
+  }
+  description_ = nullptr;
+}
+inline const ::patient::Category& GoalObject::_internal_description() const {
+  const ::patient::Category* p = description_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& GoalObject::description() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.description)
+  return _internal_description();
+}
+inline ::patient::Category* GoalObject::release_description() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.description)
+  
+  ::patient::Category* temp = description_;
+  description_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* GoalObject::_internal_mutable_description() {
+  
+  if (description_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    description_ = p;
+  }
+  return description_;
+}
+inline ::patient::Category* GoalObject::mutable_description() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.description)
+  return _internal_mutable_description();
+}
+inline void GoalObject::set_allocated_description(::patient::Category* description) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete description_;
+  }
+  if (description) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      description = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, description, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  description_ = description;
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.description)
+}
+
+// .patient.Reference subject = 6;
+inline bool GoalObject::_internal_has_subject() const {
+  return this != internal_default_instance() && subject_ != nullptr;
+}
+inline bool GoalObject::has_subject() const {
+  return _internal_has_subject();
+}
+inline void GoalObject::clear_subject() {
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+}
+inline const ::patient::Reference& GoalObject::_internal_subject() const {
+  const ::patient::Reference* p = subject_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& GoalObject::subject() const {
+  // @@protoc_insertion_point(field_get:patient.GoalObject.subject)
+  return _internal_subject();
+}
+inline ::patient::Reference* GoalObject::release_subject() {
+  // @@protoc_insertion_point(field_release:patient.GoalObject.subject)
+  
+  ::patient::Reference* temp = subject_;
+  subject_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* GoalObject::_internal_mutable_subject() {
+  
+  if (subject_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    subject_ = p;
+  }
+  return subject_;
+}
+inline ::patient::Reference* GoalObject::mutable_subject() {
+  // @@protoc_insertion_point(field_mutable:patient.GoalObject.subject)
+  return _internal_mutable_subject();
+}
+inline void GoalObject::set_allocated_subject(::patient::Reference* subject) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete subject_;
+  }
+  if (subject) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      subject = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, subject, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  subject_ = subject;
+  // @@protoc_insertion_point(field_set_allocated:patient.GoalObject.subject)
+}
+
+// -------------------------------------------------------------------
+
+// ImagingStudyObject
+
+// string resourceType = 1;
+inline void ImagingStudyObject::clear_resourcetype() {
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& ImagingStudyObject::resourcetype() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.resourceType)
+  return _internal_resourcetype();
+}
+inline void ImagingStudyObject::set_resourcetype(const std::string& value) {
+  _internal_set_resourcetype(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.resourceType)
+}
+inline std::string* ImagingStudyObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ImagingStudyObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ImagingStudyObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImagingStudyObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImagingStudyObject.resourceType)
+}
+inline void ImagingStudyObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImagingStudyObject.resourceType)
+}
+inline void ImagingStudyObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImagingStudyObject.resourceType)
+}
+inline std::string* ImagingStudyObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImagingStudyObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImagingStudyObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.resourceType)
+}
+
+// string id = 2;
+inline void ImagingStudyObject::clear_id() {
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& ImagingStudyObject::id() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.id)
+  return _internal_id();
+}
+inline void ImagingStudyObject::set_id(const std::string& value) {
+  _internal_set_id(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.id)
+}
+inline std::string* ImagingStudyObject::mutable_id() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.id)
+  return _internal_mutable_id();
+}
+inline const std::string& ImagingStudyObject::_internal_id() const {
+  return id_.GetNoArena();
+}
+inline void ImagingStudyObject::_internal_set_id(const std::string& value) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImagingStudyObject::set_id(std::string&& value) {
+  
+  id_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImagingStudyObject.id)
+}
+inline void ImagingStudyObject::set_id(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImagingStudyObject.id)
+}
+inline void ImagingStudyObject::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImagingStudyObject.id)
+}
+inline std::string* ImagingStudyObject::_internal_mutable_id() {
+  
+  return id_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImagingStudyObject::release_id() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.id)
+  
+  return id_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImagingStudyObject::set_allocated_id(std::string* id) {
+  if (id != nullptr) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.id)
+}
+
+// repeated .patient.Identifier identifier = 3;
+inline int ImagingStudyObject::_internal_identifier_size() const {
+  return identifier_.size();
+}
+inline int ImagingStudyObject::identifier_size() const {
+  return _internal_identifier_size();
+}
+inline void ImagingStudyObject::clear_identifier() {
+  identifier_.Clear();
+}
+inline ::patient::Identifier* ImagingStudyObject::mutable_identifier(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.identifier)
+  return identifier_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier >*
+ImagingStudyObject::mutable_identifier() {
+  // @@protoc_insertion_point(field_mutable_list:patient.ImagingStudyObject.identifier)
+  return &identifier_;
+}
+inline const ::patient::Identifier& ImagingStudyObject::_internal_identifier(int index) const {
+  return identifier_.Get(index);
+}
+inline const ::patient::Identifier& ImagingStudyObject::identifier(int index) const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.identifier)
+  return _internal_identifier(index);
+}
+inline ::patient::Identifier* ImagingStudyObject::_internal_add_identifier() {
+  return identifier_.Add();
+}
+inline ::patient::Identifier* ImagingStudyObject::add_identifier() {
+  // @@protoc_insertion_point(field_add:patient.ImagingStudyObject.identifier)
+  return _internal_add_identifier();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Identifier >&
+ImagingStudyObject::identifier() const {
+  // @@protoc_insertion_point(field_list:patient.ImagingStudyObject.identifier)
+  return identifier_;
+}
+
+// string status = 4;
+inline void ImagingStudyObject::clear_status() {
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& ImagingStudyObject::status() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.status)
+  return _internal_status();
+}
+inline void ImagingStudyObject::set_status(const std::string& value) {
+  _internal_set_status(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.status)
+}
+inline std::string* ImagingStudyObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ImagingStudyObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ImagingStudyObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImagingStudyObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImagingStudyObject.status)
+}
+inline void ImagingStudyObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImagingStudyObject.status)
+}
+inline void ImagingStudyObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImagingStudyObject.status)
+}
+inline std::string* ImagingStudyObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImagingStudyObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImagingStudyObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.status)
+}
+
+// .patient.Reference subject = 5;
+inline bool ImagingStudyObject::_internal_has_subject() const {
+  return this != internal_default_instance() && subject_ != nullptr;
+}
+inline bool ImagingStudyObject::has_subject() const {
+  return _internal_has_subject();
+}
+inline void ImagingStudyObject::clear_subject() {
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+}
+inline const ::patient::Reference& ImagingStudyObject::_internal_subject() const {
+  const ::patient::Reference* p = subject_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& ImagingStudyObject::subject() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.subject)
+  return _internal_subject();
+}
+inline ::patient::Reference* ImagingStudyObject::release_subject() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.subject)
+  
+  ::patient::Reference* temp = subject_;
+  subject_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* ImagingStudyObject::_internal_mutable_subject() {
+  
+  if (subject_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    subject_ = p;
+  }
+  return subject_;
+}
+inline ::patient::Reference* ImagingStudyObject::mutable_subject() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.subject)
+  return _internal_mutable_subject();
+}
+inline void ImagingStudyObject::set_allocated_subject(::patient::Reference* subject) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete subject_;
+  }
+  if (subject) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      subject = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, subject, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  subject_ = subject;
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.subject)
+}
+
+// .patient.Reference encounter = 6;
+inline bool ImagingStudyObject::_internal_has_encounter() const {
+  return this != internal_default_instance() && encounter_ != nullptr;
+}
+inline bool ImagingStudyObject::has_encounter() const {
+  return _internal_has_encounter();
+}
+inline void ImagingStudyObject::clear_encounter() {
+  if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
+    delete encounter_;
+  }
+  encounter_ = nullptr;
+}
+inline const ::patient::Reference& ImagingStudyObject::_internal_encounter() const {
+  const ::patient::Reference* p = encounter_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& ImagingStudyObject::encounter() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.encounter)
+  return _internal_encounter();
+}
+inline ::patient::Reference* ImagingStudyObject::release_encounter() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.encounter)
+  
+  ::patient::Reference* temp = encounter_;
+  encounter_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* ImagingStudyObject::_internal_mutable_encounter() {
+  
+  if (encounter_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    encounter_ = p;
+  }
+  return encounter_;
+}
+inline ::patient::Reference* ImagingStudyObject::mutable_encounter() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.encounter)
+  return _internal_mutable_encounter();
+}
+inline void ImagingStudyObject::set_allocated_encounter(::patient::Reference* encounter) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete encounter_;
+  }
+  if (encounter) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      encounter = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, encounter, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  encounter_ = encounter;
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.encounter)
+}
+
+// string started = 7;
+inline void ImagingStudyObject::clear_started() {
+  started_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& ImagingStudyObject::started() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.started)
+  return _internal_started();
+}
+inline void ImagingStudyObject::set_started(const std::string& value) {
+  _internal_set_started(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.started)
+}
+inline std::string* ImagingStudyObject::mutable_started() {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.started)
+  return _internal_mutable_started();
+}
+inline const std::string& ImagingStudyObject::_internal_started() const {
+  return started_.GetNoArena();
+}
+inline void ImagingStudyObject::_internal_set_started(const std::string& value) {
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImagingStudyObject::set_started(std::string&& value) {
+  
+  started_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImagingStudyObject.started)
+}
+inline void ImagingStudyObject::set_started(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImagingStudyObject.started)
+}
+inline void ImagingStudyObject::set_started(const char* value, size_t size) {
+  
+  started_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImagingStudyObject.started)
+}
+inline std::string* ImagingStudyObject::_internal_mutable_started() {
+  
+  return started_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImagingStudyObject::release_started() {
+  // @@protoc_insertion_point(field_release:patient.ImagingStudyObject.started)
+  
+  return started_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImagingStudyObject::set_allocated_started(std::string* started) {
+  if (started != nullptr) {
+    
+  } else {
+    
+  }
+  started_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), started);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImagingStudyObject.started)
+}
+
+// int32 numberOfSeries = 8;
+inline void ImagingStudyObject::clear_numberofseries() {
+  numberofseries_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 ImagingStudyObject::_internal_numberofseries() const {
+  return numberofseries_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 ImagingStudyObject::numberofseries() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.numberOfSeries)
+  return _internal_numberofseries();
+}
+inline void ImagingStudyObject::_internal_set_numberofseries(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  numberofseries_ = value;
+}
+inline void ImagingStudyObject::set_numberofseries(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_numberofseries(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.numberOfSeries)
+}
+
+// int32 numberOfInstances = 9;
+inline void ImagingStudyObject::clear_numberofinstances() {
+  numberofinstances_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 ImagingStudyObject::_internal_numberofinstances() const {
+  return numberofinstances_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 ImagingStudyObject::numberofinstances() const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.numberOfInstances)
+  return _internal_numberofinstances();
+}
+inline void ImagingStudyObject::_internal_set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  numberofinstances_ = value;
+}
+inline void ImagingStudyObject::set_numberofinstances(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_numberofinstances(value);
+  // @@protoc_insertion_point(field_set:patient.ImagingStudyObject.numberOfInstances)
+}
+
+// repeated .patient.Series series = 10;
+inline int ImagingStudyObject::_internal_series_size() const {
+  return series_.size();
+}
+inline int ImagingStudyObject::series_size() const {
+  return _internal_series_size();
+}
+inline void ImagingStudyObject::clear_series() {
+  series_.Clear();
+}
+inline ::patient::Series* ImagingStudyObject::mutable_series(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.ImagingStudyObject.series)
+  return series_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Series >*
+ImagingStudyObject::mutable_series() {
+  // @@protoc_insertion_point(field_mutable_list:patient.ImagingStudyObject.series)
+  return &series_;
+}
+inline const ::patient::Series& ImagingStudyObject::_internal_series(int index) const {
+  return series_.Get(index);
+}
+inline const ::patient::Series& ImagingStudyObject::series(int index) const {
+  // @@protoc_insertion_point(field_get:patient.ImagingStudyObject.series)
+  return _internal_series(index);
+}
+inline ::patient::Series* ImagingStudyObject::_internal_add_series() {
+  return series_.Add();
+}
+inline ::patient::Series* ImagingStudyObject::add_series() {
+  // @@protoc_insertion_point(field_add:patient.ImagingStudyObject.series)
+  return _internal_add_series();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Series >&
+ImagingStudyObject::series() const {
+  // @@protoc_insertion_point(field_list:patient.ImagingStudyObject.series)
+  return series_;
+}
+
+// -------------------------------------------------------------------
+
 // ImmunizationObject
 
 // .patient.Reference encounter = 1;
@@ -21003,64 +30700,64 @@ inline void ImmunizationObject::set_allocated_id(std::string* id) {
   // @@protoc_insertion_point(field_set_allocated:patient.ImmunizationObject.id)
 }
 
-// string occurenceDateTime = 3;
-inline void ImmunizationObject::clear_occurencedatetime() {
-  occurencedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+// string occurrenceDateTime = 3;
+inline void ImmunizationObject::clear_occurrencedatetime() {
+  occurrencedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline const std::string& ImmunizationObject::occurencedatetime() const {
-  // @@protoc_insertion_point(field_get:patient.ImmunizationObject.occurenceDateTime)
-  return _internal_occurencedatetime();
+inline const std::string& ImmunizationObject::occurrencedatetime() const {
+  // @@protoc_insertion_point(field_get:patient.ImmunizationObject.occurrenceDateTime)
+  return _internal_occurrencedatetime();
 }
-inline void ImmunizationObject::set_occurencedatetime(const std::string& value) {
-  _internal_set_occurencedatetime(value);
-  // @@protoc_insertion_point(field_set:patient.ImmunizationObject.occurenceDateTime)
+inline void ImmunizationObject::set_occurrencedatetime(const std::string& value) {
+  _internal_set_occurrencedatetime(value);
+  // @@protoc_insertion_point(field_set:patient.ImmunizationObject.occurrenceDateTime)
 }
-inline std::string* ImmunizationObject::mutable_occurencedatetime() {
-  // @@protoc_insertion_point(field_mutable:patient.ImmunizationObject.occurenceDateTime)
-  return _internal_mutable_occurencedatetime();
+inline std::string* ImmunizationObject::mutable_occurrencedatetime() {
+  // @@protoc_insertion_point(field_mutable:patient.ImmunizationObject.occurrenceDateTime)
+  return _internal_mutable_occurrencedatetime();
 }
-inline const std::string& ImmunizationObject::_internal_occurencedatetime() const {
-  return occurencedatetime_.GetNoArena();
+inline const std::string& ImmunizationObject::_internal_occurrencedatetime() const {
+  return occurrencedatetime_.GetNoArena();
 }
-inline void ImmunizationObject::_internal_set_occurencedatetime(const std::string& value) {
+inline void ImmunizationObject::_internal_set_occurrencedatetime(const std::string& value) {
   
-  occurencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+  occurrencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
 }
-inline void ImmunizationObject::set_occurencedatetime(std::string&& value) {
+inline void ImmunizationObject::set_occurrencedatetime(std::string&& value) {
   
-  occurencedatetime_.SetNoArena(
+  occurrencedatetime_.SetNoArena(
     &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:patient.ImmunizationObject.occurenceDateTime)
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImmunizationObject.occurrenceDateTime)
 }
-inline void ImmunizationObject::set_occurencedatetime(const char* value) {
+inline void ImmunizationObject::set_occurrencedatetime(const char* value) {
   GOOGLE_DCHECK(value != nullptr);
   
-  occurencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:patient.ImmunizationObject.occurenceDateTime)
+  occurrencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImmunizationObject.occurrenceDateTime)
 }
-inline void ImmunizationObject::set_occurencedatetime(const char* value, size_t size) {
+inline void ImmunizationObject::set_occurrencedatetime(const char* value, size_t size) {
   
-  occurencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+  occurrencedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:patient.ImmunizationObject.occurenceDateTime)
+  // @@protoc_insertion_point(field_set_pointer:patient.ImmunizationObject.occurrenceDateTime)
 }
-inline std::string* ImmunizationObject::_internal_mutable_occurencedatetime() {
+inline std::string* ImmunizationObject::_internal_mutable_occurrencedatetime() {
   
-  return occurencedatetime_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  return occurrencedatetime_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline std::string* ImmunizationObject::release_occurencedatetime() {
-  // @@protoc_insertion_point(field_release:patient.ImmunizationObject.occurenceDateTime)
+inline std::string* ImmunizationObject::release_occurrencedatetime() {
+  // @@protoc_insertion_point(field_release:patient.ImmunizationObject.occurrenceDateTime)
   
-  return occurencedatetime_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  return occurrencedatetime_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline void ImmunizationObject::set_allocated_occurencedatetime(std::string* occurencedatetime) {
-  if (occurencedatetime != nullptr) {
+inline void ImmunizationObject::set_allocated_occurrencedatetime(std::string* occurrencedatetime) {
+  if (occurrencedatetime != nullptr) {
     
   } else {
     
   }
-  occurencedatetime_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), occurencedatetime);
-  // @@protoc_insertion_point(field_set_allocated:patient.ImmunizationObject.occurenceDateTime)
+  occurrencedatetime_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), occurrencedatetime);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImmunizationObject.occurrenceDateTime)
 }
 
 // .patient.Reference patient = 4;
@@ -21143,44 +30840,124 @@ inline void ImmunizationObject::set_primarysource(bool value) {
   // @@protoc_insertion_point(field_set:patient.ImmunizationObject.primarySource)
 }
 
-// .patient.ResourceType resourceType = 6;
+// string resourceType = 6;
 inline void ImmunizationObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ImmunizationObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ImmunizationObject::resourcetype() const {
+inline const std::string& ImmunizationObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ImmunizationObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ImmunizationObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ImmunizationObject::set_resourcetype(::patient::ResourceType value) {
+inline void ImmunizationObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ImmunizationObject.resourceType)
 }
+inline std::string* ImmunizationObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ImmunizationObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ImmunizationObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ImmunizationObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImmunizationObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImmunizationObject.resourceType)
+}
+inline void ImmunizationObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImmunizationObject.resourceType)
+}
+inline void ImmunizationObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImmunizationObject.resourceType)
+}
+inline std::string* ImmunizationObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImmunizationObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ImmunizationObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImmunizationObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImmunizationObject.resourceType)
+}
 
-// .patient.Status status = 7;
+// string status = 7;
 inline void ImmunizationObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status ImmunizationObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status ImmunizationObject::status() const {
+inline const std::string& ImmunizationObject::status() const {
   // @@protoc_insertion_point(field_get:patient.ImmunizationObject.status)
   return _internal_status();
 }
-inline void ImmunizationObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void ImmunizationObject::set_status(::patient::Status value) {
+inline void ImmunizationObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.ImmunizationObject.status)
+}
+inline std::string* ImmunizationObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ImmunizationObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ImmunizationObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ImmunizationObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ImmunizationObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ImmunizationObject.status)
+}
+inline void ImmunizationObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ImmunizationObject.status)
+}
+inline void ImmunizationObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ImmunizationObject.status)
+}
+inline std::string* ImmunizationObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ImmunizationObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ImmunizationObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ImmunizationObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ImmunizationObject.status)
 }
 
 // .patient.Category vaccineCode = 8;
@@ -21646,44 +31423,124 @@ inline void MedicationRequestObject::set_allocated_requester(::patient::Referenc
   // @@protoc_insertion_point(field_set_allocated:patient.MedicationRequestObject.requester)
 }
 
-// .patient.ResourceType resourceType = 8;
+// string resourceType = 8;
 inline void MedicationRequestObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType MedicationRequestObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType MedicationRequestObject::resourcetype() const {
+inline const std::string& MedicationRequestObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.MedicationRequestObject.resourceType)
   return _internal_resourcetype();
 }
-inline void MedicationRequestObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void MedicationRequestObject::set_resourcetype(::patient::ResourceType value) {
+inline void MedicationRequestObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.MedicationRequestObject.resourceType)
 }
+inline std::string* MedicationRequestObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationRequestObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& MedicationRequestObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void MedicationRequestObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationRequestObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationRequestObject.resourceType)
+}
+inline void MedicationRequestObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationRequestObject.resourceType)
+}
+inline void MedicationRequestObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationRequestObject.resourceType)
+}
+inline std::string* MedicationRequestObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationRequestObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.MedicationRequestObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationRequestObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationRequestObject.resourceType)
+}
 
-// .patient.Status status = 9;
+// string status = 9;
 inline void MedicationRequestObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status MedicationRequestObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status MedicationRequestObject::status() const {
+inline const std::string& MedicationRequestObject::status() const {
   // @@protoc_insertion_point(field_get:patient.MedicationRequestObject.status)
   return _internal_status();
 }
-inline void MedicationRequestObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void MedicationRequestObject::set_status(::patient::Status value) {
+inline void MedicationRequestObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.MedicationRequestObject.status)
+}
+inline std::string* MedicationRequestObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationRequestObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& MedicationRequestObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void MedicationRequestObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationRequestObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationRequestObject.status)
+}
+inline void MedicationRequestObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationRequestObject.status)
+}
+inline void MedicationRequestObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationRequestObject.status)
+}
+inline std::string* MedicationRequestObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationRequestObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.MedicationRequestObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationRequestObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationRequestObject.status)
 }
 
 // .patient.Reference subject = 10;
@@ -21744,6 +31601,508 @@ inline void MedicationRequestObject::set_allocated_subject(::patient::Reference*
   }
   subject_ = subject;
   // @@protoc_insertion_point(field_set_allocated:patient.MedicationRequestObject.subject)
+}
+
+// repeated .patient.DosageInstruction dosageInstruction = 11;
+inline int MedicationRequestObject::_internal_dosageinstruction_size() const {
+  return dosageinstruction_.size();
+}
+inline int MedicationRequestObject::dosageinstruction_size() const {
+  return _internal_dosageinstruction_size();
+}
+inline void MedicationRequestObject::clear_dosageinstruction() {
+  dosageinstruction_.Clear();
+}
+inline ::patient::DosageInstruction* MedicationRequestObject::mutable_dosageinstruction(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationRequestObject.dosageInstruction)
+  return dosageinstruction_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DosageInstruction >*
+MedicationRequestObject::mutable_dosageinstruction() {
+  // @@protoc_insertion_point(field_mutable_list:patient.MedicationRequestObject.dosageInstruction)
+  return &dosageinstruction_;
+}
+inline const ::patient::DosageInstruction& MedicationRequestObject::_internal_dosageinstruction(int index) const {
+  return dosageinstruction_.Get(index);
+}
+inline const ::patient::DosageInstruction& MedicationRequestObject::dosageinstruction(int index) const {
+  // @@protoc_insertion_point(field_get:patient.MedicationRequestObject.dosageInstruction)
+  return _internal_dosageinstruction(index);
+}
+inline ::patient::DosageInstruction* MedicationRequestObject::_internal_add_dosageinstruction() {
+  return dosageinstruction_.Add();
+}
+inline ::patient::DosageInstruction* MedicationRequestObject::add_dosageinstruction() {
+  // @@protoc_insertion_point(field_add:patient.MedicationRequestObject.dosageInstruction)
+  return _internal_add_dosageinstruction();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DosageInstruction >&
+MedicationRequestObject::dosageinstruction() const {
+  // @@protoc_insertion_point(field_list:patient.MedicationRequestObject.dosageInstruction)
+  return dosageinstruction_;
+}
+
+// -------------------------------------------------------------------
+
+// MedicationAdministrationObject
+
+// string resourceType = 1;
+inline void MedicationAdministrationObject::clear_resourcetype() {
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& MedicationAdministrationObject::resourcetype() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.resourceType)
+  return _internal_resourcetype();
+}
+inline void MedicationAdministrationObject::set_resourcetype(const std::string& value) {
+  _internal_set_resourcetype(value);
+  // @@protoc_insertion_point(field_set:patient.MedicationAdministrationObject.resourceType)
+}
+inline std::string* MedicationAdministrationObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& MedicationAdministrationObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void MedicationAdministrationObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationAdministrationObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationAdministrationObject.resourceType)
+}
+inline void MedicationAdministrationObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationAdministrationObject.resourceType)
+}
+inline void MedicationAdministrationObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationAdministrationObject.resourceType)
+}
+inline std::string* MedicationAdministrationObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationAdministrationObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationAdministrationObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.resourceType)
+}
+
+// string id = 2;
+inline void MedicationAdministrationObject::clear_id() {
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& MedicationAdministrationObject::id() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.id)
+  return _internal_id();
+}
+inline void MedicationAdministrationObject::set_id(const std::string& value) {
+  _internal_set_id(value);
+  // @@protoc_insertion_point(field_set:patient.MedicationAdministrationObject.id)
+}
+inline std::string* MedicationAdministrationObject::mutable_id() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.id)
+  return _internal_mutable_id();
+}
+inline const std::string& MedicationAdministrationObject::_internal_id() const {
+  return id_.GetNoArena();
+}
+inline void MedicationAdministrationObject::_internal_set_id(const std::string& value) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationAdministrationObject::set_id(std::string&& value) {
+  
+  id_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationAdministrationObject.id)
+}
+inline void MedicationAdministrationObject::set_id(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationAdministrationObject.id)
+}
+inline void MedicationAdministrationObject::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationAdministrationObject.id)
+}
+inline std::string* MedicationAdministrationObject::_internal_mutable_id() {
+  
+  return id_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationAdministrationObject::release_id() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.id)
+  
+  return id_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationAdministrationObject::set_allocated_id(std::string* id) {
+  if (id != nullptr) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.id)
+}
+
+// string status = 3;
+inline void MedicationAdministrationObject::clear_status() {
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& MedicationAdministrationObject::status() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.status)
+  return _internal_status();
+}
+inline void MedicationAdministrationObject::set_status(const std::string& value) {
+  _internal_set_status(value);
+  // @@protoc_insertion_point(field_set:patient.MedicationAdministrationObject.status)
+}
+inline std::string* MedicationAdministrationObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& MedicationAdministrationObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void MedicationAdministrationObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationAdministrationObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationAdministrationObject.status)
+}
+inline void MedicationAdministrationObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationAdministrationObject.status)
+}
+inline void MedicationAdministrationObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationAdministrationObject.status)
+}
+inline std::string* MedicationAdministrationObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationAdministrationObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationAdministrationObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.status)
+}
+
+// .patient.Category medicationCodeableConcept = 4;
+inline bool MedicationAdministrationObject::_internal_has_medicationcodeableconcept() const {
+  return this != internal_default_instance() && medicationcodeableconcept_ != nullptr;
+}
+inline bool MedicationAdministrationObject::has_medicationcodeableconcept() const {
+  return _internal_has_medicationcodeableconcept();
+}
+inline void MedicationAdministrationObject::clear_medicationcodeableconcept() {
+  if (GetArenaNoVirtual() == nullptr && medicationcodeableconcept_ != nullptr) {
+    delete medicationcodeableconcept_;
+  }
+  medicationcodeableconcept_ = nullptr;
+}
+inline const ::patient::Category& MedicationAdministrationObject::_internal_medicationcodeableconcept() const {
+  const ::patient::Category* p = medicationcodeableconcept_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Category*>(
+      &::patient::_Category_default_instance_);
+}
+inline const ::patient::Category& MedicationAdministrationObject::medicationcodeableconcept() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.medicationCodeableConcept)
+  return _internal_medicationcodeableconcept();
+}
+inline ::patient::Category* MedicationAdministrationObject::release_medicationcodeableconcept() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.medicationCodeableConcept)
+  
+  ::patient::Category* temp = medicationcodeableconcept_;
+  medicationcodeableconcept_ = nullptr;
+  return temp;
+}
+inline ::patient::Category* MedicationAdministrationObject::_internal_mutable_medicationcodeableconcept() {
+  
+  if (medicationcodeableconcept_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Category>(GetArenaNoVirtual());
+    medicationcodeableconcept_ = p;
+  }
+  return medicationcodeableconcept_;
+}
+inline ::patient::Category* MedicationAdministrationObject::mutable_medicationcodeableconcept() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.medicationCodeableConcept)
+  return _internal_mutable_medicationcodeableconcept();
+}
+inline void MedicationAdministrationObject::set_allocated_medicationcodeableconcept(::patient::Category* medicationcodeableconcept) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete medicationcodeableconcept_;
+  }
+  if (medicationcodeableconcept) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      medicationcodeableconcept = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, medicationcodeableconcept, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  medicationcodeableconcept_ = medicationcodeableconcept;
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.medicationCodeableConcept)
+}
+
+// .patient.Reference subject = 5;
+inline bool MedicationAdministrationObject::_internal_has_subject() const {
+  return this != internal_default_instance() && subject_ != nullptr;
+}
+inline bool MedicationAdministrationObject::has_subject() const {
+  return _internal_has_subject();
+}
+inline void MedicationAdministrationObject::clear_subject() {
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+}
+inline const ::patient::Reference& MedicationAdministrationObject::_internal_subject() const {
+  const ::patient::Reference* p = subject_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& MedicationAdministrationObject::subject() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.subject)
+  return _internal_subject();
+}
+inline ::patient::Reference* MedicationAdministrationObject::release_subject() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.subject)
+  
+  ::patient::Reference* temp = subject_;
+  subject_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* MedicationAdministrationObject::_internal_mutable_subject() {
+  
+  if (subject_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    subject_ = p;
+  }
+  return subject_;
+}
+inline ::patient::Reference* MedicationAdministrationObject::mutable_subject() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.subject)
+  return _internal_mutable_subject();
+}
+inline void MedicationAdministrationObject::set_allocated_subject(::patient::Reference* subject) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete subject_;
+  }
+  if (subject) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      subject = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, subject, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  subject_ = subject;
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.subject)
+}
+
+// .patient.Reference context = 6;
+inline bool MedicationAdministrationObject::_internal_has_context() const {
+  return this != internal_default_instance() && context_ != nullptr;
+}
+inline bool MedicationAdministrationObject::has_context() const {
+  return _internal_has_context();
+}
+inline void MedicationAdministrationObject::clear_context() {
+  if (GetArenaNoVirtual() == nullptr && context_ != nullptr) {
+    delete context_;
+  }
+  context_ = nullptr;
+}
+inline const ::patient::Reference& MedicationAdministrationObject::_internal_context() const {
+  const ::patient::Reference* p = context_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Reference*>(
+      &::patient::_Reference_default_instance_);
+}
+inline const ::patient::Reference& MedicationAdministrationObject::context() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.context)
+  return _internal_context();
+}
+inline ::patient::Reference* MedicationAdministrationObject::release_context() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.context)
+  
+  ::patient::Reference* temp = context_;
+  context_ = nullptr;
+  return temp;
+}
+inline ::patient::Reference* MedicationAdministrationObject::_internal_mutable_context() {
+  
+  if (context_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Reference>(GetArenaNoVirtual());
+    context_ = p;
+  }
+  return context_;
+}
+inline ::patient::Reference* MedicationAdministrationObject::mutable_context() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.context)
+  return _internal_mutable_context();
+}
+inline void MedicationAdministrationObject::set_allocated_context(::patient::Reference* context) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete context_;
+  }
+  if (context) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      context = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, context, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  context_ = context;
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.context)
+}
+
+// string effectiveDateTime = 7;
+inline void MedicationAdministrationObject::clear_effectivedatetime() {
+  effectivedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& MedicationAdministrationObject::effectivedatetime() const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.effectiveDateTime)
+  return _internal_effectivedatetime();
+}
+inline void MedicationAdministrationObject::set_effectivedatetime(const std::string& value) {
+  _internal_set_effectivedatetime(value);
+  // @@protoc_insertion_point(field_set:patient.MedicationAdministrationObject.effectiveDateTime)
+}
+inline std::string* MedicationAdministrationObject::mutable_effectivedatetime() {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.effectiveDateTime)
+  return _internal_mutable_effectivedatetime();
+}
+inline const std::string& MedicationAdministrationObject::_internal_effectivedatetime() const {
+  return effectivedatetime_.GetNoArena();
+}
+inline void MedicationAdministrationObject::_internal_set_effectivedatetime(const std::string& value) {
+  
+  effectivedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void MedicationAdministrationObject::set_effectivedatetime(std::string&& value) {
+  
+  effectivedatetime_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.MedicationAdministrationObject.effectiveDateTime)
+}
+inline void MedicationAdministrationObject::set_effectivedatetime(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  effectivedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.MedicationAdministrationObject.effectiveDateTime)
+}
+inline void MedicationAdministrationObject::set_effectivedatetime(const char* value, size_t size) {
+  
+  effectivedatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.MedicationAdministrationObject.effectiveDateTime)
+}
+inline std::string* MedicationAdministrationObject::_internal_mutable_effectivedatetime() {
+  
+  return effectivedatetime_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* MedicationAdministrationObject::release_effectivedatetime() {
+  // @@protoc_insertion_point(field_release:patient.MedicationAdministrationObject.effectiveDateTime)
+  
+  return effectivedatetime_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void MedicationAdministrationObject::set_allocated_effectivedatetime(std::string* effectivedatetime) {
+  if (effectivedatetime != nullptr) {
+    
+  } else {
+    
+  }
+  effectivedatetime_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), effectivedatetime);
+  // @@protoc_insertion_point(field_set_allocated:patient.MedicationAdministrationObject.effectiveDateTime)
+}
+
+// repeated .patient.Reference reasonReference = 8;
+inline int MedicationAdministrationObject::_internal_reasonreference_size() const {
+  return reasonreference_.size();
+}
+inline int MedicationAdministrationObject::reasonreference_size() const {
+  return _internal_reasonreference_size();
+}
+inline void MedicationAdministrationObject::clear_reasonreference() {
+  reasonreference_.Clear();
+}
+inline ::patient::Reference* MedicationAdministrationObject::mutable_reasonreference(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.MedicationAdministrationObject.reasonReference)
+  return reasonreference_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >*
+MedicationAdministrationObject::mutable_reasonreference() {
+  // @@protoc_insertion_point(field_mutable_list:patient.MedicationAdministrationObject.reasonReference)
+  return &reasonreference_;
+}
+inline const ::patient::Reference& MedicationAdministrationObject::_internal_reasonreference(int index) const {
+  return reasonreference_.Get(index);
+}
+inline const ::patient::Reference& MedicationAdministrationObject::reasonreference(int index) const {
+  // @@protoc_insertion_point(field_get:patient.MedicationAdministrationObject.reasonReference)
+  return _internal_reasonreference(index);
+}
+inline ::patient::Reference* MedicationAdministrationObject::_internal_add_reasonreference() {
+  return reasonreference_.Add();
+}
+inline ::patient::Reference* MedicationAdministrationObject::add_reasonreference() {
+  // @@protoc_insertion_point(field_add:patient.MedicationAdministrationObject.reasonReference)
+  return _internal_add_reasonreference();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Reference >&
+MedicationAdministrationObject::reasonreference() const {
+  // @@protoc_insertion_point(field_list:patient.MedicationAdministrationObject.reasonReference)
+  return reasonreference_;
 }
 
 // -------------------------------------------------------------------
@@ -22128,44 +32487,124 @@ inline void ObservationObject::set_allocated_issued(std::string* issued) {
   // @@protoc_insertion_point(field_set_allocated:patient.ObservationObject.issued)
 }
 
-// .patient.ResourceType resourceType = 8;
+// string resourceType = 8;
 inline void ObservationObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ObservationObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ObservationObject::resourcetype() const {
+inline const std::string& ObservationObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ObservationObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ObservationObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ObservationObject::set_resourcetype(::patient::ResourceType value) {
+inline void ObservationObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ObservationObject.resourceType)
 }
+inline std::string* ObservationObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ObservationObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ObservationObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ObservationObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ObservationObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ObservationObject.resourceType)
+}
+inline void ObservationObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ObservationObject.resourceType)
+}
+inline void ObservationObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ObservationObject.resourceType)
+}
+inline std::string* ObservationObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ObservationObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ObservationObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ObservationObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ObservationObject.resourceType)
+}
 
-// .patient.Status status = 9;
+// string status = 9;
 inline void ObservationObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status ObservationObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status ObservationObject::status() const {
+inline const std::string& ObservationObject::status() const {
   // @@protoc_insertion_point(field_get:patient.ObservationObject.status)
   return _internal_status();
 }
-inline void ObservationObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void ObservationObject::set_status(::patient::Status value) {
+inline void ObservationObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.ObservationObject.status)
+}
+inline std::string* ObservationObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ObservationObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ObservationObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ObservationObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ObservationObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ObservationObject.status)
+}
+inline void ObservationObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ObservationObject.status)
+}
+inline void ObservationObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ObservationObject.status)
+}
+inline std::string* ObservationObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ObservationObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ObservationObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ObservationObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ObservationObject.status)
 }
 
 // .patient.Reference subject = 10;
@@ -22346,6 +32785,66 @@ inline void ObservationObject::set_allocated_valuequantity(::patient::Quantity* 
   }
   valuequantity_ = valuequantity;
   // @@protoc_insertion_point(field_set_allocated:patient.ObservationObject.valueQuantity)
+}
+
+// string valueString = 13;
+inline void ObservationObject::clear_valuestring() {
+  valuestring_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& ObservationObject::valuestring() const {
+  // @@protoc_insertion_point(field_get:patient.ObservationObject.valueString)
+  return _internal_valuestring();
+}
+inline void ObservationObject::set_valuestring(const std::string& value) {
+  _internal_set_valuestring(value);
+  // @@protoc_insertion_point(field_set:patient.ObservationObject.valueString)
+}
+inline std::string* ObservationObject::mutable_valuestring() {
+  // @@protoc_insertion_point(field_mutable:patient.ObservationObject.valueString)
+  return _internal_mutable_valuestring();
+}
+inline const std::string& ObservationObject::_internal_valuestring() const {
+  return valuestring_.GetNoArena();
+}
+inline void ObservationObject::_internal_set_valuestring(const std::string& value) {
+  
+  valuestring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ObservationObject::set_valuestring(std::string&& value) {
+  
+  valuestring_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ObservationObject.valueString)
+}
+inline void ObservationObject::set_valuestring(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  valuestring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ObservationObject.valueString)
+}
+inline void ObservationObject::set_valuestring(const char* value, size_t size) {
+  
+  valuestring_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ObservationObject.valueString)
+}
+inline std::string* ObservationObject::_internal_mutable_valuestring() {
+  
+  return valuestring_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ObservationObject::release_valuestring() {
+  // @@protoc_insertion_point(field_release:patient.ObservationObject.valueString)
+  
+  return valuestring_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ObservationObject::set_allocated_valuestring(std::string* valuestring) {
+  if (valuestring != nullptr) {
+    
+  } else {
+    
+  }
+  valuestring_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), valuestring);
+  // @@protoc_insertion_point(field_set_allocated:patient.ObservationObject.valueString)
 }
 
 // -------------------------------------------------------------------
@@ -22570,24 +33069,64 @@ inline void OrganizationObject::set_allocated_name(std::string* name) {
   // @@protoc_insertion_point(field_set_allocated:patient.OrganizationObject.name)
 }
 
-// .patient.ResourceType resourceType = 6;
+// string resourceType = 6;
 inline void OrganizationObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType OrganizationObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType OrganizationObject::resourcetype() const {
+inline const std::string& OrganizationObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.OrganizationObject.resourceType)
   return _internal_resourcetype();
 }
-inline void OrganizationObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void OrganizationObject::set_resourcetype(::patient::ResourceType value) {
+inline void OrganizationObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.OrganizationObject.resourceType)
+}
+inline std::string* OrganizationObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.OrganizationObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& OrganizationObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void OrganizationObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void OrganizationObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.OrganizationObject.resourceType)
+}
+inline void OrganizationObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.OrganizationObject.resourceType)
+}
+inline void OrganizationObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.OrganizationObject.resourceType)
+}
+inline std::string* OrganizationObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* OrganizationObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.OrganizationObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void OrganizationObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.OrganizationObject.resourceType)
 }
 
 // repeated .patient.Telecom telecom = 7;
@@ -22666,6 +33205,45 @@ inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Category >&
 OrganizationObject::type() const {
   // @@protoc_insertion_point(field_list:patient.OrganizationObject.type)
   return type_;
+}
+
+// repeated .patient.Extension extension = 9;
+inline int OrganizationObject::_internal_extension_size() const {
+  return extension_.size();
+}
+inline int OrganizationObject::extension_size() const {
+  return _internal_extension_size();
+}
+inline void OrganizationObject::clear_extension() {
+  extension_.Clear();
+}
+inline ::patient::Extension* OrganizationObject::mutable_extension(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.OrganizationObject.extension)
+  return extension_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >*
+OrganizationObject::mutable_extension() {
+  // @@protoc_insertion_point(field_mutable_list:patient.OrganizationObject.extension)
+  return &extension_;
+}
+inline const ::patient::Extension& OrganizationObject::_internal_extension(int index) const {
+  return extension_.Get(index);
+}
+inline const ::patient::Extension& OrganizationObject::extension(int index) const {
+  // @@protoc_insertion_point(field_get:patient.OrganizationObject.extension)
+  return _internal_extension(index);
+}
+inline ::patient::Extension* OrganizationObject::_internal_add_extension() {
+  return extension_.Add();
+}
+inline ::patient::Extension* OrganizationObject::add_extension() {
+  // @@protoc_insertion_point(field_add:patient.OrganizationObject.extension)
+  return _internal_add_extension();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >&
+OrganizationObject::extension() const {
+  // @@protoc_insertion_point(field_list:patient.OrganizationObject.extension)
+  return extension_;
 }
 
 // -------------------------------------------------------------------
@@ -22849,24 +33427,64 @@ PatientObject::extension() const {
   return extension_;
 }
 
-// .patient.Gender gender = 5;
+// string gender = 5;
 inline void PatientObject::clear_gender() {
-  gender_ = 0;
+  gender_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Gender PatientObject::_internal_gender() const {
-  return static_cast< ::patient::Gender >(gender_);
-}
-inline ::patient::Gender PatientObject::gender() const {
+inline const std::string& PatientObject::gender() const {
   // @@protoc_insertion_point(field_get:patient.PatientObject.gender)
   return _internal_gender();
 }
-inline void PatientObject::_internal_set_gender(::patient::Gender value) {
-  
-  gender_ = value;
-}
-inline void PatientObject::set_gender(::patient::Gender value) {
+inline void PatientObject::set_gender(const std::string& value) {
   _internal_set_gender(value);
   // @@protoc_insertion_point(field_set:patient.PatientObject.gender)
+}
+inline std::string* PatientObject::mutable_gender() {
+  // @@protoc_insertion_point(field_mutable:patient.PatientObject.gender)
+  return _internal_mutable_gender();
+}
+inline const std::string& PatientObject::_internal_gender() const {
+  return gender_.GetNoArena();
+}
+inline void PatientObject::_internal_set_gender(const std::string& value) {
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void PatientObject::set_gender(std::string&& value) {
+  
+  gender_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.PatientObject.gender)
+}
+inline void PatientObject::set_gender(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.PatientObject.gender)
+}
+inline void PatientObject::set_gender(const char* value, size_t size) {
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.PatientObject.gender)
+}
+inline std::string* PatientObject::_internal_mutable_gender() {
+  
+  return gender_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* PatientObject::release_gender() {
+  // @@protoc_insertion_point(field_release:patient.PatientObject.gender)
+  
+  return gender_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void PatientObject::set_allocated_gender(std::string* gender) {
+  if (gender != nullptr) {
+    
+  } else {
+    
+  }
+  gender_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), gender);
+  // @@protoc_insertion_point(field_set_allocated:patient.PatientObject.gender)
 }
 
 // string id = 6;
@@ -23087,24 +33705,64 @@ PatientObject::name() const {
   return name_;
 }
 
-// .patient.ResourceType resourceType = 11;
+// string resourceType = 11;
 inline void PatientObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType PatientObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType PatientObject::resourcetype() const {
+inline const std::string& PatientObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.PatientObject.resourceType)
   return _internal_resourcetype();
 }
-inline void PatientObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void PatientObject::set_resourcetype(::patient::ResourceType value) {
+inline void PatientObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.PatientObject.resourceType)
+}
+inline std::string* PatientObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.PatientObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& PatientObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void PatientObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void PatientObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.PatientObject.resourceType)
+}
+inline void PatientObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.PatientObject.resourceType)
+}
+inline void PatientObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.PatientObject.resourceType)
+}
+inline std::string* PatientObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* PatientObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.PatientObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void PatientObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.PatientObject.resourceType)
 }
 
 // repeated .patient.Telecom telecom = 12;
@@ -23146,64 +33804,144 @@ PatientObject::telecom() const {
   return telecom_;
 }
 
-// string text = 13;
-inline void PatientObject::clear_text() {
-  text_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+// .patient.Text text = 13;
+inline bool PatientObject::_internal_has_text() const {
+  return this != internal_default_instance() && text_ != nullptr;
 }
-inline const std::string& PatientObject::text() const {
+inline bool PatientObject::has_text() const {
+  return _internal_has_text();
+}
+inline void PatientObject::clear_text() {
+  if (GetArenaNoVirtual() == nullptr && text_ != nullptr) {
+    delete text_;
+  }
+  text_ = nullptr;
+}
+inline const ::patient::Text& PatientObject::_internal_text() const {
+  const ::patient::Text* p = text_;
+  return p != nullptr ? *p : *reinterpret_cast<const ::patient::Text*>(
+      &::patient::_Text_default_instance_);
+}
+inline const ::patient::Text& PatientObject::text() const {
   // @@protoc_insertion_point(field_get:patient.PatientObject.text)
   return _internal_text();
 }
-inline void PatientObject::set_text(const std::string& value) {
-  _internal_set_text(value);
-  // @@protoc_insertion_point(field_set:patient.PatientObject.text)
+inline ::patient::Text* PatientObject::release_text() {
+  // @@protoc_insertion_point(field_release:patient.PatientObject.text)
+  
+  ::patient::Text* temp = text_;
+  text_ = nullptr;
+  return temp;
 }
-inline std::string* PatientObject::mutable_text() {
+inline ::patient::Text* PatientObject::_internal_mutable_text() {
+  
+  if (text_ == nullptr) {
+    auto* p = CreateMaybeMessage<::patient::Text>(GetArenaNoVirtual());
+    text_ = p;
+  }
+  return text_;
+}
+inline ::patient::Text* PatientObject::mutable_text() {
   // @@protoc_insertion_point(field_mutable:patient.PatientObject.text)
   return _internal_mutable_text();
 }
-inline const std::string& PatientObject::_internal_text() const {
-  return text_.GetNoArena();
-}
-inline void PatientObject::_internal_set_text(const std::string& value) {
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
-}
-inline void PatientObject::set_text(std::string&& value) {
-  
-  text_.SetNoArena(
-    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:patient.PatientObject.text)
-}
-inline void PatientObject::set_text(const char* value) {
-  GOOGLE_DCHECK(value != nullptr);
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:patient.PatientObject.text)
-}
-inline void PatientObject::set_text(const char* value, size_t size) {
-  
-  text_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:patient.PatientObject.text)
-}
-inline std::string* PatientObject::_internal_mutable_text() {
-  
-  return text_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-}
-inline std::string* PatientObject::release_text() {
-  // @@protoc_insertion_point(field_release:patient.PatientObject.text)
-  
-  return text_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-}
-inline void PatientObject::set_allocated_text(std::string* text) {
-  if (text != nullptr) {
+inline void PatientObject::set_allocated_text(::patient::Text* text) {
+  ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == nullptr) {
+    delete text_;
+  }
+  if (text) {
+    ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
+    if (message_arena != submessage_arena) {
+      text = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, text, submessage_arena);
+    }
     
   } else {
     
   }
-  text_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), text);
+  text_ = text;
   // @@protoc_insertion_point(field_set_allocated:patient.PatientObject.text)
+}
+
+// string deceasedDateTime = 14;
+inline void PatientObject::clear_deceaseddatetime() {
+  deceaseddatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline const std::string& PatientObject::deceaseddatetime() const {
+  // @@protoc_insertion_point(field_get:patient.PatientObject.deceasedDateTime)
+  return _internal_deceaseddatetime();
+}
+inline void PatientObject::set_deceaseddatetime(const std::string& value) {
+  _internal_set_deceaseddatetime(value);
+  // @@protoc_insertion_point(field_set:patient.PatientObject.deceasedDateTime)
+}
+inline std::string* PatientObject::mutable_deceaseddatetime() {
+  // @@protoc_insertion_point(field_mutable:patient.PatientObject.deceasedDateTime)
+  return _internal_mutable_deceaseddatetime();
+}
+inline const std::string& PatientObject::_internal_deceaseddatetime() const {
+  return deceaseddatetime_.GetNoArena();
+}
+inline void PatientObject::_internal_set_deceaseddatetime(const std::string& value) {
+  
+  deceaseddatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void PatientObject::set_deceaseddatetime(std::string&& value) {
+  
+  deceaseddatetime_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.PatientObject.deceasedDateTime)
+}
+inline void PatientObject::set_deceaseddatetime(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  deceaseddatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.PatientObject.deceasedDateTime)
+}
+inline void PatientObject::set_deceaseddatetime(const char* value, size_t size) {
+  
+  deceaseddatetime_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.PatientObject.deceasedDateTime)
+}
+inline std::string* PatientObject::_internal_mutable_deceaseddatetime() {
+  
+  return deceaseddatetime_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* PatientObject::release_deceaseddatetime() {
+  // @@protoc_insertion_point(field_release:patient.PatientObject.deceasedDateTime)
+  
+  return deceaseddatetime_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void PatientObject::set_allocated_deceaseddatetime(std::string* deceaseddatetime) {
+  if (deceaseddatetime != nullptr) {
+    
+  } else {
+    
+  }
+  deceaseddatetime_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), deceaseddatetime);
+  // @@protoc_insertion_point(field_set_allocated:patient.PatientObject.deceasedDateTime)
+}
+
+// int32 multipleBirthInteger = 15;
+inline void PatientObject::clear_multiplebirthinteger() {
+  multiplebirthinteger_ = 0;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 PatientObject::_internal_multiplebirthinteger() const {
+  return multiplebirthinteger_;
+}
+inline ::PROTOBUF_NAMESPACE_ID::int32 PatientObject::multiplebirthinteger() const {
+  // @@protoc_insertion_point(field_get:patient.PatientObject.multipleBirthInteger)
+  return _internal_multiplebirthinteger();
+}
+inline void PatientObject::_internal_set_multiplebirthinteger(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  
+  multiplebirthinteger_ = value;
+}
+inline void PatientObject::set_multiplebirthinteger(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_multiplebirthinteger(value);
+  // @@protoc_insertion_point(field_set:patient.PatientObject.multipleBirthInteger)
 }
 
 // -------------------------------------------------------------------
@@ -23269,24 +34007,64 @@ PractitionerObject::address() const {
   return address_;
 }
 
-// .patient.Gender gender = 3;
+// string gender = 3;
 inline void PractitionerObject::clear_gender() {
-  gender_ = 0;
+  gender_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Gender PractitionerObject::_internal_gender() const {
-  return static_cast< ::patient::Gender >(gender_);
-}
-inline ::patient::Gender PractitionerObject::gender() const {
+inline const std::string& PractitionerObject::gender() const {
   // @@protoc_insertion_point(field_get:patient.PractitionerObject.gender)
   return _internal_gender();
 }
-inline void PractitionerObject::_internal_set_gender(::patient::Gender value) {
-  
-  gender_ = value;
-}
-inline void PractitionerObject::set_gender(::patient::Gender value) {
+inline void PractitionerObject::set_gender(const std::string& value) {
   _internal_set_gender(value);
   // @@protoc_insertion_point(field_set:patient.PractitionerObject.gender)
+}
+inline std::string* PractitionerObject::mutable_gender() {
+  // @@protoc_insertion_point(field_mutable:patient.PractitionerObject.gender)
+  return _internal_mutable_gender();
+}
+inline const std::string& PractitionerObject::_internal_gender() const {
+  return gender_.GetNoArena();
+}
+inline void PractitionerObject::_internal_set_gender(const std::string& value) {
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void PractitionerObject::set_gender(std::string&& value) {
+  
+  gender_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.PractitionerObject.gender)
+}
+inline void PractitionerObject::set_gender(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.PractitionerObject.gender)
+}
+inline void PractitionerObject::set_gender(const char* value, size_t size) {
+  
+  gender_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.PractitionerObject.gender)
+}
+inline std::string* PractitionerObject::_internal_mutable_gender() {
+  
+  return gender_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* PractitionerObject::release_gender() {
+  // @@protoc_insertion_point(field_release:patient.PractitionerObject.gender)
+  
+  return gender_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void PractitionerObject::set_allocated_gender(std::string* gender) {
+  if (gender != nullptr) {
+    
+  } else {
+    
+  }
+  gender_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), gender);
+  // @@protoc_insertion_point(field_set_allocated:patient.PractitionerObject.gender)
 }
 
 // string id = 4;
@@ -23427,24 +34205,64 @@ PractitionerObject::name() const {
   return name_;
 }
 
-// .patient.ResourceType resourceType = 7;
+// string resourceType = 7;
 inline void PractitionerObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType PractitionerObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType PractitionerObject::resourcetype() const {
+inline const std::string& PractitionerObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.PractitionerObject.resourceType)
   return _internal_resourcetype();
 }
-inline void PractitionerObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void PractitionerObject::set_resourcetype(::patient::ResourceType value) {
+inline void PractitionerObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.PractitionerObject.resourceType)
+}
+inline std::string* PractitionerObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.PractitionerObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& PractitionerObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void PractitionerObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void PractitionerObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.PractitionerObject.resourceType)
+}
+inline void PractitionerObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.PractitionerObject.resourceType)
+}
+inline void PractitionerObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.PractitionerObject.resourceType)
+}
+inline std::string* PractitionerObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* PractitionerObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.PractitionerObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void PractitionerObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.PractitionerObject.resourceType)
 }
 
 // repeated .patient.Telecom telecom = 8;
@@ -23484,6 +34302,45 @@ inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Telecom >&
 PractitionerObject::telecom() const {
   // @@protoc_insertion_point(field_list:patient.PractitionerObject.telecom)
   return telecom_;
+}
+
+// repeated .patient.Extension extension = 9;
+inline int PractitionerObject::_internal_extension_size() const {
+  return extension_.size();
+}
+inline int PractitionerObject::extension_size() const {
+  return _internal_extension_size();
+}
+inline void PractitionerObject::clear_extension() {
+  extension_.Clear();
+}
+inline ::patient::Extension* PractitionerObject::mutable_extension(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PractitionerObject.extension)
+  return extension_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >*
+PractitionerObject::mutable_extension() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PractitionerObject.extension)
+  return &extension_;
+}
+inline const ::patient::Extension& PractitionerObject::_internal_extension(int index) const {
+  return extension_.Get(index);
+}
+inline const ::patient::Extension& PractitionerObject::extension(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PractitionerObject.extension)
+  return _internal_extension(index);
+}
+inline ::patient::Extension* PractitionerObject::_internal_add_extension() {
+  return extension_.Add();
+}
+inline ::patient::Extension* PractitionerObject::add_extension() {
+  // @@protoc_insertion_point(field_add:patient.PractitionerObject.extension)
+  return _internal_add_extension();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::Extension >&
+PractitionerObject::extension() const {
+  // @@protoc_insertion_point(field_list:patient.PractitionerObject.extension)
+  return extension_;
 }
 
 // -------------------------------------------------------------------
@@ -23769,44 +34626,124 @@ ProcedureObject::reasonreference() const {
   return reasonreference_;
 }
 
-// .patient.ResourceType resourceType = 6;
+// string resourceType = 6;
 inline void ProcedureObject::clear_resourcetype() {
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::ResourceType ProcedureObject::_internal_resourcetype() const {
-  return static_cast< ::patient::ResourceType >(resourcetype_);
-}
-inline ::patient::ResourceType ProcedureObject::resourcetype() const {
+inline const std::string& ProcedureObject::resourcetype() const {
   // @@protoc_insertion_point(field_get:patient.ProcedureObject.resourceType)
   return _internal_resourcetype();
 }
-inline void ProcedureObject::_internal_set_resourcetype(::patient::ResourceType value) {
-  
-  resourcetype_ = value;
-}
-inline void ProcedureObject::set_resourcetype(::patient::ResourceType value) {
+inline void ProcedureObject::set_resourcetype(const std::string& value) {
   _internal_set_resourcetype(value);
   // @@protoc_insertion_point(field_set:patient.ProcedureObject.resourceType)
 }
+inline std::string* ProcedureObject::mutable_resourcetype() {
+  // @@protoc_insertion_point(field_mutable:patient.ProcedureObject.resourceType)
+  return _internal_mutable_resourcetype();
+}
+inline const std::string& ProcedureObject::_internal_resourcetype() const {
+  return resourcetype_.GetNoArena();
+}
+inline void ProcedureObject::_internal_set_resourcetype(const std::string& value) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ProcedureObject::set_resourcetype(std::string&& value) {
+  
+  resourcetype_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ProcedureObject.resourceType)
+}
+inline void ProcedureObject::set_resourcetype(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ProcedureObject.resourceType)
+}
+inline void ProcedureObject::set_resourcetype(const char* value, size_t size) {
+  
+  resourcetype_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ProcedureObject.resourceType)
+}
+inline std::string* ProcedureObject::_internal_mutable_resourcetype() {
+  
+  return resourcetype_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ProcedureObject::release_resourcetype() {
+  // @@protoc_insertion_point(field_release:patient.ProcedureObject.resourceType)
+  
+  return resourcetype_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ProcedureObject::set_allocated_resourcetype(std::string* resourcetype) {
+  if (resourcetype != nullptr) {
+    
+  } else {
+    
+  }
+  resourcetype_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), resourcetype);
+  // @@protoc_insertion_point(field_set_allocated:patient.ProcedureObject.resourceType)
+}
 
-// .patient.Status status = 7;
+// string status = 7;
 inline void ProcedureObject::clear_status() {
-  status_ = 0;
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
-inline ::patient::Status ProcedureObject::_internal_status() const {
-  return static_cast< ::patient::Status >(status_);
-}
-inline ::patient::Status ProcedureObject::status() const {
+inline const std::string& ProcedureObject::status() const {
   // @@protoc_insertion_point(field_get:patient.ProcedureObject.status)
   return _internal_status();
 }
-inline void ProcedureObject::_internal_set_status(::patient::Status value) {
-  
-  status_ = value;
-}
-inline void ProcedureObject::set_status(::patient::Status value) {
+inline void ProcedureObject::set_status(const std::string& value) {
   _internal_set_status(value);
   // @@protoc_insertion_point(field_set:patient.ProcedureObject.status)
+}
+inline std::string* ProcedureObject::mutable_status() {
+  // @@protoc_insertion_point(field_mutable:patient.ProcedureObject.status)
+  return _internal_mutable_status();
+}
+inline const std::string& ProcedureObject::_internal_status() const {
+  return status_.GetNoArena();
+}
+inline void ProcedureObject::_internal_set_status(const std::string& value) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value);
+}
+inline void ProcedureObject::set_status(std::string&& value) {
+  
+  status_.SetNoArena(
+    &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:patient.ProcedureObject.status)
+}
+inline void ProcedureObject::set_status(const char* value) {
+  GOOGLE_DCHECK(value != nullptr);
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:patient.ProcedureObject.status)
+}
+inline void ProcedureObject::set_status(const char* value, size_t size) {
+  
+  status_.SetNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:patient.ProcedureObject.status)
+}
+inline std::string* ProcedureObject::_internal_mutable_status() {
+  
+  return status_.MutableNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline std::string* ProcedureObject::release_status() {
+  // @@protoc_insertion_point(field_release:patient.ProcedureObject.status)
+  
+  return status_.ReleaseNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+inline void ProcedureObject::set_allocated_status(std::string* status) {
+  if (status != nullptr) {
+    
+  } else {
+    
+  }
+  status_.SetAllocatedNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), status);
+  // @@protoc_insertion_point(field_set_allocated:patient.ProcedureObject.status)
 }
 
 // .patient.Reference subject = 8;
@@ -24323,43 +35260,43 @@ PatientRecord::observation() const {
   return observation_;
 }
 
-// repeated .patient.OrganizationObject organiation = 12;
-inline int PatientRecord::_internal_organiation_size() const {
-  return organiation_.size();
+// repeated .patient.OrganizationObject organization = 12;
+inline int PatientRecord::_internal_organization_size() const {
+  return organization_.size();
 }
-inline int PatientRecord::organiation_size() const {
-  return _internal_organiation_size();
+inline int PatientRecord::organization_size() const {
+  return _internal_organization_size();
 }
-inline void PatientRecord::clear_organiation() {
-  organiation_.Clear();
+inline void PatientRecord::clear_organization() {
+  organization_.Clear();
 }
-inline ::patient::OrganizationObject* PatientRecord::mutable_organiation(int index) {
-  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.organiation)
-  return organiation_.Mutable(index);
+inline ::patient::OrganizationObject* PatientRecord::mutable_organization(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.organization)
+  return organization_.Mutable(index);
 }
 inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject >*
-PatientRecord::mutable_organiation() {
-  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.organiation)
-  return &organiation_;
+PatientRecord::mutable_organization() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.organization)
+  return &organization_;
 }
-inline const ::patient::OrganizationObject& PatientRecord::_internal_organiation(int index) const {
-  return organiation_.Get(index);
+inline const ::patient::OrganizationObject& PatientRecord::_internal_organization(int index) const {
+  return organization_.Get(index);
 }
-inline const ::patient::OrganizationObject& PatientRecord::organiation(int index) const {
-  // @@protoc_insertion_point(field_get:patient.PatientRecord.organiation)
-  return _internal_organiation(index);
+inline const ::patient::OrganizationObject& PatientRecord::organization(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.organization)
+  return _internal_organization(index);
 }
-inline ::patient::OrganizationObject* PatientRecord::_internal_add_organiation() {
-  return organiation_.Add();
+inline ::patient::OrganizationObject* PatientRecord::_internal_add_organization() {
+  return organization_.Add();
 }
-inline ::patient::OrganizationObject* PatientRecord::add_organiation() {
-  // @@protoc_insertion_point(field_add:patient.PatientRecord.organiation)
-  return _internal_add_organiation();
+inline ::patient::OrganizationObject* PatientRecord::add_organization() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.organization)
+  return _internal_add_organization();
 }
 inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::OrganizationObject >&
-PatientRecord::organiation() const {
-  // @@protoc_insertion_point(field_list:patient.PatientRecord.organiation)
-  return organiation_;
+PatientRecord::organization() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.organization)
+  return organization_;
 }
 
 // repeated .patient.PractitionerObject practitioner = 13;
@@ -24438,6 +35375,201 @@ inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ProcedureObje
 PatientRecord::procedure() const {
   // @@protoc_insertion_point(field_list:patient.PatientRecord.procedure)
   return procedure_;
+}
+
+// repeated .patient.AllergyIntoleranceObject allergyIntolerance = 15;
+inline int PatientRecord::_internal_allergyintolerance_size() const {
+  return allergyintolerance_.size();
+}
+inline int PatientRecord::allergyintolerance_size() const {
+  return _internal_allergyintolerance_size();
+}
+inline void PatientRecord::clear_allergyintolerance() {
+  allergyintolerance_.Clear();
+}
+inline ::patient::AllergyIntoleranceObject* PatientRecord::mutable_allergyintolerance(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.allergyIntolerance)
+  return allergyintolerance_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::AllergyIntoleranceObject >*
+PatientRecord::mutable_allergyintolerance() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.allergyIntolerance)
+  return &allergyintolerance_;
+}
+inline const ::patient::AllergyIntoleranceObject& PatientRecord::_internal_allergyintolerance(int index) const {
+  return allergyintolerance_.Get(index);
+}
+inline const ::patient::AllergyIntoleranceObject& PatientRecord::allergyintolerance(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.allergyIntolerance)
+  return _internal_allergyintolerance(index);
+}
+inline ::patient::AllergyIntoleranceObject* PatientRecord::_internal_add_allergyintolerance() {
+  return allergyintolerance_.Add();
+}
+inline ::patient::AllergyIntoleranceObject* PatientRecord::add_allergyintolerance() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.allergyIntolerance)
+  return _internal_add_allergyintolerance();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::AllergyIntoleranceObject >&
+PatientRecord::allergyintolerance() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.allergyIntolerance)
+  return allergyintolerance_;
+}
+
+// repeated .patient.GoalObject goal = 16;
+inline int PatientRecord::_internal_goal_size() const {
+  return goal_.size();
+}
+inline int PatientRecord::goal_size() const {
+  return _internal_goal_size();
+}
+inline void PatientRecord::clear_goal() {
+  goal_.Clear();
+}
+inline ::patient::GoalObject* PatientRecord::mutable_goal(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.goal)
+  return goal_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::GoalObject >*
+PatientRecord::mutable_goal() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.goal)
+  return &goal_;
+}
+inline const ::patient::GoalObject& PatientRecord::_internal_goal(int index) const {
+  return goal_.Get(index);
+}
+inline const ::patient::GoalObject& PatientRecord::goal(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.goal)
+  return _internal_goal(index);
+}
+inline ::patient::GoalObject* PatientRecord::_internal_add_goal() {
+  return goal_.Add();
+}
+inline ::patient::GoalObject* PatientRecord::add_goal() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.goal)
+  return _internal_add_goal();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::GoalObject >&
+PatientRecord::goal() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.goal)
+  return goal_;
+}
+
+// repeated .patient.ImagingStudyObject imagingStudy = 17;
+inline int PatientRecord::_internal_imagingstudy_size() const {
+  return imagingstudy_.size();
+}
+inline int PatientRecord::imagingstudy_size() const {
+  return _internal_imagingstudy_size();
+}
+inline void PatientRecord::clear_imagingstudy() {
+  imagingstudy_.Clear();
+}
+inline ::patient::ImagingStudyObject* PatientRecord::mutable_imagingstudy(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.imagingStudy)
+  return imagingstudy_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImagingStudyObject >*
+PatientRecord::mutable_imagingstudy() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.imagingStudy)
+  return &imagingstudy_;
+}
+inline const ::patient::ImagingStudyObject& PatientRecord::_internal_imagingstudy(int index) const {
+  return imagingstudy_.Get(index);
+}
+inline const ::patient::ImagingStudyObject& PatientRecord::imagingstudy(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.imagingStudy)
+  return _internal_imagingstudy(index);
+}
+inline ::patient::ImagingStudyObject* PatientRecord::_internal_add_imagingstudy() {
+  return imagingstudy_.Add();
+}
+inline ::patient::ImagingStudyObject* PatientRecord::add_imagingstudy() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.imagingStudy)
+  return _internal_add_imagingstudy();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::ImagingStudyObject >&
+PatientRecord::imagingstudy() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.imagingStudy)
+  return imagingstudy_;
+}
+
+// repeated .patient.DeviceObject device = 18;
+inline int PatientRecord::_internal_device_size() const {
+  return device_.size();
+}
+inline int PatientRecord::device_size() const {
+  return _internal_device_size();
+}
+inline void PatientRecord::clear_device() {
+  device_.Clear();
+}
+inline ::patient::DeviceObject* PatientRecord::mutable_device(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.device)
+  return device_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceObject >*
+PatientRecord::mutable_device() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.device)
+  return &device_;
+}
+inline const ::patient::DeviceObject& PatientRecord::_internal_device(int index) const {
+  return device_.Get(index);
+}
+inline const ::patient::DeviceObject& PatientRecord::device(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.device)
+  return _internal_device(index);
+}
+inline ::patient::DeviceObject* PatientRecord::_internal_add_device() {
+  return device_.Add();
+}
+inline ::patient::DeviceObject* PatientRecord::add_device() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.device)
+  return _internal_add_device();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::DeviceObject >&
+PatientRecord::device() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.device)
+  return device_;
+}
+
+// repeated .patient.MedicationAdministrationObject medicationAdministration = 19;
+inline int PatientRecord::_internal_medicationadministration_size() const {
+  return medicationadministration_.size();
+}
+inline int PatientRecord::medicationadministration_size() const {
+  return _internal_medicationadministration_size();
+}
+inline void PatientRecord::clear_medicationadministration() {
+  medicationadministration_.Clear();
+}
+inline ::patient::MedicationAdministrationObject* PatientRecord::mutable_medicationadministration(int index) {
+  // @@protoc_insertion_point(field_mutable:patient.PatientRecord.medicationAdministration)
+  return medicationadministration_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationAdministrationObject >*
+PatientRecord::mutable_medicationadministration() {
+  // @@protoc_insertion_point(field_mutable_list:patient.PatientRecord.medicationAdministration)
+  return &medicationadministration_;
+}
+inline const ::patient::MedicationAdministrationObject& PatientRecord::_internal_medicationadministration(int index) const {
+  return medicationadministration_.Get(index);
+}
+inline const ::patient::MedicationAdministrationObject& PatientRecord::medicationadministration(int index) const {
+  // @@protoc_insertion_point(field_get:patient.PatientRecord.medicationAdministration)
+  return _internal_medicationadministration(index);
+}
+inline ::patient::MedicationAdministrationObject* PatientRecord::_internal_add_medicationadministration() {
+  return medicationadministration_.Add();
+}
+inline ::patient::MedicationAdministrationObject* PatientRecord::add_medicationadministration() {
+  // @@protoc_insertion_point(field_add:patient.PatientRecord.medicationAdministration)
+  return _internal_add_medicationadministration();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::patient::MedicationAdministrationObject >&
+PatientRecord::medicationadministration() const {
+  // @@protoc_insertion_point(field_list:patient.PatientRecord.medicationAdministration)
+  return medicationadministration_;
 }
 
 #ifdef __GNUC__
@@ -24533,30 +35665,42 @@ PatientRecord::procedure() const {
 
 // -------------------------------------------------------------------
 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 
 // @@protoc_insertion_point(namespace_scope)
 
 }  // namespace patient
-
-PROTOBUF_NAMESPACE_OPEN
-
-template <> struct is_proto_enum< ::patient::Status> : ::std::true_type {};
-template <>
-inline const EnumDescriptor* GetEnumDescriptor< ::patient::Status>() {
-  return ::patient::Status_descriptor();
-}
-template <> struct is_proto_enum< ::patient::Gender> : ::std::true_type {};
-template <>
-inline const EnumDescriptor* GetEnumDescriptor< ::patient::Gender>() {
-  return ::patient::Gender_descriptor();
-}
-template <> struct is_proto_enum< ::patient::ResourceType> : ::std::true_type {};
-template <>
-inline const EnumDescriptor* GetEnumDescriptor< ::patient::ResourceType>() {
-  return ::patient::ResourceType_descriptor();
-}
-
-PROTOBUF_NAMESPACE_CLOSE
 
 // @@protoc_insertion_point(global_scope)
 

@@ -17,10 +17,12 @@
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Activity_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Address_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Adjudication_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_AllergyIntoleranceObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Amount_customized_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_CarePlanObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_CarePlanObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_CareTeam_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_CareTeamObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Carrier_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Category_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<9> scc_info_ClaimObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Coding_customized_2eproto;
@@ -29,19 +31,28 @@ extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::inte
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_ConditionObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Contained_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Detail_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DeviceName_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_DeviceObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Diagnosis_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_DiagnosticReportObject_customized_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_EncounterObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_DosageInstruction_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_DoseAndRate_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_EncounterObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Entry_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<11> scc_info_ExplanationOfBenefitObject_customized_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Extension_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_GoalObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Hospitalization_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Identifier_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_ImagingStudyObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_ImmunizationObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Instance_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Insurance_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_Item_customized_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_MedicationRequestObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_MedicationAdministrationObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_MedicationRequestObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Name_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_ObservationObject_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Onset_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_OrganizationObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Participant_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<7> scc_info_PatientObject_customized_2eproto;
@@ -51,11 +62,16 @@ extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::inte
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Procedure_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_ProcedureObject_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Quantity_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Reaction_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Reference_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Repeat_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Request_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<14> scc_info_Resource_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Series_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SupportingInfo_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Telecom_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Text_customized_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Timing_customized_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_customized_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Total_customized_2eproto;
 namespace patient {
 class ActivityDefaultTypeInternal {
@@ -191,11 +207,59 @@ class ResourceDefaultTypeInternal {
   const ::patient::ImmunizationObject* immunization_;
   const ::patient::MedicationRequestObject* medicationrequest_;
   const ::patient::ObservationObject* observation_;
-  const ::patient::OrganizationObject* organiation_;
+  const ::patient::OrganizationObject* organization_;
   const ::patient::PatientObject* patient_;
   const ::patient::PractitionerObject* practitioner_;
   const ::patient::ProcedureObject* procedure_;
 } _Resource_default_instance_;
+class DosageInstructionDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DosageInstruction> _instance;
+} _DosageInstruction_default_instance_;
+class RepeatDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Repeat> _instance;
+} _Repeat_default_instance_;
+class TimingDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Timing> _instance;
+} _Timing_default_instance_;
+class DoseAndRateDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DoseAndRate> _instance;
+} _DoseAndRate_default_instance_;
+class OnsetDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Onset> _instance;
+} _Onset_default_instance_;
+class ReactionDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Reaction> _instance;
+} _Reaction_default_instance_;
+class InstanceDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Instance> _instance;
+} _Instance_default_instance_;
+class SeriesDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Series> _instance;
+} _Series_default_instance_;
+class HospitalizationDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Hospitalization> _instance;
+} _Hospitalization_default_instance_;
+class CarrierDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Carrier> _instance;
+} _Carrier_default_instance_;
+class DeviceNameDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DeviceName> _instance;
+} _DeviceName_default_instance_;
+class AllergyIntoleranceObjectDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<AllergyIntoleranceObject> _instance;
+} _AllergyIntoleranceObject_default_instance_;
 class CarePlanObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<CarePlanObject> _instance;
@@ -212,6 +276,10 @@ class ConditionObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ConditionObject> _instance;
 } _ConditionObject_default_instance_;
+class DeviceObjectDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DeviceObject> _instance;
+} _DeviceObject_default_instance_;
 class DiagnosticReportObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DiagnosticReportObject> _instance;
@@ -224,6 +292,14 @@ class ExplanationOfBenefitObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ExplanationOfBenefitObject> _instance;
 } _ExplanationOfBenefitObject_default_instance_;
+class GoalObjectDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<GoalObject> _instance;
+} _GoalObject_default_instance_;
+class ImagingStudyObjectDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ImagingStudyObject> _instance;
+} _ImagingStudyObject_default_instance_;
 class ImmunizationObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ImmunizationObject> _instance;
@@ -232,6 +308,10 @@ class MedicationRequestObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<MedicationRequestObject> _instance;
 } _MedicationRequestObject_default_instance_;
+class MedicationAdministrationObjectDefaultTypeInternal {
+ public:
+  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<MedicationAdministrationObject> _instance;
+} _MedicationAdministrationObject_default_instance_;
 class ObservationObjectDefaultTypeInternal {
  public:
   ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<ObservationObject> _instance;
@@ -280,12 +360,18 @@ static void InitDefaultsscc_info_Address_customized_2eproto() {
     new (ptr) ::patient::Address();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
+  {
+    void* ptr = &::patient::_Extension_default_instance_;
+    new (ptr) ::patient::Extension();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
   ::patient::Address::InitAsDefaultInstance();
+  ::patient::Extension::InitAsDefaultInstance();
 }
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Address_customized_2eproto =
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Address_customized_2eproto}, {
-      &scc_info_Extension_customized_2eproto.base,}};
+      &scc_info_Coding_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Adjudication_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -302,6 +388,25 @@ static void InitDefaultsscc_info_Adjudication_customized_2eproto() {
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_Adjudication_customized_2eproto}, {
       &scc_info_Amount_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_AllergyIntoleranceObject_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_AllergyIntoleranceObject_default_instance_;
+    new (ptr) ::patient::AllergyIntoleranceObject();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::AllergyIntoleranceObject::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_AllergyIntoleranceObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 5, 0, InitDefaultsscc_info_AllergyIntoleranceObject_customized_2eproto}, {
+      &scc_info_Identifier_customized_2eproto.base,
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,
+      &scc_info_Onset_customized_2eproto.base,
+      &scc_info_Reaction_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Amount_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -328,13 +433,14 @@ static void InitDefaultsscc_info_CarePlanObject_customized_2eproto() {
   ::patient::CarePlanObject::InitAsDefaultInstance();
 }
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_CarePlanObject_customized_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 5, 0, InitDefaultsscc_info_CarePlanObject_customized_2eproto}, {
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_CarePlanObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 6, 0, InitDefaultsscc_info_CarePlanObject_customized_2eproto}, {
       &scc_info_Activity_customized_2eproto.base,
       &scc_info_Reference_customized_2eproto.base,
       &scc_info_CareTeam_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,
-      &scc_info_Period_customized_2eproto.base,}};
+      &scc_info_Period_customized_2eproto.base,
+      &scc_info_Text_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_CareTeam_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -369,6 +475,20 @@ static void InitDefaultsscc_info_CareTeamObject_customized_2eproto() {
       &scc_info_Participant_customized_2eproto.base,
       &scc_info_Period_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_Carrier_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Carrier_default_instance_;
+    new (ptr) ::patient::Carrier();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Carrier::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Carrier_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Carrier_customized_2eproto}, {}};
 
 static void InitDefaultsscc_info_Category_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -501,6 +621,38 @@ static void InitDefaultsscc_info_Detail_customized_2eproto() {
       &scc_info_Category_customized_2eproto.base,
       &scc_info_Reference_customized_2eproto.base,}};
 
+static void InitDefaultsscc_info_DeviceName_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_DeviceName_default_instance_;
+    new (ptr) ::patient::DeviceName();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::DeviceName::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DeviceName_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_DeviceName_customized_2eproto}, {}};
+
+static void InitDefaultsscc_info_DeviceObject_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_DeviceObject_default_instance_;
+    new (ptr) ::patient::DeviceObject();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::DeviceObject::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_DeviceObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_DeviceObject_customized_2eproto}, {
+      &scc_info_Carrier_customized_2eproto.base,
+      &scc_info_DeviceName_customized_2eproto.base,
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_Diagnosis_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -533,6 +685,39 @@ static void InitDefaultsscc_info_DiagnosticReportObject_customized_2eproto() {
       &scc_info_Category_customized_2eproto.base,
       &scc_info_Reference_customized_2eproto.base,}};
 
+static void InitDefaultsscc_info_DosageInstruction_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_DosageInstruction_default_instance_;
+    new (ptr) ::patient::DosageInstruction();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::DosageInstruction::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_DosageInstruction_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_DosageInstruction_customized_2eproto}, {
+      &scc_info_DoseAndRate_customized_2eproto.base,
+      &scc_info_Timing_customized_2eproto.base,
+      &scc_info_Category_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_DoseAndRate_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_DoseAndRate_default_instance_;
+    new (ptr) ::patient::DoseAndRate();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::DoseAndRate::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_DoseAndRate_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_DoseAndRate_customized_2eproto}, {
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Quantity_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_EncounterObject_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -544,12 +729,14 @@ static void InitDefaultsscc_info_EncounterObject_customized_2eproto() {
   ::patient::EncounterObject::InitAsDefaultInstance();
 }
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<4> scc_info_EncounterObject_customized_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_EncounterObject_customized_2eproto}, {
-      &scc_info_Category_customized_2eproto.base,
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_EncounterObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 6, 0, InitDefaultsscc_info_EncounterObject_customized_2eproto}, {
+      &scc_info_Coding_customized_2eproto.base,
       &scc_info_Participant_customized_2eproto.base,
       &scc_info_Period_customized_2eproto.base,
-      &scc_info_Reference_customized_2eproto.base,}};
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,
+      &scc_info_Hospitalization_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Entry_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -592,20 +779,36 @@ static void InitDefaultsscc_info_ExplanationOfBenefitObject_customized_2eproto()
       &scc_info_Total_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,}};
 
-static void InitDefaultsscc_info_Extension_customized_2eproto() {
+static void InitDefaultsscc_info_GoalObject_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   {
-    void* ptr = &::patient::_Extension_default_instance_;
-    new (ptr) ::patient::Extension();
+    void* ptr = &::patient::_GoalObject_default_instance_;
+    new (ptr) ::patient::GoalObject();
     ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
   }
-  ::patient::Extension::InitAsDefaultInstance();
+  ::patient::GoalObject::InitAsDefaultInstance();
 }
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Extension_customized_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Extension_customized_2eproto}, {
-      &scc_info_Coding_customized_2eproto.base,}};
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_GoalObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_GoalObject_customized_2eproto}, {
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_Hospitalization_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Hospitalization_default_instance_;
+    new (ptr) ::patient::Hospitalization();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Hospitalization::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Hospitalization_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Hospitalization_customized_2eproto}, {
+      &scc_info_Category_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Identifier_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -622,6 +825,23 @@ static void InitDefaultsscc_info_Identifier_customized_2eproto() {
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Identifier_customized_2eproto}, {
       &scc_info_Category_customized_2eproto.base,}};
 
+static void InitDefaultsscc_info_ImagingStudyObject_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_ImagingStudyObject_default_instance_;
+    new (ptr) ::patient::ImagingStudyObject();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::ImagingStudyObject::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_ImagingStudyObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_ImagingStudyObject_customized_2eproto}, {
+      &scc_info_Identifier_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,
+      &scc_info_Series_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_ImmunizationObject_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -637,6 +857,21 @@ static void InitDefaultsscc_info_ImmunizationObject_customized_2eproto() {
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_ImmunizationObject_customized_2eproto}, {
       &scc_info_Reference_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_Instance_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Instance_default_instance_;
+    new (ptr) ::patient::Instance();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Instance::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Instance_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Instance_customized_2eproto}, {
+      &scc_info_Coding_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Insurance_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -672,6 +907,22 @@ static void InitDefaultsscc_info_Item_customized_2eproto() {
       &scc_info_Period_customized_2eproto.base,
       &scc_info_Adjudication_customized_2eproto.base,}};
 
+static void InitDefaultsscc_info_MedicationAdministrationObject_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_MedicationAdministrationObject_default_instance_;
+    new (ptr) ::patient::MedicationAdministrationObject();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::MedicationAdministrationObject::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_MedicationAdministrationObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_MedicationAdministrationObject_customized_2eproto}, {
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_Reference_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_MedicationRequestObject_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -683,10 +934,11 @@ static void InitDefaultsscc_info_MedicationRequestObject_customized_2eproto() {
   ::patient::MedicationRequestObject::InitAsDefaultInstance();
 }
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_MedicationRequestObject_customized_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_MedicationRequestObject_customized_2eproto}, {
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_MedicationRequestObject_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_MedicationRequestObject_customized_2eproto}, {
       &scc_info_Reference_customized_2eproto.base,
-      &scc_info_Category_customized_2eproto.base,}};
+      &scc_info_Category_customized_2eproto.base,
+      &scc_info_DosageInstruction_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Name_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -719,6 +971,21 @@ static void InitDefaultsscc_info_ObservationObject_customized_2eproto() {
       &scc_info_Component_customized_2eproto.base,
       &scc_info_Reference_customized_2eproto.base,
       &scc_info_Quantity_customized_2eproto.base,}};
+
+static void InitDefaultsscc_info_Onset_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Onset_default_instance_;
+    new (ptr) ::patient::Onset();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Onset::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Onset_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Onset_customized_2eproto}, {
+      &scc_info_Period_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_OrganizationObject_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -769,11 +1036,11 @@ static void InitDefaultsscc_info_PatientObject_customized_2eproto() {
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 7, 0, InitDefaultsscc_info_PatientObject_customized_2eproto}, {
       &scc_info_Address_customized_2eproto.base,
       &scc_info_Communication_customized_2eproto.base,
-      &scc_info_Extension_customized_2eproto.base,
       &scc_info_Identifier_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,
       &scc_info_Name_customized_2eproto.base,
-      &scc_info_Telecom_customized_2eproto.base,}};
+      &scc_info_Telecom_customized_2eproto.base,
+      &scc_info_Text_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_PatientRecord_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -786,8 +1053,8 @@ static void InitDefaultsscc_info_PatientRecord_customized_2eproto() {
   ::patient::PatientRecord::InitAsDefaultInstance();
 }
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<14> scc_info_PatientRecord_customized_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 14, 0, InitDefaultsscc_info_PatientRecord_customized_2eproto}, {
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<19> scc_info_PatientRecord_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 19, 0, InitDefaultsscc_info_PatientRecord_customized_2eproto}, {
       &scc_info_PatientObject_customized_2eproto.base,
       &scc_info_CarePlanObject_customized_2eproto.base,
       &scc_info_CareTeamObject_customized_2eproto.base,
@@ -801,7 +1068,12 @@ static void InitDefaultsscc_info_PatientRecord_customized_2eproto() {
       &scc_info_ObservationObject_customized_2eproto.base,
       &scc_info_OrganizationObject_customized_2eproto.base,
       &scc_info_PractitionerObject_customized_2eproto.base,
-      &scc_info_ProcedureObject_customized_2eproto.base,}};
+      &scc_info_ProcedureObject_customized_2eproto.base,
+      &scc_info_AllergyIntoleranceObject_customized_2eproto.base,
+      &scc_info_GoalObject_customized_2eproto.base,
+      &scc_info_ImagingStudyObject_customized_2eproto.base,
+      &scc_info_DeviceObject_customized_2eproto.base,
+      &scc_info_MedicationAdministrationObject_customized_2eproto.base,}};
 
 static void InitDefaultsscc_info_Payment_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -896,6 +1168,21 @@ static void InitDefaultsscc_info_Quantity_customized_2eproto() {
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Quantity_customized_2eproto =
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Quantity_customized_2eproto}, {}};
 
+static void InitDefaultsscc_info_Reaction_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Reaction_default_instance_;
+    new (ptr) ::patient::Reaction();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Reaction::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Reaction_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Reaction_customized_2eproto}, {
+      &scc_info_Category_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_Reference_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -909,6 +1196,20 @@ static void InitDefaultsscc_info_Reference_customized_2eproto() {
 
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Reference_customized_2eproto =
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Reference_customized_2eproto}, {}};
+
+static void InitDefaultsscc_info_Repeat_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Repeat_default_instance_;
+    new (ptr) ::patient::Repeat();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Repeat::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Repeat_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Repeat_customized_2eproto}, {}};
 
 static void InitDefaultsscc_info_Request_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
@@ -967,6 +1268,22 @@ static void InitDefaultsscc_info_Root_customized_2eproto() {
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Root_customized_2eproto}, {
       &scc_info_Entry_customized_2eproto.base,}};
 
+static void InitDefaultsscc_info_Series_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Series_default_instance_;
+    new (ptr) ::patient::Series();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Series::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_Series_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_Series_customized_2eproto}, {
+      &scc_info_Coding_customized_2eproto.base,
+      &scc_info_Instance_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_SupportingInfo_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -1011,6 +1328,21 @@ static void InitDefaultsscc_info_Text_customized_2eproto() {
 ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Text_customized_2eproto =
     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Text_customized_2eproto}, {}};
 
+static void InitDefaultsscc_info_Timing_customized_2eproto() {
+  GOOGLE_PROTOBUF_VERIFY_VERSION;
+
+  {
+    void* ptr = &::patient::_Timing_default_instance_;
+    new (ptr) ::patient::Timing();
+    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
+  }
+  ::patient::Timing::InitAsDefaultInstance();
+}
+
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_Timing_customized_2eproto =
+    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_Timing_customized_2eproto}, {
+      &scc_info_Repeat_customized_2eproto.base,}};
+
 static void InitDefaultsscc_info_Total_customized_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -1027,8 +1359,8 @@ static void InitDefaultsscc_info_Total_customized_2eproto() {
       &scc_info_Amount_customized_2eproto.base,
       &scc_info_Category_customized_2eproto.base,}};
 
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_customized_2eproto[46];
-static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_customized_2eproto[3];
+static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_customized_2eproto[62];
+static constexpr ::PROTOBUF_NAMESPACE_ID::EnumDescriptor const** file_level_enum_descriptors_customized_2eproto = nullptr;
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_customized_2eproto = nullptr;
 
 const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
@@ -1134,6 +1466,9 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::Extension, valuecoding_),
   PROTOBUF_FIELD_OFFSET(::patient::Extension, valuestring_),
   PROTOBUF_FIELD_OFFSET(::patient::Extension, valuedecimal_),
+  PROTOBUF_FIELD_OFFSET(::patient::Extension, valuecode_),
+  PROTOBUF_FIELD_OFFSET(::patient::Extension, valueaddress_),
+  PROTOBUF_FIELD_OFFSET(::patient::Extension, valueinteger_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::Identifier, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1142,6 +1477,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::Identifier, system_),
   PROTOBUF_FIELD_OFFSET(::patient::Identifier, value_),
   PROTOBUF_FIELD_OFFSET(::patient::Identifier, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::Identifier, use_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::Insurance, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1164,6 +1500,8 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::Item, locationcodeableconcept_),
   PROTOBUF_FIELD_OFFSET(::patient::Item, servicedperiod_),
   PROTOBUF_FIELD_OFFSET(::patient::Item, adjudication_),
+  PROTOBUF_FIELD_OFFSET(::patient::Item, proceduresequence_),
+  PROTOBUF_FIELD_OFFSET(::patient::Item, diagnosissequence_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::Name, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1173,6 +1511,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::Name, given_),
   PROTOBUF_FIELD_OFFSET(::patient::Name, prefix_),
   PROTOBUF_FIELD_OFFSET(::patient::Name, use_),
+  PROTOBUF_FIELD_OFFSET(::patient::Name, suffix_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::Participant, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1295,11 +1634,127 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   offsetof(::patient::ResourceDefaultTypeInternal, immunization_),
   offsetof(::patient::ResourceDefaultTypeInternal, medicationrequest_),
   offsetof(::patient::ResourceDefaultTypeInternal, observation_),
-  offsetof(::patient::ResourceDefaultTypeInternal, organiation_),
+  offsetof(::patient::ResourceDefaultTypeInternal, organization_),
   offsetof(::patient::ResourceDefaultTypeInternal, patient_),
   offsetof(::patient::ResourceDefaultTypeInternal, practitioner_),
   offsetof(::patient::ResourceDefaultTypeInternal, procedure_),
   PROTOBUF_FIELD_OFFSET(::patient::Resource, resource_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, sequence_),
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, asneededboolean_),
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, doseandrate_),
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, timing_),
+  PROTOBUF_FIELD_OFFSET(::patient::DosageInstruction, additionalinstruction_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Repeat, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Repeat, frequency_),
+  PROTOBUF_FIELD_OFFSET(::patient::Repeat, period_),
+  PROTOBUF_FIELD_OFFSET(::patient::Repeat, periodunit_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Timing, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Timing, repeat_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::DoseAndRate, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::DoseAndRate, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::DoseAndRate, dosequantity_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Onset, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Onset, onsetdatetime_),
+  PROTOBUF_FIELD_OFFSET(::patient::Onset, onsetage_),
+  PROTOBUF_FIELD_OFFSET(::patient::Onset, onsetperiod_),
+  PROTOBUF_FIELD_OFFSET(::patient::Onset, onsetstring_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, substance_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, manifestation_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, description_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, onset_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, severity_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, exposureroute_),
+  PROTOBUF_FIELD_OFFSET(::patient::Reaction, note_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Instance, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Instance, uid_),
+  PROTOBUF_FIELD_OFFSET(::patient::Instance, sopclass_),
+  PROTOBUF_FIELD_OFFSET(::patient::Instance, number_),
+  PROTOBUF_FIELD_OFFSET(::patient::Instance, title_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Series, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Series, uid_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, number_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, modality_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, numberofinstances_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, bodysite_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, started_),
+  PROTOBUF_FIELD_OFFSET(::patient::Series, instance_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Hospitalization, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Hospitalization, dischargedisposition_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::Carrier, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::Carrier, deviceidentifier_),
+  PROTOBUF_FIELD_OFFSET(::patient::Carrier, carrierhrf_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceName, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceName, name_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceName, type_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, identifier_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, clinicalstatus_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, verificationstatus_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, category_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, criticality_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, code_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, patient_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, encounter_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, onset_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, recordeddate_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, recorder_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, asserter_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, lastoccurrence_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, note_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, resourcetype_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, reaction_),
+  PROTOBUF_FIELD_OFFSET(::patient::AllergyIntoleranceObject, id_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::CarePlanObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1317,6 +1772,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::CarePlanObject, status_),
   PROTOBUF_FIELD_OFFSET(::patient::CarePlanObject, subject_),
   PROTOBUF_FIELD_OFFSET(::patient::CarePlanObject, text_),
+  PROTOBUF_FIELD_OFFSET(::patient::CarePlanObject, goal_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::CareTeamObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1369,6 +1825,23 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::ConditionObject, subject_),
   PROTOBUF_FIELD_OFFSET(::patient::ConditionObject, verificationstatus_),
   ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, resourcetype_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, id_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, udicarrier_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, status_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, distinctidentifier_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, manufacturedate_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, expirationdate_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, lotnumber_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, serialnumber_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, devicename_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::DeviceObject, patient_),
+  ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::DiagnosticReportObject, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
@@ -1398,6 +1871,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::EncounterObject, status_),
   PROTOBUF_FIELD_OFFSET(::patient::EncounterObject, subject_),
   PROTOBUF_FIELD_OFFSET(::patient::EncounterObject, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::EncounterObject, hospitalization_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::ExplanationOfBenefitObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1425,13 +1899,39 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::ExplanationOfBenefitObject, type_),
   PROTOBUF_FIELD_OFFSET(::patient::ExplanationOfBenefitObject, use_),
   ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, resourcetype_),
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, id_),
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, lifecyclestatus_),
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, achievementstatus_),
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, description_),
+  PROTOBUF_FIELD_OFFSET(::patient::GoalObject, subject_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, resourcetype_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, id_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, identifier_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, status_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, subject_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, encounter_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, started_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, numberofseries_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, numberofinstances_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImagingStudyObject, series_),
+  ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, encounter_),
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, id_),
-  PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, occurencedatetime_),
+  PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, occurrencedatetime_),
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, patient_),
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, primarysource_),
   PROTOBUF_FIELD_OFFSET(::patient::ImmunizationObject, resourcetype_),
@@ -1452,6 +1952,20 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::MedicationRequestObject, resourcetype_),
   PROTOBUF_FIELD_OFFSET(::patient::MedicationRequestObject, status_),
   PROTOBUF_FIELD_OFFSET(::patient::MedicationRequestObject, subject_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationRequestObject, dosageinstruction_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, resourcetype_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, id_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, status_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, medicationcodeableconcept_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, subject_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, context_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, effectivedatetime_),
+  PROTOBUF_FIELD_OFFSET(::patient::MedicationAdministrationObject, reasonreference_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::ObservationObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1469,6 +1983,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::ObservationObject, subject_),
   PROTOBUF_FIELD_OFFSET(::patient::ObservationObject, valuecodeableconcept_),
   PROTOBUF_FIELD_OFFSET(::patient::ObservationObject, valuequantity_),
+  PROTOBUF_FIELD_OFFSET(::patient::ObservationObject, valuestring_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::OrganizationObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1482,6 +1997,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::OrganizationObject, resourcetype_),
   PROTOBUF_FIELD_OFFSET(::patient::OrganizationObject, telecom_),
   PROTOBUF_FIELD_OFFSET(::patient::OrganizationObject, type_),
+  PROTOBUF_FIELD_OFFSET(::patient::OrganizationObject, extension_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::PatientObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1500,6 +2016,8 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::PatientObject, resourcetype_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientObject, telecom_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientObject, text_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientObject, deceaseddatetime_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientObject, multiplebirthinteger_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::PractitionerObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1513,6 +2031,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::PractitionerObject, name_),
   PROTOBUF_FIELD_OFFSET(::patient::PractitionerObject, resourcetype_),
   PROTOBUF_FIELD_OFFSET(::patient::PractitionerObject, telecom_),
+  PROTOBUF_FIELD_OFFSET(::patient::PractitionerObject, extension_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::patient::ProcedureObject, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -1542,9 +2061,14 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_customized_2eproto::offsets[] 
   PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, immunization_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, medicationrequest_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, observation_),
-  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, organiation_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, organization_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, practitioner_),
   PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, procedure_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, allergyintolerance_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, goal_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, imagingstudy_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, device_),
+  PROTOBUF_FIELD_OFFSET(::patient::PatientRecord, medicationadministration_),
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   { 0, -1, sizeof(::patient::Activity)},
@@ -1559,40 +2083,56 @@ static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOB
   { 76, -1, sizeof(::patient::Diagnosis)},
   { 84, -1, sizeof(::patient::Entry)},
   { 92, -1, sizeof(::patient::Extension)},
-  { 102, -1, sizeof(::patient::Identifier)},
-  { 110, -1, sizeof(::patient::Insurance)},
-  { 118, -1, sizeof(::patient::Item)},
-  { 132, -1, sizeof(::patient::Name)},
-  { 141, -1, sizeof(::patient::Participant)},
-  { 149, -1, sizeof(::patient::Payment)},
-  { 155, -1, sizeof(::patient::Procedure)},
-  { 162, -1, sizeof(::patient::Request)},
-  { 169, -1, sizeof(::patient::Root)},
-  { 177, -1, sizeof(::patient::SupportingInfo)},
-  { 185, -1, sizeof(::patient::Telecom)},
-  { 193, -1, sizeof(::patient::Text)},
-  { 200, -1, sizeof(::patient::Total)},
-  { 209, -1, sizeof(::patient::Coding)},
-  { 217, -1, sizeof(::patient::Quantity)},
-  { 226, -1, sizeof(::patient::Reference)},
-  { 233, -1, sizeof(::patient::Category)},
-  { 240, -1, sizeof(::patient::Period)},
-  { 247, -1, sizeof(::patient::Resource)},
-  { 268, -1, sizeof(::patient::CarePlanObject)},
-  { 285, -1, sizeof(::patient::CareTeamObject)},
-  { 299, -1, sizeof(::patient::ClaimObject)},
-  { 321, -1, sizeof(::patient::ConditionObject)},
-  { 336, -1, sizeof(::patient::DiagnosticReportObject)},
-  { 351, -1, sizeof(::patient::EncounterObject)},
-  { 366, -1, sizeof(::patient::ExplanationOfBenefitObject)},
-  { 392, -1, sizeof(::patient::ImmunizationObject)},
-  { 405, -1, sizeof(::patient::MedicationRequestObject)},
-  { 420, -1, sizeof(::patient::ObservationObject)},
-  { 437, -1, sizeof(::patient::OrganizationObject)},
-  { 450, -1, sizeof(::patient::PatientObject)},
-  { 468, -1, sizeof(::patient::PractitionerObject)},
-  { 481, -1, sizeof(::patient::ProcedureObject)},
-  { 494, -1, sizeof(::patient::PatientRecord)},
+  { 105, -1, sizeof(::patient::Identifier)},
+  { 114, -1, sizeof(::patient::Insurance)},
+  { 122, -1, sizeof(::patient::Item)},
+  { 138, -1, sizeof(::patient::Name)},
+  { 148, -1, sizeof(::patient::Participant)},
+  { 156, -1, sizeof(::patient::Payment)},
+  { 162, -1, sizeof(::patient::Procedure)},
+  { 169, -1, sizeof(::patient::Request)},
+  { 176, -1, sizeof(::patient::Root)},
+  { 184, -1, sizeof(::patient::SupportingInfo)},
+  { 192, -1, sizeof(::patient::Telecom)},
+  { 200, -1, sizeof(::patient::Text)},
+  { 207, -1, sizeof(::patient::Total)},
+  { 216, -1, sizeof(::patient::Coding)},
+  { 224, -1, sizeof(::patient::Quantity)},
+  { 233, -1, sizeof(::patient::Reference)},
+  { 240, -1, sizeof(::patient::Category)},
+  { 247, -1, sizeof(::patient::Period)},
+  { 254, -1, sizeof(::patient::Resource)},
+  { 275, -1, sizeof(::patient::DosageInstruction)},
+  { 285, -1, sizeof(::patient::Repeat)},
+  { 293, -1, sizeof(::patient::Timing)},
+  { 299, -1, sizeof(::patient::DoseAndRate)},
+  { 306, -1, sizeof(::patient::Onset)},
+  { 315, -1, sizeof(::patient::Reaction)},
+  { 327, -1, sizeof(::patient::Instance)},
+  { 336, -1, sizeof(::patient::Series)},
+  { 348, -1, sizeof(::patient::Hospitalization)},
+  { 354, -1, sizeof(::patient::Carrier)},
+  { 361, -1, sizeof(::patient::DeviceName)},
+  { 368, -1, sizeof(::patient::AllergyIntoleranceObject)},
+  { 391, -1, sizeof(::patient::CarePlanObject)},
+  { 409, -1, sizeof(::patient::CareTeamObject)},
+  { 423, -1, sizeof(::patient::ClaimObject)},
+  { 445, -1, sizeof(::patient::ConditionObject)},
+  { 460, -1, sizeof(::patient::DeviceObject)},
+  { 477, -1, sizeof(::patient::DiagnosticReportObject)},
+  { 492, -1, sizeof(::patient::EncounterObject)},
+  { 508, -1, sizeof(::patient::ExplanationOfBenefitObject)},
+  { 534, -1, sizeof(::patient::GoalObject)},
+  { 545, -1, sizeof(::patient::ImagingStudyObject)},
+  { 560, -1, sizeof(::patient::ImmunizationObject)},
+  { 573, -1, sizeof(::patient::MedicationRequestObject)},
+  { 589, -1, sizeof(::patient::MedicationAdministrationObject)},
+  { 602, -1, sizeof(::patient::ObservationObject)},
+  { 620, -1, sizeof(::patient::OrganizationObject)},
+  { 634, -1, sizeof(::patient::PatientObject)},
+  { 654, -1, sizeof(::patient::PractitionerObject)},
+  { 668, -1, sizeof(::patient::ProcedureObject)},
+  { 681, -1, sizeof(::patient::PatientRecord)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
@@ -1627,15 +2167,31 @@ static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] =
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Category_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Period_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Resource_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_DosageInstruction_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Repeat_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Timing_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_DoseAndRate_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Onset_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Reaction_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Instance_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Series_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Hospitalization_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_Carrier_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_DeviceName_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_AllergyIntoleranceObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_CarePlanObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_CareTeamObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ClaimObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ConditionObject_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_DeviceObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_DiagnosticReportObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_EncounterObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ExplanationOfBenefitObject_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_GoalObject_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ImagingStudyObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ImmunizationObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_MedicationRequestObject_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_MedicationAdministrationObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_ObservationObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_OrganizationObject_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::patient::_PatientObject_default_instance_),
@@ -1646,7 +2202,7 @@ static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] =
 
 const char descriptor_table_protodef_customized_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
   "\n\020customized.proto\022\007patient\"+\n\010Activity\022"
-  "\037\n\006detail\030\001 \003(\0132\017.patient.Detail\"\200\001\n\007Add"
+  "\037\n\006detail\030\001 \001(\0132\017.patient.Detail\"\200\001\n\007Add"
   "ress\022\014\n\004city\030\001 \001(\t\022\017\n\007country\030\002 \001(\t\022%\n\te"
   "xtension\030\003 \003(\0132\022.patient.Extension\022\014\n\004li"
   "ne\030\004 \003(\t\022\022\n\npostalCode\030\005 \001(\t\022\r\n\005state\030\006 "
@@ -1659,260 +2215,328 @@ const char descriptor_table_protodef_customized_2eproto[] PROTOBUF_SECTION_VARIA
   "erence\030\004 \001(\t\"4\n\rCommunication\022#\n\010languag"
   "e\030\001 \001(\0132\021.patient.Category\"V\n\tComponent\022"
   "\037\n\004code\030\001 \001(\0132\021.patient.Category\022(\n\rvalu"
-  "eQuantity\030\002 \001(\0132\021.patient.Quantity\"\276\002\n\tC"
+  "eQuantity\030\002 \001(\0132\021.patient.Quantity\"\255\002\n\tC"
   "ontained\022\n\n\002id\030\001 \001(\t\022\016\n\006intent\030\002 \001(\t\022%\n\t"
   "performer\030\003 \003(\0132\022.patient.Reference\022%\n\tr"
   "equester\030\004 \001(\0132\022.patient.Reference\022\024\n\014re"
-  "sourceType\030\005 \001(\t\022\037\n\006status\030\006 \001(\0162\017.patie"
-  "nt.Status\022#\n\007subject\030\007 \001(\0132\022.patient.Ref"
-  "erence\022\'\n\013beneficiary\030\010 \001(\0132\022.patient.Re"
-  "ference\022!\n\005payor\030\t \003(\0132\022.patient.Referen"
-  "ce\022\037\n\004type\030\n \001(\0132\021.patient.Category\"p\n\006D"
-  "etail\022\037\n\004code\030\001 \001(\0132\021.patient.Category\022$"
-  "\n\010location\030\002 \001(\0132\022.patient.Reference\022\037\n\006"
-  "status\030\003 \001(\0162\017.patient.Status\"n\n\tDiagnos"
-  "is\022.\n\022diagnosisReference\030\001 \001(\0132\022.patient"
-  ".Reference\022\020\n\010sequence\030\002 \001(\005\022\037\n\004type\030\003 \003"
-  "(\0132\021.patient.Category\"`\n\005Entry\022\017\n\007fullUr"
-  "l\030\001 \001(\t\022!\n\007request\030\002 \001(\0132\020.patient.Reque"
-  "st\022#\n\010resource\030\003 \003(\0132\021.patient.Resource\""
-  "\220\001\n\tExtension\022%\n\textension\030\001 \003(\0132\022.patie"
-  "nt.Extension\022\013\n\003url\030\002 \001(\t\022$\n\013valueCoding"
-  "\030\003 \001(\0132\017.patient.Coding\022\023\n\013valueString\030\004"
-  " \001(\t\022\024\n\014valueDecimal\030\005 \001(\002\"L\n\nIdentifier"
-  "\022\016\n\006system\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\022\037\n\004type\030"
-  "\003 \001(\0132\021.patient.Category\"R\n\tInsurance\022$\n"
-  "\010coverage\030\001 \001(\0132\022.patient.Reference\022\r\n\005f"
-  "ocal\030\002 \001(\010\022\020\n\010sequence\030\003 \001(\005\"\326\002\n\004Item\022%\n"
-  "\tencounter\030\001 \003(\0132\022.patient.Reference\022+\n\020"
-  "productOrService\030\002 \001(\0132\021.patient.Categor"
-  "y\022\020\n\010sequence\030\003 \001(\005\022\033\n\023informationSequen"
-  "ce\030\004 \003(\005\022\034\n\003net\030\005 \001(\0132\017.patient.Amount\022#"
-  "\n\010category\030\006 \001(\0132\021.patient.Category\0222\n\027l"
-  "ocationCodeableConcept\030\007 \001(\0132\021.patient.C"
-  "ategory\022\'\n\016servicedPeriod\030\010 \001(\0132\017.patien"
-  "t.Period\022+\n\014adjudication\030\t \003(\0132\025.patient"
-  ".Adjudication\"B\n\004Name\022\016\n\006family\030\001 \001(\t\022\r\n"
-  "\005given\030\002 \003(\t\022\016\n\006prefix\030\003 \003(\t\022\013\n\003use\030\004 \001("
-  "\t\"z\n\013Participant\022&\n\nindividual\030\001 \001(\0132\022.p"
-  "atient.Reference\022\"\n\006member\030\002 \001(\0132\022.patie"
-  "nt.Reference\022\037\n\004role\030\003 \003(\0132\021.patient.Cat"
-  "egory\"*\n\007Payment\022\037\n\006amount\030\001 \001(\0132\017.patie"
-  "nt.Amount\"M\n\tProcedure\022.\n\022procedureRefer"
-  "ence\030\001 \001(\0132\022.patient.Reference\022\020\n\010sequen"
-  "ce\030\002 \001(\005\"&\n\007Request\022\016\n\006method\030\001 \001(\t\022\013\n\003u"
-  "rl\030\002 \001(\t\"I\n\004Root\022\035\n\005entry\030\001 \003(\0132\016.patien"
-  "t.Entry\022\024\n\014resourceType\030\002 \001(\t\022\014\n\004type\030\003 "
-  "\001(\t\"s\n\016SupportingInfo\022#\n\010category\030\001 \001(\0132"
-  "\021.patient.Category\022\020\n\010sequence\030\002 \001(\005\022*\n\016"
-  "valueReference\030\003 \001(\0132\022.patient.Reference"
-  "\"5\n\007Telecom\022\016\n\006system\030\001 \001(\t\022\013\n\003use\030\002 \001(\t"
-  "\022\r\n\005value\030\003 \001(\t\"#\n\004Text\022\013\n\003div\030\001 \001(\t\022\016\n\006"
-  "status\030\002 \001(\t\"n\n\005Total\022\020\n\010currency\030\001 \001(\t\022"
-  "\r\n\005value\030\002 \001(\002\022\037\n\006amount\030\003 \001(\0132\017.patient"
-  ".Amount\022#\n\010category\030\004 \001(\0132\021.patient.Cate"
-  "gory\"7\n\006Coding\022\014\n\004code\030\001 \001(\t\022\017\n\007display\030"
-  "\002 \001(\t\022\016\n\006system\030\003 \001(\t\"E\n\010Quantity\022\014\n\004cod"
-  "e\030\001 \001(\t\022\016\n\006system\030\002 \001(\t\022\014\n\004unit\030\003 \001(\t\022\r\n"
-  "\005value\030\004 \001(\002\"/\n\tReference\022\021\n\treference\030\001"
-  " \001(\t\022\017\n\007display\030\002 \001(\t\"9\n\010Category\022\037\n\006cod"
-  "ing\030\001 \003(\0132\017.patient.Coding\022\014\n\004text\030\002 \001(\t"
-  "\"$\n\006Period\022\013\n\003end\030\001 \001(\t\022\r\n\005start\030\002 \001(\t\"\216"
-  "\006\n\010Resource\022+\n\014resourceType\030\001 \001(\0162\025.pati"
-  "ent.ResourceType\022+\n\010carePlan\030\002 \001(\0132\027.pat"
-  "ient.CarePlanObjectH\000\022+\n\010careTeam\030\003 \001(\0132"
-  "\027.patient.CareTeamObjectH\000\022%\n\005claim\030\004 \001("
-  "\0132\024.patient.ClaimObjectH\000\022-\n\tcondition\030\005"
-  " \001(\0132\030.patient.ConditionObjectH\000\022;\n\020diag"
-  "nosticReport\030\006 \001(\0132\037.patient.DiagnosticR"
-  "eportObjectH\000\022-\n\tencounter\030\007 \001(\0132\030.patie"
-  "nt.EncounterObjectH\000\022C\n\024explanationOfBen"
-  "efit\030\010 \001(\0132#.patient.ExplanationOfBenefi"
-  "tObjectH\000\0223\n\014immunization\030\t \001(\0132\033.patien"
-  "t.ImmunizationObjectH\000\022=\n\021medicationRequ"
-  "est\030\n \001(\0132 .patient.MedicationRequestObj"
-  "ectH\000\0221\n\013observation\030\013 \001(\0132\032.patient.Obs"
-  "ervationObjectH\000\0222\n\013organiation\030\014 \001(\0132\033."
-  "patient.OrganizationObjectH\000\022)\n\007patient\030"
-  "\r \001(\0132\026.patient.PatientObjectH\000\0223\n\014pract"
-  "itioner\030\016 \001(\0132\033.patient.PractitionerObje"
-  "ctH\000\022-\n\tprocedure\030\017 \001(\0132\030.patient.Proced"
-  "ureObjectH\000B\n\n\010resource\"\213\003\n\016CarePlanObje"
-  "ct\022#\n\010activity\030\001 \003(\0132\021.patient.Activity\022"
-  "%\n\taddresses\030\002 \003(\0132\022.patient.Reference\022#"
-  "\n\010careTeam\030\003 \003(\0132\021.patient.CareTeam\022#\n\010c"
-  "ategory\030\004 \003(\0132\021.patient.Category\022%\n\tEnco"
-  "unter\030\005 \001(\0132\022.patient.Reference\022\n\n\002id\030\006 "
-  "\001(\t\022\016\n\006intent\030\007 \001(\t\022\037\n\006period\030\010 \001(\0132\017.pa"
-  "tient.Period\022+\n\014resourceType\030\t \001(\0162\025.pat"
-  "ient.ResourceType\022\037\n\006status\030\n \001(\0162\017.pati"
-  "ent.Status\022#\n\007subject\030\013 \001(\0132\022.patient.Re"
-  "ference\022\014\n\004text\030\014 \001(\t\"\333\002\n\016CareTeamObject"
-  "\022%\n\tEncounter\030\001 \001(\0132\022.patient.Reference\022"
-  "\n\n\002id\030\002 \001(\t\0220\n\024managingOrganization\030\003 \003("
-  "\0132\022.patient.Reference\022)\n\013participant\030\004 \003"
-  "(\0132\024.patient.Participant\022\037\n\006period\030\005 \001(\013"
-  "2\017.patient.Period\022%\n\nreasonCode\030\006 \003(\0132\021."
-  "patient.Category\022+\n\014resourceType\030\007 \001(\0162\025"
-  ".patient.ResourceType\022\037\n\006status\030\010 \001(\0162\017."
-  "patient.Status\022#\n\007subject\030\t \001(\0132\022.patien"
-  "t.Reference\"\313\004\n\013ClaimObject\022\'\n\016billableP"
-  "eriod\030\001 \001(\0132\017.patient.Period\022\017\n\007created\030"
-  "\002 \001(\t\022%\n\tdiagnosis\030\003 \003(\0132\022.patient.Diagn"
-  "osis\022\n\n\002id\030\004 \001(\t\022%\n\tinsurance\030\005 \003(\0132\022.pa"
-  "tient.Insurance\022\033\n\004item\030\006 \003(\0132\r.patient."
-  "Item\022#\n\007patient\030\007 \001(\0132\022.patient.Referenc"
-  "e\022(\n\014prescription\030\010 \001(\0132\022.patient.Refere"
-  "nce\022#\n\010priority\030\t \001(\0132\021.patient.Category"
-  "\022%\n\tprocedure\030\n \003(\0132\022.patient.Procedure\022"
-  "$\n\010provider\030\013 \001(\0132\022.patient.Reference\022+\n"
-  "\014resourceType\030\014 \001(\0162\025.patient.ResourceTy"
-  "pe\022\037\n\006status\030\r \001(\0162\017.patient.Status\022/\n\016s"
-  "upportingInfo\030\016 \003(\0132\027.patient.Supporting"
-  "Info\022\035\n\005total\030\017 \001(\0132\016.patient.Total\022\037\n\004t"
-  "ype\030\020 \001(\0132\021.patient.Category\022\013\n\003use\030\021 \001("
-  "\t\"\331\002\n\017ConditionObject\022\031\n\021abatementDateTi"
-  "me\030\001 \001(\t\022)\n\016clinicalStatus\030\002 \001(\0132\021.patie"
-  "nt.Category\022\037\n\004code\030\003 \001(\0132\021.patient.Cate"
-  "gory\022%\n\tencounter\030\004 \001(\0132\022.patient.Refere"
-  "nce\022\n\n\002id\030\005 \001(\t\022\025\n\ronsetDateTime\030\006 \001(\t\022\024"
-  "\n\014recordedDate\030\007 \001(\t\022+\n\014resourceType\030\010 \001"
-  "(\0162\025.patient.ResourceType\022#\n\007subject\030\t \001"
-  "(\0132\022.patient.Reference\022-\n\022verificationSt"
-  "atus\030\n \001(\0132\021.patient.Category\"\323\002\n\026Diagno"
-  "sticReportObject\022#\n\010category\030\001 \003(\0132\021.pat"
-  "ient.Category\022\037\n\004code\030\002 \001(\0132\021.patient.Ca"
-  "tegory\022\031\n\021effectiveDateTime\030\003 \001(\t\022%\n\tenc"
-  "ounter\030\004 \001(\0132\022.patient.Reference\022\n\n\002id\030\005"
-  " \001(\t\022\016\n\006issued\030\006 \001(\t\022+\n\014resourceType\030\007 \001"
-  "(\0162\025.patient.ResourceType\022\"\n\006result\030\010 \003("
-  "\0132\022.patient.Reference\022\037\n\006status\030\t \001(\0162\017."
-  "patient.Status\022#\n\007Subject\030\n \001(\0132\022.patien"
-  "t.Reference\"\363\002\n\017EncounterObject\022 \n\005class"
-  "\030\001 \001(\0132\021.patient.Category\022\n\n\002id\030\002 \001(\t\022)\n"
-  "\013participant\030\003 \003(\0132\024.patient.Participant"
-  "\022\037\n\006period\030\004 \001(\0132\017.patient.Period\022%\n\nrea"
-  "sonCode\030\005 \003(\0132\021.patient.Category\022+\n\014reso"
-  "urceType\030\006 \001(\0162\025.patient.ResourceType\022+\n"
-  "\017serviceProvider\030\007 \001(\0132\022.patient.Referen"
-  "ce\022\037\n\006status\030\010 \001(\0162\017.patient.Status\022#\n\007s"
-  "ubject\030\t \001(\0132\022.patient.Reference\022\037\n\004type"
-  "\030\n \003(\0132\021.patient.Category\"\312\005\n\032Explanatio"
-  "nOfBenefitObject\022\'\n\016billablePeriod\030\001 \001(\013"
-  "2\017.patient.Period\022#\n\010careteam\030\002 \003(\0132\021.pa"
-  "tient.CareTeam\022!\n\005claim\030\003 \001(\0132\022.patient."
-  "Reference\022%\n\tcontained\030\004 \003(\0132\022.patient.C"
-  "ontained\022\017\n\007created\030\005 \001(\t\022%\n\tdiagnosis\030\006"
-  " \003(\0132\022.patient.Diagnosis\022\n\n\002id\030\007 \001(\t\022\'\n\n"
-  "identifier\030\010 \003(\0132\023.patient.Identifier\022%\n"
-  "\tinsurance\030\t \003(\0132\022.patient.Insurance\022#\n\007"
-  "insurer\030\n \001(\0132\022.patient.Reference\022\033\n\004ite"
-  "m\030\013 \003(\0132\r.patient.Item\022\017\n\007outcome\030\014 \001(\t\022"
-  "#\n\007patient\030\r \001(\0132\022.patient.Reference\022!\n\007"
-  "payment\030\016 \001(\0132\020.patient.Payment\022$\n\010provi"
-  "der\030\017 \001(\0132\022.patient.Reference\022$\n\010referra"
-  "l\030\020 \001(\0132\022.patient.Reference\022+\n\014resourceT"
-  "ype\030\021 \001(\0162\025.patient.ResourceType\022\037\n\006stat"
-  "us\030\022 \001(\0162\017.patient.Status\022\035\n\005total\030\023 \003(\013"
-  "2\016.patient.Total\022\037\n\004type\030\024 \001(\0132\021.patient"
-  ".Category\022\013\n\003use\030\025 \001(\t\"\224\002\n\022ImmunizationO"
+  "sourceType\030\005 \001(\t\022\016\n\006status\030\006 \001(\t\022#\n\007subj"
+  "ect\030\007 \001(\0132\022.patient.Reference\022\'\n\013benefic"
+  "iary\030\010 \001(\0132\022.patient.Reference\022!\n\005payor\030"
+  "\t \003(\0132\022.patient.Reference\022\037\n\004type\030\n \001(\0132"
+  "\021.patient.Category\"_\n\006Detail\022\037\n\004code\030\001 \001"
+  "(\0132\021.patient.Category\022$\n\010location\030\002 \001(\0132"
+  "\022.patient.Reference\022\016\n\006status\030\003 \001(\t\"n\n\tD"
+  "iagnosis\022.\n\022diagnosisReference\030\001 \001(\0132\022.p"
+  "atient.Reference\022\020\n\010sequence\030\002 \001(\005\022\037\n\004ty"
+  "pe\030\003 \003(\0132\021.patient.Category\"`\n\005Entry\022\017\n\007"
+  "fullUrl\030\001 \001(\t\022!\n\007request\030\002 \001(\0132\020.patient"
+  ".Request\022#\n\010resource\030\003 \003(\0132\021.patient.Res"
+  "ource\"\341\001\n\tExtension\022%\n\textension\030\001 \003(\0132\022"
+  ".patient.Extension\022\013\n\003url\030\002 \001(\t\022$\n\013value"
+  "Coding\030\003 \001(\0132\017.patient.Coding\022\023\n\013valueSt"
+  "ring\030\004 \001(\t\022\024\n\014valueDecimal\030\005 \001(\002\022\021\n\tvalu"
+  "eCode\030\006 \001(\t\022&\n\014valueAddress\030\007 \001(\0132\020.pati"
+  "ent.Address\022\024\n\014valueInteger\030\010 \001(\005\"Y\n\nIde"
+  "ntifier\022\016\n\006system\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\022\037"
+  "\n\004type\030\003 \001(\0132\021.patient.Category\022\013\n\003use\030\004"
+  " \001(\t\"R\n\tInsurance\022$\n\010coverage\030\001 \001(\0132\022.pa"
+  "tient.Reference\022\r\n\005focal\030\002 \001(\010\022\020\n\010sequen"
+  "ce\030\003 \001(\005\"\214\003\n\004Item\022%\n\tencounter\030\001 \003(\0132\022.p"
+  "atient.Reference\022+\n\020productOrService\030\002 \001"
+  "(\0132\021.patient.Category\022\020\n\010sequence\030\003 \001(\005\022"
+  "\033\n\023informationSequence\030\004 \003(\005\022\034\n\003net\030\005 \001("
+  "\0132\017.patient.Amount\022#\n\010category\030\006 \001(\0132\021.p"
+  "atient.Category\0222\n\027locationCodeableConce"
+  "pt\030\007 \001(\0132\021.patient.Category\022\'\n\016servicedP"
+  "eriod\030\010 \001(\0132\017.patient.Period\022+\n\014adjudica"
+  "tion\030\t \003(\0132\025.patient.Adjudication\022\031\n\021pro"
+  "cedureSequence\030\n \003(\005\022\031\n\021diagnosisSequenc"
+  "e\030\013 \003(\005\"R\n\004Name\022\016\n\006family\030\001 \001(\t\022\r\n\005given"
+  "\030\002 \003(\t\022\016\n\006prefix\030\003 \003(\t\022\013\n\003use\030\004 \001(\t\022\016\n\006s"
+  "uffix\030\005 \003(\t\"z\n\013Participant\022&\n\nindividual"
+  "\030\001 \001(\0132\022.patient.Reference\022\"\n\006member\030\002 \001"
+  "(\0132\022.patient.Reference\022\037\n\004role\030\003 \003(\0132\021.p"
+  "atient.Category\"*\n\007Payment\022\037\n\006amount\030\001 \001"
+  "(\0132\017.patient.Amount\"M\n\tProcedure\022.\n\022proc"
+  "edureReference\030\001 \001(\0132\022.patient.Reference"
+  "\022\020\n\010sequence\030\002 \001(\005\"&\n\007Request\022\016\n\006method\030"
+  "\001 \001(\t\022\013\n\003url\030\002 \001(\t\"I\n\004Root\022\035\n\005entry\030\001 \003("
+  "\0132\016.patient.Entry\022\024\n\014resourceType\030\002 \001(\t\022"
+  "\014\n\004type\030\003 \001(\t\"s\n\016SupportingInfo\022#\n\010categ"
+  "ory\030\001 \001(\0132\021.patient.Category\022\020\n\010sequence"
+  "\030\002 \001(\005\022*\n\016valueReference\030\003 \001(\0132\022.patient"
+  ".Reference\"5\n\007Telecom\022\016\n\006system\030\001 \001(\t\022\013\n"
+  "\003use\030\002 \001(\t\022\r\n\005value\030\003 \001(\t\"#\n\004Text\022\013\n\003div"
+  "\030\001 \001(\t\022\016\n\006status\030\002 \001(\t\"n\n\005Total\022\020\n\010curre"
+  "ncy\030\001 \001(\t\022\r\n\005value\030\002 \001(\002\022\037\n\006amount\030\003 \001(\013"
+  "2\017.patient.Amount\022#\n\010category\030\004 \001(\0132\021.pa"
+  "tient.Category\"7\n\006Coding\022\014\n\004code\030\001 \001(\t\022\017"
+  "\n\007display\030\002 \001(\t\022\016\n\006system\030\003 \001(\t\"E\n\010Quant"
+  "ity\022\014\n\004code\030\001 \001(\t\022\016\n\006system\030\002 \001(\t\022\014\n\004uni"
+  "t\030\003 \001(\t\022\r\n\005value\030\004 \001(\002\"/\n\tReference\022\021\n\tr"
+  "eference\030\001 \001(\t\022\017\n\007display\030\002 \001(\t\"9\n\010Categ"
+  "ory\022\037\n\006coding\030\001 \003(\0132\017.patient.Coding\022\014\n\004"
+  "text\030\002 \001(\t\"$\n\006Period\022\013\n\003end\030\001 \001(\t\022\r\n\005sta"
+  "rt\030\002 \001(\t\"\370\005\n\010Resource\022\024\n\014resourceType\030\001 "
+  "\001(\t\022+\n\010carePlan\030\002 \001(\0132\027.patient.CarePlan"
+  "ObjectH\000\022+\n\010careTeam\030\003 \001(\0132\027.patient.Car"
+  "eTeamObjectH\000\022%\n\005claim\030\004 \001(\0132\024.patient.C"
+  "laimObjectH\000\022-\n\tcondition\030\005 \001(\0132\030.patien"
+  "t.ConditionObjectH\000\022;\n\020diagnosticReport\030"
+  "\006 \001(\0132\037.patient.DiagnosticReportObjectH\000"
+  "\022-\n\tencounter\030\007 \001(\0132\030.patient.EncounterO"
+  "bjectH\000\022C\n\024explanationOfBenefit\030\010 \001(\0132#."
+  "patient.ExplanationOfBenefitObjectH\000\0223\n\014"
+  "immunization\030\t \001(\0132\033.patient.Immunizatio"
+  "nObjectH\000\022=\n\021medicationRequest\030\n \001(\0132 .p"
+  "atient.MedicationRequestObjectH\000\0221\n\013obse"
+  "rvation\030\013 \001(\0132\032.patient.ObservationObjec"
+  "tH\000\0223\n\014organization\030\014 \001(\0132\033.patient.Orga"
+  "nizationObjectH\000\022)\n\007patient\030\r \001(\0132\026.pati"
+  "ent.PatientObjectH\000\0223\n\014practitioner\030\016 \001("
+  "\0132\033.patient.PractitionerObjectH\000\022-\n\tproc"
+  "edure\030\017 \001(\0132\030.patient.ProcedureObjectH\000B"
+  "\n\n\010resource\"\274\001\n\021DosageInstruction\022\020\n\010seq"
+  "uence\030\001 \001(\005\022\027\n\017asNeededBoolean\030\002 \001(\010\022)\n\013"
+  "doseAndRate\030\003 \003(\0132\024.patient.DoseAndRate\022"
+  "\037\n\006timing\030\004 \001(\0132\017.patient.Timing\0220\n\025addi"
+  "tionalInstruction\030\005 \003(\0132\021.patient.Catego"
+  "ry\"\?\n\006Repeat\022\021\n\tfrequency\030\001 \001(\005\022\016\n\006perio"
+  "d\030\002 \001(\002\022\022\n\nperiodUnit\030\003 \001(\t\")\n\006Timing\022\037\n"
+  "\006repeat\030\001 \001(\0132\017.patient.Repeat\"W\n\013DoseAn"
+  "dRate\022\037\n\004type\030\001 \001(\0132\021.patient.Category\022\'"
+  "\n\014doseQuantity\030\002 \001(\0132\021.patient.Quantity\""
+  "k\n\005Onset\022\025\n\ronsetDateTime\030\001 \001(\t\022\020\n\010onset"
+  "Age\030\002 \001(\005\022$\n\013onsetPeriod\030\003 \001(\0132\017.patient"
+  ".Period\022\023\n\013onsetString\030\004 \001(\t\"\333\001\n\010Reactio"
+  "n\022$\n\tsubstance\030\001 \001(\0132\021.patient.Category\022"
+  "(\n\rmanifestation\030\002 \001(\0132\021.patient.Categor"
+  "y\022\023\n\013description\030\003 \001(\t\022\r\n\005onset\030\004 \001(\t\022#\n"
+  "\010severity\030\005 \001(\0132\021.patient.Category\022(\n\rex"
+  "posureRoute\030\006 \001(\0132\021.patient.Category\022\014\n\004"
+  "note\030\007 \001(\t\"Y\n\010Instance\022\013\n\003uid\030\001 \001(\t\022!\n\010s"
+  "opClass\030\002 \001(\0132\017.patient.Coding\022\016\n\006number"
+  "\030\003 \001(\005\022\r\n\005title\030\004 \001(\t\"\274\001\n\006Series\022\013\n\003uid\030"
+  "\001 \001(\t\022\016\n\006number\030\002 \001(\005\022!\n\010modality\030\003 \001(\0132"
+  "\017.patient.Coding\022\031\n\021numberOfInstances\030\004 "
+  "\001(\005\022!\n\010bodySite\030\005 \001(\0132\017.patient.Coding\022\017"
+  "\n\007started\030\006 \001(\t\022#\n\010instance\030\007 \003(\0132\021.pati"
+  "ent.Instance\"B\n\017Hospitalization\022/\n\024disch"
+  "argeDisposition\030\001 \001(\0132\021.patient.Category"
+  "\"7\n\007Carrier\022\030\n\020deviceIdentifier\030\001 \001(\t\022\022\n"
+  "\ncarrierHRF\030\002 \001(\t\"(\n\nDeviceName\022\014\n\004name\030"
+  "\001 \001(\t\022\014\n\004type\030\002 \001(\t\"\255\004\n\030AllergyIntoleran"
+  "ceObject\022\'\n\nidentifier\030\001 \001(\0132\023.patient.I"
+  "dentifier\022)\n\016clinicalStatus\030\002 \001(\0132\021.pati"
+  "ent.Category\022-\n\022verificationStatus\030\003 \001(\013"
+  "2\021.patient.Category\022\014\n\004type\030\004 \001(\t\022\020\n\010cat"
+  "egory\030\005 \003(\t\022\023\n\013criticality\030\006 \001(\t\022\037\n\004code"
+  "\030\007 \001(\0132\021.patient.Category\022#\n\007patient\030\010 \001"
+  "(\0132\022.patient.Reference\022%\n\tencounter\030\t \001("
+  "\0132\022.patient.Reference\022\035\n\005onset\030\n \001(\0132\016.p"
+  "atient.Onset\022\024\n\014recordedDate\030\013 \001(\t\022$\n\010re"
+  "corder\030\014 \001(\0132\022.patient.Reference\022$\n\010asse"
+  "rter\030\r \001(\0132\022.patient.Reference\022\026\n\016lastOc"
+  "currence\030\016 \001(\t\022\014\n\004note\030\017 \001(\t\022\024\n\014resource"
+  "Type\030\020 \001(\t\022#\n\010reaction\030\021 \001(\0132\021.patient.R"
+  "eaction\022\n\n\002id\030\022 \001(\t\"\224\003\n\016CarePlanObject\022#"
+  "\n\010activity\030\001 \003(\0132\021.patient.Activity\022%\n\ta"
+  "ddresses\030\002 \003(\0132\022.patient.Reference\022#\n\010ca"
+  "reTeam\030\003 \003(\0132\021.patient.CareTeam\022#\n\010categ"
+  "ory\030\004 \003(\0132\021.patient.Category\022%\n\tencounte"
+  "r\030\005 \001(\0132\022.patient.Reference\022\n\n\002id\030\006 \001(\t\022"
+  "\016\n\006intent\030\007 \001(\t\022\037\n\006period\030\010 \001(\0132\017.patien"
+  "t.Period\022\024\n\014resourceType\030\t \001(\t\022\016\n\006status"
+  "\030\n \001(\t\022#\n\007subject\030\013 \001(\0132\022.patient.Refere"
+  "nce\022\033\n\004text\030\014 \001(\0132\r.patient.Text\022 \n\004goal"
+  "\030\r \003(\0132\022.patient.Reference\"\263\002\n\016CareTeamO"
   "bject\022%\n\tencounter\030\001 \001(\0132\022.patient.Refer"
-  "ence\022\n\n\002id\030\002 \001(\t\022\031\n\021occurenceDateTime\030\003 "
-  "\001(\t\022#\n\007patient\030\004 \001(\0132\022.patient.Reference"
-  "\022\025\n\rprimarySource\030\005 \001(\010\022+\n\014resourceType\030"
-  "\006 \001(\0162\025.patient.ResourceType\022\037\n\006status\030\007"
-  " \001(\0162\017.patient.Status\022&\n\013vaccineCode\030\010 \001"
-  "(\0132\021.patient.Category\"\355\002\n\027MedicationRequ"
-  "estObject\022\022\n\nauthoredOn\030\001 \001(\t\022%\n\tencount"
-  "er\030\002 \001(\0132\022.patient.Reference\022\n\n\002id\030\003 \001(\t"
-  "\022\016\n\006intent\030\004 \001(\t\0224\n\031medicationCodeableCo"
-  "ncept\030\005 \001(\0132\021.patient.Category\022+\n\017reason"
-  "Reference\030\006 \003(\0132\022.patient.Reference\022%\n\tr"
-  "equester\030\007 \001(\0132\022.patient.Reference\022+\n\014re"
-  "sourceType\030\010 \001(\0162\025.patient.ResourceType\022"
-  "\037\n\006status\030\t \001(\0162\017.patient.Status\022#\n\007subj"
-  "ect\030\n \001(\0132\022.patient.Reference\"\254\003\n\021Observ"
-  "ationObject\022#\n\010category\030\001 \003(\0132\021.patient."
-  "Category\022\037\n\004code\030\002 \001(\0132\021.patient.Categor"
-  "y\022%\n\tcomponent\030\003 \003(\0132\022.patient.Component"
-  "\022\031\n\021effectiveDateTime\030\004 \001(\t\022%\n\tencounter"
-  "\030\005 \001(\0132\022.patient.Reference\022\n\n\002id\030\006 \001(\t\022\016"
-  "\n\006issued\030\007 \001(\t\022+\n\014resourceType\030\010 \001(\0162\025.p"
-  "atient.ResourceType\022\037\n\006status\030\t \001(\0162\017.pa"
-  "tient.Status\022#\n\007subject\030\n \001(\0132\022.patient."
-  "Reference\022/\n\024valueCodeableConcept\030\013 \001(\0132"
-  "\021.patient.Category\022(\n\rvalueQuantity\030\014 \001("
-  "\0132\021.patient.Quantity\"\373\001\n\022OrganizationObj"
-  "ect\022\016\n\006active\030\001 \001(\010\022!\n\007address\030\002 \003(\0132\020.p"
-  "atient.Address\022\n\n\002id\030\003 \001(\t\022\'\n\nidentifier"
-  "\030\004 \003(\0132\023.patient.Identifier\022\014\n\004name\030\005 \001("
-  "\t\022+\n\014resourceType\030\006 \001(\0162\025.patient.Resour"
-  "ceType\022!\n\007telecom\030\007 \003(\0132\020.patient.Teleco"
-  "m\022\037\n\004type\030\010 \003(\0132\021.patient.Category\"\264\003\n\rP"
-  "atientObject\022!\n\007address\030\001 \003(\0132\020.patient."
-  "Address\022\021\n\tbirthDate\030\002 \001(\t\022-\n\rcommunicat"
-  "ion\030\003 \003(\0132\026.patient.Communication\022%\n\text"
-  "ension\030\004 \003(\0132\022.patient.Extension\022\037\n\006gend"
-  "er\030\005 \001(\0162\017.patient.Gender\022\n\n\002id\030\006 \001(\t\022\'\n"
-  "\nidentifier\030\007 \003(\0132\023.patient.Identifier\022("
-  "\n\rmaritalStatus\030\010 \001(\0132\021.patient.Category"
-  "\022\034\n\024multipleBirthBoolean\030\t \001(\010\022\033\n\004name\030\n"
-  " \003(\0132\r.patient.Name\022+\n\014resourceType\030\013 \001("
-  "\0162\025.patient.ResourceType\022!\n\007telecom\030\014 \003("
-  "\0132\020.patient.Telecom\022\014\n\004text\030\r \001(\t\"\212\002\n\022Pr"
-  "actitionerObject\022\016\n\006active\030\001 \001(\010\022!\n\007addr"
-  "ess\030\002 \003(\0132\020.patient.Address\022\037\n\006gender\030\003 "
-  "\001(\0162\017.patient.Gender\022\n\n\002id\030\004 \001(\t\022\'\n\niden"
-  "tifier\030\005 \003(\0132\023.patient.Identifier\022\033\n\004nam"
-  "e\030\006 \003(\0132\r.patient.Name\022+\n\014resourceType\030\007"
-  " \001(\0162\025.patient.ResourceType\022!\n\007telecom\030\010"
-  " \003(\0132\020.patient.Telecom\"\257\002\n\017ProcedureObje"
-  "ct\022\037\n\004code\030\001 \001(\0132\021.patient.Category\022%\n\te"
-  "ncounter\030\002 \001(\0132\022.patient.Reference\022\n\n\002id"
-  "\030\003 \001(\t\022(\n\017performedPeriod\030\004 \001(\0132\017.patien"
-  "t.Period\022+\n\017reasonReference\030\005 \003(\0132\022.pati"
-  "ent.Reference\022+\n\014resourceType\030\006 \001(\0162\025.pa"
-  "tient.ResourceType\022\037\n\006status\030\007 \001(\0162\017.pat"
-  "ient.Status\022#\n\007subject\030\010 \001(\0132\022.patient.R"
-  "eference\"\276\005\n\rPatientRecord\022\'\n\007patient\030\001 "
-  "\001(\0132\026.patient.PatientObject\022)\n\010carePlan\030"
-  "\002 \003(\0132\027.patient.CarePlanObject\022)\n\010careTe"
-  "am\030\003 \003(\0132\027.patient.CareTeamObject\022#\n\005cla"
-  "im\030\004 \003(\0132\024.patient.ClaimObject\022+\n\tcondit"
-  "ion\030\005 \003(\0132\030.patient.ConditionObject\0229\n\020d"
-  "iagnosticReport\030\006 \003(\0132\037.patient.Diagnost"
-  "icReportObject\022+\n\tencounter\030\007 \003(\0132\030.pati"
-  "ent.EncounterObject\022A\n\024explanationOfBene"
-  "fit\030\010 \003(\0132#.patient.ExplanationOfBenefit"
-  "Object\0221\n\014immunization\030\t \003(\0132\033.patient.I"
-  "mmunizationObject\022;\n\021medicationRequest\030\n"
-  " \003(\0132 .patient.MedicationRequestObject\022/"
-  "\n\013observation\030\013 \003(\0132\032.patient.Observatio"
-  "nObject\0220\n\013organiation\030\014 \003(\0132\033.patient.O"
-  "rganizationObject\0221\n\014practitioner\030\r \003(\0132"
-  "\033.patient.PractitionerObject\022+\n\tprocedur"
-  "e\030\016 \003(\0132\030.patient.ProcedureObject*W\n\006Sta"
-  "tus\022\n\n\006ACTIVE\020\000\022\r\n\tCOMPLETED\020\001\022\t\n\005FINAL\020"
-  "\002\022\013\n\007STOPPED\020\003\022\014\n\010INACTIVE\020\004\022\014\n\010FINISHED"
-  "\020\005*)\n\006Gender\022\010\n\004MALE\020\000\022\n\n\006FEMALE\020\001\022\t\n\005OT"
-  "HER\020\002*\203\002\n\014ResourceType\022\r\n\tCARE_PLAN\020\000\022\r\n"
-  "\tCARE_TEAM\020\001\022\t\n\005CLAIM\020\002\022\r\n\tCONDITION\020\003\022\025"
-  "\n\021DIAGNOSTIC_REPORT\020\004\022\r\n\tENCOUNTER\020\005\022\032\n\026"
-  "EXPLANATION_OF_BENEFIT\020\006\022\020\n\014IMMUNIZATION"
-  "\020\007\022\026\n\022MEDICATION_REQUEST\020\010\022\017\n\013OBSERVATIO"
-  "N\020\t\022\020\n\014ORGANIZATION\020\n\022\013\n\007PATIENT\020\013\022\020\n\014PR"
-  "ACTITIONER\020\014\022\r\n\tPROCEDURE\020\rb\006proto3"
+  "ence\022\n\n\002id\030\002 \001(\t\0220\n\024managingOrganization"
+  "\030\003 \003(\0132\022.patient.Reference\022)\n\013participan"
+  "t\030\004 \003(\0132\024.patient.Participant\022\037\n\006period\030"
+  "\005 \001(\0132\017.patient.Period\022%\n\nreasonCode\030\006 \003"
+  "(\0132\021.patient.Category\022\024\n\014resourceType\030\007 "
+  "\001(\t\022\016\n\006status\030\010 \001(\t\022#\n\007subject\030\t \001(\0132\022.p"
+  "atient.Reference\"\243\004\n\013ClaimObject\022\'\n\016bill"
+  "ablePeriod\030\001 \001(\0132\017.patient.Period\022\017\n\007cre"
+  "ated\030\002 \001(\t\022%\n\tdiagnosis\030\003 \003(\0132\022.patient."
+  "Diagnosis\022\n\n\002id\030\004 \001(\t\022%\n\tinsurance\030\005 \003(\013"
+  "2\022.patient.Insurance\022\033\n\004item\030\006 \003(\0132\r.pat"
+  "ient.Item\022#\n\007patient\030\007 \001(\0132\022.patient.Ref"
+  "erence\022(\n\014prescription\030\010 \001(\0132\022.patient.R"
+  "eference\022#\n\010priority\030\t \001(\0132\021.patient.Cat"
+  "egory\022%\n\tprocedure\030\n \003(\0132\022.patient.Proce"
+  "dure\022$\n\010provider\030\013 \001(\0132\022.patient.Referen"
+  "ce\022\024\n\014resourceType\030\014 \001(\t\022\016\n\006status\030\r \001(\t"
+  "\022/\n\016supportingInfo\030\016 \003(\0132\027.patient.Suppo"
+  "rtingInfo\022\035\n\005total\030\017 \001(\0132\016.patient.Total"
+  "\022\037\n\004type\030\020 \001(\0132\021.patient.Category\022\013\n\003use"
+  "\030\021 \001(\t\"\302\002\n\017ConditionObject\022\031\n\021abatementD"
+  "ateTime\030\001 \001(\t\022)\n\016clinicalStatus\030\002 \001(\0132\021."
+  "patient.Category\022\037\n\004code\030\003 \001(\0132\021.patient"
+  ".Category\022%\n\tencounter\030\004 \001(\0132\022.patient.R"
+  "eference\022\n\n\002id\030\005 \001(\t\022\025\n\ronsetDateTime\030\006 "
+  "\001(\t\022\024\n\014recordedDate\030\007 \001(\t\022\024\n\014resourceTyp"
+  "e\030\010 \001(\t\022#\n\007subject\030\t \001(\0132\022.patient.Refer"
+  "ence\022-\n\022verificationStatus\030\n \001(\0132\021.patie"
+  "nt.Category\"\313\002\n\014DeviceObject\022\024\n\014resource"
+  "Type\030\001 \001(\t\022\n\n\002id\030\002 \001(\t\022$\n\nudiCarrier\030\003 \003"
+  "(\0132\020.patient.Carrier\022\016\n\006status\030\004 \001(\t\022\032\n\022"
+  "distinctIdentifier\030\005 \001(\t\022\027\n\017manufactureD"
+  "ate\030\006 \001(\t\022\026\n\016expirationDate\030\007 \001(\t\022\021\n\tlot"
+  "Number\030\010 \001(\t\022\024\n\014serialNumber\030\t \001(\t\022\'\n\nde"
+  "viceName\030\n \003(\0132\023.patient.DeviceName\022\037\n\004t"
+  "ype\030\013 \001(\0132\021.patient.Category\022#\n\007patient\030"
+  "\014 \001(\0132\022.patient.Reference\"\253\002\n\026Diagnostic"
+  "ReportObject\022#\n\010category\030\001 \003(\0132\021.patient"
+  ".Category\022\037\n\004code\030\002 \001(\0132\021.patient.Catego"
+  "ry\022\031\n\021effectiveDateTime\030\003 \001(\t\022%\n\tencount"
+  "er\030\004 \001(\0132\022.patient.Reference\022\n\n\002id\030\005 \001(\t"
+  "\022\016\n\006issued\030\006 \001(\t\022\024\n\014resourceType\030\007 \001(\t\022\""
+  "\n\006result\030\010 \003(\0132\022.patient.Reference\022\016\n\006st"
+  "atus\030\t \001(\t\022#\n\007subject\030\n \001(\0132\022.patient.Re"
+  "ference\"\374\002\n\017EncounterObject\022\036\n\005class\030\001 \001"
+  "(\0132\017.patient.Coding\022\n\n\002id\030\002 \001(\t\022)\n\013parti"
+  "cipant\030\003 \003(\0132\024.patient.Participant\022\037\n\006pe"
+  "riod\030\004 \001(\0132\017.patient.Period\022%\n\nreasonCod"
+  "e\030\005 \003(\0132\021.patient.Category\022\024\n\014resourceTy"
+  "pe\030\006 \001(\t\022+\n\017serviceProvider\030\007 \001(\0132\022.pati"
+  "ent.Reference\022\016\n\006status\030\010 \001(\t\022#\n\007subject"
+  "\030\t \001(\0132\022.patient.Reference\022\037\n\004type\030\n \003(\013"
+  "2\021.patient.Category\0221\n\017hospitalization\030\013"
+  " \001(\0132\030.patient.Hospitalization\"\242\005\n\032Expla"
+  "nationOfBenefitObject\022\'\n\016billablePeriod\030"
+  "\001 \001(\0132\017.patient.Period\022#\n\010careTeam\030\002 \003(\013"
+  "2\021.patient.CareTeam\022!\n\005claim\030\003 \001(\0132\022.pat"
+  "ient.Reference\022%\n\tcontained\030\004 \003(\0132\022.pati"
+  "ent.Contained\022\017\n\007created\030\005 \001(\t\022%\n\tdiagno"
+  "sis\030\006 \003(\0132\022.patient.Diagnosis\022\n\n\002id\030\007 \001("
+  "\t\022\'\n\nidentifier\030\010 \003(\0132\023.patient.Identifi"
+  "er\022%\n\tinsurance\030\t \003(\0132\022.patient.Insuranc"
+  "e\022#\n\007insurer\030\n \001(\0132\022.patient.Reference\022\033"
+  "\n\004item\030\013 \003(\0132\r.patient.Item\022\017\n\007outcome\030\014"
+  " \001(\t\022#\n\007patient\030\r \001(\0132\022.patient.Referenc"
+  "e\022!\n\007payment\030\016 \001(\0132\020.patient.Payment\022$\n\010"
+  "provider\030\017 \001(\0132\022.patient.Reference\022$\n\010re"
+  "ferral\030\020 \001(\0132\022.patient.Reference\022\024\n\014reso"
+  "urceType\030\021 \001(\t\022\016\n\006status\030\022 \001(\t\022\035\n\005total\030"
+  "\023 \003(\0132\016.patient.Total\022\037\n\004type\030\024 \001(\0132\021.pa"
+  "tient.Category\022\013\n\003use\030\025 \001(\t\"\302\001\n\nGoalObje"
+  "ct\022\024\n\014resourceType\030\001 \001(\t\022\n\n\002id\030\002 \001(\t\022\027\n\017"
+  "lifecycleStatus\030\003 \001(\t\022,\n\021achievementStat"
+  "us\030\004 \001(\0132\021.patient.Category\022&\n\013descripti"
+  "on\030\005 \001(\0132\021.patient.Category\022#\n\007subject\030\006"
+  " \001(\0132\022.patient.Reference\"\240\002\n\022ImagingStud"
+  "yObject\022\024\n\014resourceType\030\001 \001(\t\022\n\n\002id\030\002 \001("
+  "\t\022\'\n\nidentifier\030\003 \003(\0132\023.patient.Identifi"
+  "er\022\016\n\006status\030\004 \001(\t\022#\n\007subject\030\005 \001(\0132\022.pa"
+  "tient.Reference\022%\n\tencounter\030\006 \001(\0132\022.pat"
+  "ient.Reference\022\017\n\007started\030\007 \001(\t\022\026\n\016numbe"
+  "rOfSeries\030\010 \001(\005\022\031\n\021numberOfInstances\030\t \001"
+  "(\005\022\037\n\006series\030\n \003(\0132\017.patient.Series\"\355\001\n\022"
+  "ImmunizationObject\022%\n\tencounter\030\001 \001(\0132\022."
+  "patient.Reference\022\n\n\002id\030\002 \001(\t\022\032\n\022occurre"
+  "nceDateTime\030\003 \001(\t\022#\n\007patient\030\004 \001(\0132\022.pat"
+  "ient.Reference\022\025\n\rprimarySource\030\005 \001(\010\022\024\n"
+  "\014resourceType\030\006 \001(\t\022\016\n\006status\030\007 \001(\t\022&\n\013v"
+  "accineCode\030\010 \001(\0132\021.patient.Category\"\374\002\n\027"
+  "MedicationRequestObject\022\022\n\nauthoredOn\030\001 "
+  "\001(\t\022%\n\tencounter\030\002 \001(\0132\022.patient.Referen"
+  "ce\022\n\n\002id\030\003 \001(\t\022\016\n\006intent\030\004 \001(\t\0224\n\031medica"
+  "tionCodeableConcept\030\005 \001(\0132\021.patient.Cate"
+  "gory\022+\n\017reasonReference\030\006 \003(\0132\022.patient."
+  "Reference\022%\n\trequester\030\007 \001(\0132\022.patient.R"
+  "eference\022\024\n\014resourceType\030\010 \001(\t\022\016\n\006status"
+  "\030\t \001(\t\022#\n\007subject\030\n \001(\0132\022.patient.Refere"
+  "nce\0225\n\021dosageInstruction\030\013 \003(\0132\032.patient"
+  ".DosageInstruction\"\232\002\n\036MedicationAdminis"
+  "trationObject\022\024\n\014resourceType\030\001 \001(\t\022\n\n\002i"
+  "d\030\002 \001(\t\022\016\n\006status\030\003 \001(\t\0224\n\031medicationCod"
+  "eableConcept\030\004 \001(\0132\021.patient.Category\022#\n"
+  "\007subject\030\005 \001(\0132\022.patient.Reference\022#\n\007co"
+  "ntext\030\006 \001(\0132\022.patient.Reference\022\031\n\021effec"
+  "tiveDateTime\030\007 \001(\t\022+\n\017reasonReference\030\010 "
+  "\003(\0132\022.patient.Reference\"\231\003\n\021ObservationO"
+  "bject\022#\n\010category\030\001 \003(\0132\021.patient.Catego"
+  "ry\022\037\n\004code\030\002 \001(\0132\021.patient.Category\022%\n\tc"
+  "omponent\030\003 \003(\0132\022.patient.Component\022\031\n\021ef"
+  "fectiveDateTime\030\004 \001(\t\022%\n\tencounter\030\005 \001(\013"
+  "2\022.patient.Reference\022\n\n\002id\030\006 \001(\t\022\016\n\006issu"
+  "ed\030\007 \001(\t\022\024\n\014resourceType\030\010 \001(\t\022\016\n\006status"
+  "\030\t \001(\t\022#\n\007subject\030\n \001(\0132\022.patient.Refere"
+  "nce\022/\n\024valueCodeableConcept\030\013 \001(\0132\021.pati"
+  "ent.Category\022(\n\rvalueQuantity\030\014 \001(\0132\021.pa"
+  "tient.Quantity\022\023\n\013valueString\030\r \001(\t\"\213\002\n\022"
+  "OrganizationObject\022\016\n\006active\030\001 \001(\010\022!\n\007ad"
+  "dress\030\002 \003(\0132\020.patient.Address\022\n\n\002id\030\003 \001("
+  "\t\022\'\n\nidentifier\030\004 \003(\0132\023.patient.Identifi"
+  "er\022\014\n\004name\030\005 \001(\t\022\024\n\014resourceType\030\006 \001(\t\022!"
+  "\n\007telecom\030\007 \003(\0132\020.patient.Telecom\022\037\n\004typ"
+  "e\030\010 \003(\0132\021.patient.Category\022%\n\textension\030"
+  "\t \003(\0132\022.patient.Extension\"\323\003\n\rPatientObj"
+  "ect\022!\n\007address\030\001 \003(\0132\020.patient.Address\022\021"
+  "\n\tbirthDate\030\002 \001(\t\022-\n\rcommunication\030\003 \003(\013"
+  "2\026.patient.Communication\022%\n\textension\030\004 "
+  "\003(\0132\022.patient.Extension\022\016\n\006gender\030\005 \001(\t\022"
+  "\n\n\002id\030\006 \001(\t\022\'\n\nidentifier\030\007 \003(\0132\023.patien"
+  "t.Identifier\022(\n\rmaritalStatus\030\010 \001(\0132\021.pa"
+  "tient.Category\022\034\n\024multipleBirthBoolean\030\t"
+  " \001(\010\022\033\n\004name\030\n \003(\0132\r.patient.Name\022\024\n\014res"
+  "ourceType\030\013 \001(\t\022!\n\007telecom\030\014 \003(\0132\020.patie"
+  "nt.Telecom\022\033\n\004text\030\r \001(\0132\r.patient.Text\022"
+  "\030\n\020deceasedDateTime\030\016 \001(\t\022\034\n\024multipleBir"
+  "thInteger\030\017 \001(\005\"\211\002\n\022PractitionerObject\022\016"
+  "\n\006active\030\001 \001(\010\022!\n\007address\030\002 \003(\0132\020.patien"
+  "t.Address\022\016\n\006gender\030\003 \001(\t\022\n\n\002id\030\004 \001(\t\022\'\n"
+  "\nidentifier\030\005 \003(\0132\023.patient.Identifier\022\033"
+  "\n\004name\030\006 \003(\0132\r.patient.Name\022\024\n\014resourceT"
+  "ype\030\007 \001(\t\022!\n\007telecom\030\010 \003(\0132\020.patient.Tel"
+  "ecom\022%\n\textension\030\t \003(\0132\022.patient.Extens"
+  "ion\"\207\002\n\017ProcedureObject\022\037\n\004code\030\001 \001(\0132\021."
+  "patient.Category\022%\n\tencounter\030\002 \001(\0132\022.pa"
+  "tient.Reference\022\n\n\002id\030\003 \001(\t\022(\n\017performed"
+  "Period\030\004 \001(\0132\017.patient.Period\022+\n\017reasonR"
+  "eference\030\005 \003(\0132\022.patient.Reference\022\024\n\014re"
+  "sourceType\030\006 \001(\t\022\016\n\006status\030\007 \001(\t\022#\n\007subj"
+  "ect\030\010 \001(\0132\022.patient.Reference\"\306\007\n\rPatien"
+  "tRecord\022\'\n\007patient\030\001 \001(\0132\026.patient.Patie"
+  "ntObject\022)\n\010carePlan\030\002 \003(\0132\027.patient.Car"
+  "ePlanObject\022)\n\010careTeam\030\003 \003(\0132\027.patient."
+  "CareTeamObject\022#\n\005claim\030\004 \003(\0132\024.patient."
+  "ClaimObject\022+\n\tcondition\030\005 \003(\0132\030.patient"
+  ".ConditionObject\0229\n\020diagnosticReport\030\006 \003"
+  "(\0132\037.patient.DiagnosticReportObject\022+\n\te"
+  "ncounter\030\007 \003(\0132\030.patient.EncounterObject"
+  "\022A\n\024explanationOfBenefit\030\010 \003(\0132#.patient"
+  ".ExplanationOfBenefitObject\0221\n\014immunizat"
+  "ion\030\t \003(\0132\033.patient.ImmunizationObject\022;"
+  "\n\021medicationRequest\030\n \003(\0132 .patient.Medi"
+  "cationRequestObject\022/\n\013observation\030\013 \003(\013"
+  "2\032.patient.ObservationObject\0221\n\014organiza"
+  "tion\030\014 \003(\0132\033.patient.OrganizationObject\022"
+  "1\n\014practitioner\030\r \003(\0132\033.patient.Practiti"
+  "onerObject\022+\n\tprocedure\030\016 \003(\0132\030.patient."
+  "ProcedureObject\022=\n\022allergyIntolerance\030\017 "
+  "\003(\0132!.patient.AllergyIntoleranceObject\022!"
+  "\n\004goal\030\020 \003(\0132\023.patient.GoalObject\0221\n\014ima"
+  "gingStudy\030\021 \003(\0132\033.patient.ImagingStudyOb"
+  "ject\022%\n\006device\030\022 \003(\0132\025.patient.DeviceObj"
+  "ect\022I\n\030medicationAdministration\030\023 \003(\0132\'."
+  "patient.MedicationAdministrationObjectb\006"
+  "proto3"
   ;
 static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_customized_2eproto_deps[1] = {
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_customized_2eproto_sccs[46] = {
+static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_customized_2eproto_sccs[61] = {
   &scc_info_Activity_customized_2eproto.base,
   &scc_info_Address_customized_2eproto.base,
   &scc_info_Adjudication_customized_2eproto.base,
+  &scc_info_AllergyIntoleranceObject_customized_2eproto.base,
   &scc_info_Amount_customized_2eproto.base,
   &scc_info_CarePlanObject_customized_2eproto.base,
   &scc_info_CareTeam_customized_2eproto.base,
   &scc_info_CareTeamObject_customized_2eproto.base,
+  &scc_info_Carrier_customized_2eproto.base,
   &scc_info_Category_customized_2eproto.base,
   &scc_info_ClaimObject_customized_2eproto.base,
   &scc_info_Coding_customized_2eproto.base,
@@ -1921,19 +2545,28 @@ static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_cus
   &scc_info_ConditionObject_customized_2eproto.base,
   &scc_info_Contained_customized_2eproto.base,
   &scc_info_Detail_customized_2eproto.base,
+  &scc_info_DeviceName_customized_2eproto.base,
+  &scc_info_DeviceObject_customized_2eproto.base,
   &scc_info_Diagnosis_customized_2eproto.base,
   &scc_info_DiagnosticReportObject_customized_2eproto.base,
+  &scc_info_DosageInstruction_customized_2eproto.base,
+  &scc_info_DoseAndRate_customized_2eproto.base,
   &scc_info_EncounterObject_customized_2eproto.base,
   &scc_info_Entry_customized_2eproto.base,
   &scc_info_ExplanationOfBenefitObject_customized_2eproto.base,
-  &scc_info_Extension_customized_2eproto.base,
+  &scc_info_GoalObject_customized_2eproto.base,
+  &scc_info_Hospitalization_customized_2eproto.base,
   &scc_info_Identifier_customized_2eproto.base,
+  &scc_info_ImagingStudyObject_customized_2eproto.base,
   &scc_info_ImmunizationObject_customized_2eproto.base,
+  &scc_info_Instance_customized_2eproto.base,
   &scc_info_Insurance_customized_2eproto.base,
   &scc_info_Item_customized_2eproto.base,
+  &scc_info_MedicationAdministrationObject_customized_2eproto.base,
   &scc_info_MedicationRequestObject_customized_2eproto.base,
   &scc_info_Name_customized_2eproto.base,
   &scc_info_ObservationObject_customized_2eproto.base,
+  &scc_info_Onset_customized_2eproto.base,
   &scc_info_OrganizationObject_customized_2eproto.base,
   &scc_info_Participant_customized_2eproto.base,
   &scc_info_PatientObject_customized_2eproto.base,
@@ -1944,95 +2577,47 @@ static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_cus
   &scc_info_Procedure_customized_2eproto.base,
   &scc_info_ProcedureObject_customized_2eproto.base,
   &scc_info_Quantity_customized_2eproto.base,
+  &scc_info_Reaction_customized_2eproto.base,
   &scc_info_Reference_customized_2eproto.base,
+  &scc_info_Repeat_customized_2eproto.base,
   &scc_info_Request_customized_2eproto.base,
   &scc_info_Resource_customized_2eproto.base,
   &scc_info_Root_customized_2eproto.base,
+  &scc_info_Series_customized_2eproto.base,
   &scc_info_SupportingInfo_customized_2eproto.base,
   &scc_info_Telecom_customized_2eproto.base,
   &scc_info_Text_customized_2eproto.base,
+  &scc_info_Timing_customized_2eproto.base,
   &scc_info_Total_customized_2eproto.base,
 };
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_customized_2eproto_once;
 static bool descriptor_table_customized_2eproto_initialized = false;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_customized_2eproto = {
-  &descriptor_table_customized_2eproto_initialized, descriptor_table_protodef_customized_2eproto, "customized.proto", 10275,
-  &descriptor_table_customized_2eproto_once, descriptor_table_customized_2eproto_sccs, descriptor_table_customized_2eproto_deps, 46, 0,
+  &descriptor_table_customized_2eproto_initialized, descriptor_table_protodef_customized_2eproto, "customized.proto", 12886,
+  &descriptor_table_customized_2eproto_once, descriptor_table_customized_2eproto_sccs, descriptor_table_customized_2eproto_deps, 61, 0,
   schemas, file_default_instances, TableStruct_customized_2eproto::offsets,
-  file_level_metadata_customized_2eproto, 46, file_level_enum_descriptors_customized_2eproto, file_level_service_descriptors_customized_2eproto,
+  file_level_metadata_customized_2eproto, 62, file_level_enum_descriptors_customized_2eproto, file_level_service_descriptors_customized_2eproto,
 };
 
 // Force running AddDescriptors() at dynamic initialization time.
 static bool dynamic_init_dummy_customized_2eproto = (  ::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_customized_2eproto), true);
 namespace patient {
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Status_descriptor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_customized_2eproto);
-  return file_level_enum_descriptors_customized_2eproto[0];
-}
-bool Status_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-      return true;
-    default:
-      return false;
-  }
-}
-
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Gender_descriptor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_customized_2eproto);
-  return file_level_enum_descriptors_customized_2eproto[1];
-}
-bool Gender_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* ResourceType_descriptor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_customized_2eproto);
-  return file_level_enum_descriptors_customized_2eproto[2];
-}
-bool ResourceType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13:
-      return true;
-    default:
-      return false;
-  }
-}
-
 
 // ===================================================================
 
 void Activity::InitAsDefaultInstance() {
+  ::patient::_Activity_default_instance_._instance.get_mutable()->detail_ = const_cast< ::patient::Detail*>(
+      ::patient::Detail::internal_default_instance());
 }
 class Activity::_Internal {
  public:
+  static const ::patient::Detail& detail(const Activity* msg);
 };
 
+const ::patient::Detail&
+Activity::_Internal::detail(const Activity* msg) {
+  return *msg->detail_;
+}
 Activity::Activity()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
@@ -2040,14 +2625,19 @@ Activity::Activity()
 }
 Activity::Activity(const Activity& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _internal_metadata_(nullptr),
-      detail_(from.detail_) {
+      _internal_metadata_(nullptr) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from._internal_has_detail()) {
+    detail_ = new ::patient::Detail(*from.detail_);
+  } else {
+    detail_ = nullptr;
+  }
   // @@protoc_insertion_point(copy_constructor:patient.Activity)
 }
 
 void Activity::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Activity_customized_2eproto.base);
+  detail_ = nullptr;
 }
 
 Activity::~Activity() {
@@ -2056,6 +2646,7 @@ Activity::~Activity() {
 }
 
 void Activity::SharedDtor() {
+  if (this != internal_default_instance()) delete detail_;
 }
 
 void Activity::SetCachedSize(int size) const {
@@ -2073,7 +2664,10 @@ void Activity::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  detail_.Clear();
+  if (GetArenaNoVirtual() == nullptr && detail_ != nullptr) {
+    delete detail_;
+  }
+  detail_ = nullptr;
   _internal_metadata_.Clear();
 }
 
@@ -2084,16 +2678,11 @@ const char* Activity::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // repeated .patient.Detail detail = 1;
+      // .patient.Detail detail = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
-          ptr -= 1;
-          do {
-            ptr += 1;
-            ptr = ctx->ParseMessage(_internal_add_detail(), ptr);
-            CHK_(ptr);
-            if (!ctx->DataAvailable(ptr)) break;
-          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<10>(ptr));
+          ptr = ctx->ParseMessage(_internal_mutable_detail(), ptr);
+          CHK_(ptr);
         } else goto handle_unusual;
         continue;
       default: {
@@ -2122,12 +2711,12 @@ failure:
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // repeated .patient.Detail detail = 1;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_detail_size()); i < n; i++) {
+  // .patient.Detail detail = 1;
+  if (this->has_detail()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessageToArray(1, this->_internal_detail(i), target, stream);
+      InternalWriteMessageToArray(
+        1, _Internal::detail(this), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -2146,11 +2735,11 @@ size_t Activity::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .patient.Detail detail = 1;
-  total_size += 1UL * this->_internal_detail_size();
-  for (const auto& msg : this->detail_) {
-    total_size +=
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  // .patient.Detail detail = 1;
+  if (this->has_detail()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *detail_);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -2184,7 +2773,9 @@ void Activity::MergeFrom(const Activity& from) {
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  detail_.MergeFrom(from.detail_);
+  if (from.has_detail()) {
+    _internal_mutable_detail()->::patient::Detail::MergeFrom(from._internal_detail());
+  }
 }
 
 void Activity::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
@@ -2208,7 +2799,7 @@ bool Activity::IsInitialized() const {
 void Activity::InternalSwap(Activity* other) {
   using std::swap;
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  detail_.InternalSwap(&other->detail_);
+  swap(detail_, other->detail_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Activity::GetMetadata() const {
@@ -3884,6 +4475,10 @@ Contained::Contained(const Contained& from)
   if (!from._internal_resourcetype().empty()) {
     resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
   }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_requester()) {
     requester_ = new ::patient::Reference(*from.requester_);
   } else {
@@ -3904,7 +4499,6 @@ Contained::Contained(const Contained& from)
   } else {
     type_ = nullptr;
   }
-  status_ = from.status_;
   // @@protoc_insertion_point(copy_constructor:patient.Contained)
 }
 
@@ -3913,9 +4507,10 @@ void Contained::SharedCtor() {
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&requester_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&requester_)) + sizeof(status_));
+      reinterpret_cast<char*>(&type_) -
+      reinterpret_cast<char*>(&requester_)) + sizeof(type_));
 }
 
 Contained::~Contained() {
@@ -3927,6 +4522,7 @@ void Contained::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete requester_;
   if (this != internal_default_instance()) delete subject_;
   if (this != internal_default_instance()) delete beneficiary_;
@@ -3953,6 +4549,7 @@ void Contained::Clear() {
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && requester_ != nullptr) {
     delete requester_;
   }
@@ -3969,7 +4566,6 @@ void Contained::Clear() {
     delete type_;
   }
   type_ = nullptr;
-  status_ = 0;
   _internal_metadata_.Clear();
 }
 
@@ -4020,12 +4616,11 @@ const char* Contained::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 6;
+      // string status = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.Contained.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 7;
@@ -4133,11 +4728,14 @@ failure:
         5, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 6;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      6, this->_internal_status(), target);
+  // string status = 6;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Contained.status");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 7;
@@ -4223,6 +4821,13 @@ size_t Contained::ByteSizeLong() const {
         this->_internal_resourcetype());
   }
 
+  // string status = 6;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // .patient.Reference requester = 4;
   if (this->has_requester()) {
     total_size += 1 +
@@ -4249,12 +4854,6 @@ size_t Contained::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *type_);
-  }
-
-  // .patient.Status status = 6;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -4302,6 +4901,10 @@ void Contained::MergeFrom(const Contained& from) {
 
     resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
   }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_requester()) {
     _internal_mutable_requester()->::patient::Reference::MergeFrom(from._internal_requester());
   }
@@ -4313,9 +4916,6 @@ void Contained::MergeFrom(const Contained& from) {
   }
   if (from.has_type()) {
     _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -4348,11 +4948,12 @@ void Contained::InternalSwap(Contained* other) {
     GetArenaNoVirtual());
   resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(requester_, other->requester_);
   swap(subject_, other->subject_);
   swap(beneficiary_, other->beneficiary_);
   swap(type_, other->type_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Contained::GetMetadata() const {
@@ -4391,6 +4992,10 @@ Detail::Detail(const Detail& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       _internal_metadata_(nullptr) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_code()) {
     code_ = new ::patient::Category(*from.code_);
   } else {
@@ -4401,15 +5006,15 @@ Detail::Detail(const Detail& from)
   } else {
     location_ = nullptr;
   }
-  status_ = from.status_;
   // @@protoc_insertion_point(copy_constructor:patient.Detail)
 }
 
 void Detail::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Detail_customized_2eproto.base);
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&code_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&code_)) + sizeof(status_));
+      reinterpret_cast<char*>(&location_) -
+      reinterpret_cast<char*>(&code_)) + sizeof(location_));
 }
 
 Detail::~Detail() {
@@ -4418,6 +5023,7 @@ Detail::~Detail() {
 }
 
 void Detail::SharedDtor() {
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete code_;
   if (this != internal_default_instance()) delete location_;
 }
@@ -4437,6 +5043,7 @@ void Detail::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
     delete code_;
   }
@@ -4445,7 +5052,6 @@ void Detail::Clear() {
     delete location_;
   }
   location_ = nullptr;
-  status_ = 0;
   _internal_metadata_.Clear();
 }
 
@@ -4470,12 +5076,11 @@ const char* Detail::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::int
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 3;
+      // string status = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.Detail.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       default: {
@@ -4520,11 +5125,14 @@ failure:
         2, _Internal::location(this), target, stream);
   }
 
-  // .patient.Status status = 3;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      3, this->_internal_status(), target);
+  // string status = 3;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Detail.status");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_status(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -4543,6 +5151,13 @@ size_t Detail::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
+  // string status = 3;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // .patient.Category code = 1;
   if (this->has_code()) {
     total_size += 1 +
@@ -4555,12 +5170,6 @@ size_t Detail::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *location_);
-  }
-
-  // .patient.Status status = 3;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -4594,14 +5203,15 @@ void Detail::MergeFrom(const Detail& from) {
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_code()) {
     _internal_mutable_code()->::patient::Category::MergeFrom(from._internal_code());
   }
   if (from.has_location()) {
     _internal_mutable_location()->::patient::Reference::MergeFrom(from._internal_location());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -4626,9 +5236,10 @@ bool Detail::IsInitialized() const {
 void Detail::InternalSwap(Detail* other) {
   using std::swap;
   _internal_metadata_.Swap(&other->_internal_metadata_);
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(code_, other->code_);
   swap(location_, other->location_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Detail::GetMetadata() const {
@@ -5176,15 +5787,22 @@ void Entry::InternalSwap(Entry* other) {
 void Extension::InitAsDefaultInstance() {
   ::patient::_Extension_default_instance_._instance.get_mutable()->valuecoding_ = const_cast< ::patient::Coding*>(
       ::patient::Coding::internal_default_instance());
+  ::patient::_Extension_default_instance_._instance.get_mutable()->valueaddress_ = const_cast< ::patient::Address*>(
+      ::patient::Address::internal_default_instance());
 }
 class Extension::_Internal {
  public:
   static const ::patient::Coding& valuecoding(const Extension* msg);
+  static const ::patient::Address& valueaddress(const Extension* msg);
 };
 
 const ::patient::Coding&
 Extension::_Internal::valuecoding(const Extension* msg) {
   return *msg->valuecoding_;
+}
+const ::patient::Address&
+Extension::_Internal::valueaddress(const Extension* msg) {
+  return *msg->valueaddress_;
 }
 Extension::Extension()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
@@ -5204,22 +5822,34 @@ Extension::Extension(const Extension& from)
   if (!from._internal_valuestring().empty()) {
     valuestring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuestring_);
   }
+  valuecode_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_valuecode().empty()) {
+    valuecode_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuecode_);
+  }
   if (from._internal_has_valuecoding()) {
     valuecoding_ = new ::patient::Coding(*from.valuecoding_);
   } else {
     valuecoding_ = nullptr;
   }
-  valuedecimal_ = from.valuedecimal_;
+  if (from._internal_has_valueaddress()) {
+    valueaddress_ = new ::patient::Address(*from.valueaddress_);
+  } else {
+    valueaddress_ = nullptr;
+  }
+  ::memcpy(&valuedecimal_, &from.valuedecimal_,
+    static_cast<size_t>(reinterpret_cast<char*>(&valueinteger_) -
+    reinterpret_cast<char*>(&valuedecimal_)) + sizeof(valueinteger_));
   // @@protoc_insertion_point(copy_constructor:patient.Extension)
 }
 
 void Extension::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Extension_customized_2eproto.base);
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Address_customized_2eproto.base);
   url_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   valuestring_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuecode_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&valuecoding_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&valuedecimal_) -
-      reinterpret_cast<char*>(&valuecoding_)) + sizeof(valuedecimal_));
+      reinterpret_cast<char*>(&valueinteger_) -
+      reinterpret_cast<char*>(&valuecoding_)) + sizeof(valueinteger_));
 }
 
 Extension::~Extension() {
@@ -5230,14 +5860,16 @@ Extension::~Extension() {
 void Extension::SharedDtor() {
   url_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   valuestring_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuecode_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete valuecoding_;
+  if (this != internal_default_instance()) delete valueaddress_;
 }
 
 void Extension::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 const Extension& Extension::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Extension_customized_2eproto.base);
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Address_customized_2eproto.base);
   return *internal_default_instance();
 }
 
@@ -5251,11 +5883,18 @@ void Extension::Clear() {
   extension_.Clear();
   url_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   valuestring_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuecode_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && valuecoding_ != nullptr) {
     delete valuecoding_;
   }
   valuecoding_ = nullptr;
-  valuedecimal_ = 0;
+  if (GetArenaNoVirtual() == nullptr && valueaddress_ != nullptr) {
+    delete valueaddress_;
+  }
+  valueaddress_ = nullptr;
+  ::memset(&valuedecimal_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&valueinteger_) -
+      reinterpret_cast<char*>(&valuedecimal_)) + sizeof(valueinteger_));
   _internal_metadata_.Clear();
 }
 
@@ -5304,6 +5943,27 @@ const char* Extension::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 45)) {
           valuedecimal_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
+        } else goto handle_unusual;
+        continue;
+      // string valueCode = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_valuecode(), ptr, ctx, "patient.Extension.valueCode");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Address valueAddress = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ctx->ParseMessage(_internal_mutable_valueaddress(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 valueInteger = 8;
+      case 8:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
+          valueinteger_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
         } else goto handle_unusual;
         continue;
       default: {
@@ -5374,6 +6034,30 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(5, this->_internal_valuedecimal(), target);
   }
 
+  // string valueCode = 6;
+  if (this->valuecode().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_valuecode().data(), static_cast<int>(this->_internal_valuecode().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Extension.valueCode");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_valuecode(), target);
+  }
+
+  // .patient.Address valueAddress = 7;
+  if (this->has_valueaddress()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        7, _Internal::valueaddress(this), target, stream);
+  }
+
+  // int32 valueInteger = 8;
+  if (this->valueinteger() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(8, this->_internal_valueinteger(), target);
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target, stream);
@@ -5411,6 +6095,13 @@ size_t Extension::ByteSizeLong() const {
         this->_internal_valuestring());
   }
 
+  // string valueCode = 6;
+  if (this->valuecode().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_valuecode());
+  }
+
   // .patient.Coding valueCoding = 3;
   if (this->has_valuecoding()) {
     total_size += 1 +
@@ -5418,9 +6109,23 @@ size_t Extension::ByteSizeLong() const {
         *valuecoding_);
   }
 
+  // .patient.Address valueAddress = 7;
+  if (this->has_valueaddress()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *valueaddress_);
+  }
+
   // float valueDecimal = 5;
   if (!(this->valuedecimal() <= 0 && this->valuedecimal() >= 0)) {
     total_size += 1 + 4;
+  }
+
+  // int32 valueInteger = 8;
+  if (this->valueinteger() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_valueinteger());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -5463,11 +6168,21 @@ void Extension::MergeFrom(const Extension& from) {
 
     valuestring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuestring_);
   }
+  if (from.valuecode().size() > 0) {
+
+    valuecode_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuecode_);
+  }
   if (from.has_valuecoding()) {
     _internal_mutable_valuecoding()->::patient::Coding::MergeFrom(from._internal_valuecoding());
   }
+  if (from.has_valueaddress()) {
+    _internal_mutable_valueaddress()->::patient::Address::MergeFrom(from._internal_valueaddress());
+  }
   if (!(from.valuedecimal() <= 0 && from.valuedecimal() >= 0)) {
     _internal_set_valuedecimal(from._internal_valuedecimal());
+  }
+  if (from.valueinteger() != 0) {
+    _internal_set_valueinteger(from._internal_valueinteger());
   }
 }
 
@@ -5497,8 +6212,12 @@ void Extension::InternalSwap(Extension* other) {
     GetArenaNoVirtual());
   valuestring_.Swap(&other->valuestring_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  valuecode_.Swap(&other->valuecode_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(valuecoding_, other->valuecoding_);
+  swap(valueaddress_, other->valueaddress_);
   swap(valuedecimal_, other->valuedecimal_);
+  swap(valueinteger_, other->valueinteger_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Extension::GetMetadata() const {
@@ -5538,6 +6257,10 @@ Identifier::Identifier(const Identifier& from)
   if (!from._internal_value().empty()) {
     value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
+  use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_use().empty()) {
+    use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
+  }
   if (from._internal_has_type()) {
     type_ = new ::patient::Category(*from.type_);
   } else {
@@ -5550,6 +6273,7 @@ void Identifier::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Identifier_customized_2eproto.base);
   system_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   type_ = nullptr;
 }
 
@@ -5561,6 +6285,7 @@ Identifier::~Identifier() {
 void Identifier::SharedDtor() {
   system_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  use_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete type_;
 }
 
@@ -5581,6 +6306,7 @@ void Identifier::Clear() {
 
   system_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   value_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  use_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && type_ != nullptr) {
     delete type_;
   }
@@ -5613,6 +6339,13 @@ const char* Identifier::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_type(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string use = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_use(), ptr, ctx, "patient.Identifier.use");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -5670,6 +6403,16 @@ failure:
         3, _Internal::type(this), target, stream);
   }
 
+  // string use = 4;
+  if (this->use().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_use().data(), static_cast<int>(this->_internal_use().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Identifier.use");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_use(), target);
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target, stream);
@@ -5698,6 +6441,13 @@ size_t Identifier::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_value());
+  }
+
+  // string use = 4;
+  if (this->use().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_use());
   }
 
   // .patient.Category type = 3;
@@ -5746,6 +6496,10 @@ void Identifier::MergeFrom(const Identifier& from) {
 
     value_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.value_);
   }
+  if (from.use().size() > 0) {
+
+    use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
+  }
   if (from.has_type()) {
     _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
   }
@@ -5775,6 +6529,8 @@ void Identifier::InternalSwap(Identifier* other) {
   system_.Swap(&other->system_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  use_.Swap(&other->use_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(type_, other->type_);
 }
@@ -6095,7 +6851,9 @@ Item::Item(const Item& from)
       _internal_metadata_(nullptr),
       encounter_(from.encounter_),
       informationsequence_(from.informationsequence_),
-      adjudication_(from.adjudication_) {
+      adjudication_(from.adjudication_),
+      proceduresequence_(from.proceduresequence_),
+      diagnosissequence_(from.diagnosissequence_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   if (from._internal_has_productorservice()) {
     productorservice_ = new ::patient::Category(*from.productorservice_);
@@ -6164,6 +6922,8 @@ void Item::Clear() {
   encounter_.Clear();
   informationsequence_.Clear();
   adjudication_.Clear();
+  proceduresequence_.Clear();
+  diagnosissequence_.Clear();
   if (GetArenaNoVirtual() == nullptr && productorservice_ != nullptr) {
     delete productorservice_;
   }
@@ -6271,6 +7031,26 @@ const char* Item::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inter
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<74>(ptr));
         } else goto handle_unusual;
         continue;
+      // repeated int32 procedureSequence = 10;
+      case 10:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::PackedInt32Parser(_internal_mutable_proceduresequence(), ptr, ctx);
+          CHK_(ptr);
+        } else if (static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80) {
+          _internal_add_proceduresequence(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr));
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated int32 diagnosisSequence = 11;
+      case 11:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::PackedInt32Parser(_internal_mutable_diagnosissequence(), ptr, ctx);
+          CHK_(ptr);
+        } else if (static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 88) {
+          _internal_add_diagnosissequence(::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr));
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
       default: {
       handle_unusual:
         if ((tag & 7) == 4 || tag == 0) {
@@ -6368,6 +7148,24 @@ failure:
       InternalWriteMessageToArray(9, this->_internal_adjudication(i), target, stream);
   }
 
+  // repeated int32 procedureSequence = 10;
+  {
+    int byte_size = _proceduresequence_cached_byte_size_.load(std::memory_order_relaxed);
+    if (byte_size > 0) {
+      target = stream->WriteInt32Packed(
+          10, _internal_proceduresequence(), byte_size, target);
+    }
+  }
+
+  // repeated int32 diagnosisSequence = 11;
+  {
+    int byte_size = _diagnosissequence_cached_byte_size_.load(std::memory_order_relaxed);
+    if (byte_size > 0) {
+      target = stream->WriteInt32Packed(
+          11, _internal_diagnosissequence(), byte_size, target);
+    }
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target, stream);
@@ -6411,6 +7209,36 @@ size_t Item::ByteSizeLong() const {
   for (const auto& msg : this->adjudication_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated int32 procedureSequence = 10;
+  {
+    size_t data_size = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      Int32Size(this->proceduresequence_);
+    if (data_size > 0) {
+      total_size += 1 +
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+            static_cast<::PROTOBUF_NAMESPACE_ID::int32>(data_size));
+    }
+    int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(data_size);
+    _proceduresequence_cached_byte_size_.store(cached_size,
+                                    std::memory_order_relaxed);
+    total_size += data_size;
+  }
+
+  // repeated int32 diagnosisSequence = 11;
+  {
+    size_t data_size = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      Int32Size(this->diagnosissequence_);
+    if (data_size > 0) {
+      total_size += 1 +
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+            static_cast<::PROTOBUF_NAMESPACE_ID::int32>(data_size));
+    }
+    int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(data_size);
+    _diagnosissequence_cached_byte_size_.store(cached_size,
+                                    std::memory_order_relaxed);
+    total_size += data_size;
   }
 
   // .patient.Category productOrService = 2;
@@ -6489,6 +7317,8 @@ void Item::MergeFrom(const Item& from) {
   encounter_.MergeFrom(from.encounter_);
   informationsequence_.MergeFrom(from.informationsequence_);
   adjudication_.MergeFrom(from.adjudication_);
+  proceduresequence_.MergeFrom(from.proceduresequence_);
+  diagnosissequence_.MergeFrom(from.diagnosissequence_);
   if (from.has_productorservice()) {
     _internal_mutable_productorservice()->::patient::Category::MergeFrom(from._internal_productorservice());
   }
@@ -6533,6 +7363,8 @@ void Item::InternalSwap(Item* other) {
   encounter_.InternalSwap(&other->encounter_);
   informationsequence_.InternalSwap(&other->informationsequence_);
   adjudication_.InternalSwap(&other->adjudication_);
+  proceduresequence_.InternalSwap(&other->proceduresequence_);
+  diagnosissequence_.InternalSwap(&other->diagnosissequence_);
   swap(productorservice_, other->productorservice_);
   swap(net_, other->net_);
   swap(category_, other->category_);
@@ -6563,7 +7395,8 @@ Name::Name(const Name& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       _internal_metadata_(nullptr),
       given_(from.given_),
-      prefix_(from.prefix_) {
+      prefix_(from.prefix_),
+      suffix_(from.suffix_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   family_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_family().empty()) {
@@ -6609,6 +7442,7 @@ void Name::Clear() {
 
   given_.Clear();
   prefix_.Clear();
+  suffix_.Clear();
   family_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   _internal_metadata_.Clear();
@@ -6657,6 +7491,18 @@ const char* Name::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inter
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_use(), ptr, ctx, "patient.Name.use");
           CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated string suffix = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_add_suffix(), ptr, ctx, "patient.Name.suffix");
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -6725,6 +7571,16 @@ failure:
         4, this->_internal_use(), target);
   }
 
+  // repeated string suffix = 5;
+  for (int i = 0, n = this->_internal_suffix_size(); i < n; i++) {
+    const auto& s = this->_internal_suffix(i);
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      s.data(), static_cast<int>(s.length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Name.suffix");
+    target = stream->WriteString(5, s, target);
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields(), target, stream);
@@ -6755,6 +7611,14 @@ size_t Name::ByteSizeLong() const {
   for (int i = 0, n = prefix_.size(); i < n; i++) {
     total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
       prefix_.Get(i));
+  }
+
+  // repeated string suffix = 5;
+  total_size += 1 *
+      ::PROTOBUF_NAMESPACE_ID::internal::FromIntSize(suffix_.size());
+  for (int i = 0, n = suffix_.size(); i < n; i++) {
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+      suffix_.Get(i));
   }
 
   // string family = 1;
@@ -6804,6 +7668,7 @@ void Name::MergeFrom(const Name& from) {
 
   given_.MergeFrom(from.given_);
   prefix_.MergeFrom(from.prefix_);
+  suffix_.MergeFrom(from.suffix_);
   if (from.family().size() > 0) {
 
     family_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.family_);
@@ -6837,6 +7702,7 @@ void Name::InternalSwap(Name* other) {
   _internal_metadata_.Swap(&other->_internal_metadata_);
   given_.InternalSwap(&other->given_);
   prefix_.InternalSwap(&other->prefix_);
+  suffix_.InternalSwap(&other->suffix_);
   family_.Swap(&other->family_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   use_.Swap(&other->use_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
@@ -10439,7 +11305,7 @@ void Resource::InitAsDefaultInstance() {
       ::patient::MedicationRequestObject::internal_default_instance());
   ::patient::_Resource_default_instance_.observation_ = const_cast< ::patient::ObservationObject*>(
       ::patient::ObservationObject::internal_default_instance());
-  ::patient::_Resource_default_instance_.organiation_ = const_cast< ::patient::OrganizationObject*>(
+  ::patient::_Resource_default_instance_.organization_ = const_cast< ::patient::OrganizationObject*>(
       ::patient::OrganizationObject::internal_default_instance());
   ::patient::_Resource_default_instance_.patient_ = const_cast< ::patient::PatientObject*>(
       ::patient::PatientObject::internal_default_instance());
@@ -10460,7 +11326,7 @@ class Resource::_Internal {
   static const ::patient::ImmunizationObject& immunization(const Resource* msg);
   static const ::patient::MedicationRequestObject& medicationrequest(const Resource* msg);
   static const ::patient::ObservationObject& observation(const Resource* msg);
-  static const ::patient::OrganizationObject& organiation(const Resource* msg);
+  static const ::patient::OrganizationObject& organization(const Resource* msg);
   static const ::patient::PatientObject& patient(const Resource* msg);
   static const ::patient::PractitionerObject& practitioner(const Resource* msg);
   static const ::patient::ProcedureObject& procedure(const Resource* msg);
@@ -10507,8 +11373,8 @@ Resource::_Internal::observation(const Resource* msg) {
   return *msg->resource_.observation_;
 }
 const ::patient::OrganizationObject&
-Resource::_Internal::organiation(const Resource* msg) {
-  return *msg->resource_.organiation_;
+Resource::_Internal::organization(const Resource* msg) {
+  return *msg->resource_.organization_;
 }
 const ::patient::PatientObject&
 Resource::_Internal::patient(const Resource* msg) {
@@ -10662,19 +11528,19 @@ void Resource::set_allocated_observation(::patient::ObservationObject* observati
   }
   // @@protoc_insertion_point(field_set_allocated:patient.Resource.observation)
 }
-void Resource::set_allocated_organiation(::patient::OrganizationObject* organiation) {
+void Resource::set_allocated_organization(::patient::OrganizationObject* organization) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
   clear_resource();
-  if (organiation) {
+  if (organization) {
     ::PROTOBUF_NAMESPACE_ID::Arena* submessage_arena = nullptr;
     if (message_arena != submessage_arena) {
-      organiation = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
-          message_arena, organiation, submessage_arena);
+      organization = ::PROTOBUF_NAMESPACE_ID::internal::GetOwnedMessage(
+          message_arena, organization, submessage_arena);
     }
-    set_has_organiation();
-    resource_.organiation_ = organiation;
+    set_has_organization();
+    resource_.organization_ = organization;
   }
-  // @@protoc_insertion_point(field_set_allocated:patient.Resource.organiation)
+  // @@protoc_insertion_point(field_set_allocated:patient.Resource.organization)
 }
 void Resource::set_allocated_patient(::patient::PatientObject* patient) {
   ::PROTOBUF_NAMESPACE_ID::Arena* message_arena = GetArenaNoVirtual();
@@ -10727,7 +11593,10 @@ Resource::Resource(const Resource& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       _internal_metadata_(nullptr) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
-  resourcetype_ = from.resourcetype_;
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
   clear_has_resource();
   switch (from.resource_case()) {
     case kCarePlan: {
@@ -10770,8 +11639,8 @@ Resource::Resource(const Resource& from)
       _internal_mutable_observation()->::patient::ObservationObject::MergeFrom(from._internal_observation());
       break;
     }
-    case kOrganiation: {
-      _internal_mutable_organiation()->::patient::OrganizationObject::MergeFrom(from._internal_organiation());
+    case kOrganization: {
+      _internal_mutable_organization()->::patient::OrganizationObject::MergeFrom(from._internal_organization());
       break;
     }
     case kPatient: {
@@ -10795,7 +11664,7 @@ Resource::Resource(const Resource& from)
 
 void Resource::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Resource_customized_2eproto.base);
-  resourcetype_ = 0;
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   clear_has_resource();
 }
 
@@ -10805,6 +11674,7 @@ Resource::~Resource() {
 }
 
 void Resource::SharedDtor() {
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (has_resource()) {
     clear_resource();
   }
@@ -10862,8 +11732,8 @@ void Resource::clear_resource() {
       delete resource_.observation_;
       break;
     }
-    case kOrganiation: {
-      delete resource_.organiation_;
+    case kOrganization: {
+      delete resource_.organization_;
       break;
     }
     case kPatient: {
@@ -10892,7 +11762,7 @@ void Resource::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  resourcetype_ = 0;
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   clear_resource();
   _internal_metadata_.Clear();
 }
@@ -10904,12 +11774,11 @@ const char* Resource::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .patient.ResourceType resourceType = 1;
+      // string resourceType = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.Resource.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // .patient.CarePlanObject carePlan = 2;
@@ -10982,10 +11851,10 @@ const char* Resource::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.OrganizationObject organiation = 12;
+      // .patient.OrganizationObject organization = 12;
       case 12:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
-          ptr = ctx->ParseMessage(_internal_mutable_organiation(), ptr);
+          ptr = ctx->ParseMessage(_internal_mutable_organization(), ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -11036,11 +11905,14 @@ failure:
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .patient.ResourceType resourceType = 1;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      1, this->_internal_resourcetype(), target);
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Resource.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_resourcetype(), target);
   }
 
   // .patient.CarePlanObject carePlan = 2;
@@ -11123,12 +11995,12 @@ failure:
         11, _Internal::observation(this), target, stream);
   }
 
-  // .patient.OrganizationObject organiation = 12;
-  if (_internal_has_organiation()) {
+  // .patient.OrganizationObject organization = 12;
+  if (_internal_has_organization()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(
-        12, _Internal::organiation(this), target, stream);
+        12, _Internal::organization(this), target, stream);
   }
 
   // .patient.PatientObject patient = 13;
@@ -11171,10 +12043,11 @@ size_t Resource::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // .patient.ResourceType resourceType = 1;
-  if (this->resourcetype() != 0) {
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
   }
 
   switch (resource_case()) {
@@ -11248,11 +12121,11 @@ size_t Resource::ByteSizeLong() const {
           *resource_.observation_);
       break;
     }
-    // .patient.OrganizationObject organiation = 12;
-    case kOrganiation: {
+    // .patient.OrganizationObject organization = 12;
+    case kOrganization: {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-          *resource_.organiation_);
+          *resource_.organization_);
       break;
     }
     // .patient.PatientObject patient = 13;
@@ -11311,8 +12184,9 @@ void Resource::MergeFrom(const Resource& from) {
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
   }
   switch (from.resource_case()) {
     case kCarePlan: {
@@ -11355,8 +12229,8 @@ void Resource::MergeFrom(const Resource& from) {
       _internal_mutable_observation()->::patient::ObservationObject::MergeFrom(from._internal_observation());
       break;
     }
-    case kOrganiation: {
-      _internal_mutable_organiation()->::patient::OrganizationObject::MergeFrom(from._internal_organiation());
+    case kOrganization: {
+      _internal_mutable_organization()->::patient::OrganizationObject::MergeFrom(from._internal_organization());
       break;
     }
     case kPatient: {
@@ -11398,12 +12272,4062 @@ bool Resource::IsInitialized() const {
 void Resource::InternalSwap(Resource* other) {
   using std::swap;
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(resourcetype_, other->resourcetype_);
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(resource_, other->resource_);
   swap(_oneof_case_[0], other->_oneof_case_[0]);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Resource::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void DosageInstruction::InitAsDefaultInstance() {
+  ::patient::_DosageInstruction_default_instance_._instance.get_mutable()->timing_ = const_cast< ::patient::Timing*>(
+      ::patient::Timing::internal_default_instance());
+}
+class DosageInstruction::_Internal {
+ public:
+  static const ::patient::Timing& timing(const DosageInstruction* msg);
+};
+
+const ::patient::Timing&
+DosageInstruction::_Internal::timing(const DosageInstruction* msg) {
+  return *msg->timing_;
+}
+DosageInstruction::DosageInstruction()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.DosageInstruction)
+}
+DosageInstruction::DosageInstruction(const DosageInstruction& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      doseandrate_(from.doseandrate_),
+      additionalinstruction_(from.additionalinstruction_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from._internal_has_timing()) {
+    timing_ = new ::patient::Timing(*from.timing_);
+  } else {
+    timing_ = nullptr;
+  }
+  ::memcpy(&sequence_, &from.sequence_,
+    static_cast<size_t>(reinterpret_cast<char*>(&asneededboolean_) -
+    reinterpret_cast<char*>(&sequence_)) + sizeof(asneededboolean_));
+  // @@protoc_insertion_point(copy_constructor:patient.DosageInstruction)
+}
+
+void DosageInstruction::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DosageInstruction_customized_2eproto.base);
+  ::memset(&timing_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&asneededboolean_) -
+      reinterpret_cast<char*>(&timing_)) + sizeof(asneededboolean_));
+}
+
+DosageInstruction::~DosageInstruction() {
+  // @@protoc_insertion_point(destructor:patient.DosageInstruction)
+  SharedDtor();
+}
+
+void DosageInstruction::SharedDtor() {
+  if (this != internal_default_instance()) delete timing_;
+}
+
+void DosageInstruction::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const DosageInstruction& DosageInstruction::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DosageInstruction_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void DosageInstruction::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.DosageInstruction)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  doseandrate_.Clear();
+  additionalinstruction_.Clear();
+  if (GetArenaNoVirtual() == nullptr && timing_ != nullptr) {
+    delete timing_;
+  }
+  timing_ = nullptr;
+  ::memset(&sequence_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&asneededboolean_) -
+      reinterpret_cast<char*>(&sequence_)) + sizeof(asneededboolean_));
+  _internal_metadata_.Clear();
+}
+
+const char* DosageInstruction::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // int32 sequence = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+          sequence_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // bool asNeededBoolean = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
+          asneededboolean_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.DoseAndRate doseAndRate = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_doseandrate(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<26>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // .patient.Timing timing = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ctx->ParseMessage(_internal_mutable_timing(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Category additionalInstruction = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_additionalinstruction(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DosageInstruction::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.DosageInstruction)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // int32 sequence = 1;
+  if (this->sequence() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(1, this->_internal_sequence(), target);
+  }
+
+  // bool asNeededBoolean = 2;
+  if (this->asneededboolean() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(2, this->_internal_asneededboolean(), target);
+  }
+
+  // repeated .patient.DoseAndRate doseAndRate = 3;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_doseandrate_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(3, this->_internal_doseandrate(i), target, stream);
+  }
+
+  // .patient.Timing timing = 4;
+  if (this->has_timing()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        4, _Internal::timing(this), target, stream);
+  }
+
+  // repeated .patient.Category additionalInstruction = 5;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_additionalinstruction_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(5, this->_internal_additionalinstruction(i), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.DosageInstruction)
+  return target;
+}
+
+size_t DosageInstruction::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.DosageInstruction)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .patient.DoseAndRate doseAndRate = 3;
+  total_size += 1UL * this->_internal_doseandrate_size();
+  for (const auto& msg : this->doseandrate_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.Category additionalInstruction = 5;
+  total_size += 1UL * this->_internal_additionalinstruction_size();
+  for (const auto& msg : this->additionalinstruction_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // .patient.Timing timing = 4;
+  if (this->has_timing()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *timing_);
+  }
+
+  // int32 sequence = 1;
+  if (this->sequence() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_sequence());
+  }
+
+  // bool asNeededBoolean = 2;
+  if (this->asneededboolean() != 0) {
+    total_size += 1 + 1;
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void DosageInstruction::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.DosageInstruction)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DosageInstruction* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DosageInstruction>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.DosageInstruction)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.DosageInstruction)
+    MergeFrom(*source);
+  }
+}
+
+void DosageInstruction::MergeFrom(const DosageInstruction& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.DosageInstruction)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  doseandrate_.MergeFrom(from.doseandrate_);
+  additionalinstruction_.MergeFrom(from.additionalinstruction_);
+  if (from.has_timing()) {
+    _internal_mutable_timing()->::patient::Timing::MergeFrom(from._internal_timing());
+  }
+  if (from.sequence() != 0) {
+    _internal_set_sequence(from._internal_sequence());
+  }
+  if (from.asneededboolean() != 0) {
+    _internal_set_asneededboolean(from._internal_asneededboolean());
+  }
+}
+
+void DosageInstruction::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.DosageInstruction)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DosageInstruction::CopyFrom(const DosageInstruction& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.DosageInstruction)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DosageInstruction::IsInitialized() const {
+  return true;
+}
+
+void DosageInstruction::InternalSwap(DosageInstruction* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  doseandrate_.InternalSwap(&other->doseandrate_);
+  additionalinstruction_.InternalSwap(&other->additionalinstruction_);
+  swap(timing_, other->timing_);
+  swap(sequence_, other->sequence_);
+  swap(asneededboolean_, other->asneededboolean_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata DosageInstruction::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Repeat::InitAsDefaultInstance() {
+}
+class Repeat::_Internal {
+ public:
+};
+
+Repeat::Repeat()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Repeat)
+}
+Repeat::Repeat(const Repeat& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  periodunit_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_periodunit().empty()) {
+    periodunit_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.periodunit_);
+  }
+  ::memcpy(&frequency_, &from.frequency_,
+    static_cast<size_t>(reinterpret_cast<char*>(&period_) -
+    reinterpret_cast<char*>(&frequency_)) + sizeof(period_));
+  // @@protoc_insertion_point(copy_constructor:patient.Repeat)
+}
+
+void Repeat::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Repeat_customized_2eproto.base);
+  periodunit_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&frequency_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&period_) -
+      reinterpret_cast<char*>(&frequency_)) + sizeof(period_));
+}
+
+Repeat::~Repeat() {
+  // @@protoc_insertion_point(destructor:patient.Repeat)
+  SharedDtor();
+}
+
+void Repeat::SharedDtor() {
+  periodunit_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+
+void Repeat::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Repeat& Repeat::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Repeat_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Repeat::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Repeat)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  periodunit_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&frequency_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&period_) -
+      reinterpret_cast<char*>(&frequency_)) + sizeof(period_));
+  _internal_metadata_.Clear();
+}
+
+const char* Repeat::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // int32 frequency = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+          frequency_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // float period = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 21)) {
+          period_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          ptr += sizeof(float);
+        } else goto handle_unusual;
+        continue;
+      // string periodUnit = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_periodunit(), ptr, ctx, "patient.Repeat.periodUnit");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Repeat::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Repeat)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // int32 frequency = 1;
+  if (this->frequency() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(1, this->_internal_frequency(), target);
+  }
+
+  // float period = 2;
+  if (!(this->period() <= 0 && this->period() >= 0)) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(2, this->_internal_period(), target);
+  }
+
+  // string periodUnit = 3;
+  if (this->periodunit().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_periodunit().data(), static_cast<int>(this->_internal_periodunit().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Repeat.periodUnit");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_periodunit(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Repeat)
+  return target;
+}
+
+size_t Repeat::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Repeat)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string periodUnit = 3;
+  if (this->periodunit().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_periodunit());
+  }
+
+  // int32 frequency = 1;
+  if (this->frequency() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_frequency());
+  }
+
+  // float period = 2;
+  if (!(this->period() <= 0 && this->period() >= 0)) {
+    total_size += 1 + 4;
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Repeat::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Repeat)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Repeat* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Repeat>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Repeat)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Repeat)
+    MergeFrom(*source);
+  }
+}
+
+void Repeat::MergeFrom(const Repeat& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Repeat)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.periodunit().size() > 0) {
+
+    periodunit_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.periodunit_);
+  }
+  if (from.frequency() != 0) {
+    _internal_set_frequency(from._internal_frequency());
+  }
+  if (!(from.period() <= 0 && from.period() >= 0)) {
+    _internal_set_period(from._internal_period());
+  }
+}
+
+void Repeat::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Repeat)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Repeat::CopyFrom(const Repeat& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Repeat)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Repeat::IsInitialized() const {
+  return true;
+}
+
+void Repeat::InternalSwap(Repeat* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  periodunit_.Swap(&other->periodunit_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(frequency_, other->frequency_);
+  swap(period_, other->period_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Repeat::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Timing::InitAsDefaultInstance() {
+  ::patient::_Timing_default_instance_._instance.get_mutable()->repeat_ = const_cast< ::patient::Repeat*>(
+      ::patient::Repeat::internal_default_instance());
+}
+class Timing::_Internal {
+ public:
+  static const ::patient::Repeat& repeat(const Timing* msg);
+};
+
+const ::patient::Repeat&
+Timing::_Internal::repeat(const Timing* msg) {
+  return *msg->repeat_;
+}
+Timing::Timing()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Timing)
+}
+Timing::Timing(const Timing& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from._internal_has_repeat()) {
+    repeat_ = new ::patient::Repeat(*from.repeat_);
+  } else {
+    repeat_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.Timing)
+}
+
+void Timing::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Timing_customized_2eproto.base);
+  repeat_ = nullptr;
+}
+
+Timing::~Timing() {
+  // @@protoc_insertion_point(destructor:patient.Timing)
+  SharedDtor();
+}
+
+void Timing::SharedDtor() {
+  if (this != internal_default_instance()) delete repeat_;
+}
+
+void Timing::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Timing& Timing::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Timing_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Timing::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Timing)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == nullptr && repeat_ != nullptr) {
+    delete repeat_;
+  }
+  repeat_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* Timing::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // .patient.Repeat repeat = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ctx->ParseMessage(_internal_mutable_repeat(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Timing::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Timing)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .patient.Repeat repeat = 1;
+  if (this->has_repeat()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        1, _Internal::repeat(this), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Timing)
+  return target;
+}
+
+size_t Timing::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Timing)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // .patient.Repeat repeat = 1;
+  if (this->has_repeat()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *repeat_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Timing::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Timing)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Timing* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Timing>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Timing)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Timing)
+    MergeFrom(*source);
+  }
+}
+
+void Timing::MergeFrom(const Timing& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Timing)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_repeat()) {
+    _internal_mutable_repeat()->::patient::Repeat::MergeFrom(from._internal_repeat());
+  }
+}
+
+void Timing::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Timing)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Timing::CopyFrom(const Timing& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Timing)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Timing::IsInitialized() const {
+  return true;
+}
+
+void Timing::InternalSwap(Timing* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(repeat_, other->repeat_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Timing::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void DoseAndRate::InitAsDefaultInstance() {
+  ::patient::_DoseAndRate_default_instance_._instance.get_mutable()->type_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_DoseAndRate_default_instance_._instance.get_mutable()->dosequantity_ = const_cast< ::patient::Quantity*>(
+      ::patient::Quantity::internal_default_instance());
+}
+class DoseAndRate::_Internal {
+ public:
+  static const ::patient::Category& type(const DoseAndRate* msg);
+  static const ::patient::Quantity& dosequantity(const DoseAndRate* msg);
+};
+
+const ::patient::Category&
+DoseAndRate::_Internal::type(const DoseAndRate* msg) {
+  return *msg->type_;
+}
+const ::patient::Quantity&
+DoseAndRate::_Internal::dosequantity(const DoseAndRate* msg) {
+  return *msg->dosequantity_;
+}
+DoseAndRate::DoseAndRate()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.DoseAndRate)
+}
+DoseAndRate::DoseAndRate(const DoseAndRate& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from._internal_has_type()) {
+    type_ = new ::patient::Category(*from.type_);
+  } else {
+    type_ = nullptr;
+  }
+  if (from._internal_has_dosequantity()) {
+    dosequantity_ = new ::patient::Quantity(*from.dosequantity_);
+  } else {
+    dosequantity_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.DoseAndRate)
+}
+
+void DoseAndRate::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DoseAndRate_customized_2eproto.base);
+  ::memset(&type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&dosequantity_) -
+      reinterpret_cast<char*>(&type_)) + sizeof(dosequantity_));
+}
+
+DoseAndRate::~DoseAndRate() {
+  // @@protoc_insertion_point(destructor:patient.DoseAndRate)
+  SharedDtor();
+}
+
+void DoseAndRate::SharedDtor() {
+  if (this != internal_default_instance()) delete type_;
+  if (this != internal_default_instance()) delete dosequantity_;
+}
+
+void DoseAndRate::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const DoseAndRate& DoseAndRate::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DoseAndRate_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void DoseAndRate::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.DoseAndRate)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == nullptr && type_ != nullptr) {
+    delete type_;
+  }
+  type_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && dosequantity_ != nullptr) {
+    delete dosequantity_;
+  }
+  dosequantity_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* DoseAndRate::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // .patient.Category type = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ctx->ParseMessage(_internal_mutable_type(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Quantity doseQuantity = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ctx->ParseMessage(_internal_mutable_dosequantity(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DoseAndRate::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.DoseAndRate)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .patient.Category type = 1;
+  if (this->has_type()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        1, _Internal::type(this), target, stream);
+  }
+
+  // .patient.Quantity doseQuantity = 2;
+  if (this->has_dosequantity()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        2, _Internal::dosequantity(this), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.DoseAndRate)
+  return target;
+}
+
+size_t DoseAndRate::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.DoseAndRate)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // .patient.Category type = 1;
+  if (this->has_type()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *type_);
+  }
+
+  // .patient.Quantity doseQuantity = 2;
+  if (this->has_dosequantity()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *dosequantity_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void DoseAndRate::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.DoseAndRate)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DoseAndRate* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DoseAndRate>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.DoseAndRate)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.DoseAndRate)
+    MergeFrom(*source);
+  }
+}
+
+void DoseAndRate::MergeFrom(const DoseAndRate& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.DoseAndRate)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_type()) {
+    _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
+  }
+  if (from.has_dosequantity()) {
+    _internal_mutable_dosequantity()->::patient::Quantity::MergeFrom(from._internal_dosequantity());
+  }
+}
+
+void DoseAndRate::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.DoseAndRate)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DoseAndRate::CopyFrom(const DoseAndRate& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.DoseAndRate)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DoseAndRate::IsInitialized() const {
+  return true;
+}
+
+void DoseAndRate::InternalSwap(DoseAndRate* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(type_, other->type_);
+  swap(dosequantity_, other->dosequantity_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata DoseAndRate::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Onset::InitAsDefaultInstance() {
+  ::patient::_Onset_default_instance_._instance.get_mutable()->onsetperiod_ = const_cast< ::patient::Period*>(
+      ::patient::Period::internal_default_instance());
+}
+class Onset::_Internal {
+ public:
+  static const ::patient::Period& onsetperiod(const Onset* msg);
+};
+
+const ::patient::Period&
+Onset::_Internal::onsetperiod(const Onset* msg) {
+  return *msg->onsetperiod_;
+}
+Onset::Onset()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Onset)
+}
+Onset::Onset(const Onset& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  onsetdatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_onsetdatetime().empty()) {
+    onsetdatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onsetdatetime_);
+  }
+  onsetstring_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_onsetstring().empty()) {
+    onsetstring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onsetstring_);
+  }
+  if (from._internal_has_onsetperiod()) {
+    onsetperiod_ = new ::patient::Period(*from.onsetperiod_);
+  } else {
+    onsetperiod_ = nullptr;
+  }
+  onsetage_ = from.onsetage_;
+  // @@protoc_insertion_point(copy_constructor:patient.Onset)
+}
+
+void Onset::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Onset_customized_2eproto.base);
+  onsetdatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onsetstring_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&onsetperiod_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&onsetage_) -
+      reinterpret_cast<char*>(&onsetperiod_)) + sizeof(onsetage_));
+}
+
+Onset::~Onset() {
+  // @@protoc_insertion_point(destructor:patient.Onset)
+  SharedDtor();
+}
+
+void Onset::SharedDtor() {
+  onsetdatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onsetstring_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete onsetperiod_;
+}
+
+void Onset::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Onset& Onset::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Onset_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Onset::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Onset)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  onsetdatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onsetstring_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && onsetperiod_ != nullptr) {
+    delete onsetperiod_;
+  }
+  onsetperiod_ = nullptr;
+  onsetage_ = 0;
+  _internal_metadata_.Clear();
+}
+
+const char* Onset::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string onsetDateTime = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_onsetdatetime(), ptr, ctx, "patient.Onset.onsetDateTime");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 onsetAge = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
+          onsetage_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Period onsetPeriod = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ctx->ParseMessage(_internal_mutable_onsetperiod(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string onsetString = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_onsetstring(), ptr, ctx, "patient.Onset.onsetString");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Onset::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Onset)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string onsetDateTime = 1;
+  if (this->onsetdatetime().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_onsetdatetime().data(), static_cast<int>(this->_internal_onsetdatetime().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Onset.onsetDateTime");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_onsetdatetime(), target);
+  }
+
+  // int32 onsetAge = 2;
+  if (this->onsetage() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_onsetage(), target);
+  }
+
+  // .patient.Period onsetPeriod = 3;
+  if (this->has_onsetperiod()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        3, _Internal::onsetperiod(this), target, stream);
+  }
+
+  // string onsetString = 4;
+  if (this->onsetstring().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_onsetstring().data(), static_cast<int>(this->_internal_onsetstring().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Onset.onsetString");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_onsetstring(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Onset)
+  return target;
+}
+
+size_t Onset::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Onset)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string onsetDateTime = 1;
+  if (this->onsetdatetime().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_onsetdatetime());
+  }
+
+  // string onsetString = 4;
+  if (this->onsetstring().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_onsetstring());
+  }
+
+  // .patient.Period onsetPeriod = 3;
+  if (this->has_onsetperiod()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *onsetperiod_);
+  }
+
+  // int32 onsetAge = 2;
+  if (this->onsetage() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_onsetage());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Onset::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Onset)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Onset* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Onset>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Onset)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Onset)
+    MergeFrom(*source);
+  }
+}
+
+void Onset::MergeFrom(const Onset& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Onset)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.onsetdatetime().size() > 0) {
+
+    onsetdatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onsetdatetime_);
+  }
+  if (from.onsetstring().size() > 0) {
+
+    onsetstring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onsetstring_);
+  }
+  if (from.has_onsetperiod()) {
+    _internal_mutable_onsetperiod()->::patient::Period::MergeFrom(from._internal_onsetperiod());
+  }
+  if (from.onsetage() != 0) {
+    _internal_set_onsetage(from._internal_onsetage());
+  }
+}
+
+void Onset::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Onset)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Onset::CopyFrom(const Onset& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Onset)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Onset::IsInitialized() const {
+  return true;
+}
+
+void Onset::InternalSwap(Onset* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  onsetdatetime_.Swap(&other->onsetdatetime_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  onsetstring_.Swap(&other->onsetstring_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(onsetperiod_, other->onsetperiod_);
+  swap(onsetage_, other->onsetage_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Onset::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Reaction::InitAsDefaultInstance() {
+  ::patient::_Reaction_default_instance_._instance.get_mutable()->substance_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_Reaction_default_instance_._instance.get_mutable()->manifestation_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_Reaction_default_instance_._instance.get_mutable()->severity_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_Reaction_default_instance_._instance.get_mutable()->exposureroute_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+}
+class Reaction::_Internal {
+ public:
+  static const ::patient::Category& substance(const Reaction* msg);
+  static const ::patient::Category& manifestation(const Reaction* msg);
+  static const ::patient::Category& severity(const Reaction* msg);
+  static const ::patient::Category& exposureroute(const Reaction* msg);
+};
+
+const ::patient::Category&
+Reaction::_Internal::substance(const Reaction* msg) {
+  return *msg->substance_;
+}
+const ::patient::Category&
+Reaction::_Internal::manifestation(const Reaction* msg) {
+  return *msg->manifestation_;
+}
+const ::patient::Category&
+Reaction::_Internal::severity(const Reaction* msg) {
+  return *msg->severity_;
+}
+const ::patient::Category&
+Reaction::_Internal::exposureroute(const Reaction* msg) {
+  return *msg->exposureroute_;
+}
+Reaction::Reaction()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Reaction)
+}
+Reaction::Reaction(const Reaction& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  description_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_description().empty()) {
+    description_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.description_);
+  }
+  onset_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_onset().empty()) {
+    onset_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onset_);
+  }
+  note_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_note().empty()) {
+    note_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.note_);
+  }
+  if (from._internal_has_substance()) {
+    substance_ = new ::patient::Category(*from.substance_);
+  } else {
+    substance_ = nullptr;
+  }
+  if (from._internal_has_manifestation()) {
+    manifestation_ = new ::patient::Category(*from.manifestation_);
+  } else {
+    manifestation_ = nullptr;
+  }
+  if (from._internal_has_severity()) {
+    severity_ = new ::patient::Category(*from.severity_);
+  } else {
+    severity_ = nullptr;
+  }
+  if (from._internal_has_exposureroute()) {
+    exposureroute_ = new ::patient::Category(*from.exposureroute_);
+  } else {
+    exposureroute_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.Reaction)
+}
+
+void Reaction::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Reaction_customized_2eproto.base);
+  description_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onset_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&substance_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&exposureroute_) -
+      reinterpret_cast<char*>(&substance_)) + sizeof(exposureroute_));
+}
+
+Reaction::~Reaction() {
+  // @@protoc_insertion_point(destructor:patient.Reaction)
+  SharedDtor();
+}
+
+void Reaction::SharedDtor() {
+  description_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onset_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete substance_;
+  if (this != internal_default_instance()) delete manifestation_;
+  if (this != internal_default_instance()) delete severity_;
+  if (this != internal_default_instance()) delete exposureroute_;
+}
+
+void Reaction::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Reaction& Reaction::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Reaction_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Reaction::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Reaction)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  description_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  onset_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && substance_ != nullptr) {
+    delete substance_;
+  }
+  substance_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && manifestation_ != nullptr) {
+    delete manifestation_;
+  }
+  manifestation_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && severity_ != nullptr) {
+    delete severity_;
+  }
+  severity_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && exposureroute_ != nullptr) {
+    delete exposureroute_;
+  }
+  exposureroute_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* Reaction::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // .patient.Category substance = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ctx->ParseMessage(_internal_mutable_substance(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category manifestation = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ctx->ParseMessage(_internal_mutable_manifestation(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string description = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_description(), ptr, ctx, "patient.Reaction.description");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string onset = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_onset(), ptr, ctx, "patient.Reaction.onset");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category severity = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ctx->ParseMessage(_internal_mutable_severity(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category exposureRoute = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ctx->ParseMessage(_internal_mutable_exposureroute(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string note = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_note(), ptr, ctx, "patient.Reaction.note");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Reaction::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Reaction)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .patient.Category substance = 1;
+  if (this->has_substance()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        1, _Internal::substance(this), target, stream);
+  }
+
+  // .patient.Category manifestation = 2;
+  if (this->has_manifestation()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        2, _Internal::manifestation(this), target, stream);
+  }
+
+  // string description = 3;
+  if (this->description().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_description().data(), static_cast<int>(this->_internal_description().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Reaction.description");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_description(), target);
+  }
+
+  // string onset = 4;
+  if (this->onset().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_onset().data(), static_cast<int>(this->_internal_onset().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Reaction.onset");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_onset(), target);
+  }
+
+  // .patient.Category severity = 5;
+  if (this->has_severity()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        5, _Internal::severity(this), target, stream);
+  }
+
+  // .patient.Category exposureRoute = 6;
+  if (this->has_exposureroute()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        6, _Internal::exposureroute(this), target, stream);
+  }
+
+  // string note = 7;
+  if (this->note().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_note().data(), static_cast<int>(this->_internal_note().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Reaction.note");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_note(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Reaction)
+  return target;
+}
+
+size_t Reaction::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Reaction)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string description = 3;
+  if (this->description().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_description());
+  }
+
+  // string onset = 4;
+  if (this->onset().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_onset());
+  }
+
+  // string note = 7;
+  if (this->note().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_note());
+  }
+
+  // .patient.Category substance = 1;
+  if (this->has_substance()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *substance_);
+  }
+
+  // .patient.Category manifestation = 2;
+  if (this->has_manifestation()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *manifestation_);
+  }
+
+  // .patient.Category severity = 5;
+  if (this->has_severity()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *severity_);
+  }
+
+  // .patient.Category exposureRoute = 6;
+  if (this->has_exposureroute()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *exposureroute_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Reaction::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Reaction)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Reaction* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Reaction>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Reaction)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Reaction)
+    MergeFrom(*source);
+  }
+}
+
+void Reaction::MergeFrom(const Reaction& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Reaction)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.description().size() > 0) {
+
+    description_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.description_);
+  }
+  if (from.onset().size() > 0) {
+
+    onset_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.onset_);
+  }
+  if (from.note().size() > 0) {
+
+    note_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.note_);
+  }
+  if (from.has_substance()) {
+    _internal_mutable_substance()->::patient::Category::MergeFrom(from._internal_substance());
+  }
+  if (from.has_manifestation()) {
+    _internal_mutable_manifestation()->::patient::Category::MergeFrom(from._internal_manifestation());
+  }
+  if (from.has_severity()) {
+    _internal_mutable_severity()->::patient::Category::MergeFrom(from._internal_severity());
+  }
+  if (from.has_exposureroute()) {
+    _internal_mutable_exposureroute()->::patient::Category::MergeFrom(from._internal_exposureroute());
+  }
+}
+
+void Reaction::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Reaction)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Reaction::CopyFrom(const Reaction& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Reaction)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Reaction::IsInitialized() const {
+  return true;
+}
+
+void Reaction::InternalSwap(Reaction* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  description_.Swap(&other->description_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  onset_.Swap(&other->onset_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  note_.Swap(&other->note_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(substance_, other->substance_);
+  swap(manifestation_, other->manifestation_);
+  swap(severity_, other->severity_);
+  swap(exposureroute_, other->exposureroute_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Reaction::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Instance::InitAsDefaultInstance() {
+  ::patient::_Instance_default_instance_._instance.get_mutable()->sopclass_ = const_cast< ::patient::Coding*>(
+      ::patient::Coding::internal_default_instance());
+}
+class Instance::_Internal {
+ public:
+  static const ::patient::Coding& sopclass(const Instance* msg);
+};
+
+const ::patient::Coding&
+Instance::_Internal::sopclass(const Instance* msg) {
+  return *msg->sopclass_;
+}
+Instance::Instance()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Instance)
+}
+Instance::Instance(const Instance& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  uid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_uid().empty()) {
+    uid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uid_);
+  }
+  title_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_title().empty()) {
+    title_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.title_);
+  }
+  if (from._internal_has_sopclass()) {
+    sopclass_ = new ::patient::Coding(*from.sopclass_);
+  } else {
+    sopclass_ = nullptr;
+  }
+  number_ = from.number_;
+  // @@protoc_insertion_point(copy_constructor:patient.Instance)
+}
+
+void Instance::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Instance_customized_2eproto.base);
+  uid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  title_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&sopclass_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&number_) -
+      reinterpret_cast<char*>(&sopclass_)) + sizeof(number_));
+}
+
+Instance::~Instance() {
+  // @@protoc_insertion_point(destructor:patient.Instance)
+  SharedDtor();
+}
+
+void Instance::SharedDtor() {
+  uid_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  title_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete sopclass_;
+}
+
+void Instance::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Instance& Instance::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Instance_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Instance::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Instance)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  uid_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  title_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && sopclass_ != nullptr) {
+    delete sopclass_;
+  }
+  sopclass_ = nullptr;
+  number_ = 0;
+  _internal_metadata_.Clear();
+}
+
+const char* Instance::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string uid = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_uid(), ptr, ctx, "patient.Instance.uid");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Coding sopClass = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ctx->ParseMessage(_internal_mutable_sopclass(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 number = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
+          number_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string title = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_title(), ptr, ctx, "patient.Instance.title");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Instance::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Instance)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string uid = 1;
+  if (this->uid().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_uid().data(), static_cast<int>(this->_internal_uid().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Instance.uid");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_uid(), target);
+  }
+
+  // .patient.Coding sopClass = 2;
+  if (this->has_sopclass()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        2, _Internal::sopclass(this), target, stream);
+  }
+
+  // int32 number = 3;
+  if (this->number() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(3, this->_internal_number(), target);
+  }
+
+  // string title = 4;
+  if (this->title().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_title().data(), static_cast<int>(this->_internal_title().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Instance.title");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_title(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Instance)
+  return target;
+}
+
+size_t Instance::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Instance)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string uid = 1;
+  if (this->uid().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_uid());
+  }
+
+  // string title = 4;
+  if (this->title().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_title());
+  }
+
+  // .patient.Coding sopClass = 2;
+  if (this->has_sopclass()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *sopclass_);
+  }
+
+  // int32 number = 3;
+  if (this->number() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_number());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Instance::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Instance)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Instance* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Instance>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Instance)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Instance)
+    MergeFrom(*source);
+  }
+}
+
+void Instance::MergeFrom(const Instance& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Instance)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.uid().size() > 0) {
+
+    uid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uid_);
+  }
+  if (from.title().size() > 0) {
+
+    title_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.title_);
+  }
+  if (from.has_sopclass()) {
+    _internal_mutable_sopclass()->::patient::Coding::MergeFrom(from._internal_sopclass());
+  }
+  if (from.number() != 0) {
+    _internal_set_number(from._internal_number());
+  }
+}
+
+void Instance::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Instance)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Instance::CopyFrom(const Instance& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Instance)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Instance::IsInitialized() const {
+  return true;
+}
+
+void Instance::InternalSwap(Instance* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  uid_.Swap(&other->uid_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  title_.Swap(&other->title_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(sopclass_, other->sopclass_);
+  swap(number_, other->number_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Instance::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Series::InitAsDefaultInstance() {
+  ::patient::_Series_default_instance_._instance.get_mutable()->modality_ = const_cast< ::patient::Coding*>(
+      ::patient::Coding::internal_default_instance());
+  ::patient::_Series_default_instance_._instance.get_mutable()->bodysite_ = const_cast< ::patient::Coding*>(
+      ::patient::Coding::internal_default_instance());
+}
+class Series::_Internal {
+ public:
+  static const ::patient::Coding& modality(const Series* msg);
+  static const ::patient::Coding& bodysite(const Series* msg);
+};
+
+const ::patient::Coding&
+Series::_Internal::modality(const Series* msg) {
+  return *msg->modality_;
+}
+const ::patient::Coding&
+Series::_Internal::bodysite(const Series* msg) {
+  return *msg->bodysite_;
+}
+Series::Series()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Series)
+}
+Series::Series(const Series& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      instance_(from.instance_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  uid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_uid().empty()) {
+    uid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uid_);
+  }
+  started_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_started().empty()) {
+    started_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.started_);
+  }
+  if (from._internal_has_modality()) {
+    modality_ = new ::patient::Coding(*from.modality_);
+  } else {
+    modality_ = nullptr;
+  }
+  if (from._internal_has_bodysite()) {
+    bodysite_ = new ::patient::Coding(*from.bodysite_);
+  } else {
+    bodysite_ = nullptr;
+  }
+  ::memcpy(&number_, &from.number_,
+    static_cast<size_t>(reinterpret_cast<char*>(&numberofinstances_) -
+    reinterpret_cast<char*>(&number_)) + sizeof(numberofinstances_));
+  // @@protoc_insertion_point(copy_constructor:patient.Series)
+}
+
+void Series::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Series_customized_2eproto.base);
+  uid_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&modality_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&numberofinstances_) -
+      reinterpret_cast<char*>(&modality_)) + sizeof(numberofinstances_));
+}
+
+Series::~Series() {
+  // @@protoc_insertion_point(destructor:patient.Series)
+  SharedDtor();
+}
+
+void Series::SharedDtor() {
+  uid_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete modality_;
+  if (this != internal_default_instance()) delete bodysite_;
+}
+
+void Series::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Series& Series::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Series_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Series::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Series)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  instance_.Clear();
+  uid_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && modality_ != nullptr) {
+    delete modality_;
+  }
+  modality_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && bodysite_ != nullptr) {
+    delete bodysite_;
+  }
+  bodysite_ = nullptr;
+  ::memset(&number_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&numberofinstances_) -
+      reinterpret_cast<char*>(&number_)) + sizeof(numberofinstances_));
+  _internal_metadata_.Clear();
+}
+
+const char* Series::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string uid = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_uid(), ptr, ctx, "patient.Series.uid");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 number = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
+          number_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Coding modality = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ctx->ParseMessage(_internal_mutable_modality(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 numberOfInstances = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
+          numberofinstances_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Coding bodySite = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ctx->ParseMessage(_internal_mutable_bodysite(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string started = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_started(), ptr, ctx, "patient.Series.started");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Instance instance = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_instance(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<58>(ptr));
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Series::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Series)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string uid = 1;
+  if (this->uid().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_uid().data(), static_cast<int>(this->_internal_uid().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Series.uid");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_uid(), target);
+  }
+
+  // int32 number = 2;
+  if (this->number() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_number(), target);
+  }
+
+  // .patient.Coding modality = 3;
+  if (this->has_modality()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        3, _Internal::modality(this), target, stream);
+  }
+
+  // int32 numberOfInstances = 4;
+  if (this->numberofinstances() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(4, this->_internal_numberofinstances(), target);
+  }
+
+  // .patient.Coding bodySite = 5;
+  if (this->has_bodysite()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        5, _Internal::bodysite(this), target, stream);
+  }
+
+  // string started = 6;
+  if (this->started().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_started().data(), static_cast<int>(this->_internal_started().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Series.started");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_started(), target);
+  }
+
+  // repeated .patient.Instance instance = 7;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_instance_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(7, this->_internal_instance(i), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Series)
+  return target;
+}
+
+size_t Series::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Series)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .patient.Instance instance = 7;
+  total_size += 1UL * this->_internal_instance_size();
+  for (const auto& msg : this->instance_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // string uid = 1;
+  if (this->uid().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_uid());
+  }
+
+  // string started = 6;
+  if (this->started().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_started());
+  }
+
+  // .patient.Coding modality = 3;
+  if (this->has_modality()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *modality_);
+  }
+
+  // .patient.Coding bodySite = 5;
+  if (this->has_bodysite()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *bodysite_);
+  }
+
+  // int32 number = 2;
+  if (this->number() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_number());
+  }
+
+  // int32 numberOfInstances = 4;
+  if (this->numberofinstances() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_numberofinstances());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Series::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Series)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Series* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Series>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Series)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Series)
+    MergeFrom(*source);
+  }
+}
+
+void Series::MergeFrom(const Series& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Series)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  instance_.MergeFrom(from.instance_);
+  if (from.uid().size() > 0) {
+
+    uid_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.uid_);
+  }
+  if (from.started().size() > 0) {
+
+    started_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.started_);
+  }
+  if (from.has_modality()) {
+    _internal_mutable_modality()->::patient::Coding::MergeFrom(from._internal_modality());
+  }
+  if (from.has_bodysite()) {
+    _internal_mutable_bodysite()->::patient::Coding::MergeFrom(from._internal_bodysite());
+  }
+  if (from.number() != 0) {
+    _internal_set_number(from._internal_number());
+  }
+  if (from.numberofinstances() != 0) {
+    _internal_set_numberofinstances(from._internal_numberofinstances());
+  }
+}
+
+void Series::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Series)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Series::CopyFrom(const Series& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Series)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Series::IsInitialized() const {
+  return true;
+}
+
+void Series::InternalSwap(Series* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  instance_.InternalSwap(&other->instance_);
+  uid_.Swap(&other->uid_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  started_.Swap(&other->started_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(modality_, other->modality_);
+  swap(bodysite_, other->bodysite_);
+  swap(number_, other->number_);
+  swap(numberofinstances_, other->numberofinstances_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Series::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Hospitalization::InitAsDefaultInstance() {
+  ::patient::_Hospitalization_default_instance_._instance.get_mutable()->dischargedisposition_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+}
+class Hospitalization::_Internal {
+ public:
+  static const ::patient::Category& dischargedisposition(const Hospitalization* msg);
+};
+
+const ::patient::Category&
+Hospitalization::_Internal::dischargedisposition(const Hospitalization* msg) {
+  return *msg->dischargedisposition_;
+}
+Hospitalization::Hospitalization()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Hospitalization)
+}
+Hospitalization::Hospitalization(const Hospitalization& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from._internal_has_dischargedisposition()) {
+    dischargedisposition_ = new ::patient::Category(*from.dischargedisposition_);
+  } else {
+    dischargedisposition_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.Hospitalization)
+}
+
+void Hospitalization::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Hospitalization_customized_2eproto.base);
+  dischargedisposition_ = nullptr;
+}
+
+Hospitalization::~Hospitalization() {
+  // @@protoc_insertion_point(destructor:patient.Hospitalization)
+  SharedDtor();
+}
+
+void Hospitalization::SharedDtor() {
+  if (this != internal_default_instance()) delete dischargedisposition_;
+}
+
+void Hospitalization::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Hospitalization& Hospitalization::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Hospitalization_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Hospitalization::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Hospitalization)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == nullptr && dischargedisposition_ != nullptr) {
+    delete dischargedisposition_;
+  }
+  dischargedisposition_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* Hospitalization::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // .patient.Category dischargeDisposition = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ctx->ParseMessage(_internal_mutable_dischargedisposition(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Hospitalization::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Hospitalization)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .patient.Category dischargeDisposition = 1;
+  if (this->has_dischargedisposition()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        1, _Internal::dischargedisposition(this), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Hospitalization)
+  return target;
+}
+
+size_t Hospitalization::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Hospitalization)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // .patient.Category dischargeDisposition = 1;
+  if (this->has_dischargedisposition()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *dischargedisposition_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Hospitalization::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Hospitalization)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Hospitalization* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Hospitalization>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Hospitalization)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Hospitalization)
+    MergeFrom(*source);
+  }
+}
+
+void Hospitalization::MergeFrom(const Hospitalization& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Hospitalization)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_dischargedisposition()) {
+    _internal_mutable_dischargedisposition()->::patient::Category::MergeFrom(from._internal_dischargedisposition());
+  }
+}
+
+void Hospitalization::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Hospitalization)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Hospitalization::CopyFrom(const Hospitalization& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Hospitalization)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Hospitalization::IsInitialized() const {
+  return true;
+}
+
+void Hospitalization::InternalSwap(Hospitalization* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(dischargedisposition_, other->dischargedisposition_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Hospitalization::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void Carrier::InitAsDefaultInstance() {
+}
+class Carrier::_Internal {
+ public:
+};
+
+Carrier::Carrier()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.Carrier)
+}
+Carrier::Carrier(const Carrier& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  deviceidentifier_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_deviceidentifier().empty()) {
+    deviceidentifier_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.deviceidentifier_);
+  }
+  carrierhrf_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_carrierhrf().empty()) {
+    carrierhrf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.carrierhrf_);
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.Carrier)
+}
+
+void Carrier::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Carrier_customized_2eproto.base);
+  deviceidentifier_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  carrierhrf_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+
+Carrier::~Carrier() {
+  // @@protoc_insertion_point(destructor:patient.Carrier)
+  SharedDtor();
+}
+
+void Carrier::SharedDtor() {
+  deviceidentifier_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  carrierhrf_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+
+void Carrier::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const Carrier& Carrier::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Carrier_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void Carrier::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.Carrier)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  deviceidentifier_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  carrierhrf_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
+}
+
+const char* Carrier::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string deviceIdentifier = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_deviceidentifier(), ptr, ctx, "patient.Carrier.deviceIdentifier");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string carrierHRF = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_carrierhrf(), ptr, ctx, "patient.Carrier.carrierHRF");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* Carrier::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.Carrier)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string deviceIdentifier = 1;
+  if (this->deviceidentifier().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_deviceidentifier().data(), static_cast<int>(this->_internal_deviceidentifier().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Carrier.deviceIdentifier");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_deviceidentifier(), target);
+  }
+
+  // string carrierHRF = 2;
+  if (this->carrierhrf().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_carrierhrf().data(), static_cast<int>(this->_internal_carrierhrf().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.Carrier.carrierHRF");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_carrierhrf(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.Carrier)
+  return target;
+}
+
+size_t Carrier::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.Carrier)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string deviceIdentifier = 1;
+  if (this->deviceidentifier().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_deviceidentifier());
+  }
+
+  // string carrierHRF = 2;
+  if (this->carrierhrf().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_carrierhrf());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void Carrier::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.Carrier)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Carrier* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Carrier>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.Carrier)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.Carrier)
+    MergeFrom(*source);
+  }
+}
+
+void Carrier::MergeFrom(const Carrier& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.Carrier)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.deviceidentifier().size() > 0) {
+
+    deviceidentifier_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.deviceidentifier_);
+  }
+  if (from.carrierhrf().size() > 0) {
+
+    carrierhrf_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.carrierhrf_);
+  }
+}
+
+void Carrier::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.Carrier)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Carrier::CopyFrom(const Carrier& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.Carrier)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Carrier::IsInitialized() const {
+  return true;
+}
+
+void Carrier::InternalSwap(Carrier* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  deviceidentifier_.Swap(&other->deviceidentifier_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  carrierhrf_.Swap(&other->carrierhrf_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata Carrier::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void DeviceName::InitAsDefaultInstance() {
+}
+class DeviceName::_Internal {
+ public:
+};
+
+DeviceName::DeviceName()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.DeviceName)
+}
+DeviceName::DeviceName(const DeviceName& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_name().empty()) {
+    name_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  type_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_type().empty()) {
+    type_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.type_);
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.DeviceName)
+}
+
+void DeviceName::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DeviceName_customized_2eproto.base);
+  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  type_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+
+DeviceName::~DeviceName() {
+  // @@protoc_insertion_point(destructor:patient.DeviceName)
+  SharedDtor();
+}
+
+void DeviceName::SharedDtor() {
+  name_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  type_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+}
+
+void DeviceName::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const DeviceName& DeviceName::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DeviceName_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void DeviceName::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.DeviceName)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  name_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  type_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
+}
+
+const char* DeviceName::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string name = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_name(), ptr, ctx, "patient.DeviceName.name");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string type = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_type(), ptr, ctx, "patient.DeviceName.type");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DeviceName::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.DeviceName)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string name = 1;
+  if (this->name().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceName.name");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_name(), target);
+  }
+
+  // string type = 2;
+  if (this->type().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_type().data(), static_cast<int>(this->_internal_type().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceName.type");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_type(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.DeviceName)
+  return target;
+}
+
+size_t DeviceName::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.DeviceName)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string name = 1;
+  if (this->name().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_name());
+  }
+
+  // string type = 2;
+  if (this->type().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_type());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void DeviceName::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.DeviceName)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DeviceName* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DeviceName>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.DeviceName)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.DeviceName)
+    MergeFrom(*source);
+  }
+}
+
+void DeviceName::MergeFrom(const DeviceName& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.DeviceName)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.name().size() > 0) {
+
+    name_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.type().size() > 0) {
+
+    type_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.type_);
+  }
+}
+
+void DeviceName::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.DeviceName)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DeviceName::CopyFrom(const DeviceName& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.DeviceName)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DeviceName::IsInitialized() const {
+  return true;
+}
+
+void DeviceName::InternalSwap(DeviceName* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  name_.Swap(&other->name_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  type_.Swap(&other->type_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata DeviceName::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void AllergyIntoleranceObject::InitAsDefaultInstance() {
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->identifier_ = const_cast< ::patient::Identifier*>(
+      ::patient::Identifier::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->clinicalstatus_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->verificationstatus_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->code_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->patient_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->encounter_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->onset_ = const_cast< ::patient::Onset*>(
+      ::patient::Onset::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->recorder_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->asserter_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_AllergyIntoleranceObject_default_instance_._instance.get_mutable()->reaction_ = const_cast< ::patient::Reaction*>(
+      ::patient::Reaction::internal_default_instance());
+}
+class AllergyIntoleranceObject::_Internal {
+ public:
+  static const ::patient::Identifier& identifier(const AllergyIntoleranceObject* msg);
+  static const ::patient::Category& clinicalstatus(const AllergyIntoleranceObject* msg);
+  static const ::patient::Category& verificationstatus(const AllergyIntoleranceObject* msg);
+  static const ::patient::Category& code(const AllergyIntoleranceObject* msg);
+  static const ::patient::Reference& patient(const AllergyIntoleranceObject* msg);
+  static const ::patient::Reference& encounter(const AllergyIntoleranceObject* msg);
+  static const ::patient::Onset& onset(const AllergyIntoleranceObject* msg);
+  static const ::patient::Reference& recorder(const AllergyIntoleranceObject* msg);
+  static const ::patient::Reference& asserter(const AllergyIntoleranceObject* msg);
+  static const ::patient::Reaction& reaction(const AllergyIntoleranceObject* msg);
+};
+
+const ::patient::Identifier&
+AllergyIntoleranceObject::_Internal::identifier(const AllergyIntoleranceObject* msg) {
+  return *msg->identifier_;
+}
+const ::patient::Category&
+AllergyIntoleranceObject::_Internal::clinicalstatus(const AllergyIntoleranceObject* msg) {
+  return *msg->clinicalstatus_;
+}
+const ::patient::Category&
+AllergyIntoleranceObject::_Internal::verificationstatus(const AllergyIntoleranceObject* msg) {
+  return *msg->verificationstatus_;
+}
+const ::patient::Category&
+AllergyIntoleranceObject::_Internal::code(const AllergyIntoleranceObject* msg) {
+  return *msg->code_;
+}
+const ::patient::Reference&
+AllergyIntoleranceObject::_Internal::patient(const AllergyIntoleranceObject* msg) {
+  return *msg->patient_;
+}
+const ::patient::Reference&
+AllergyIntoleranceObject::_Internal::encounter(const AllergyIntoleranceObject* msg) {
+  return *msg->encounter_;
+}
+const ::patient::Onset&
+AllergyIntoleranceObject::_Internal::onset(const AllergyIntoleranceObject* msg) {
+  return *msg->onset_;
+}
+const ::patient::Reference&
+AllergyIntoleranceObject::_Internal::recorder(const AllergyIntoleranceObject* msg) {
+  return *msg->recorder_;
+}
+const ::patient::Reference&
+AllergyIntoleranceObject::_Internal::asserter(const AllergyIntoleranceObject* msg) {
+  return *msg->asserter_;
+}
+const ::patient::Reaction&
+AllergyIntoleranceObject::_Internal::reaction(const AllergyIntoleranceObject* msg) {
+  return *msg->reaction_;
+}
+AllergyIntoleranceObject::AllergyIntoleranceObject()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.AllergyIntoleranceObject)
+}
+AllergyIntoleranceObject::AllergyIntoleranceObject(const AllergyIntoleranceObject& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      category_(from.category_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  type_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_type().empty()) {
+    type_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.type_);
+  }
+  criticality_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_criticality().empty()) {
+    criticality_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.criticality_);
+  }
+  recordeddate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_recordeddate().empty()) {
+    recordeddate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.recordeddate_);
+  }
+  lastoccurrence_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_lastoccurrence().empty()) {
+    lastoccurrence_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lastoccurrence_);
+  }
+  note_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_note().empty()) {
+    note_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.note_);
+  }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_id().empty()) {
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from._internal_has_identifier()) {
+    identifier_ = new ::patient::Identifier(*from.identifier_);
+  } else {
+    identifier_ = nullptr;
+  }
+  if (from._internal_has_clinicalstatus()) {
+    clinicalstatus_ = new ::patient::Category(*from.clinicalstatus_);
+  } else {
+    clinicalstatus_ = nullptr;
+  }
+  if (from._internal_has_verificationstatus()) {
+    verificationstatus_ = new ::patient::Category(*from.verificationstatus_);
+  } else {
+    verificationstatus_ = nullptr;
+  }
+  if (from._internal_has_code()) {
+    code_ = new ::patient::Category(*from.code_);
+  } else {
+    code_ = nullptr;
+  }
+  if (from._internal_has_patient()) {
+    patient_ = new ::patient::Reference(*from.patient_);
+  } else {
+    patient_ = nullptr;
+  }
+  if (from._internal_has_encounter()) {
+    encounter_ = new ::patient::Reference(*from.encounter_);
+  } else {
+    encounter_ = nullptr;
+  }
+  if (from._internal_has_onset()) {
+    onset_ = new ::patient::Onset(*from.onset_);
+  } else {
+    onset_ = nullptr;
+  }
+  if (from._internal_has_recorder()) {
+    recorder_ = new ::patient::Reference(*from.recorder_);
+  } else {
+    recorder_ = nullptr;
+  }
+  if (from._internal_has_asserter()) {
+    asserter_ = new ::patient::Reference(*from.asserter_);
+  } else {
+    asserter_ = nullptr;
+  }
+  if (from._internal_has_reaction()) {
+    reaction_ = new ::patient::Reaction(*from.reaction_);
+  } else {
+    reaction_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.AllergyIntoleranceObject)
+}
+
+void AllergyIntoleranceObject::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_AllergyIntoleranceObject_customized_2eproto.base);
+  type_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  criticality_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  recordeddate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lastoccurrence_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&identifier_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&reaction_) -
+      reinterpret_cast<char*>(&identifier_)) + sizeof(reaction_));
+}
+
+AllergyIntoleranceObject::~AllergyIntoleranceObject() {
+  // @@protoc_insertion_point(destructor:patient.AllergyIntoleranceObject)
+  SharedDtor();
+}
+
+void AllergyIntoleranceObject::SharedDtor() {
+  type_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  criticality_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  recordeddate_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lastoccurrence_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete identifier_;
+  if (this != internal_default_instance()) delete clinicalstatus_;
+  if (this != internal_default_instance()) delete verificationstatus_;
+  if (this != internal_default_instance()) delete code_;
+  if (this != internal_default_instance()) delete patient_;
+  if (this != internal_default_instance()) delete encounter_;
+  if (this != internal_default_instance()) delete onset_;
+  if (this != internal_default_instance()) delete recorder_;
+  if (this != internal_default_instance()) delete asserter_;
+  if (this != internal_default_instance()) delete reaction_;
+}
+
+void AllergyIntoleranceObject::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const AllergyIntoleranceObject& AllergyIntoleranceObject::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_AllergyIntoleranceObject_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void AllergyIntoleranceObject::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.AllergyIntoleranceObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  category_.Clear();
+  type_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  criticality_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  recordeddate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lastoccurrence_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  note_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && identifier_ != nullptr) {
+    delete identifier_;
+  }
+  identifier_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && clinicalstatus_ != nullptr) {
+    delete clinicalstatus_;
+  }
+  clinicalstatus_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && verificationstatus_ != nullptr) {
+    delete verificationstatus_;
+  }
+  verificationstatus_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
+    delete code_;
+  }
+  code_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && patient_ != nullptr) {
+    delete patient_;
+  }
+  patient_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
+    delete encounter_;
+  }
+  encounter_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && onset_ != nullptr) {
+    delete onset_;
+  }
+  onset_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && recorder_ != nullptr) {
+    delete recorder_;
+  }
+  recorder_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && asserter_ != nullptr) {
+    delete asserter_;
+  }
+  asserter_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && reaction_ != nullptr) {
+    delete reaction_;
+  }
+  reaction_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* AllergyIntoleranceObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // .patient.Identifier identifier = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ctx->ParseMessage(_internal_mutable_identifier(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category clinicalStatus = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ctx->ParseMessage(_internal_mutable_clinicalstatus(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category verificationStatus = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ctx->ParseMessage(_internal_mutable_verificationstatus(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string type = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_type(), ptr, ctx, "patient.AllergyIntoleranceObject.type");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated string category = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_add_category(), ptr, ctx, "patient.AllergyIntoleranceObject.category");
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // string criticality = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_criticality(), ptr, ctx, "patient.AllergyIntoleranceObject.criticality");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category code = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ctx->ParseMessage(_internal_mutable_code(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference patient = 8;
+      case 8:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ctx->ParseMessage(_internal_mutable_patient(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference encounter = 9;
+      case 9:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ctx->ParseMessage(_internal_mutable_encounter(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Onset onset = 10;
+      case 10:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+          ptr = ctx->ParseMessage(_internal_mutable_onset(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string recordedDate = 11;
+      case 11:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_recordeddate(), ptr, ctx, "patient.AllergyIntoleranceObject.recordedDate");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference recorder = 12;
+      case 12:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
+          ptr = ctx->ParseMessage(_internal_mutable_recorder(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference asserter = 13;
+      case 13:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
+          ptr = ctx->ParseMessage(_internal_mutable_asserter(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string lastOccurrence = 14;
+      case 14:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 114)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_lastoccurrence(), ptr, ctx, "patient.AllergyIntoleranceObject.lastOccurrence");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string note = 15;
+      case 15:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 122)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_note(), ptr, ctx, "patient.AllergyIntoleranceObject.note");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string resourceType = 16;
+      case 16:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 130)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.AllergyIntoleranceObject.resourceType");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reaction reaction = 17;
+      case 17:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 138)) {
+          ptr = ctx->ParseMessage(_internal_mutable_reaction(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string id = 18;
+      case 18:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 146)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_id(), ptr, ctx, "patient.AllergyIntoleranceObject.id");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* AllergyIntoleranceObject::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.AllergyIntoleranceObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .patient.Identifier identifier = 1;
+  if (this->has_identifier()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        1, _Internal::identifier(this), target, stream);
+  }
+
+  // .patient.Category clinicalStatus = 2;
+  if (this->has_clinicalstatus()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        2, _Internal::clinicalstatus(this), target, stream);
+  }
+
+  // .patient.Category verificationStatus = 3;
+  if (this->has_verificationstatus()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        3, _Internal::verificationstatus(this), target, stream);
+  }
+
+  // string type = 4;
+  if (this->type().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_type().data(), static_cast<int>(this->_internal_type().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.type");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_type(), target);
+  }
+
+  // repeated string category = 5;
+  for (int i = 0, n = this->_internal_category_size(); i < n; i++) {
+    const auto& s = this->_internal_category(i);
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      s.data(), static_cast<int>(s.length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.category");
+    target = stream->WriteString(5, s, target);
+  }
+
+  // string criticality = 6;
+  if (this->criticality().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_criticality().data(), static_cast<int>(this->_internal_criticality().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.criticality");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_criticality(), target);
+  }
+
+  // .patient.Category code = 7;
+  if (this->has_code()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        7, _Internal::code(this), target, stream);
+  }
+
+  // .patient.Reference patient = 8;
+  if (this->has_patient()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        8, _Internal::patient(this), target, stream);
+  }
+
+  // .patient.Reference encounter = 9;
+  if (this->has_encounter()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        9, _Internal::encounter(this), target, stream);
+  }
+
+  // .patient.Onset onset = 10;
+  if (this->has_onset()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        10, _Internal::onset(this), target, stream);
+  }
+
+  // string recordedDate = 11;
+  if (this->recordeddate().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_recordeddate().data(), static_cast<int>(this->_internal_recordeddate().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.recordedDate");
+    target = stream->WriteStringMaybeAliased(
+        11, this->_internal_recordeddate(), target);
+  }
+
+  // .patient.Reference recorder = 12;
+  if (this->has_recorder()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        12, _Internal::recorder(this), target, stream);
+  }
+
+  // .patient.Reference asserter = 13;
+  if (this->has_asserter()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        13, _Internal::asserter(this), target, stream);
+  }
+
+  // string lastOccurrence = 14;
+  if (this->lastoccurrence().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_lastoccurrence().data(), static_cast<int>(this->_internal_lastoccurrence().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.lastOccurrence");
+    target = stream->WriteStringMaybeAliased(
+        14, this->_internal_lastoccurrence(), target);
+  }
+
+  // string note = 15;
+  if (this->note().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_note().data(), static_cast<int>(this->_internal_note().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.note");
+    target = stream->WriteStringMaybeAliased(
+        15, this->_internal_note(), target);
+  }
+
+  // string resourceType = 16;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        16, this->_internal_resourcetype(), target);
+  }
+
+  // .patient.Reaction reaction = 17;
+  if (this->has_reaction()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        17, _Internal::reaction(this), target, stream);
+  }
+
+  // string id = 18;
+  if (this->id().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_id().data(), static_cast<int>(this->_internal_id().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.AllergyIntoleranceObject.id");
+    target = stream->WriteStringMaybeAliased(
+        18, this->_internal_id(), target);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.AllergyIntoleranceObject)
+  return target;
+}
+
+size_t AllergyIntoleranceObject::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.AllergyIntoleranceObject)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated string category = 5;
+  total_size += 1 *
+      ::PROTOBUF_NAMESPACE_ID::internal::FromIntSize(category_.size());
+  for (int i = 0, n = category_.size(); i < n; i++) {
+    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+      category_.Get(i));
+  }
+
+  // string type = 4;
+  if (this->type().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_type());
+  }
+
+  // string criticality = 6;
+  if (this->criticality().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_criticality());
+  }
+
+  // string recordedDate = 11;
+  if (this->recordeddate().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_recordeddate());
+  }
+
+  // string lastOccurrence = 14;
+  if (this->lastoccurrence().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_lastoccurrence());
+  }
+
+  // string note = 15;
+  if (this->note().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_note());
+  }
+
+  // string resourceType = 16;
+  if (this->resourcetype().size() > 0) {
+    total_size += 2 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string id = 18;
+  if (this->id().size() > 0) {
+    total_size += 2 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_id());
+  }
+
+  // .patient.Identifier identifier = 1;
+  if (this->has_identifier()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *identifier_);
+  }
+
+  // .patient.Category clinicalStatus = 2;
+  if (this->has_clinicalstatus()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *clinicalstatus_);
+  }
+
+  // .patient.Category verificationStatus = 3;
+  if (this->has_verificationstatus()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *verificationstatus_);
+  }
+
+  // .patient.Category code = 7;
+  if (this->has_code()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *code_);
+  }
+
+  // .patient.Reference patient = 8;
+  if (this->has_patient()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *patient_);
+  }
+
+  // .patient.Reference encounter = 9;
+  if (this->has_encounter()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *encounter_);
+  }
+
+  // .patient.Onset onset = 10;
+  if (this->has_onset()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *onset_);
+  }
+
+  // .patient.Reference recorder = 12;
+  if (this->has_recorder()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *recorder_);
+  }
+
+  // .patient.Reference asserter = 13;
+  if (this->has_asserter()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *asserter_);
+  }
+
+  // .patient.Reaction reaction = 17;
+  if (this->has_reaction()) {
+    total_size += 2 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *reaction_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void AllergyIntoleranceObject::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.AllergyIntoleranceObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  const AllergyIntoleranceObject* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<AllergyIntoleranceObject>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.AllergyIntoleranceObject)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.AllergyIntoleranceObject)
+    MergeFrom(*source);
+  }
+}
+
+void AllergyIntoleranceObject::MergeFrom(const AllergyIntoleranceObject& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.AllergyIntoleranceObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  category_.MergeFrom(from.category_);
+  if (from.type().size() > 0) {
+
+    type_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.type_);
+  }
+  if (from.criticality().size() > 0) {
+
+    criticality_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.criticality_);
+  }
+  if (from.recordeddate().size() > 0) {
+
+    recordeddate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.recordeddate_);
+  }
+  if (from.lastoccurrence().size() > 0) {
+
+    lastoccurrence_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lastoccurrence_);
+  }
+  if (from.note().size() > 0) {
+
+    note_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.note_);
+  }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.has_identifier()) {
+    _internal_mutable_identifier()->::patient::Identifier::MergeFrom(from._internal_identifier());
+  }
+  if (from.has_clinicalstatus()) {
+    _internal_mutable_clinicalstatus()->::patient::Category::MergeFrom(from._internal_clinicalstatus());
+  }
+  if (from.has_verificationstatus()) {
+    _internal_mutable_verificationstatus()->::patient::Category::MergeFrom(from._internal_verificationstatus());
+  }
+  if (from.has_code()) {
+    _internal_mutable_code()->::patient::Category::MergeFrom(from._internal_code());
+  }
+  if (from.has_patient()) {
+    _internal_mutable_patient()->::patient::Reference::MergeFrom(from._internal_patient());
+  }
+  if (from.has_encounter()) {
+    _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
+  }
+  if (from.has_onset()) {
+    _internal_mutable_onset()->::patient::Onset::MergeFrom(from._internal_onset());
+  }
+  if (from.has_recorder()) {
+    _internal_mutable_recorder()->::patient::Reference::MergeFrom(from._internal_recorder());
+  }
+  if (from.has_asserter()) {
+    _internal_mutable_asserter()->::patient::Reference::MergeFrom(from._internal_asserter());
+  }
+  if (from.has_reaction()) {
+    _internal_mutable_reaction()->::patient::Reaction::MergeFrom(from._internal_reaction());
+  }
+}
+
+void AllergyIntoleranceObject::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.AllergyIntoleranceObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void AllergyIntoleranceObject::CopyFrom(const AllergyIntoleranceObject& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.AllergyIntoleranceObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool AllergyIntoleranceObject::IsInitialized() const {
+  return true;
+}
+
+void AllergyIntoleranceObject::InternalSwap(AllergyIntoleranceObject* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  category_.InternalSwap(&other->category_);
+  type_.Swap(&other->type_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  criticality_.Swap(&other->criticality_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  recordeddate_.Swap(&other->recordeddate_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  lastoccurrence_.Swap(&other->lastoccurrence_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  note_.Swap(&other->note_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(identifier_, other->identifier_);
+  swap(clinicalstatus_, other->clinicalstatus_);
+  swap(verificationstatus_, other->verificationstatus_);
+  swap(code_, other->code_);
+  swap(patient_, other->patient_);
+  swap(encounter_, other->encounter_);
+  swap(onset_, other->onset_);
+  swap(recorder_, other->recorder_);
+  swap(asserter_, other->asserter_);
+  swap(reaction_, other->reaction_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata AllergyIntoleranceObject::GetMetadata() const {
   return GetMetadataStatic();
 }
 
@@ -11417,12 +16341,15 @@ void CarePlanObject::InitAsDefaultInstance() {
       ::patient::Period::internal_default_instance());
   ::patient::_CarePlanObject_default_instance_._instance.get_mutable()->subject_ = const_cast< ::patient::Reference*>(
       ::patient::Reference::internal_default_instance());
+  ::patient::_CarePlanObject_default_instance_._instance.get_mutable()->text_ = const_cast< ::patient::Text*>(
+      ::patient::Text::internal_default_instance());
 }
 class CarePlanObject::_Internal {
  public:
   static const ::patient::Reference& encounter(const CarePlanObject* msg);
   static const ::patient::Period& period(const CarePlanObject* msg);
   static const ::patient::Reference& subject(const CarePlanObject* msg);
+  static const ::patient::Text& text(const CarePlanObject* msg);
 };
 
 const ::patient::Reference&
@@ -11437,6 +16364,10 @@ const ::patient::Reference&
 CarePlanObject::_Internal::subject(const CarePlanObject* msg) {
   return *msg->subject_;
 }
+const ::patient::Text&
+CarePlanObject::_Internal::text(const CarePlanObject* msg) {
+  return *msg->text_;
+}
 CarePlanObject::CarePlanObject()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
   SharedCtor();
@@ -11448,7 +16379,8 @@ CarePlanObject::CarePlanObject(const CarePlanObject& from)
       activity_(from.activity_),
       addresses_(from.addresses_),
       careteam_(from.careteam_),
-      category_(from.category_) {
+      category_(from.category_),
+      goal_(from.goal_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_id().empty()) {
@@ -11458,9 +16390,13 @@ CarePlanObject::CarePlanObject(const CarePlanObject& from)
   if (!from._internal_intent().empty()) {
     intent_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.intent_);
   }
-  text_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_text().empty()) {
-    text_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.text_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
   }
   if (from._internal_has_encounter()) {
     encounter_ = new ::patient::Reference(*from.encounter_);
@@ -11477,9 +16413,11 @@ CarePlanObject::CarePlanObject(const CarePlanObject& from)
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
+  if (from._internal_has_text()) {
+    text_ = new ::patient::Text(*from.text_);
+  } else {
+    text_ = nullptr;
+  }
   // @@protoc_insertion_point(copy_constructor:patient.CarePlanObject)
 }
 
@@ -11487,10 +16425,11 @@ void CarePlanObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_CarePlanObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&encounter_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&encounter_)) + sizeof(status_));
+      reinterpret_cast<char*>(&text_) -
+      reinterpret_cast<char*>(&encounter_)) + sizeof(text_));
 }
 
 CarePlanObject::~CarePlanObject() {
@@ -11501,10 +16440,12 @@ CarePlanObject::~CarePlanObject() {
 void CarePlanObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete period_;
   if (this != internal_default_instance()) delete subject_;
+  if (this != internal_default_instance()) delete text_;
 }
 
 void CarePlanObject::SetCachedSize(int size) const {
@@ -11526,9 +16467,11 @@ void CarePlanObject::Clear() {
   addresses_.Clear();
   careteam_.Clear();
   category_.Clear();
+  goal_.Clear();
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
     delete encounter_;
   }
@@ -11541,9 +16484,10 @@ void CarePlanObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
+  if (GetArenaNoVirtual() == nullptr && text_ != nullptr) {
+    delete text_;
+  }
+  text_ = nullptr;
   _internal_metadata_.Clear();
 }
 
@@ -11602,7 +16546,7 @@ const char* CarePlanObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<34>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.Reference Encounter = 5;
+      // .patient.Reference encounter = 5;
       case 5:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_encounter(), ptr);
@@ -11630,20 +16574,18 @@ const char* CarePlanObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 9;
+      // string resourceType = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.CarePlanObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 10;
+      // string status = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.CarePlanObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 11;
@@ -11653,11 +16595,23 @@ const char* CarePlanObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // string text = 12;
+      // .patient.Text text = 12;
       case 12:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_text(), ptr, ctx, "patient.CarePlanObject.text");
+          ptr = ctx->ParseMessage(_internal_mutable_text(), ptr);
           CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Reference goal = 13;
+      case 13:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_goal(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<106>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -11718,7 +16672,7 @@ failure:
       InternalWriteMessageToArray(4, this->_internal_category(i), target, stream);
   }
 
-  // .patient.Reference Encounter = 5;
+  // .patient.Reference encounter = 5;
   if (this->has_encounter()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -11754,18 +16708,24 @@ failure:
         8, _Internal::period(this), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 9;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      9, this->_internal_resourcetype(), target);
+  // string resourceType = 9;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.CarePlanObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        9, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 10;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      10, this->_internal_status(), target);
+  // string status = 10;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.CarePlanObject.status");
+    target = stream->WriteStringMaybeAliased(
+        10, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 11;
@@ -11776,14 +16736,20 @@ failure:
         11, _Internal::subject(this), target, stream);
   }
 
-  // string text = 12;
-  if (this->text().size() > 0) {
-    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_text().data(), static_cast<int>(this->_internal_text().length()),
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "patient.CarePlanObject.text");
-    target = stream->WriteStringMaybeAliased(
-        12, this->_internal_text(), target);
+  // .patient.Text text = 12;
+  if (this->has_text()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        12, _Internal::text(this), target, stream);
+  }
+
+  // repeated .patient.Reference goal = 13;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_goal_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(13, this->_internal_goal(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -11830,6 +16796,13 @@ size_t CarePlanObject::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
+  // repeated .patient.Reference goal = 13;
+  total_size += 1UL * this->_internal_goal_size();
+  for (const auto& msg : this->goal_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
   // string id = 6;
   if (this->id().size() > 0) {
     total_size += 1 +
@@ -11844,14 +16817,21 @@ size_t CarePlanObject::ByteSizeLong() const {
         this->_internal_intent());
   }
 
-  // string text = 12;
-  if (this->text().size() > 0) {
+  // string resourceType = 9;
+  if (this->resourcetype().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_text());
+        this->_internal_resourcetype());
   }
 
-  // .patient.Reference Encounter = 5;
+  // string status = 10;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // .patient.Reference encounter = 5;
   if (this->has_encounter()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -11872,16 +16852,11 @@ size_t CarePlanObject::ByteSizeLong() const {
         *subject_);
   }
 
-  // .patient.ResourceType resourceType = 9;
-  if (this->resourcetype() != 0) {
+  // .patient.Text text = 12;
+  if (this->has_text()) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 10;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *text_);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -11919,6 +16894,7 @@ void CarePlanObject::MergeFrom(const CarePlanObject& from) {
   addresses_.MergeFrom(from.addresses_);
   careteam_.MergeFrom(from.careteam_);
   category_.MergeFrom(from.category_);
+  goal_.MergeFrom(from.goal_);
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
@@ -11927,9 +16903,13 @@ void CarePlanObject::MergeFrom(const CarePlanObject& from) {
 
     intent_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.intent_);
   }
-  if (from.text().size() > 0) {
+  if (from.resourcetype().size() > 0) {
 
-    text_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.text_);
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
   }
   if (from.has_encounter()) {
     _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
@@ -11940,11 +16920,8 @@ void CarePlanObject::MergeFrom(const CarePlanObject& from) {
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
   }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
+  if (from.has_text()) {
+    _internal_mutable_text()->::patient::Text::MergeFrom(from._internal_text());
   }
 }
 
@@ -11973,17 +16950,19 @@ void CarePlanObject::InternalSwap(CarePlanObject* other) {
   addresses_.InternalSwap(&other->addresses_);
   careteam_.InternalSwap(&other->careteam_);
   category_.InternalSwap(&other->category_);
+  goal_.InternalSwap(&other->goal_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   intent_.Swap(&other->intent_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  text_.Swap(&other->text_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(encounter_, other->encounter_);
   swap(period_, other->period_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
+  swap(text_, other->text_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata CarePlanObject::GetMetadata() const {
@@ -12036,6 +17015,14 @@ CareTeamObject::CareTeamObject(const CareTeamObject& from)
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_encounter()) {
     encounter_ = new ::patient::Reference(*from.encounter_);
   } else {
@@ -12051,18 +17038,17 @@ CareTeamObject::CareTeamObject(const CareTeamObject& from)
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.CareTeamObject)
 }
 
 void CareTeamObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_CareTeamObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&encounter_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&encounter_)) + sizeof(status_));
+      reinterpret_cast<char*>(&subject_) -
+      reinterpret_cast<char*>(&encounter_)) + sizeof(subject_));
 }
 
 CareTeamObject::~CareTeamObject() {
@@ -12072,6 +17058,8 @@ CareTeamObject::~CareTeamObject() {
 
 void CareTeamObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete period_;
   if (this != internal_default_instance()) delete subject_;
@@ -12096,6 +17084,8 @@ void CareTeamObject::Clear() {
   participant_.Clear();
   reasoncode_.Clear();
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
     delete encounter_;
   }
@@ -12108,9 +17098,6 @@ void CareTeamObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -12121,7 +17108,7 @@ const char* CareTeamObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .patient.Reference Encounter = 1;
+      // .patient.Reference encounter = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_encounter(), ptr);
@@ -12178,20 +17165,18 @@ const char* CareTeamObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<50>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 7;
+      // string resourceType = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.CareTeamObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 8;
+      // string status = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.CareTeamObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 9;
@@ -12227,7 +17212,7 @@ failure:
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .patient.Reference Encounter = 1;
+  // .patient.Reference encounter = 1;
   if (this->has_encounter()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -12277,18 +17262,24 @@ failure:
       InternalWriteMessageToArray(6, this->_internal_reasoncode(i), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      7, this->_internal_resourcetype(), target);
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.CareTeamObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 8;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      8, this->_internal_status(), target);
+  // string status = 8;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.CareTeamObject.status");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 9;
@@ -12343,7 +17334,21 @@ size_t CareTeamObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
-  // .patient.Reference Encounter = 1;
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 8;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // .patient.Reference encounter = 1;
   if (this->has_encounter()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -12362,18 +17367,6 @@ size_t CareTeamObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *subject_);
-  }
-
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 8;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -12414,6 +17407,14 @@ void CareTeamObject::MergeFrom(const CareTeamObject& from) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_encounter()) {
     _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
   }
@@ -12422,12 +17423,6 @@ void CareTeamObject::MergeFrom(const CareTeamObject& from) {
   }
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -12457,11 +17452,13 @@ void CareTeamObject::InternalSwap(CareTeamObject* other) {
   reasoncode_.InternalSwap(&other->reasoncode_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(encounter_, other->encounter_);
   swap(period_, other->period_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata CareTeamObject::GetMetadata() const {
@@ -12548,6 +17545,14 @@ ClaimObject::ClaimObject(const ClaimObject& from)
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_use().empty()) {
     use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
@@ -12587,9 +17592,6 @@ ClaimObject::ClaimObject(const ClaimObject& from)
   } else {
     type_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.ClaimObject)
 }
 
@@ -12597,10 +17599,12 @@ void ClaimObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ClaimObject_customized_2eproto.base);
   created_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&billableperiod_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&billableperiod_)) + sizeof(status_));
+      reinterpret_cast<char*>(&type_) -
+      reinterpret_cast<char*>(&billableperiod_)) + sizeof(type_));
 }
 
 ClaimObject::~ClaimObject() {
@@ -12611,6 +17615,8 @@ ClaimObject::~ClaimObject() {
 void ClaimObject::SharedDtor() {
   created_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete billableperiod_;
   if (this != internal_default_instance()) delete patient_;
@@ -12643,6 +17649,8 @@ void ClaimObject::Clear() {
   supportinginfo_.Clear();
   created_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && billableperiod_ != nullptr) {
     delete billableperiod_;
@@ -12672,9 +17680,6 @@ void ClaimObject::Clear() {
     delete type_;
   }
   type_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -12782,20 +17787,18 @@ const char* ClaimObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 12;
+      // string resourceType = 12;
       case 12:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 96)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ClaimObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 13;
+      // string status = 13;
       case 13:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 104)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ClaimObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.SupportingInfo supportingInfo = 14;
@@ -12949,18 +17952,24 @@ failure:
         11, _Internal::provider(this), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 12;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      12, this->_internal_resourcetype(), target);
+  // string resourceType = 12;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ClaimObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        12, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 13;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      13, this->_internal_status(), target);
+  // string status = 13;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ClaimObject.status");
+    target = stream->WriteStringMaybeAliased(
+        13, this->_internal_status(), target);
   }
 
   // repeated .patient.SupportingInfo supportingInfo = 14;
@@ -13062,6 +18071,20 @@ size_t ClaimObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
+  // string resourceType = 12;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 13;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // string use = 17;
   if (this->use().size() > 0) {
     total_size += 2 +
@@ -13118,18 +18141,6 @@ size_t ClaimObject::ByteSizeLong() const {
         *type_);
   }
 
-  // .patient.ResourceType resourceType = 12;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 13;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
-  }
-
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
         _internal_metadata_, total_size, &_cached_size_);
@@ -13174,6 +18185,14 @@ void ClaimObject::MergeFrom(const ClaimObject& from) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.use().size() > 0) {
 
     use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
@@ -13198,12 +18217,6 @@ void ClaimObject::MergeFrom(const ClaimObject& from) {
   }
   if (from.has_type()) {
     _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -13237,6 +18250,10 @@ void ClaimObject::InternalSwap(ClaimObject* other) {
     GetArenaNoVirtual());
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   use_.Swap(&other->use_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(billableperiod_, other->billableperiod_);
@@ -13246,8 +18263,6 @@ void ClaimObject::InternalSwap(ClaimObject* other) {
   swap(provider_, other->provider_);
   swap(total_, other->total_);
   swap(type_, other->type_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ClaimObject::GetMetadata() const {
@@ -13323,6 +18338,10 @@ ConditionObject::ConditionObject(const ConditionObject& from)
   if (!from._internal_recordeddate().empty()) {
     recordeddate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.recordeddate_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
   if (from._internal_has_clinicalstatus()) {
     clinicalstatus_ = new ::patient::Category(*from.clinicalstatus_);
   } else {
@@ -13348,7 +18367,6 @@ ConditionObject::ConditionObject(const ConditionObject& from)
   } else {
     verificationstatus_ = nullptr;
   }
-  resourcetype_ = from.resourcetype_;
   // @@protoc_insertion_point(copy_constructor:patient.ConditionObject)
 }
 
@@ -13358,9 +18376,10 @@ void ConditionObject::SharedCtor() {
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   onsetdatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   recordeddate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&clinicalstatus_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&clinicalstatus_)) + sizeof(resourcetype_));
+      reinterpret_cast<char*>(&verificationstatus_) -
+      reinterpret_cast<char*>(&clinicalstatus_)) + sizeof(verificationstatus_));
 }
 
 ConditionObject::~ConditionObject() {
@@ -13373,6 +18392,7 @@ void ConditionObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   onsetdatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   recordeddate_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete clinicalstatus_;
   if (this != internal_default_instance()) delete code_;
   if (this != internal_default_instance()) delete encounter_;
@@ -13399,6 +18419,7 @@ void ConditionObject::Clear() {
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   onsetdatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   recordeddate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && clinicalstatus_ != nullptr) {
     delete clinicalstatus_;
   }
@@ -13419,7 +18440,6 @@ void ConditionObject::Clear() {
     delete verificationstatus_;
   }
   verificationstatus_ = nullptr;
-  resourcetype_ = 0;
   _internal_metadata_.Clear();
 }
 
@@ -13479,12 +18499,11 @@ const char* ConditionObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 8;
+      // string resourceType = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ConditionObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 9;
@@ -13591,11 +18610,14 @@ failure:
         7, this->_internal_recordeddate(), target);
   }
 
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      8, this->_internal_resourcetype(), target);
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ConditionObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_resourcetype(), target);
   }
 
   // .patient.Reference subject = 9;
@@ -13658,6 +18680,13 @@ size_t ConditionObject::ByteSizeLong() const {
         this->_internal_recordeddate());
   }
 
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
   // .patient.Category clinicalStatus = 2;
   if (this->has_clinicalstatus()) {
     total_size += 1 +
@@ -13691,12 +18720,6 @@ size_t ConditionObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *verificationstatus_);
-  }
-
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -13746,6 +18769,10 @@ void ConditionObject::MergeFrom(const ConditionObject& from) {
 
     recordeddate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.recordeddate_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
   if (from.has_clinicalstatus()) {
     _internal_mutable_clinicalstatus()->::patient::Category::MergeFrom(from._internal_clinicalstatus());
   }
@@ -13760,9 +18787,6 @@ void ConditionObject::MergeFrom(const ConditionObject& from) {
   }
   if (from.has_verificationstatus()) {
     _internal_mutable_verificationstatus()->::patient::Category::MergeFrom(from._internal_verificationstatus());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
   }
 }
 
@@ -13795,15 +18819,623 @@ void ConditionObject::InternalSwap(ConditionObject* other) {
     GetArenaNoVirtual());
   recordeddate_.Swap(&other->recordeddate_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(clinicalstatus_, other->clinicalstatus_);
   swap(code_, other->code_);
   swap(encounter_, other->encounter_);
   swap(subject_, other->subject_);
   swap(verificationstatus_, other->verificationstatus_);
-  swap(resourcetype_, other->resourcetype_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ConditionObject::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void DeviceObject::InitAsDefaultInstance() {
+  ::patient::_DeviceObject_default_instance_._instance.get_mutable()->type_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_DeviceObject_default_instance_._instance.get_mutable()->patient_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+}
+class DeviceObject::_Internal {
+ public:
+  static const ::patient::Category& type(const DeviceObject* msg);
+  static const ::patient::Reference& patient(const DeviceObject* msg);
+};
+
+const ::patient::Category&
+DeviceObject::_Internal::type(const DeviceObject* msg) {
+  return *msg->type_;
+}
+const ::patient::Reference&
+DeviceObject::_Internal::patient(const DeviceObject* msg) {
+  return *msg->patient_;
+}
+DeviceObject::DeviceObject()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.DeviceObject)
+}
+DeviceObject::DeviceObject(const DeviceObject& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      udicarrier_(from.udicarrier_),
+      devicename_(from.devicename_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_id().empty()) {
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  distinctidentifier_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_distinctidentifier().empty()) {
+    distinctidentifier_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.distinctidentifier_);
+  }
+  manufacturedate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_manufacturedate().empty()) {
+    manufacturedate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.manufacturedate_);
+  }
+  expirationdate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_expirationdate().empty()) {
+    expirationdate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.expirationdate_);
+  }
+  lotnumber_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_lotnumber().empty()) {
+    lotnumber_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lotnumber_);
+  }
+  serialnumber_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_serialnumber().empty()) {
+    serialnumber_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.serialnumber_);
+  }
+  if (from._internal_has_type()) {
+    type_ = new ::patient::Category(*from.type_);
+  } else {
+    type_ = nullptr;
+  }
+  if (from._internal_has_patient()) {
+    patient_ = new ::patient::Reference(*from.patient_);
+  } else {
+    patient_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.DeviceObject)
+}
+
+void DeviceObject::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DeviceObject_customized_2eproto.base);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  distinctidentifier_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  manufacturedate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  expirationdate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lotnumber_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  serialnumber_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&patient_) -
+      reinterpret_cast<char*>(&type_)) + sizeof(patient_));
+}
+
+DeviceObject::~DeviceObject() {
+  // @@protoc_insertion_point(destructor:patient.DeviceObject)
+  SharedDtor();
+}
+
+void DeviceObject::SharedDtor() {
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  distinctidentifier_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  manufacturedate_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  expirationdate_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lotnumber_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  serialnumber_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete type_;
+  if (this != internal_default_instance()) delete patient_;
+}
+
+void DeviceObject::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const DeviceObject& DeviceObject::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DeviceObject_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void DeviceObject::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.DeviceObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  udicarrier_.Clear();
+  devicename_.Clear();
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  distinctidentifier_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  manufacturedate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  expirationdate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lotnumber_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  serialnumber_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && type_ != nullptr) {
+    delete type_;
+  }
+  type_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && patient_ != nullptr) {
+    delete patient_;
+  }
+  patient_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* DeviceObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string resourceType = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.DeviceObject.resourceType");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string id = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_id(), ptr, ctx, "patient.DeviceObject.id");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Carrier udiCarrier = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_udicarrier(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<26>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // string status = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.DeviceObject.status");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string distinctIdentifier = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_distinctidentifier(), ptr, ctx, "patient.DeviceObject.distinctIdentifier");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string manufactureDate = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_manufacturedate(), ptr, ctx, "patient.DeviceObject.manufactureDate");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string expirationDate = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_expirationdate(), ptr, ctx, "patient.DeviceObject.expirationDate");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string lotNumber = 8;
+      case 8:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_lotnumber(), ptr, ctx, "patient.DeviceObject.lotNumber");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string serialNumber = 9;
+      case 9:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_serialnumber(), ptr, ctx, "patient.DeviceObject.serialNumber");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.DeviceName deviceName = 10;
+      case 10:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_devicename(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<82>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category type = 11;
+      case 11:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr = ctx->ParseMessage(_internal_mutable_type(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference patient = 12;
+      case 12:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
+          ptr = ctx->ParseMessage(_internal_mutable_patient(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* DeviceObject::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.DeviceObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_resourcetype(), target);
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_id().data(), static_cast<int>(this->_internal_id().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.id");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_id(), target);
+  }
+
+  // repeated .patient.Carrier udiCarrier = 3;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_udicarrier_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(3, this->_internal_udicarrier(i), target, stream);
+  }
+
+  // string status = 4;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.status");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_status(), target);
+  }
+
+  // string distinctIdentifier = 5;
+  if (this->distinctidentifier().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_distinctidentifier().data(), static_cast<int>(this->_internal_distinctidentifier().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.distinctIdentifier");
+    target = stream->WriteStringMaybeAliased(
+        5, this->_internal_distinctidentifier(), target);
+  }
+
+  // string manufactureDate = 6;
+  if (this->manufacturedate().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_manufacturedate().data(), static_cast<int>(this->_internal_manufacturedate().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.manufactureDate");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_manufacturedate(), target);
+  }
+
+  // string expirationDate = 7;
+  if (this->expirationdate().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_expirationdate().data(), static_cast<int>(this->_internal_expirationdate().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.expirationDate");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_expirationdate(), target);
+  }
+
+  // string lotNumber = 8;
+  if (this->lotnumber().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_lotnumber().data(), static_cast<int>(this->_internal_lotnumber().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.lotNumber");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_lotnumber(), target);
+  }
+
+  // string serialNumber = 9;
+  if (this->serialnumber().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_serialnumber().data(), static_cast<int>(this->_internal_serialnumber().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DeviceObject.serialNumber");
+    target = stream->WriteStringMaybeAliased(
+        9, this->_internal_serialnumber(), target);
+  }
+
+  // repeated .patient.DeviceName deviceName = 10;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_devicename_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(10, this->_internal_devicename(i), target, stream);
+  }
+
+  // .patient.Category type = 11;
+  if (this->has_type()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        11, _Internal::type(this), target, stream);
+  }
+
+  // .patient.Reference patient = 12;
+  if (this->has_patient()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        12, _Internal::patient(this), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.DeviceObject)
+  return target;
+}
+
+size_t DeviceObject::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.DeviceObject)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .patient.Carrier udiCarrier = 3;
+  total_size += 1UL * this->_internal_udicarrier_size();
+  for (const auto& msg : this->udicarrier_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.DeviceName deviceName = 10;
+  total_size += 1UL * this->_internal_devicename_size();
+  for (const auto& msg : this->devicename_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_id());
+  }
+
+  // string status = 4;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // string distinctIdentifier = 5;
+  if (this->distinctidentifier().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_distinctidentifier());
+  }
+
+  // string manufactureDate = 6;
+  if (this->manufacturedate().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_manufacturedate());
+  }
+
+  // string expirationDate = 7;
+  if (this->expirationdate().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_expirationdate());
+  }
+
+  // string lotNumber = 8;
+  if (this->lotnumber().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_lotnumber());
+  }
+
+  // string serialNumber = 9;
+  if (this->serialnumber().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_serialnumber());
+  }
+
+  // .patient.Category type = 11;
+  if (this->has_type()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *type_);
+  }
+
+  // .patient.Reference patient = 12;
+  if (this->has_patient()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *patient_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void DeviceObject::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.DeviceObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DeviceObject* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DeviceObject>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.DeviceObject)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.DeviceObject)
+    MergeFrom(*source);
+  }
+}
+
+void DeviceObject::MergeFrom(const DeviceObject& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.DeviceObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  udicarrier_.MergeFrom(from.udicarrier_);
+  devicename_.MergeFrom(from.devicename_);
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  if (from.distinctidentifier().size() > 0) {
+
+    distinctidentifier_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.distinctidentifier_);
+  }
+  if (from.manufacturedate().size() > 0) {
+
+    manufacturedate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.manufacturedate_);
+  }
+  if (from.expirationdate().size() > 0) {
+
+    expirationdate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.expirationdate_);
+  }
+  if (from.lotnumber().size() > 0) {
+
+    lotnumber_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lotnumber_);
+  }
+  if (from.serialnumber().size() > 0) {
+
+    serialnumber_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.serialnumber_);
+  }
+  if (from.has_type()) {
+    _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
+  }
+  if (from.has_patient()) {
+    _internal_mutable_patient()->::patient::Reference::MergeFrom(from._internal_patient());
+  }
+}
+
+void DeviceObject::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.DeviceObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DeviceObject::CopyFrom(const DeviceObject& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.DeviceObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DeviceObject::IsInitialized() const {
+  return true;
+}
+
+void DeviceObject::InternalSwap(DeviceObject* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  udicarrier_.InternalSwap(&other->udicarrier_);
+  devicename_.InternalSwap(&other->devicename_);
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  distinctidentifier_.Swap(&other->distinctidentifier_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  manufacturedate_.Swap(&other->manufacturedate_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  expirationdate_.Swap(&other->expirationdate_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  lotnumber_.Swap(&other->lotnumber_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  serialnumber_.Swap(&other->serialnumber_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(type_, other->type_);
+  swap(patient_, other->patient_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata DeviceObject::GetMetadata() const {
   return GetMetadataStatic();
 }
 
@@ -13860,6 +19492,14 @@ DiagnosticReportObject::DiagnosticReportObject(const DiagnosticReportObject& fro
   if (!from._internal_issued().empty()) {
     issued_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.issued_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_code()) {
     code_ = new ::patient::Category(*from.code_);
   } else {
@@ -13875,9 +19515,6 @@ DiagnosticReportObject::DiagnosticReportObject(const DiagnosticReportObject& fro
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.DiagnosticReportObject)
 }
 
@@ -13886,9 +19523,11 @@ void DiagnosticReportObject::SharedCtor() {
   effectivedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&code_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&code_)) + sizeof(status_));
+      reinterpret_cast<char*>(&subject_) -
+      reinterpret_cast<char*>(&code_)) + sizeof(subject_));
 }
 
 DiagnosticReportObject::~DiagnosticReportObject() {
@@ -13900,6 +19539,8 @@ void DiagnosticReportObject::SharedDtor() {
   effectivedatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete code_;
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete subject_;
@@ -13925,6 +19566,8 @@ void DiagnosticReportObject::Clear() {
   effectivedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
     delete code_;
   }
@@ -13937,9 +19580,6 @@ void DiagnosticReportObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -13997,12 +19637,11 @@ const char* DiagnosticReportObject::_InternalParse(const char* ptr, ::PROTOBUF_N
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 7;
+      // string resourceType = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.DiagnosticReportObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.Reference result = 8;
@@ -14017,15 +19656,14 @@ const char* DiagnosticReportObject::_InternalParse(const char* ptr, ::PROTOBUF_N
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<66>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 9;
+      // string status = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.DiagnosticReportObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Reference Subject = 10;
+      // .patient.Reference subject = 10;
       case 10:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
           ptr = ctx->ParseMessage(_internal_mutable_subject(), ptr);
@@ -14112,11 +19750,14 @@ failure:
         6, this->_internal_issued(), target);
   }
 
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      7, this->_internal_resourcetype(), target);
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DiagnosticReportObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_resourcetype(), target);
   }
 
   // repeated .patient.Reference result = 8;
@@ -14127,14 +19768,17 @@ failure:
       InternalWriteMessageToArray(8, this->_internal_result(i), target, stream);
   }
 
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      9, this->_internal_status(), target);
+  // string status = 9;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.DiagnosticReportObject.status");
+    target = stream->WriteStringMaybeAliased(
+        9, this->_internal_status(), target);
   }
 
-  // .patient.Reference Subject = 10;
+  // .patient.Reference subject = 10;
   if (this->has_subject()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -14193,6 +19837,20 @@ size_t DiagnosticReportObject::ByteSizeLong() const {
         this->_internal_issued());
   }
 
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 9;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // .patient.Category code = 2;
   if (this->has_code()) {
     total_size += 1 +
@@ -14207,23 +19865,11 @@ size_t DiagnosticReportObject::ByteSizeLong() const {
         *encounter_);
   }
 
-  // .patient.Reference Subject = 10;
+  // .patient.Reference subject = 10;
   if (this->has_subject()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *subject_);
-  }
-
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -14271,6 +19917,14 @@ void DiagnosticReportObject::MergeFrom(const DiagnosticReportObject& from) {
 
     issued_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.issued_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_code()) {
     _internal_mutable_code()->::patient::Category::MergeFrom(from._internal_code());
   }
@@ -14279,12 +19933,6 @@ void DiagnosticReportObject::MergeFrom(const DiagnosticReportObject& from) {
   }
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -14317,11 +19965,13 @@ void DiagnosticReportObject::InternalSwap(DiagnosticReportObject* other) {
     GetArenaNoVirtual());
   issued_.Swap(&other->issued_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(code_, other->code_);
   swap(encounter_, other->encounter_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata DiagnosticReportObject::GetMetadata() const {
@@ -14332,24 +19982,27 @@ void DiagnosticReportObject::InternalSwap(DiagnosticReportObject* other) {
 // ===================================================================
 
 void EncounterObject::InitAsDefaultInstance() {
-  ::patient::_EncounterObject_default_instance_._instance.get_mutable()->class__ = const_cast< ::patient::Category*>(
-      ::patient::Category::internal_default_instance());
+  ::patient::_EncounterObject_default_instance_._instance.get_mutable()->class__ = const_cast< ::patient::Coding*>(
+      ::patient::Coding::internal_default_instance());
   ::patient::_EncounterObject_default_instance_._instance.get_mutable()->period_ = const_cast< ::patient::Period*>(
       ::patient::Period::internal_default_instance());
   ::patient::_EncounterObject_default_instance_._instance.get_mutable()->serviceprovider_ = const_cast< ::patient::Reference*>(
       ::patient::Reference::internal_default_instance());
   ::patient::_EncounterObject_default_instance_._instance.get_mutable()->subject_ = const_cast< ::patient::Reference*>(
       ::patient::Reference::internal_default_instance());
+  ::patient::_EncounterObject_default_instance_._instance.get_mutable()->hospitalization_ = const_cast< ::patient::Hospitalization*>(
+      ::patient::Hospitalization::internal_default_instance());
 }
 class EncounterObject::_Internal {
  public:
-  static const ::patient::Category& class_(const EncounterObject* msg);
+  static const ::patient::Coding& class_(const EncounterObject* msg);
   static const ::patient::Period& period(const EncounterObject* msg);
   static const ::patient::Reference& serviceprovider(const EncounterObject* msg);
   static const ::patient::Reference& subject(const EncounterObject* msg);
+  static const ::patient::Hospitalization& hospitalization(const EncounterObject* msg);
 };
 
-const ::patient::Category&
+const ::patient::Coding&
 EncounterObject::_Internal::class_(const EncounterObject* msg) {
   return *msg->class__;
 }
@@ -14364,6 +20017,10 @@ EncounterObject::_Internal::serviceprovider(const EncounterObject* msg) {
 const ::patient::Reference&
 EncounterObject::_Internal::subject(const EncounterObject* msg) {
   return *msg->subject_;
+}
+const ::patient::Hospitalization&
+EncounterObject::_Internal::hospitalization(const EncounterObject* msg) {
+  return *msg->hospitalization_;
 }
 EncounterObject::EncounterObject()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
@@ -14381,8 +20038,16 @@ EncounterObject::EncounterObject(const EncounterObject& from)
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_class_()) {
-    class__ = new ::patient::Category(*from.class__);
+    class__ = new ::patient::Coding(*from.class__);
   } else {
     class__ = nullptr;
   }
@@ -14401,18 +20066,22 @@ EncounterObject::EncounterObject(const EncounterObject& from)
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
+  if (from._internal_has_hospitalization()) {
+    hospitalization_ = new ::patient::Hospitalization(*from.hospitalization_);
+  } else {
+    hospitalization_ = nullptr;
+  }
   // @@protoc_insertion_point(copy_constructor:patient.EncounterObject)
 }
 
 void EncounterObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_EncounterObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&class__, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&class__)) + sizeof(status_));
+      reinterpret_cast<char*>(&hospitalization_) -
+      reinterpret_cast<char*>(&class__)) + sizeof(hospitalization_));
 }
 
 EncounterObject::~EncounterObject() {
@@ -14422,10 +20091,13 @@ EncounterObject::~EncounterObject() {
 
 void EncounterObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete class__;
   if (this != internal_default_instance()) delete period_;
   if (this != internal_default_instance()) delete serviceprovider_;
   if (this != internal_default_instance()) delete subject_;
+  if (this != internal_default_instance()) delete hospitalization_;
 }
 
 void EncounterObject::SetCachedSize(int size) const {
@@ -14447,6 +20119,8 @@ void EncounterObject::Clear() {
   reasoncode_.Clear();
   type_.Clear();
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && class__ != nullptr) {
     delete class__;
   }
@@ -14463,9 +20137,10 @@ void EncounterObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
+  if (GetArenaNoVirtual() == nullptr && hospitalization_ != nullptr) {
+    delete hospitalization_;
+  }
+  hospitalization_ = nullptr;
   _internal_metadata_.Clear();
 }
 
@@ -14476,7 +20151,7 @@ const char* EncounterObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     CHK_(ptr);
     switch (tag >> 3) {
-      // .patient.Category class = 1;
+      // .patient.Coding class = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_class_(), ptr);
@@ -14521,12 +20196,11 @@ const char* EncounterObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 6;
+      // string resourceType = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.EncounterObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference serviceProvider = 7;
@@ -14536,12 +20210,11 @@ const char* EncounterObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 8;
+      // string status = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.EncounterObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 9;
@@ -14561,6 +20234,13 @@ const char* EncounterObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<82>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // .patient.Hospitalization hospitalization = 11;
+      case 11:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr = ctx->ParseMessage(_internal_mutable_hospitalization(), ptr);
+          CHK_(ptr);
         } else goto handle_unusual;
         continue;
       default: {
@@ -14589,7 +20269,7 @@ failure:
   ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // .patient.Category class = 1;
+  // .patient.Coding class = 1;
   if (this->has_class_()) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
@@ -14631,11 +20311,14 @@ failure:
       InternalWriteMessageToArray(5, this->_internal_reasoncode(i), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      6, this->_internal_resourcetype(), target);
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.EncounterObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_resourcetype(), target);
   }
 
   // .patient.Reference serviceProvider = 7;
@@ -14646,11 +20329,14 @@ failure:
         7, _Internal::serviceprovider(this), target, stream);
   }
 
-  // .patient.Status status = 8;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      8, this->_internal_status(), target);
+  // string status = 8;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.EncounterObject.status");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 9;
@@ -14667,6 +20353,14 @@ failure:
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(10, this->_internal_type(i), target, stream);
+  }
+
+  // .patient.Hospitalization hospitalization = 11;
+  if (this->has_hospitalization()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        11, _Internal::hospitalization(this), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -14713,7 +20407,21 @@ size_t EncounterObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
-  // .patient.Category class = 1;
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 8;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // .patient.Coding class = 1;
   if (this->has_class_()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
@@ -14741,16 +20449,11 @@ size_t EncounterObject::ByteSizeLong() const {
         *subject_);
   }
 
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
+  // .patient.Hospitalization hospitalization = 11;
+  if (this->has_hospitalization()) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 8;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *hospitalization_);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -14791,8 +20494,16 @@ void EncounterObject::MergeFrom(const EncounterObject& from) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_class_()) {
-    _internal_mutable_class_()->::patient::Category::MergeFrom(from._internal_class_());
+    _internal_mutable_class_()->::patient::Coding::MergeFrom(from._internal_class_());
   }
   if (from.has_period()) {
     _internal_mutable_period()->::patient::Period::MergeFrom(from._internal_period());
@@ -14803,11 +20514,8 @@ void EncounterObject::MergeFrom(const EncounterObject& from) {
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
   }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
+  if (from.has_hospitalization()) {
+    _internal_mutable_hospitalization()->::patient::Hospitalization::MergeFrom(from._internal_hospitalization());
   }
 }
 
@@ -14837,12 +20545,15 @@ void EncounterObject::InternalSwap(EncounterObject* other) {
   type_.InternalSwap(&other->type_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(class__, other->class__);
   swap(period_, other->period_);
   swap(serviceprovider_, other->serviceprovider_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
+  swap(hospitalization_, other->hospitalization_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata EncounterObject::GetMetadata() const {
@@ -14942,6 +20653,14 @@ ExplanationOfBenefitObject::ExplanationOfBenefitObject(const ExplanationOfBenefi
   if (!from._internal_outcome().empty()) {
     outcome_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.outcome_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_use().empty()) {
     use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
@@ -14986,9 +20705,6 @@ ExplanationOfBenefitObject::ExplanationOfBenefitObject(const ExplanationOfBenefi
   } else {
     type_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.ExplanationOfBenefitObject)
 }
 
@@ -14997,10 +20713,12 @@ void ExplanationOfBenefitObject::SharedCtor() {
   created_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   outcome_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&billableperiod_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&billableperiod_)) + sizeof(status_));
+      reinterpret_cast<char*>(&type_) -
+      reinterpret_cast<char*>(&billableperiod_)) + sizeof(type_));
 }
 
 ExplanationOfBenefitObject::~ExplanationOfBenefitObject() {
@@ -15012,6 +20730,8 @@ void ExplanationOfBenefitObject::SharedDtor() {
   created_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   outcome_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete billableperiod_;
   if (this != internal_default_instance()) delete claim_;
@@ -15048,6 +20768,8 @@ void ExplanationOfBenefitObject::Clear() {
   created_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   outcome_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   use_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && billableperiod_ != nullptr) {
     delete billableperiod_;
@@ -15081,9 +20803,6 @@ void ExplanationOfBenefitObject::Clear() {
     delete type_;
   }
   type_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -15101,7 +20820,7 @@ const char* ExplanationOfBenefitObject::_InternalParse(const char* ptr, ::PROTOB
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // repeated .patient.CareTeam careteam = 2;
+      // repeated .patient.CareTeam careTeam = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
           ptr -= 1;
@@ -15236,20 +20955,18 @@ const char* ExplanationOfBenefitObject::_InternalParse(const char* ptr, ::PROTOB
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 17;
+      // string resourceType = 17;
       case 17:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 136)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 138)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ExplanationOfBenefitObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 18;
+      // string status = 18;
       case 18:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 144)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 146)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ExplanationOfBenefitObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.Total total = 19;
@@ -15312,7 +21029,7 @@ failure:
         1, _Internal::billableperiod(this), target, stream);
   }
 
-  // repeated .patient.CareTeam careteam = 2;
+  // repeated .patient.CareTeam careTeam = 2;
   for (unsigned int i = 0,
       n = static_cast<unsigned int>(this->_internal_careteam_size()); i < n; i++) {
     stream->EnsureSpace(&target);
@@ -15438,18 +21155,24 @@ failure:
         16, _Internal::referral(this), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 17;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      17, this->_internal_resourcetype(), target);
+  // string resourceType = 17;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ExplanationOfBenefitObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        17, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 18;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      18, this->_internal_status(), target);
+  // string status = 18;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ExplanationOfBenefitObject.status");
+    target = stream->WriteStringMaybeAliased(
+        18, this->_internal_status(), target);
   }
 
   // repeated .patient.Total total = 19;
@@ -15494,7 +21217,7 @@ size_t ExplanationOfBenefitObject::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // repeated .patient.CareTeam careteam = 2;
+  // repeated .patient.CareTeam careTeam = 2;
   total_size += 1UL * this->_internal_careteam_size();
   for (const auto& msg : this->careteam_) {
     total_size +=
@@ -15564,6 +21287,20 @@ size_t ExplanationOfBenefitObject::ByteSizeLong() const {
         this->_internal_outcome());
   }
 
+  // string resourceType = 17;
+  if (this->resourcetype().size() > 0) {
+    total_size += 2 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 18;
+  if (this->status().size() > 0) {
+    total_size += 2 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // string use = 21;
   if (this->use().size() > 0) {
     total_size += 2 +
@@ -15627,18 +21364,6 @@ size_t ExplanationOfBenefitObject::ByteSizeLong() const {
         *type_);
   }
 
-  // .patient.ResourceType resourceType = 17;
-  if (this->resourcetype() != 0) {
-    total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 18;
-  if (this->status() != 0) {
-    total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
-  }
-
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
         _internal_metadata_, total_size, &_cached_size_);
@@ -15689,6 +21414,14 @@ void ExplanationOfBenefitObject::MergeFrom(const ExplanationOfBenefitObject& fro
 
     outcome_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.outcome_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.use().size() > 0) {
 
     use_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.use_);
@@ -15716,12 +21449,6 @@ void ExplanationOfBenefitObject::MergeFrom(const ExplanationOfBenefitObject& fro
   }
   if (from.has_type()) {
     _internal_mutable_type()->::patient::Category::MergeFrom(from._internal_type());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -15759,6 +21486,10 @@ void ExplanationOfBenefitObject::InternalSwap(ExplanationOfBenefitObject* other)
     GetArenaNoVirtual());
   outcome_.Swap(&other->outcome_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   use_.Swap(&other->use_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(billableperiod_, other->billableperiod_);
@@ -15769,11 +21500,925 @@ void ExplanationOfBenefitObject::InternalSwap(ExplanationOfBenefitObject* other)
   swap(provider_, other->provider_);
   swap(referral_, other->referral_);
   swap(type_, other->type_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ExplanationOfBenefitObject::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void GoalObject::InitAsDefaultInstance() {
+  ::patient::_GoalObject_default_instance_._instance.get_mutable()->achievementstatus_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_GoalObject_default_instance_._instance.get_mutable()->description_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_GoalObject_default_instance_._instance.get_mutable()->subject_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+}
+class GoalObject::_Internal {
+ public:
+  static const ::patient::Category& achievementstatus(const GoalObject* msg);
+  static const ::patient::Category& description(const GoalObject* msg);
+  static const ::patient::Reference& subject(const GoalObject* msg);
+};
+
+const ::patient::Category&
+GoalObject::_Internal::achievementstatus(const GoalObject* msg) {
+  return *msg->achievementstatus_;
+}
+const ::patient::Category&
+GoalObject::_Internal::description(const GoalObject* msg) {
+  return *msg->description_;
+}
+const ::patient::Reference&
+GoalObject::_Internal::subject(const GoalObject* msg) {
+  return *msg->subject_;
+}
+GoalObject::GoalObject()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.GoalObject)
+}
+GoalObject::GoalObject(const GoalObject& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_id().empty()) {
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  lifecyclestatus_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_lifecyclestatus().empty()) {
+    lifecyclestatus_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lifecyclestatus_);
+  }
+  if (from._internal_has_achievementstatus()) {
+    achievementstatus_ = new ::patient::Category(*from.achievementstatus_);
+  } else {
+    achievementstatus_ = nullptr;
+  }
+  if (from._internal_has_description()) {
+    description_ = new ::patient::Category(*from.description_);
+  } else {
+    description_ = nullptr;
+  }
+  if (from._internal_has_subject()) {
+    subject_ = new ::patient::Reference(*from.subject_);
+  } else {
+    subject_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.GoalObject)
+}
+
+void GoalObject::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_GoalObject_customized_2eproto.base);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lifecyclestatus_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&achievementstatus_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&subject_) -
+      reinterpret_cast<char*>(&achievementstatus_)) + sizeof(subject_));
+}
+
+GoalObject::~GoalObject() {
+  // @@protoc_insertion_point(destructor:patient.GoalObject)
+  SharedDtor();
+}
+
+void GoalObject::SharedDtor() {
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lifecyclestatus_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete achievementstatus_;
+  if (this != internal_default_instance()) delete description_;
+  if (this != internal_default_instance()) delete subject_;
+}
+
+void GoalObject::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const GoalObject& GoalObject::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_GoalObject_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void GoalObject::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.GoalObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  lifecyclestatus_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && achievementstatus_ != nullptr) {
+    delete achievementstatus_;
+  }
+  achievementstatus_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && description_ != nullptr) {
+    delete description_;
+  }
+  description_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* GoalObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string resourceType = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.GoalObject.resourceType");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string id = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_id(), ptr, ctx, "patient.GoalObject.id");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string lifecycleStatus = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_lifecyclestatus(), ptr, ctx, "patient.GoalObject.lifecycleStatus");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category achievementStatus = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ctx->ParseMessage(_internal_mutable_achievementstatus(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category description = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ctx->ParseMessage(_internal_mutable_description(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference subject = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ctx->ParseMessage(_internal_mutable_subject(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* GoalObject::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.GoalObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.GoalObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_resourcetype(), target);
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_id().data(), static_cast<int>(this->_internal_id().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.GoalObject.id");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_id(), target);
+  }
+
+  // string lifecycleStatus = 3;
+  if (this->lifecyclestatus().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_lifecyclestatus().data(), static_cast<int>(this->_internal_lifecyclestatus().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.GoalObject.lifecycleStatus");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_lifecyclestatus(), target);
+  }
+
+  // .patient.Category achievementStatus = 4;
+  if (this->has_achievementstatus()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        4, _Internal::achievementstatus(this), target, stream);
+  }
+
+  // .patient.Category description = 5;
+  if (this->has_description()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        5, _Internal::description(this), target, stream);
+  }
+
+  // .patient.Reference subject = 6;
+  if (this->has_subject()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        6, _Internal::subject(this), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.GoalObject)
+  return target;
+}
+
+size_t GoalObject::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.GoalObject)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_id());
+  }
+
+  // string lifecycleStatus = 3;
+  if (this->lifecyclestatus().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_lifecyclestatus());
+  }
+
+  // .patient.Category achievementStatus = 4;
+  if (this->has_achievementstatus()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *achievementstatus_);
+  }
+
+  // .patient.Category description = 5;
+  if (this->has_description()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *description_);
+  }
+
+  // .patient.Reference subject = 6;
+  if (this->has_subject()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *subject_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void GoalObject::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.GoalObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  const GoalObject* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<GoalObject>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.GoalObject)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.GoalObject)
+    MergeFrom(*source);
+  }
+}
+
+void GoalObject::MergeFrom(const GoalObject& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.GoalObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.lifecyclestatus().size() > 0) {
+
+    lifecyclestatus_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.lifecyclestatus_);
+  }
+  if (from.has_achievementstatus()) {
+    _internal_mutable_achievementstatus()->::patient::Category::MergeFrom(from._internal_achievementstatus());
+  }
+  if (from.has_description()) {
+    _internal_mutable_description()->::patient::Category::MergeFrom(from._internal_description());
+  }
+  if (from.has_subject()) {
+    _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
+  }
+}
+
+void GoalObject::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.GoalObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void GoalObject::CopyFrom(const GoalObject& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.GoalObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool GoalObject::IsInitialized() const {
+  return true;
+}
+
+void GoalObject::InternalSwap(GoalObject* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  lifecyclestatus_.Swap(&other->lifecyclestatus_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(achievementstatus_, other->achievementstatus_);
+  swap(description_, other->description_);
+  swap(subject_, other->subject_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata GoalObject::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void ImagingStudyObject::InitAsDefaultInstance() {
+  ::patient::_ImagingStudyObject_default_instance_._instance.get_mutable()->subject_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_ImagingStudyObject_default_instance_._instance.get_mutable()->encounter_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+}
+class ImagingStudyObject::_Internal {
+ public:
+  static const ::patient::Reference& subject(const ImagingStudyObject* msg);
+  static const ::patient::Reference& encounter(const ImagingStudyObject* msg);
+};
+
+const ::patient::Reference&
+ImagingStudyObject::_Internal::subject(const ImagingStudyObject* msg) {
+  return *msg->subject_;
+}
+const ::patient::Reference&
+ImagingStudyObject::_Internal::encounter(const ImagingStudyObject* msg) {
+  return *msg->encounter_;
+}
+ImagingStudyObject::ImagingStudyObject()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.ImagingStudyObject)
+}
+ImagingStudyObject::ImagingStudyObject(const ImagingStudyObject& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      identifier_(from.identifier_),
+      series_(from.series_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_id().empty()) {
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  started_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_started().empty()) {
+    started_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.started_);
+  }
+  if (from._internal_has_subject()) {
+    subject_ = new ::patient::Reference(*from.subject_);
+  } else {
+    subject_ = nullptr;
+  }
+  if (from._internal_has_encounter()) {
+    encounter_ = new ::patient::Reference(*from.encounter_);
+  } else {
+    encounter_ = nullptr;
+  }
+  ::memcpy(&numberofseries_, &from.numberofseries_,
+    static_cast<size_t>(reinterpret_cast<char*>(&numberofinstances_) -
+    reinterpret_cast<char*>(&numberofseries_)) + sizeof(numberofinstances_));
+  // @@protoc_insertion_point(copy_constructor:patient.ImagingStudyObject)
+}
+
+void ImagingStudyObject::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ImagingStudyObject_customized_2eproto.base);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&subject_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&numberofinstances_) -
+      reinterpret_cast<char*>(&subject_)) + sizeof(numberofinstances_));
+}
+
+ImagingStudyObject::~ImagingStudyObject() {
+  // @@protoc_insertion_point(destructor:patient.ImagingStudyObject)
+  SharedDtor();
+}
+
+void ImagingStudyObject::SharedDtor() {
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete subject_;
+  if (this != internal_default_instance()) delete encounter_;
+}
+
+void ImagingStudyObject::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const ImagingStudyObject& ImagingStudyObject::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_ImagingStudyObject_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void ImagingStudyObject::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.ImagingStudyObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  identifier_.Clear();
+  series_.Clear();
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  started_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
+    delete encounter_;
+  }
+  encounter_ = nullptr;
+  ::memset(&numberofseries_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&numberofinstances_) -
+      reinterpret_cast<char*>(&numberofseries_)) + sizeof(numberofinstances_));
+  _internal_metadata_.Clear();
+}
+
+const char* ImagingStudyObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string resourceType = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ImagingStudyObject.resourceType");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string id = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_id(), ptr, ctx, "patient.ImagingStudyObject.id");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Identifier identifier = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_identifier(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<26>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // string status = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ImagingStudyObject.status");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference subject = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ctx->ParseMessage(_internal_mutable_subject(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference encounter = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ctx->ParseMessage(_internal_mutable_encounter(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string started = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_started(), ptr, ctx, "patient.ImagingStudyObject.started");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 numberOfSeries = 8;
+      case 8:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
+          numberofseries_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 numberOfInstances = 9;
+      case 9:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
+          numberofinstances_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Series series = 10;
+      case 10:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_series(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<82>(ptr));
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* ImagingStudyObject::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.ImagingStudyObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImagingStudyObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_resourcetype(), target);
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_id().data(), static_cast<int>(this->_internal_id().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImagingStudyObject.id");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_id(), target);
+  }
+
+  // repeated .patient.Identifier identifier = 3;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_identifier_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(3, this->_internal_identifier(i), target, stream);
+  }
+
+  // string status = 4;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImagingStudyObject.status");
+    target = stream->WriteStringMaybeAliased(
+        4, this->_internal_status(), target);
+  }
+
+  // .patient.Reference subject = 5;
+  if (this->has_subject()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        5, _Internal::subject(this), target, stream);
+  }
+
+  // .patient.Reference encounter = 6;
+  if (this->has_encounter()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        6, _Internal::encounter(this), target, stream);
+  }
+
+  // string started = 7;
+  if (this->started().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_started().data(), static_cast<int>(this->_internal_started().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImagingStudyObject.started");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_started(), target);
+  }
+
+  // int32 numberOfSeries = 8;
+  if (this->numberofseries() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(8, this->_internal_numberofseries(), target);
+  }
+
+  // int32 numberOfInstances = 9;
+  if (this->numberofinstances() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(9, this->_internal_numberofinstances(), target);
+  }
+
+  // repeated .patient.Series series = 10;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_series_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(10, this->_internal_series(i), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.ImagingStudyObject)
+  return target;
+}
+
+size_t ImagingStudyObject::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.ImagingStudyObject)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .patient.Identifier identifier = 3;
+  total_size += 1UL * this->_internal_identifier_size();
+  for (const auto& msg : this->identifier_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.Series series = 10;
+  total_size += 1UL * this->_internal_series_size();
+  for (const auto& msg : this->series_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_id());
+  }
+
+  // string status = 4;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // string started = 7;
+  if (this->started().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_started());
+  }
+
+  // .patient.Reference subject = 5;
+  if (this->has_subject()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *subject_);
+  }
+
+  // .patient.Reference encounter = 6;
+  if (this->has_encounter()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *encounter_);
+  }
+
+  // int32 numberOfSeries = 8;
+  if (this->numberofseries() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_numberofseries());
+  }
+
+  // int32 numberOfInstances = 9;
+  if (this->numberofinstances() != 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_numberofinstances());
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void ImagingStudyObject::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.ImagingStudyObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  const ImagingStudyObject* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<ImagingStudyObject>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.ImagingStudyObject)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.ImagingStudyObject)
+    MergeFrom(*source);
+  }
+}
+
+void ImagingStudyObject::MergeFrom(const ImagingStudyObject& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.ImagingStudyObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  identifier_.MergeFrom(from.identifier_);
+  series_.MergeFrom(from.series_);
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  if (from.started().size() > 0) {
+
+    started_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.started_);
+  }
+  if (from.has_subject()) {
+    _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
+  }
+  if (from.has_encounter()) {
+    _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
+  }
+  if (from.numberofseries() != 0) {
+    _internal_set_numberofseries(from._internal_numberofseries());
+  }
+  if (from.numberofinstances() != 0) {
+    _internal_set_numberofinstances(from._internal_numberofinstances());
+  }
+}
+
+void ImagingStudyObject::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.ImagingStudyObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void ImagingStudyObject::CopyFrom(const ImagingStudyObject& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.ImagingStudyObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool ImagingStudyObject::IsInitialized() const {
+  return true;
+}
+
+void ImagingStudyObject::InternalSwap(ImagingStudyObject* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  identifier_.InternalSwap(&other->identifier_);
+  series_.InternalSwap(&other->series_);
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  started_.Swap(&other->started_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(subject_, other->subject_);
+  swap(encounter_, other->encounter_);
+  swap(numberofseries_, other->numberofseries_);
+  swap(numberofinstances_, other->numberofinstances_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata ImagingStudyObject::GetMetadata() const {
   return GetMetadataStatic();
 }
 
@@ -15820,9 +22465,17 @@ ImmunizationObject::ImmunizationObject(const ImmunizationObject& from)
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
-  occurencedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_occurencedatetime().empty()) {
-    occurencedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.occurencedatetime_);
+  occurrencedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_occurrencedatetime().empty()) {
+    occurrencedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.occurrencedatetime_);
+  }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
   }
   if (from._internal_has_encounter()) {
     encounter_ = new ::patient::Reference(*from.encounter_);
@@ -15839,19 +22492,19 @@ ImmunizationObject::ImmunizationObject(const ImmunizationObject& from)
   } else {
     vaccinecode_ = nullptr;
   }
-  ::memcpy(&primarysource_, &from.primarysource_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&primarysource_)) + sizeof(status_));
+  primarysource_ = from.primarysource_;
   // @@protoc_insertion_point(copy_constructor:patient.ImmunizationObject)
 }
 
 void ImmunizationObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ImmunizationObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  occurencedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  occurrencedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&encounter_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&encounter_)) + sizeof(status_));
+      reinterpret_cast<char*>(&primarysource_) -
+      reinterpret_cast<char*>(&encounter_)) + sizeof(primarysource_));
 }
 
 ImmunizationObject::~ImmunizationObject() {
@@ -15861,7 +22514,9 @@ ImmunizationObject::~ImmunizationObject() {
 
 void ImmunizationObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  occurencedatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  occurrencedatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete patient_;
   if (this != internal_default_instance()) delete vaccinecode_;
@@ -15883,7 +22538,9 @@ void ImmunizationObject::Clear() {
   (void) cached_has_bits;
 
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  occurencedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  occurrencedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
     delete encounter_;
   }
@@ -15896,9 +22553,7 @@ void ImmunizationObject::Clear() {
     delete vaccinecode_;
   }
   vaccinecode_ = nullptr;
-  ::memset(&primarysource_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&primarysource_)) + sizeof(status_));
+  primarysource_ = false;
   _internal_metadata_.Clear();
 }
 
@@ -15923,10 +22578,10 @@ const char* ImmunizationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // string occurenceDateTime = 3;
+      // string occurrenceDateTime = 3;
       case 3:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_occurencedatetime(), ptr, ctx, "patient.ImmunizationObject.occurenceDateTime");
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_occurrencedatetime(), ptr, ctx, "patient.ImmunizationObject.occurrenceDateTime");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -15944,20 +22599,18 @@ const char* ImmunizationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 6;
+      // string resourceType = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ImmunizationObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 7;
+      // string status = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ImmunizationObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Category vaccineCode = 8;
@@ -16011,14 +22664,14 @@ failure:
         2, this->_internal_id(), target);
   }
 
-  // string occurenceDateTime = 3;
-  if (this->occurencedatetime().size() > 0) {
+  // string occurrenceDateTime = 3;
+  if (this->occurrencedatetime().size() > 0) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_occurencedatetime().data(), static_cast<int>(this->_internal_occurencedatetime().length()),
+      this->_internal_occurrencedatetime().data(), static_cast<int>(this->_internal_occurrencedatetime().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "patient.ImmunizationObject.occurenceDateTime");
+      "patient.ImmunizationObject.occurrenceDateTime");
     target = stream->WriteStringMaybeAliased(
-        3, this->_internal_occurencedatetime(), target);
+        3, this->_internal_occurrencedatetime(), target);
   }
 
   // .patient.Reference patient = 4;
@@ -16035,18 +22688,24 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteBoolToArray(5, this->_internal_primarysource(), target);
   }
 
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      6, this->_internal_resourcetype(), target);
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImmunizationObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 7;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      7, this->_internal_status(), target);
+  // string status = 7;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ImmunizationObject.status");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_status(), target);
   }
 
   // .patient.Category vaccineCode = 8;
@@ -16080,11 +22739,25 @@ size_t ImmunizationObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
-  // string occurenceDateTime = 3;
-  if (this->occurencedatetime().size() > 0) {
+  // string occurrenceDateTime = 3;
+  if (this->occurrencedatetime().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_occurencedatetime());
+        this->_internal_occurrencedatetime());
+  }
+
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 7;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
   }
 
   // .patient.Reference encounter = 1;
@@ -16111,18 +22784,6 @@ size_t ImmunizationObject::ByteSizeLong() const {
   // bool primarySource = 5;
   if (this->primarysource() != 0) {
     total_size += 1 + 1;
-  }
-
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 7;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -16160,9 +22821,17 @@ void ImmunizationObject::MergeFrom(const ImmunizationObject& from) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
-  if (from.occurencedatetime().size() > 0) {
+  if (from.occurrencedatetime().size() > 0) {
 
-    occurencedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.occurencedatetime_);
+    occurrencedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.occurrencedatetime_);
+  }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
   }
   if (from.has_encounter()) {
     _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
@@ -16175,12 +22844,6 @@ void ImmunizationObject::MergeFrom(const ImmunizationObject& from) {
   }
   if (from.primarysource() != 0) {
     _internal_set_primarysource(from._internal_primarysource());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -16207,14 +22870,16 @@ void ImmunizationObject::InternalSwap(ImmunizationObject* other) {
   _internal_metadata_.Swap(&other->_internal_metadata_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  occurencedatetime_.Swap(&other->occurencedatetime_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+  occurrencedatetime_.Swap(&other->occurrencedatetime_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(encounter_, other->encounter_);
   swap(patient_, other->patient_);
   swap(vaccinecode_, other->vaccinecode_);
   swap(primarysource_, other->primarysource_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ImmunizationObject::GetMetadata() const {
@@ -16266,7 +22931,8 @@ MedicationRequestObject::MedicationRequestObject()
 MedicationRequestObject::MedicationRequestObject(const MedicationRequestObject& from)
   : ::PROTOBUF_NAMESPACE_ID::Message(),
       _internal_metadata_(nullptr),
-      reasonreference_(from.reasonreference_) {
+      reasonreference_(from.reasonreference_),
+      dosageinstruction_(from.dosageinstruction_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   authoredon_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_authoredon().empty()) {
@@ -16279,6 +22945,14 @@ MedicationRequestObject::MedicationRequestObject(const MedicationRequestObject& 
   intent_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_intent().empty()) {
     intent_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.intent_);
+  }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
   }
   if (from._internal_has_encounter()) {
     encounter_ = new ::patient::Reference(*from.encounter_);
@@ -16300,9 +22974,6 @@ MedicationRequestObject::MedicationRequestObject(const MedicationRequestObject& 
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.MedicationRequestObject)
 }
 
@@ -16311,9 +22982,11 @@ void MedicationRequestObject::SharedCtor() {
   authoredon_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&encounter_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&encounter_)) + sizeof(status_));
+      reinterpret_cast<char*>(&subject_) -
+      reinterpret_cast<char*>(&encounter_)) + sizeof(subject_));
 }
 
 MedicationRequestObject::~MedicationRequestObject() {
@@ -16325,6 +22998,8 @@ void MedicationRequestObject::SharedDtor() {
   authoredon_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete medicationcodeableconcept_;
   if (this != internal_default_instance()) delete requester_;
@@ -16347,9 +23022,12 @@ void MedicationRequestObject::Clear() {
   (void) cached_has_bits;
 
   reasonreference_.Clear();
+  dosageinstruction_.Clear();
   authoredon_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   intent_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && encounter_ != nullptr) {
     delete encounter_;
   }
@@ -16366,9 +23044,6 @@ void MedicationRequestObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -16433,20 +23108,18 @@ const char* MedicationRequestObject::_InternalParse(const char* ptr, ::PROTOBUF_
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 8;
+      // string resourceType = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.MedicationRequestObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 9;
+      // string status = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.MedicationRequestObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 10;
@@ -16454,6 +23127,18 @@ const char* MedicationRequestObject::_InternalParse(const char* ptr, ::PROTOBUF_
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
           ptr = ctx->ParseMessage(_internal_mutable_subject(), ptr);
           CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.DosageInstruction dosageInstruction = 11;
+      case 11:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_dosageinstruction(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<90>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -16544,18 +23229,24 @@ failure:
         7, _Internal::requester(this), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      8, this->_internal_resourcetype(), target);
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationRequestObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      9, this->_internal_status(), target);
+  // string status = 9;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationRequestObject.status");
+    target = stream->WriteStringMaybeAliased(
+        9, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 10;
@@ -16564,6 +23255,14 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(
         10, _Internal::subject(this), target, stream);
+  }
+
+  // repeated .patient.DosageInstruction dosageInstruction = 11;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_dosageinstruction_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(11, this->_internal_dosageinstruction(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -16589,6 +23288,13 @@ size_t MedicationRequestObject::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
+  // repeated .patient.DosageInstruction dosageInstruction = 11;
+  total_size += 1UL * this->_internal_dosageinstruction_size();
+  for (const auto& msg : this->dosageinstruction_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
   // string authoredOn = 1;
   if (this->authoredon().size() > 0) {
     total_size += 1 +
@@ -16608,6 +23314,20 @@ size_t MedicationRequestObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_intent());
+  }
+
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 9;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
   }
 
   // .patient.Reference encounter = 2;
@@ -16636,18 +23356,6 @@ size_t MedicationRequestObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *subject_);
-  }
-
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -16682,6 +23390,7 @@ void MedicationRequestObject::MergeFrom(const MedicationRequestObject& from) {
   (void) cached_has_bits;
 
   reasonreference_.MergeFrom(from.reasonreference_);
+  dosageinstruction_.MergeFrom(from.dosageinstruction_);
   if (from.authoredon().size() > 0) {
 
     authoredon_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.authoredon_);
@@ -16694,6 +23403,14 @@ void MedicationRequestObject::MergeFrom(const MedicationRequestObject& from) {
 
     intent_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.intent_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_encounter()) {
     _internal_mutable_encounter()->::patient::Reference::MergeFrom(from._internal_encounter());
   }
@@ -16705,12 +23422,6 @@ void MedicationRequestObject::MergeFrom(const MedicationRequestObject& from) {
   }
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -16736,21 +23447,495 @@ void MedicationRequestObject::InternalSwap(MedicationRequestObject* other) {
   using std::swap;
   _internal_metadata_.Swap(&other->_internal_metadata_);
   reasonreference_.InternalSwap(&other->reasonreference_);
+  dosageinstruction_.InternalSwap(&other->dosageinstruction_);
   authoredon_.Swap(&other->authoredon_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   intent_.Swap(&other->intent_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(encounter_, other->encounter_);
   swap(medicationcodeableconcept_, other->medicationcodeableconcept_);
   swap(requester_, other->requester_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata MedicationRequestObject::GetMetadata() const {
+  return GetMetadataStatic();
+}
+
+
+// ===================================================================
+
+void MedicationAdministrationObject::InitAsDefaultInstance() {
+  ::patient::_MedicationAdministrationObject_default_instance_._instance.get_mutable()->medicationcodeableconcept_ = const_cast< ::patient::Category*>(
+      ::patient::Category::internal_default_instance());
+  ::patient::_MedicationAdministrationObject_default_instance_._instance.get_mutable()->subject_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+  ::patient::_MedicationAdministrationObject_default_instance_._instance.get_mutable()->context_ = const_cast< ::patient::Reference*>(
+      ::patient::Reference::internal_default_instance());
+}
+class MedicationAdministrationObject::_Internal {
+ public:
+  static const ::patient::Category& medicationcodeableconcept(const MedicationAdministrationObject* msg);
+  static const ::patient::Reference& subject(const MedicationAdministrationObject* msg);
+  static const ::patient::Reference& context(const MedicationAdministrationObject* msg);
+};
+
+const ::patient::Category&
+MedicationAdministrationObject::_Internal::medicationcodeableconcept(const MedicationAdministrationObject* msg) {
+  return *msg->medicationcodeableconcept_;
+}
+const ::patient::Reference&
+MedicationAdministrationObject::_Internal::subject(const MedicationAdministrationObject* msg) {
+  return *msg->subject_;
+}
+const ::patient::Reference&
+MedicationAdministrationObject::_Internal::context(const MedicationAdministrationObject* msg) {
+  return *msg->context_;
+}
+MedicationAdministrationObject::MedicationAdministrationObject()
+  : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:patient.MedicationAdministrationObject)
+}
+MedicationAdministrationObject::MedicationAdministrationObject(const MedicationAdministrationObject& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      _internal_metadata_(nullptr),
+      reasonreference_(from.reasonreference_) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_id().empty()) {
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  effectivedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_effectivedatetime().empty()) {
+    effectivedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.effectivedatetime_);
+  }
+  if (from._internal_has_medicationcodeableconcept()) {
+    medicationcodeableconcept_ = new ::patient::Category(*from.medicationcodeableconcept_);
+  } else {
+    medicationcodeableconcept_ = nullptr;
+  }
+  if (from._internal_has_subject()) {
+    subject_ = new ::patient::Reference(*from.subject_);
+  } else {
+    subject_ = nullptr;
+  }
+  if (from._internal_has_context()) {
+    context_ = new ::patient::Reference(*from.context_);
+  } else {
+    context_ = nullptr;
+  }
+  // @@protoc_insertion_point(copy_constructor:patient.MedicationAdministrationObject)
+}
+
+void MedicationAdministrationObject::SharedCtor() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_MedicationAdministrationObject_customized_2eproto.base);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  effectivedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  ::memset(&medicationcodeableconcept_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&context_) -
+      reinterpret_cast<char*>(&medicationcodeableconcept_)) + sizeof(context_));
+}
+
+MedicationAdministrationObject::~MedicationAdministrationObject() {
+  // @@protoc_insertion_point(destructor:patient.MedicationAdministrationObject)
+  SharedDtor();
+}
+
+void MedicationAdministrationObject::SharedDtor() {
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  effectivedatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete medicationcodeableconcept_;
+  if (this != internal_default_instance()) delete subject_;
+  if (this != internal_default_instance()) delete context_;
+}
+
+void MedicationAdministrationObject::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+const MedicationAdministrationObject& MedicationAdministrationObject::default_instance() {
+  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_MedicationAdministrationObject_customized_2eproto.base);
+  return *internal_default_instance();
+}
+
+
+void MedicationAdministrationObject::Clear() {
+// @@protoc_insertion_point(message_clear_start:patient.MedicationAdministrationObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  reasonreference_.Clear();
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  effectivedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == nullptr && medicationcodeableconcept_ != nullptr) {
+    delete medicationcodeableconcept_;
+  }
+  medicationcodeableconcept_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && subject_ != nullptr) {
+    delete subject_;
+  }
+  subject_ = nullptr;
+  if (GetArenaNoVirtual() == nullptr && context_ != nullptr) {
+    delete context_;
+  }
+  context_ = nullptr;
+  _internal_metadata_.Clear();
+}
+
+const char* MedicationAdministrationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    CHK_(ptr);
+    switch (tag >> 3) {
+      // string resourceType = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.MedicationAdministrationObject.resourceType");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string id = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_id(), ptr, ctx, "patient.MedicationAdministrationObject.id");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string status = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.MedicationAdministrationObject.status");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Category medicationCodeableConcept = 4;
+      case 4:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+          ptr = ctx->ParseMessage(_internal_mutable_medicationcodeableconcept(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference subject = 5;
+      case 5:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ctx->ParseMessage(_internal_mutable_subject(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // .patient.Reference context = 6;
+      case 6:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ctx->ParseMessage(_internal_mutable_context(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string effectiveDateTime = 7;
+      case 7:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_effectivedatetime(), ptr, ctx, "patient.MedicationAdministrationObject.effectiveDateTime");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Reference reasonReference = 8;
+      case 8:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_reasonreference(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<66>(ptr));
+        } else goto handle_unusual;
+        continue;
+      default: {
+      handle_unusual:
+        if ((tag & 7) == 4 || tag == 0) {
+          ctx->SetLastTag(tag);
+          goto success;
+        }
+        ptr = UnknownFieldParse(tag, &_internal_metadata_, ptr, ctx);
+        CHK_(ptr != nullptr);
+        continue;
+      }
+    }  // switch
+  }  // while
+success:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto success;
+#undef CHK_
+}
+
+::PROTOBUF_NAMESPACE_ID::uint8* MedicationAdministrationObject::InternalSerializeWithCachedSizesToArray(
+    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:patient.MedicationAdministrationObject)
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationAdministrationObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        1, this->_internal_resourcetype(), target);
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_id().data(), static_cast<int>(this->_internal_id().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationAdministrationObject.id");
+    target = stream->WriteStringMaybeAliased(
+        2, this->_internal_id(), target);
+  }
+
+  // string status = 3;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationAdministrationObject.status");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_status(), target);
+  }
+
+  // .patient.Category medicationCodeableConcept = 4;
+  if (this->has_medicationcodeableconcept()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        4, _Internal::medicationcodeableconcept(this), target, stream);
+  }
+
+  // .patient.Reference subject = 5;
+  if (this->has_subject()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        5, _Internal::subject(this), target, stream);
+  }
+
+  // .patient.Reference context = 6;
+  if (this->has_context()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        6, _Internal::context(this), target, stream);
+  }
+
+  // string effectiveDateTime = 7;
+  if (this->effectivedatetime().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_effectivedatetime().data(), static_cast<int>(this->_internal_effectivedatetime().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.MedicationAdministrationObject.effectiveDateTime");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_effectivedatetime(), target);
+  }
+
+  // repeated .patient.Reference reasonReference = 8;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_reasonreference_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(8, this->_internal_reasonreference(i), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields(), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:patient.MedicationAdministrationObject)
+  return target;
+}
+
+size_t MedicationAdministrationObject::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:patient.MedicationAdministrationObject)
+  size_t total_size = 0;
+
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .patient.Reference reasonReference = 8;
+  total_size += 1UL * this->_internal_reasonreference_size();
+  for (const auto& msg : this->reasonreference_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // string resourceType = 1;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string id = 2;
+  if (this->id().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_id());
+  }
+
+  // string status = 3;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // string effectiveDateTime = 7;
+  if (this->effectivedatetime().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_effectivedatetime());
+  }
+
+  // .patient.Category medicationCodeableConcept = 4;
+  if (this->has_medicationcodeableconcept()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *medicationcodeableconcept_);
+  }
+
+  // .patient.Reference subject = 5;
+  if (this->has_subject()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *subject_);
+  }
+
+  // .patient.Reference context = 6;
+  if (this->has_context()) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *context_);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
+        _internal_metadata_, total_size, &_cached_size_);
+  }
+  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
+}
+
+void MedicationAdministrationObject::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:patient.MedicationAdministrationObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  const MedicationAdministrationObject* source =
+      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<MedicationAdministrationObject>(
+          &from);
+  if (source == nullptr) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:patient.MedicationAdministrationObject)
+    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:patient.MedicationAdministrationObject)
+    MergeFrom(*source);
+  }
+}
+
+void MedicationAdministrationObject::MergeFrom(const MedicationAdministrationObject& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:patient.MedicationAdministrationObject)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  reasonreference_.MergeFrom(from.reasonreference_);
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  if (from.effectivedatetime().size() > 0) {
+
+    effectivedatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.effectivedatetime_);
+  }
+  if (from.has_medicationcodeableconcept()) {
+    _internal_mutable_medicationcodeableconcept()->::patient::Category::MergeFrom(from._internal_medicationcodeableconcept());
+  }
+  if (from.has_subject()) {
+    _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
+  }
+  if (from.has_context()) {
+    _internal_mutable_context()->::patient::Reference::MergeFrom(from._internal_context());
+  }
+}
+
+void MedicationAdministrationObject::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:patient.MedicationAdministrationObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void MedicationAdministrationObject::CopyFrom(const MedicationAdministrationObject& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:patient.MedicationAdministrationObject)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool MedicationAdministrationObject::IsInitialized() const {
+  return true;
+}
+
+void MedicationAdministrationObject::InternalSwap(MedicationAdministrationObject* other) {
+  using std::swap;
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  reasonreference_.InternalSwap(&other->reasonreference_);
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  effectivedatetime_.Swap(&other->effectivedatetime_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  swap(medicationcodeableconcept_, other->medicationcodeableconcept_);
+  swap(subject_, other->subject_);
+  swap(context_, other->context_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata MedicationAdministrationObject::GetMetadata() const {
   return GetMetadataStatic();
 }
 
@@ -16821,6 +24006,18 @@ ObservationObject::ObservationObject(const ObservationObject& from)
   if (!from._internal_issued().empty()) {
     issued_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.issued_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  valuestring_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_valuestring().empty()) {
+    valuestring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuestring_);
+  }
   if (from._internal_has_code()) {
     code_ = new ::patient::Category(*from.code_);
   } else {
@@ -16846,9 +24043,6 @@ ObservationObject::ObservationObject(const ObservationObject& from)
   } else {
     valuequantity_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.ObservationObject)
 }
 
@@ -16857,9 +24051,12 @@ void ObservationObject::SharedCtor() {
   effectivedatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuestring_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&code_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&code_)) + sizeof(status_));
+      reinterpret_cast<char*>(&valuequantity_) -
+      reinterpret_cast<char*>(&code_)) + sizeof(valuequantity_));
 }
 
 ObservationObject::~ObservationObject() {
@@ -16871,6 +24068,9 @@ void ObservationObject::SharedDtor() {
   effectivedatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuestring_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete code_;
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete subject_;
@@ -16898,6 +24098,9 @@ void ObservationObject::Clear() {
   effectivedatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   issued_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  valuestring_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
     delete code_;
   }
@@ -16918,9 +24121,6 @@ void ObservationObject::Clear() {
     delete valuequantity_;
   }
   valuequantity_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -16990,20 +24190,18 @@ const char* ObservationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 8;
+      // string resourceType = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ObservationObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 9;
+      // string status = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ObservationObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 10;
@@ -17024,6 +24222,13 @@ const char* ObservationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
       case 12:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
           ptr = ctx->ParseMessage(_internal_mutable_valuequantity(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string valueString = 13;
+      case 13:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_valuestring(), ptr, ctx, "patient.ObservationObject.valueString");
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -17115,18 +24320,24 @@ failure:
         7, this->_internal_issued(), target);
   }
 
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      8, this->_internal_resourcetype(), target);
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ObservationObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        8, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      9, this->_internal_status(), target);
+  // string status = 9;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ObservationObject.status");
+    target = stream->WriteStringMaybeAliased(
+        9, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 10;
@@ -17151,6 +24362,16 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(
         12, _Internal::valuequantity(this), target, stream);
+  }
+
+  // string valueString = 13;
+  if (this->valuestring().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_valuestring().data(), static_cast<int>(this->_internal_valuestring().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ObservationObject.valueString");
+    target = stream->WriteStringMaybeAliased(
+        13, this->_internal_valuestring(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -17204,6 +24425,27 @@ size_t ObservationObject::ByteSizeLong() const {
         this->_internal_issued());
   }
 
+  // string resourceType = 8;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 9;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
+  // string valueString = 13;
+  if (this->valuestring().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_valuestring());
+  }
+
   // .patient.Category code = 2;
   if (this->has_code()) {
     total_size += 1 +
@@ -17237,18 +24479,6 @@ size_t ObservationObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *valuequantity_);
-  }
-
-  // .patient.ResourceType resourceType = 8;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 9;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -17296,6 +24526,18 @@ void ObservationObject::MergeFrom(const ObservationObject& from) {
 
     issued_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.issued_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
+  if (from.valuestring().size() > 0) {
+
+    valuestring_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.valuestring_);
+  }
   if (from.has_code()) {
     _internal_mutable_code()->::patient::Category::MergeFrom(from._internal_code());
   }
@@ -17310,12 +24552,6 @@ void ObservationObject::MergeFrom(const ObservationObject& from) {
   }
   if (from.has_valuequantity()) {
     _internal_mutable_valuequantity()->::patient::Quantity::MergeFrom(from._internal_valuequantity());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -17348,13 +24584,17 @@ void ObservationObject::InternalSwap(ObservationObject* other) {
     GetArenaNoVirtual());
   issued_.Swap(&other->issued_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  valuestring_.Swap(&other->valuestring_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(code_, other->code_);
   swap(encounter_, other->encounter_);
   swap(subject_, other->subject_);
   swap(valuecodeableconcept_, other->valuecodeableconcept_);
   swap(valuequantity_, other->valuequantity_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ObservationObject::GetMetadata() const {
@@ -17381,7 +24621,8 @@ OrganizationObject::OrganizationObject(const OrganizationObject& from)
       address_(from.address_),
       identifier_(from.identifier_),
       telecom_(from.telecom_),
-      type_(from.type_) {
+      type_(from.type_),
+      extension_(from.extension_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_id().empty()) {
@@ -17391,9 +24632,11 @@ OrganizationObject::OrganizationObject(const OrganizationObject& from)
   if (!from._internal_name().empty()) {
     name_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.name_);
   }
-  ::memcpy(&active_, &from.active_,
-    static_cast<size_t>(reinterpret_cast<char*>(&resourcetype_) -
-    reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  active_ = from.active_;
   // @@protoc_insertion_point(copy_constructor:patient.OrganizationObject)
 }
 
@@ -17401,9 +24644,8 @@ void OrganizationObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_OrganizationObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&active_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  active_ = false;
 }
 
 OrganizationObject::~OrganizationObject() {
@@ -17414,6 +24656,7 @@ OrganizationObject::~OrganizationObject() {
 void OrganizationObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   name_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
 void OrganizationObject::SetCachedSize(int size) const {
@@ -17435,11 +24678,11 @@ void OrganizationObject::Clear() {
   identifier_.Clear();
   telecom_.Clear();
   type_.Clear();
+  extension_.Clear();
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   name_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&active_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  active_ = false;
   _internal_metadata_.Clear();
 }
 
@@ -17495,12 +24738,11 @@ const char* OrganizationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 6;
+      // string resourceType = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.OrganizationObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.Telecom telecom = 7;
@@ -17525,6 +24767,18 @@ const char* OrganizationObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<66>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Extension extension = 9;
+      case 9:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_extension(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<74>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -17595,11 +24849,14 @@ failure:
         5, this->_internal_name(), target);
   }
 
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      6, this->_internal_resourcetype(), target);
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.OrganizationObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_resourcetype(), target);
   }
 
   // repeated .patient.Telecom telecom = 7;
@@ -17616,6 +24873,14 @@ failure:
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(8, this->_internal_type(i), target, stream);
+  }
+
+  // repeated .patient.Extension extension = 9;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_extension_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(9, this->_internal_extension(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -17662,6 +24927,13 @@ size_t OrganizationObject::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
+  // repeated .patient.Extension extension = 9;
+  total_size += 1UL * this->_internal_extension_size();
+  for (const auto& msg : this->extension_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
   // string id = 3;
   if (this->id().size() > 0) {
     total_size += 1 +
@@ -17676,15 +24948,16 @@ size_t OrganizationObject::ByteSizeLong() const {
         this->_internal_name());
   }
 
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
   // bool active = 1;
   if (this->active() != 0) {
     total_size += 1 + 1;
-  }
-
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -17722,6 +24995,7 @@ void OrganizationObject::MergeFrom(const OrganizationObject& from) {
   identifier_.MergeFrom(from.identifier_);
   telecom_.MergeFrom(from.telecom_);
   type_.MergeFrom(from.type_);
+  extension_.MergeFrom(from.extension_);
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
@@ -17730,11 +25004,12 @@ void OrganizationObject::MergeFrom(const OrganizationObject& from) {
 
     name_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.name_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
   if (from.active() != 0) {
     _internal_set_active(from._internal_active());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
   }
 }
 
@@ -17763,12 +25038,14 @@ void OrganizationObject::InternalSwap(OrganizationObject* other) {
   identifier_.InternalSwap(&other->identifier_);
   telecom_.InternalSwap(&other->telecom_);
   type_.InternalSwap(&other->type_);
+  extension_.InternalSwap(&other->extension_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   name_.Swap(&other->name_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(active_, other->active_);
-  swap(resourcetype_, other->resourcetype_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata OrganizationObject::GetMetadata() const {
@@ -17781,15 +25058,22 @@ void OrganizationObject::InternalSwap(OrganizationObject* other) {
 void PatientObject::InitAsDefaultInstance() {
   ::patient::_PatientObject_default_instance_._instance.get_mutable()->maritalstatus_ = const_cast< ::patient::Category*>(
       ::patient::Category::internal_default_instance());
+  ::patient::_PatientObject_default_instance_._instance.get_mutable()->text_ = const_cast< ::patient::Text*>(
+      ::patient::Text::internal_default_instance());
 }
 class PatientObject::_Internal {
  public:
   static const ::patient::Category& maritalstatus(const PatientObject* msg);
+  static const ::patient::Text& text(const PatientObject* msg);
 };
 
 const ::patient::Category&
 PatientObject::_Internal::maritalstatus(const PatientObject* msg) {
   return *msg->maritalstatus_;
+}
+const ::patient::Text&
+PatientObject::_Internal::text(const PatientObject* msg) {
+  return *msg->text_;
 }
 PatientObject::PatientObject()
   : ::PROTOBUF_NAMESPACE_ID::Message(), _internal_metadata_(nullptr) {
@@ -17810,33 +25094,48 @@ PatientObject::PatientObject(const PatientObject& from)
   if (!from._internal_birthdate().empty()) {
     birthdate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.birthdate_);
   }
+  gender_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_gender().empty()) {
+    gender_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.gender_);
+  }
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
-  text_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (!from._internal_text().empty()) {
-    text_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.text_);
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  deceaseddatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_deceaseddatetime().empty()) {
+    deceaseddatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.deceaseddatetime_);
   }
   if (from._internal_has_maritalstatus()) {
     maritalstatus_ = new ::patient::Category(*from.maritalstatus_);
   } else {
     maritalstatus_ = nullptr;
   }
-  ::memcpy(&gender_, &from.gender_,
-    static_cast<size_t>(reinterpret_cast<char*>(&resourcetype_) -
-    reinterpret_cast<char*>(&gender_)) + sizeof(resourcetype_));
+  if (from._internal_has_text()) {
+    text_ = new ::patient::Text(*from.text_);
+  } else {
+    text_ = nullptr;
+  }
+  ::memcpy(&multiplebirthboolean_, &from.multiplebirthboolean_,
+    static_cast<size_t>(reinterpret_cast<char*>(&multiplebirthinteger_) -
+    reinterpret_cast<char*>(&multiplebirthboolean_)) + sizeof(multiplebirthinteger_));
   // @@protoc_insertion_point(copy_constructor:patient.PatientObject)
 }
 
 void PatientObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_PatientObject_customized_2eproto.base);
   birthdate_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  gender_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  deceaseddatetime_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&maritalstatus_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&maritalstatus_)) + sizeof(resourcetype_));
+      reinterpret_cast<char*>(&multiplebirthinteger_) -
+      reinterpret_cast<char*>(&maritalstatus_)) + sizeof(multiplebirthinteger_));
 }
 
 PatientObject::~PatientObject() {
@@ -17846,9 +25145,12 @@ PatientObject::~PatientObject() {
 
 void PatientObject::SharedDtor() {
   birthdate_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  gender_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  deceaseddatetime_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete maritalstatus_;
+  if (this != internal_default_instance()) delete text_;
 }
 
 void PatientObject::SetCachedSize(int size) const {
@@ -17873,15 +25175,21 @@ void PatientObject::Clear() {
   name_.Clear();
   telecom_.Clear();
   birthdate_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  gender_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  text_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  deceaseddatetime_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && maritalstatus_ != nullptr) {
     delete maritalstatus_;
   }
   maritalstatus_ = nullptr;
-  ::memset(&gender_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&gender_)) + sizeof(resourcetype_));
+  if (GetArenaNoVirtual() == nullptr && text_ != nullptr) {
+    delete text_;
+  }
+  text_ = nullptr;
+  ::memset(&multiplebirthboolean_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&multiplebirthinteger_) -
+      reinterpret_cast<char*>(&multiplebirthboolean_)) + sizeof(multiplebirthinteger_));
   _internal_metadata_.Clear();
 }
 
@@ -17935,12 +25243,11 @@ const char* PatientObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<34>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.Gender gender = 5;
+      // string gender = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_gender(), ptr, ctx, "patient.PatientObject.gender");
           CHK_(ptr);
-          _internal_set_gender(static_cast<::patient::Gender>(val));
         } else goto handle_unusual;
         continue;
       // string id = 6;
@@ -17988,12 +25295,11 @@ const char* PatientObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<82>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 11;
+      // string resourceType = 11;
       case 11:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 88)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.PatientObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.Telecom telecom = 12;
@@ -18008,10 +25314,24 @@ const char* PatientObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<98>(ptr));
         } else goto handle_unusual;
         continue;
-      // string text = 13;
+      // .patient.Text text = 13;
       case 13:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_text(), ptr, ctx, "patient.PatientObject.text");
+          ptr = ctx->ParseMessage(_internal_mutable_text(), ptr);
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // string deceasedDateTime = 14;
+      case 14:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 114)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_deceaseddatetime(), ptr, ctx, "patient.PatientObject.deceasedDateTime");
+          CHK_(ptr);
+        } else goto handle_unusual;
+        continue;
+      // int32 multipleBirthInteger = 15;
+      case 15:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 120)) {
+          multiplebirthinteger_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
@@ -18075,11 +25395,14 @@ failure:
       InternalWriteMessageToArray(4, this->_internal_extension(i), target, stream);
   }
 
-  // .patient.Gender gender = 5;
-  if (this->gender() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      5, this->_internal_gender(), target);
+  // string gender = 5;
+  if (this->gender().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_gender().data(), static_cast<int>(this->_internal_gender().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.PatientObject.gender");
+    target = stream->WriteStringMaybeAliased(
+        5, this->_internal_gender(), target);
   }
 
   // string id = 6;
@@ -18122,11 +25445,14 @@ failure:
       InternalWriteMessageToArray(10, this->_internal_name(i), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 11;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      11, this->_internal_resourcetype(), target);
+  // string resourceType = 11;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.PatientObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        11, this->_internal_resourcetype(), target);
   }
 
   // repeated .patient.Telecom telecom = 12;
@@ -18137,14 +25463,28 @@ failure:
       InternalWriteMessageToArray(12, this->_internal_telecom(i), target, stream);
   }
 
-  // string text = 13;
-  if (this->text().size() > 0) {
+  // .patient.Text text = 13;
+  if (this->has_text()) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(
+        13, _Internal::text(this), target, stream);
+  }
+
+  // string deceasedDateTime = 14;
+  if (this->deceaseddatetime().size() > 0) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
-      this->_internal_text().data(), static_cast<int>(this->_internal_text().length()),
+      this->_internal_deceaseddatetime().data(), static_cast<int>(this->_internal_deceaseddatetime().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
-      "patient.PatientObject.text");
+      "patient.PatientObject.deceasedDateTime");
     target = stream->WriteStringMaybeAliased(
-        13, this->_internal_text(), target);
+        14, this->_internal_deceaseddatetime(), target);
+  }
+
+  // int32 multipleBirthInteger = 15;
+  if (this->multiplebirthinteger() != 0) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(15, this->_internal_multiplebirthinteger(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -18212,6 +25552,13 @@ size_t PatientObject::ByteSizeLong() const {
         this->_internal_birthdate());
   }
 
+  // string gender = 5;
+  if (this->gender().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_gender());
+  }
+
   // string id = 6;
   if (this->id().size() > 0) {
     total_size += 1 +
@@ -18219,11 +25566,18 @@ size_t PatientObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
-  // string text = 13;
-  if (this->text().size() > 0) {
+  // string resourceType = 11;
+  if (this->resourcetype().size() > 0) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
-        this->_internal_text());
+        this->_internal_resourcetype());
+  }
+
+  // string deceasedDateTime = 14;
+  if (this->deceaseddatetime().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_deceaseddatetime());
   }
 
   // .patient.Category maritalStatus = 8;
@@ -18233,10 +25587,11 @@ size_t PatientObject::ByteSizeLong() const {
         *maritalstatus_);
   }
 
-  // .patient.Gender gender = 5;
-  if (this->gender() != 0) {
+  // .patient.Text text = 13;
+  if (this->has_text()) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_gender());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
+        *text_);
   }
 
   // bool multipleBirthBoolean = 9;
@@ -18244,10 +25599,11 @@ size_t PatientObject::ByteSizeLong() const {
     total_size += 1 + 1;
   }
 
-  // .patient.ResourceType resourceType = 11;
-  if (this->resourcetype() != 0) {
+  // int32 multipleBirthInteger = 15;
+  if (this->multiplebirthinteger() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
+        this->_internal_multiplebirthinteger());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -18291,25 +25647,33 @@ void PatientObject::MergeFrom(const PatientObject& from) {
 
     birthdate_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.birthdate_);
   }
+  if (from.gender().size() > 0) {
+
+    gender_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.gender_);
+  }
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
-  if (from.text().size() > 0) {
+  if (from.resourcetype().size() > 0) {
 
-    text_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.text_);
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.deceaseddatetime().size() > 0) {
+
+    deceaseddatetime_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.deceaseddatetime_);
   }
   if (from.has_maritalstatus()) {
     _internal_mutable_maritalstatus()->::patient::Category::MergeFrom(from._internal_maritalstatus());
   }
-  if (from.gender() != 0) {
-    _internal_set_gender(from._internal_gender());
+  if (from.has_text()) {
+    _internal_mutable_text()->::patient::Text::MergeFrom(from._internal_text());
   }
   if (from.multiplebirthboolean() != 0) {
     _internal_set_multiplebirthboolean(from._internal_multiplebirthboolean());
   }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
+  if (from.multiplebirthinteger() != 0) {
+    _internal_set_multiplebirthinteger(from._internal_multiplebirthinteger());
   }
 }
 
@@ -18342,14 +25706,18 @@ void PatientObject::InternalSwap(PatientObject* other) {
   telecom_.InternalSwap(&other->telecom_);
   birthdate_.Swap(&other->birthdate_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  gender_.Swap(&other->gender_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
-  text_.Swap(&other->text_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  deceaseddatetime_.Swap(&other->deceaseddatetime_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
   swap(maritalstatus_, other->maritalstatus_);
-  swap(gender_, other->gender_);
+  swap(text_, other->text_);
   swap(multiplebirthboolean_, other->multiplebirthboolean_);
-  swap(resourcetype_, other->resourcetype_);
+  swap(multiplebirthinteger_, other->multiplebirthinteger_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata PatientObject::GetMetadata() const {
@@ -18376,24 +25744,31 @@ PractitionerObject::PractitionerObject(const PractitionerObject& from)
       address_(from.address_),
       identifier_(from.identifier_),
       name_(from.name_),
-      telecom_(from.telecom_) {
+      telecom_(from.telecom_),
+      extension_(from.extension_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
+  gender_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_gender().empty()) {
+    gender_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.gender_);
+  }
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
-  ::memcpy(&active_, &from.active_,
-    static_cast<size_t>(reinterpret_cast<char*>(&resourcetype_) -
-    reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  active_ = from.active_;
   // @@protoc_insertion_point(copy_constructor:patient.PractitionerObject)
 }
 
 void PractitionerObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_PractitionerObject_customized_2eproto.base);
+  gender_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&active_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  active_ = false;
 }
 
 PractitionerObject::~PractitionerObject() {
@@ -18402,7 +25777,9 @@ PractitionerObject::~PractitionerObject() {
 }
 
 void PractitionerObject::SharedDtor() {
+  gender_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
 void PractitionerObject::SetCachedSize(int size) const {
@@ -18424,10 +25801,11 @@ void PractitionerObject::Clear() {
   identifier_.Clear();
   name_.Clear();
   telecom_.Clear();
+  extension_.Clear();
+  gender_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&active_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&resourcetype_) -
-      reinterpret_cast<char*>(&active_)) + sizeof(resourcetype_));
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  active_ = false;
   _internal_metadata_.Clear();
 }
 
@@ -18457,12 +25835,11 @@ const char* PractitionerObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.Gender gender = 3;
+      // string gender = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_gender(), ptr, ctx, "patient.PractitionerObject.gender");
           CHK_(ptr);
-          _internal_set_gender(static_cast<::patient::Gender>(val));
         } else goto handle_unusual;
         continue;
       // string id = 4;
@@ -18496,12 +25873,11 @@ const char* PractitionerObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<50>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 7;
+      // string resourceType = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.PractitionerObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
       // repeated .patient.Telecom telecom = 8;
@@ -18514,6 +25890,18 @@ const char* PractitionerObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMES
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<66>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.Extension extension = 9;
+      case 9:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_extension(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<74>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -18556,11 +25944,14 @@ failure:
       InternalWriteMessageToArray(2, this->_internal_address(i), target, stream);
   }
 
-  // .patient.Gender gender = 3;
-  if (this->gender() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      3, this->_internal_gender(), target);
+  // string gender = 3;
+  if (this->gender().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_gender().data(), static_cast<int>(this->_internal_gender().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.PractitionerObject.gender");
+    target = stream->WriteStringMaybeAliased(
+        3, this->_internal_gender(), target);
   }
 
   // string id = 4;
@@ -18589,11 +25980,14 @@ failure:
       InternalWriteMessageToArray(6, this->_internal_name(i), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      7, this->_internal_resourcetype(), target);
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.PractitionerObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_resourcetype(), target);
   }
 
   // repeated .patient.Telecom telecom = 8;
@@ -18602,6 +25996,14 @@ failure:
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(8, this->_internal_telecom(i), target, stream);
+  }
+
+  // repeated .patient.Extension extension = 9;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_extension_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(9, this->_internal_extension(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -18648,6 +26050,20 @@ size_t PractitionerObject::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
+  // repeated .patient.Extension extension = 9;
+  total_size += 1UL * this->_internal_extension_size();
+  for (const auto& msg : this->extension_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // string gender = 3;
+  if (this->gender().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_gender());
+  }
+
   // string id = 4;
   if (this->id().size() > 0) {
     total_size += 1 +
@@ -18655,21 +26071,16 @@ size_t PractitionerObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
+  // string resourceType = 7;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
   // bool active = 1;
   if (this->active() != 0) {
     total_size += 1 + 1;
-  }
-
-  // .patient.Gender gender = 3;
-  if (this->gender() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_gender());
-  }
-
-  // .patient.ResourceType resourceType = 7;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -18707,18 +26118,21 @@ void PractitionerObject::MergeFrom(const PractitionerObject& from) {
   identifier_.MergeFrom(from.identifier_);
   name_.MergeFrom(from.name_);
   telecom_.MergeFrom(from.telecom_);
+  extension_.MergeFrom(from.extension_);
+  if (from.gender().size() > 0) {
+
+    gender_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.gender_);
+  }
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
   if (from.active() != 0) {
     _internal_set_active(from._internal_active());
-  }
-  if (from.gender() != 0) {
-    _internal_set_gender(from._internal_gender());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
   }
 }
 
@@ -18747,11 +26161,14 @@ void PractitionerObject::InternalSwap(PractitionerObject* other) {
   identifier_.InternalSwap(&other->identifier_);
   name_.InternalSwap(&other->name_);
   telecom_.InternalSwap(&other->telecom_);
+  extension_.InternalSwap(&other->extension_);
+  gender_.Swap(&other->gender_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(active_, other->active_);
-  swap(gender_, other->gender_);
-  swap(resourcetype_, other->resourcetype_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata PractitionerObject::GetMetadata() const {
@@ -18809,6 +26226,14 @@ ProcedureObject::ProcedureObject(const ProcedureObject& from)
   if (!from._internal_id().empty()) {
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_resourcetype().empty()) {
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  if (!from._internal_status().empty()) {
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from._internal_has_code()) {
     code_ = new ::patient::Category(*from.code_);
   } else {
@@ -18829,18 +26254,17 @@ ProcedureObject::ProcedureObject(const ProcedureObject& from)
   } else {
     subject_ = nullptr;
   }
-  ::memcpy(&resourcetype_, &from.resourcetype_,
-    static_cast<size_t>(reinterpret_cast<char*>(&status_) -
-    reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   // @@protoc_insertion_point(copy_constructor:patient.ProcedureObject)
 }
 
 void ProcedureObject::SharedCtor() {
   ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_ProcedureObject_customized_2eproto.base);
   id_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   ::memset(&code_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&code_)) + sizeof(status_));
+      reinterpret_cast<char*>(&subject_) -
+      reinterpret_cast<char*>(&code_)) + sizeof(subject_));
 }
 
 ProcedureObject::~ProcedureObject() {
@@ -18850,6 +26274,8 @@ ProcedureObject::~ProcedureObject() {
 
 void ProcedureObject::SharedDtor() {
   id_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (this != internal_default_instance()) delete code_;
   if (this != internal_default_instance()) delete encounter_;
   if (this != internal_default_instance()) delete performedperiod_;
@@ -18873,6 +26299,8 @@ void ProcedureObject::Clear() {
 
   reasonreference_.Clear();
   id_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  resourcetype_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  status_.ClearToEmptyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == nullptr && code_ != nullptr) {
     delete code_;
   }
@@ -18889,9 +26317,6 @@ void ProcedureObject::Clear() {
     delete subject_;
   }
   subject_ = nullptr;
-  ::memset(&resourcetype_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&status_) -
-      reinterpret_cast<char*>(&resourcetype_)) + sizeof(status_));
   _internal_metadata_.Clear();
 }
 
@@ -18942,20 +26367,18 @@ const char* ProcedureObject::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPAC
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
         } else goto handle_unusual;
         continue;
-      // .patient.ResourceType resourceType = 6;
+      // string resourceType = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_resourcetype(), ptr, ctx, "patient.ProcedureObject.resourceType");
           CHK_(ptr);
-          _internal_set_resourcetype(static_cast<::patient::ResourceType>(val));
         } else goto handle_unusual;
         continue;
-      // .patient.Status status = 7;
+      // string status = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParserUTF8(_internal_mutable_status(), ptr, ctx, "patient.ProcedureObject.status");
           CHK_(ptr);
-          _internal_set_status(static_cast<::patient::Status>(val));
         } else goto handle_unusual;
         continue;
       // .patient.Reference subject = 8;
@@ -19033,18 +26456,24 @@ failure:
       InternalWriteMessageToArray(5, this->_internal_reasonreference(i), target, stream);
   }
 
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      6, this->_internal_resourcetype(), target);
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_resourcetype().data(), static_cast<int>(this->_internal_resourcetype().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ProcedureObject.resourceType");
+    target = stream->WriteStringMaybeAliased(
+        6, this->_internal_resourcetype(), target);
   }
 
-  // .patient.Status status = 7;
-  if (this->status() != 0) {
-    stream->EnsureSpace(&target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
-      7, this->_internal_status(), target);
+  // string status = 7;
+  if (this->status().size() > 0) {
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+      this->_internal_status().data(), static_cast<int>(this->_internal_status().length()),
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+      "patient.ProcedureObject.status");
+    target = stream->WriteStringMaybeAliased(
+        7, this->_internal_status(), target);
   }
 
   // .patient.Reference subject = 8;
@@ -19085,6 +26514,20 @@ size_t ProcedureObject::ByteSizeLong() const {
         this->_internal_id());
   }
 
+  // string resourceType = 6;
+  if (this->resourcetype().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_resourcetype());
+  }
+
+  // string status = 7;
+  if (this->status().size() > 0) {
+    total_size += 1 +
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
+        this->_internal_status());
+  }
+
   // .patient.Category code = 1;
   if (this->has_code()) {
     total_size += 1 +
@@ -19111,18 +26554,6 @@ size_t ProcedureObject::ByteSizeLong() const {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
         *subject_);
-  }
-
-  // .patient.ResourceType resourceType = 6;
-  if (this->resourcetype() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_resourcetype());
-  }
-
-  // .patient.Status status = 7;
-  if (this->status() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -19161,6 +26592,14 @@ void ProcedureObject::MergeFrom(const ProcedureObject& from) {
 
     id_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.id_);
   }
+  if (from.resourcetype().size() > 0) {
+
+    resourcetype_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.resourcetype_);
+  }
+  if (from.status().size() > 0) {
+
+    status_.AssignWithDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from.status_);
+  }
   if (from.has_code()) {
     _internal_mutable_code()->::patient::Category::MergeFrom(from._internal_code());
   }
@@ -19172,12 +26611,6 @@ void ProcedureObject::MergeFrom(const ProcedureObject& from) {
   }
   if (from.has_subject()) {
     _internal_mutable_subject()->::patient::Reference::MergeFrom(from._internal_subject());
-  }
-  if (from.resourcetype() != 0) {
-    _internal_set_resourcetype(from._internal_resourcetype());
-  }
-  if (from.status() != 0) {
-    _internal_set_status(from._internal_status());
   }
 }
 
@@ -19205,12 +26638,14 @@ void ProcedureObject::InternalSwap(ProcedureObject* other) {
   reasonreference_.InternalSwap(&other->reasonreference_);
   id_.Swap(&other->id_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
     GetArenaNoVirtual());
+  resourcetype_.Swap(&other->resourcetype_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
+  status_.Swap(&other->status_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
+    GetArenaNoVirtual());
   swap(code_, other->code_);
   swap(encounter_, other->encounter_);
   swap(performedperiod_, other->performedperiod_);
   swap(subject_, other->subject_);
-  swap(resourcetype_, other->resourcetype_);
-  swap(status_, other->status_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata ProcedureObject::GetMetadata() const {
@@ -19251,9 +26686,14 @@ PatientRecord::PatientRecord(const PatientRecord& from)
       immunization_(from.immunization_),
       medicationrequest_(from.medicationrequest_),
       observation_(from.observation_),
-      organiation_(from.organiation_),
+      organization_(from.organization_),
       practitioner_(from.practitioner_),
-      procedure_(from.procedure_) {
+      procedure_(from.procedure_),
+      allergyintolerance_(from.allergyintolerance_),
+      goal_(from.goal_),
+      imagingstudy_(from.imagingstudy_),
+      device_(from.device_),
+      medicationadministration_(from.medicationadministration_) {
   _internal_metadata_.MergeFrom(from._internal_metadata_);
   if (from._internal_has_patient()) {
     patient_ = new ::patient::PatientObject(*from.patient_);
@@ -19302,9 +26742,14 @@ void PatientRecord::Clear() {
   immunization_.Clear();
   medicationrequest_.Clear();
   observation_.Clear();
-  organiation_.Clear();
+  organization_.Clear();
   practitioner_.Clear();
   procedure_.Clear();
+  allergyintolerance_.Clear();
+  goal_.Clear();
+  imagingstudy_.Clear();
+  device_.Clear();
+  medicationadministration_.Clear();
   if (GetArenaNoVirtual() == nullptr && patient_ != nullptr) {
     delete patient_;
   }
@@ -19446,13 +26891,13 @@ const char* PatientRecord::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<90>(ptr));
         } else goto handle_unusual;
         continue;
-      // repeated .patient.OrganizationObject organiation = 12;
+      // repeated .patient.OrganizationObject organization = 12;
       case 12:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
           ptr -= 1;
           do {
             ptr += 1;
-            ptr = ctx->ParseMessage(_internal_add_organiation(), ptr);
+            ptr = ctx->ParseMessage(_internal_add_organization(), ptr);
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<98>(ptr));
@@ -19480,6 +26925,66 @@ const char* PatientRecord::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<114>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.AllergyIntoleranceObject allergyIntolerance = 15;
+      case 15:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 122)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_allergyintolerance(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<122>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.GoalObject goal = 16;
+      case 16:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 130)) {
+          ptr -= 2;
+          do {
+            ptr += 2;
+            ptr = ctx->ParseMessage(_internal_add_goal(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<130>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.ImagingStudyObject imagingStudy = 17;
+      case 17:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 138)) {
+          ptr -= 2;
+          do {
+            ptr += 2;
+            ptr = ctx->ParseMessage(_internal_add_imagingstudy(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<138>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.DeviceObject device = 18;
+      case 18:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 146)) {
+          ptr -= 2;
+          do {
+            ptr += 2;
+            ptr = ctx->ParseMessage(_internal_add_device(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<146>(ptr));
+        } else goto handle_unusual;
+        continue;
+      // repeated .patient.MedicationAdministrationObject medicationAdministration = 19;
+      case 19:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 154)) {
+          ptr -= 2;
+          do {
+            ptr += 2;
+            ptr = ctx->ParseMessage(_internal_add_medicationadministration(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<154>(ptr));
         } else goto handle_unusual;
         continue;
       default: {
@@ -19596,12 +27101,12 @@ failure:
       InternalWriteMessageToArray(11, this->_internal_observation(i), target, stream);
   }
 
-  // repeated .patient.OrganizationObject organiation = 12;
+  // repeated .patient.OrganizationObject organization = 12;
   for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_organiation_size()); i < n; i++) {
+      n = static_cast<unsigned int>(this->_internal_organization_size()); i < n; i++) {
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessageToArray(12, this->_internal_organiation(i), target, stream);
+      InternalWriteMessageToArray(12, this->_internal_organization(i), target, stream);
   }
 
   // repeated .patient.PractitionerObject practitioner = 13;
@@ -19618,6 +27123,46 @@ failure:
     stream->EnsureSpace(&target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
       InternalWriteMessageToArray(14, this->_internal_procedure(i), target, stream);
+  }
+
+  // repeated .patient.AllergyIntoleranceObject allergyIntolerance = 15;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_allergyintolerance_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(15, this->_internal_allergyintolerance(i), target, stream);
+  }
+
+  // repeated .patient.GoalObject goal = 16;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_goal_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(16, this->_internal_goal(i), target, stream);
+  }
+
+  // repeated .patient.ImagingStudyObject imagingStudy = 17;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_imagingstudy_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(17, this->_internal_imagingstudy(i), target, stream);
+  }
+
+  // repeated .patient.DeviceObject device = 18;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_device_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(18, this->_internal_device(i), target, stream);
+  }
+
+  // repeated .patient.MedicationAdministrationObject medicationAdministration = 19;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_medicationadministration_size()); i < n; i++) {
+    stream->EnsureSpace(&target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessageToArray(19, this->_internal_medicationadministration(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -19706,9 +27251,9 @@ size_t PatientRecord::ByteSizeLong() const {
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  // repeated .patient.OrganizationObject organiation = 12;
-  total_size += 1UL * this->_internal_organiation_size();
-  for (const auto& msg : this->organiation_) {
+  // repeated .patient.OrganizationObject organization = 12;
+  total_size += 1UL * this->_internal_organization_size();
+  for (const auto& msg : this->organization_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
@@ -19723,6 +27268,41 @@ size_t PatientRecord::ByteSizeLong() const {
   // repeated .patient.ProcedureObject procedure = 14;
   total_size += 1UL * this->_internal_procedure_size();
   for (const auto& msg : this->procedure_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.AllergyIntoleranceObject allergyIntolerance = 15;
+  total_size += 1UL * this->_internal_allergyintolerance_size();
+  for (const auto& msg : this->allergyintolerance_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.GoalObject goal = 16;
+  total_size += 2UL * this->_internal_goal_size();
+  for (const auto& msg : this->goal_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.ImagingStudyObject imagingStudy = 17;
+  total_size += 2UL * this->_internal_imagingstudy_size();
+  for (const auto& msg : this->imagingstudy_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.DeviceObject device = 18;
+  total_size += 2UL * this->_internal_device_size();
+  for (const auto& msg : this->device_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  // repeated .patient.MedicationAdministrationObject medicationAdministration = 19;
+  total_size += 2UL * this->_internal_medicationadministration_size();
+  for (const auto& msg : this->medicationadministration_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
@@ -19775,9 +27355,14 @@ void PatientRecord::MergeFrom(const PatientRecord& from) {
   immunization_.MergeFrom(from.immunization_);
   medicationrequest_.MergeFrom(from.medicationrequest_);
   observation_.MergeFrom(from.observation_);
-  organiation_.MergeFrom(from.organiation_);
+  organization_.MergeFrom(from.organization_);
   practitioner_.MergeFrom(from.practitioner_);
   procedure_.MergeFrom(from.procedure_);
+  allergyintolerance_.MergeFrom(from.allergyintolerance_);
+  goal_.MergeFrom(from.goal_);
+  imagingstudy_.MergeFrom(from.imagingstudy_);
+  device_.MergeFrom(from.device_);
+  medicationadministration_.MergeFrom(from.medicationadministration_);
   if (from.has_patient()) {
     _internal_mutable_patient()->::patient::PatientObject::MergeFrom(from._internal_patient());
   }
@@ -19814,9 +27399,14 @@ void PatientRecord::InternalSwap(PatientRecord* other) {
   immunization_.InternalSwap(&other->immunization_);
   medicationrequest_.InternalSwap(&other->medicationrequest_);
   observation_.InternalSwap(&other->observation_);
-  organiation_.InternalSwap(&other->organiation_);
+  organization_.InternalSwap(&other->organization_);
   practitioner_.InternalSwap(&other->practitioner_);
   procedure_.InternalSwap(&other->procedure_);
+  allergyintolerance_.InternalSwap(&other->allergyintolerance_);
+  goal_.InternalSwap(&other->goal_);
+  imagingstudy_.InternalSwap(&other->imagingstudy_);
+  device_.InternalSwap(&other->device_);
+  medicationadministration_.InternalSwap(&other->medicationadministration_);
   swap(patient_, other->patient_);
 }
 
@@ -19921,6 +27511,42 @@ template<> PROTOBUF_NOINLINE ::patient::Period* Arena::CreateMaybeMessage< ::pat
 template<> PROTOBUF_NOINLINE ::patient::Resource* Arena::CreateMaybeMessage< ::patient::Resource >(Arena* arena) {
   return Arena::CreateInternal< ::patient::Resource >(arena);
 }
+template<> PROTOBUF_NOINLINE ::patient::DosageInstruction* Arena::CreateMaybeMessage< ::patient::DosageInstruction >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::DosageInstruction >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Repeat* Arena::CreateMaybeMessage< ::patient::Repeat >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Repeat >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Timing* Arena::CreateMaybeMessage< ::patient::Timing >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Timing >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::DoseAndRate* Arena::CreateMaybeMessage< ::patient::DoseAndRate >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::DoseAndRate >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Onset* Arena::CreateMaybeMessage< ::patient::Onset >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Onset >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Reaction* Arena::CreateMaybeMessage< ::patient::Reaction >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Reaction >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Instance* Arena::CreateMaybeMessage< ::patient::Instance >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Instance >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Series* Arena::CreateMaybeMessage< ::patient::Series >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Series >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Hospitalization* Arena::CreateMaybeMessage< ::patient::Hospitalization >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Hospitalization >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::Carrier* Arena::CreateMaybeMessage< ::patient::Carrier >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::Carrier >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::DeviceName* Arena::CreateMaybeMessage< ::patient::DeviceName >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::DeviceName >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::AllergyIntoleranceObject* Arena::CreateMaybeMessage< ::patient::AllergyIntoleranceObject >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::AllergyIntoleranceObject >(arena);
+}
 template<> PROTOBUF_NOINLINE ::patient::CarePlanObject* Arena::CreateMaybeMessage< ::patient::CarePlanObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::CarePlanObject >(arena);
 }
@@ -19933,6 +27559,9 @@ template<> PROTOBUF_NOINLINE ::patient::ClaimObject* Arena::CreateMaybeMessage< 
 template<> PROTOBUF_NOINLINE ::patient::ConditionObject* Arena::CreateMaybeMessage< ::patient::ConditionObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::ConditionObject >(arena);
 }
+template<> PROTOBUF_NOINLINE ::patient::DeviceObject* Arena::CreateMaybeMessage< ::patient::DeviceObject >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::DeviceObject >(arena);
+}
 template<> PROTOBUF_NOINLINE ::patient::DiagnosticReportObject* Arena::CreateMaybeMessage< ::patient::DiagnosticReportObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::DiagnosticReportObject >(arena);
 }
@@ -19942,11 +27571,20 @@ template<> PROTOBUF_NOINLINE ::patient::EncounterObject* Arena::CreateMaybeMessa
 template<> PROTOBUF_NOINLINE ::patient::ExplanationOfBenefitObject* Arena::CreateMaybeMessage< ::patient::ExplanationOfBenefitObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::ExplanationOfBenefitObject >(arena);
 }
+template<> PROTOBUF_NOINLINE ::patient::GoalObject* Arena::CreateMaybeMessage< ::patient::GoalObject >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::GoalObject >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::ImagingStudyObject* Arena::CreateMaybeMessage< ::patient::ImagingStudyObject >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::ImagingStudyObject >(arena);
+}
 template<> PROTOBUF_NOINLINE ::patient::ImmunizationObject* Arena::CreateMaybeMessage< ::patient::ImmunizationObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::ImmunizationObject >(arena);
 }
 template<> PROTOBUF_NOINLINE ::patient::MedicationRequestObject* Arena::CreateMaybeMessage< ::patient::MedicationRequestObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::MedicationRequestObject >(arena);
+}
+template<> PROTOBUF_NOINLINE ::patient::MedicationAdministrationObject* Arena::CreateMaybeMessage< ::patient::MedicationAdministrationObject >(Arena* arena) {
+  return Arena::CreateInternal< ::patient::MedicationAdministrationObject >(arena);
 }
 template<> PROTOBUF_NOINLINE ::patient::ObservationObject* Arena::CreateMaybeMessage< ::patient::ObservationObject >(Arena* arena) {
   return Arena::CreateInternal< ::patient::ObservationObject >(arena);

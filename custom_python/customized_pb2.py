@@ -4,7 +4,6 @@
 
 import sys
 _b=sys.version_info[0]<3 and (lambda x:x) or (lambda x:x.encode('latin1'))
-from google.protobuf.internal import enum_type_wrapper
 from google.protobuf import descriptor as _descriptor
 from google.protobuf import message as _message
 from google.protobuf import reflection as _reflection
@@ -21,169 +20,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='patient',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x10\x63ustomized.proto\x12\x07patient\"+\n\x08\x41\x63tivity\x12\x1f\n\x06\x64\x65tail\x18\x01 \x03(\x0b\x32\x0f.patient.Detail\"\x80\x01\n\x07\x41\x64\x64ress\x12\x0c\n\x04\x63ity\x18\x01 \x01(\t\x12\x0f\n\x07\x63ountry\x18\x02 \x01(\t\x12%\n\textension\x18\x03 \x03(\x0b\x32\x12.patient.Extension\x12\x0c\n\x04line\x18\x04 \x03(\t\x12\x12\n\npostalCode\x18\x05 \x01(\t\x12\r\n\x05state\x18\x06 \x01(\t\"T\n\x0c\x41\x64judication\x12\x1f\n\x06\x61mount\x18\x01 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x02 \x01(\x0b\x32\x11.patient.Category\")\n\x06\x41mount\x12\x10\n\x08\x63urrency\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x02\"v\n\x08\x43\x61reTeam\x12$\n\x08provider\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04role\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x03 \x01(\x05\x12\x11\n\treference\x18\x04 \x01(\t\"4\n\rCommunication\x12#\n\x08language\x18\x01 \x01(\x0b\x32\x11.patient.Category\"V\n\tComponent\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12(\n\rvalueQuantity\x18\x02 \x01(\x0b\x32\x11.patient.Quantity\"\xbe\x02\n\tContained\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06intent\x18\x02 \x01(\t\x12%\n\tperformer\x18\x03 \x03(\x0b\x32\x12.patient.Reference\x12%\n\trequester\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x05 \x01(\t\x12\x1f\n\x06status\x18\x06 \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12\'\n\x0b\x62\x65neficiary\x18\x08 \x01(\x0b\x32\x12.patient.Reference\x12!\n\x05payor\x18\t \x03(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04type\x18\n \x01(\x0b\x32\x11.patient.Category\"p\n\x06\x44\x65tail\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12$\n\x08location\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x06status\x18\x03 \x01(\x0e\x32\x0f.patient.Status\"n\n\tDiagnosis\x12.\n\x12\x64iagnosisReference\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12\x1f\n\x04type\x18\x03 \x03(\x0b\x32\x11.patient.Category\"`\n\x05\x45ntry\x12\x0f\n\x07\x66ullUrl\x18\x01 \x01(\t\x12!\n\x07request\x18\x02 \x01(\x0b\x32\x10.patient.Request\x12#\n\x08resource\x18\x03 \x03(\x0b\x32\x11.patient.Resource\"\x90\x01\n\tExtension\x12%\n\textension\x18\x01 \x03(\x0b\x32\x12.patient.Extension\x12\x0b\n\x03url\x18\x02 \x01(\t\x12$\n\x0bvalueCoding\x18\x03 \x01(\x0b\x32\x0f.patient.Coding\x12\x13\n\x0bvalueString\x18\x04 \x01(\t\x12\x14\n\x0cvalueDecimal\x18\x05 \x01(\x02\"L\n\nIdentifier\x12\x0e\n\x06system\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\x12\x1f\n\x04type\x18\x03 \x01(\x0b\x32\x11.patient.Category\"R\n\tInsurance\x12$\n\x08\x63overage\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\r\n\x05\x66ocal\x18\x02 \x01(\x08\x12\x10\n\x08sequence\x18\x03 \x01(\x05\"\xd6\x02\n\x04Item\x12%\n\tencounter\x18\x01 \x03(\x0b\x32\x12.patient.Reference\x12+\n\x10productOrService\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x03 \x01(\x05\x12\x1b\n\x13informationSequence\x18\x04 \x03(\x05\x12\x1c\n\x03net\x18\x05 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x06 \x01(\x0b\x32\x11.patient.Category\x12\x32\n\x17locationCodeableConcept\x18\x07 \x01(\x0b\x32\x11.patient.Category\x12\'\n\x0eservicedPeriod\x18\x08 \x01(\x0b\x32\x0f.patient.Period\x12+\n\x0c\x61\x64judication\x18\t \x03(\x0b\x32\x15.patient.Adjudication\"B\n\x04Name\x12\x0e\n\x06\x66\x61mily\x18\x01 \x01(\t\x12\r\n\x05given\x18\x02 \x03(\t\x12\x0e\n\x06prefix\x18\x03 \x03(\t\x12\x0b\n\x03use\x18\x04 \x01(\t\"z\n\x0bParticipant\x12&\n\nindividual\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\"\n\x06member\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04role\x18\x03 \x03(\x0b\x32\x11.patient.Category\"*\n\x07Payment\x12\x1f\n\x06\x61mount\x18\x01 \x01(\x0b\x32\x0f.patient.Amount\"M\n\tProcedure\x12.\n\x12procedureReference\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x10\n\x08sequence\x18\x02 \x01(\x05\"&\n\x07Request\x12\x0e\n\x06method\x18\x01 \x01(\t\x12\x0b\n\x03url\x18\x02 \x01(\t\"I\n\x04Root\x12\x1d\n\x05\x65ntry\x18\x01 \x03(\x0b\x32\x0e.patient.Entry\x12\x14\n\x0cresourceType\x18\x02 \x01(\t\x12\x0c\n\x04type\x18\x03 \x01(\t\"s\n\x0eSupportingInfo\x12#\n\x08\x63\x61tegory\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12*\n\x0evalueReference\x18\x03 \x01(\x0b\x32\x12.patient.Reference\"5\n\x07Telecom\x12\x0e\n\x06system\x18\x01 \x01(\t\x12\x0b\n\x03use\x18\x02 \x01(\t\x12\r\n\x05value\x18\x03 \x01(\t\"#\n\x04Text\x12\x0b\n\x03\x64iv\x18\x01 \x01(\t\x12\x0e\n\x06status\x18\x02 \x01(\t\"n\n\x05Total\x12\x10\n\x08\x63urrency\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x02\x12\x1f\n\x06\x61mount\x18\x03 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x04 \x01(\x0b\x32\x11.patient.Category\"7\n\x06\x43oding\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x0f\n\x07\x64isplay\x18\x02 \x01(\t\x12\x0e\n\x06system\x18\x03 \x01(\t\"E\n\x08Quantity\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x0e\n\x06system\x18\x02 \x01(\t\x12\x0c\n\x04unit\x18\x03 \x01(\t\x12\r\n\x05value\x18\x04 \x01(\x02\"/\n\tReference\x12\x11\n\treference\x18\x01 \x01(\t\x12\x0f\n\x07\x64isplay\x18\x02 \x01(\t\"9\n\x08\x43\x61tegory\x12\x1f\n\x06\x63oding\x18\x01 \x03(\x0b\x32\x0f.patient.Coding\x12\x0c\n\x04text\x18\x02 \x01(\t\"$\n\x06Period\x12\x0b\n\x03\x65nd\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\t\"\x8e\x06\n\x08Resource\x12+\n\x0cresourceType\x18\x01 \x01(\x0e\x32\x15.patient.ResourceType\x12+\n\x08\x63\x61rePlan\x18\x02 \x01(\x0b\x32\x17.patient.CarePlanObjectH\x00\x12+\n\x08\x63\x61reTeam\x18\x03 \x01(\x0b\x32\x17.patient.CareTeamObjectH\x00\x12%\n\x05\x63laim\x18\x04 \x01(\x0b\x32\x14.patient.ClaimObjectH\x00\x12-\n\tcondition\x18\x05 \x01(\x0b\x32\x18.patient.ConditionObjectH\x00\x12;\n\x10\x64iagnosticReport\x18\x06 \x01(\x0b\x32\x1f.patient.DiagnosticReportObjectH\x00\x12-\n\tencounter\x18\x07 \x01(\x0b\x32\x18.patient.EncounterObjectH\x00\x12\x43\n\x14\x65xplanationOfBenefit\x18\x08 \x01(\x0b\x32#.patient.ExplanationOfBenefitObjectH\x00\x12\x33\n\x0cimmunization\x18\t \x01(\x0b\x32\x1b.patient.ImmunizationObjectH\x00\x12=\n\x11medicationRequest\x18\n \x01(\x0b\x32 .patient.MedicationRequestObjectH\x00\x12\x31\n\x0bobservation\x18\x0b \x01(\x0b\x32\x1a.patient.ObservationObjectH\x00\x12\x32\n\x0borganiation\x18\x0c \x01(\x0b\x32\x1b.patient.OrganizationObjectH\x00\x12)\n\x07patient\x18\r \x01(\x0b\x32\x16.patient.PatientObjectH\x00\x12\x33\n\x0cpractitioner\x18\x0e \x01(\x0b\x32\x1b.patient.PractitionerObjectH\x00\x12-\n\tprocedure\x18\x0f \x01(\x0b\x32\x18.patient.ProcedureObjectH\x00\x42\n\n\x08resource\"\x8b\x03\n\x0e\x43\x61rePlanObject\x12#\n\x08\x61\x63tivity\x18\x01 \x03(\x0b\x32\x11.patient.Activity\x12%\n\taddresses\x18\x02 \x03(\x0b\x32\x12.patient.Reference\x12#\n\x08\x63\x61reTeam\x18\x03 \x03(\x0b\x32\x11.patient.CareTeam\x12#\n\x08\x63\x61tegory\x18\x04 \x03(\x0b\x32\x11.patient.Category\x12%\n\tEncounter\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x06 \x01(\t\x12\x0e\n\x06intent\x18\x07 \x01(\t\x12\x1f\n\x06period\x18\x08 \x01(\x0b\x32\x0f.patient.Period\x12+\n\x0cresourceType\x18\t \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\n \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\x0b \x01(\x0b\x32\x12.patient.Reference\x12\x0c\n\x04text\x18\x0c \x01(\t\"\xdb\x02\n\x0e\x43\x61reTeamObject\x12%\n\tEncounter\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x02 \x01(\t\x12\x30\n\x14managingOrganization\x18\x03 \x03(\x0b\x32\x12.patient.Reference\x12)\n\x0bparticipant\x18\x04 \x03(\x0b\x32\x14.patient.Participant\x12\x1f\n\x06period\x18\x05 \x01(\x0b\x32\x0f.patient.Period\x12%\n\nreasonCode\x18\x06 \x03(\x0b\x32\x11.patient.Category\x12+\n\x0cresourceType\x18\x07 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\x08 \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\"\xcb\x04\n\x0b\x43laimObject\x12\'\n\x0e\x62illablePeriod\x18\x01 \x01(\x0b\x32\x0f.patient.Period\x12\x0f\n\x07\x63reated\x18\x02 \x01(\t\x12%\n\tdiagnosis\x18\x03 \x03(\x0b\x32\x12.patient.Diagnosis\x12\n\n\x02id\x18\x04 \x01(\t\x12%\n\tinsurance\x18\x05 \x03(\x0b\x32\x12.patient.Insurance\x12\x1b\n\x04item\x18\x06 \x03(\x0b\x32\r.patient.Item\x12#\n\x07patient\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12(\n\x0cprescription\x18\x08 \x01(\x0b\x32\x12.patient.Reference\x12#\n\x08priority\x18\t \x01(\x0b\x32\x11.patient.Category\x12%\n\tprocedure\x18\n \x03(\x0b\x32\x12.patient.Procedure\x12$\n\x08provider\x18\x0b \x01(\x0b\x32\x12.patient.Reference\x12+\n\x0cresourceType\x18\x0c \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\r \x01(\x0e\x32\x0f.patient.Status\x12/\n\x0esupportingInfo\x18\x0e \x03(\x0b\x32\x17.patient.SupportingInfo\x12\x1d\n\x05total\x18\x0f \x01(\x0b\x32\x0e.patient.Total\x12\x1f\n\x04type\x18\x10 \x01(\x0b\x32\x11.patient.Category\x12\x0b\n\x03use\x18\x11 \x01(\t\"\xd9\x02\n\x0f\x43onditionObject\x12\x19\n\x11\x61\x62\x61tementDateTime\x18\x01 \x01(\t\x12)\n\x0e\x63linicalStatus\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x03 \x01(\x0b\x32\x11.patient.Category\x12%\n\tencounter\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x05 \x01(\t\x12\x15\n\ronsetDateTime\x18\x06 \x01(\t\x12\x14\n\x0crecordedDate\x18\x07 \x01(\t\x12+\n\x0cresourceType\x18\x08 \x01(\x0e\x32\x15.patient.ResourceType\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\x12-\n\x12verificationStatus\x18\n \x01(\x0b\x32\x11.patient.Category\"\xd3\x02\n\x16\x44iagnosticReportObject\x12#\n\x08\x63\x61tegory\x18\x01 \x03(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x19\n\x11\x65\x66\x66\x65\x63tiveDateTime\x18\x03 \x01(\t\x12%\n\tencounter\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x05 \x01(\t\x12\x0e\n\x06issued\x18\x06 \x01(\t\x12+\n\x0cresourceType\x18\x07 \x01(\x0e\x32\x15.patient.ResourceType\x12\"\n\x06result\x18\x08 \x03(\x0b\x32\x12.patient.Reference\x12\x1f\n\x06status\x18\t \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07Subject\x18\n \x01(\x0b\x32\x12.patient.Reference\"\xf3\x02\n\x0f\x45ncounterObject\x12 \n\x05\x63lass\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12\n\n\x02id\x18\x02 \x01(\t\x12)\n\x0bparticipant\x18\x03 \x03(\x0b\x32\x14.patient.Participant\x12\x1f\n\x06period\x18\x04 \x01(\x0b\x32\x0f.patient.Period\x12%\n\nreasonCode\x18\x05 \x03(\x0b\x32\x11.patient.Category\x12+\n\x0cresourceType\x18\x06 \x01(\x0e\x32\x15.patient.ResourceType\x12+\n\x0fserviceProvider\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x06status\x18\x08 \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04type\x18\n \x03(\x0b\x32\x11.patient.Category\"\xca\x05\n\x1a\x45xplanationOfBenefitObject\x12\'\n\x0e\x62illablePeriod\x18\x01 \x01(\x0b\x32\x0f.patient.Period\x12#\n\x08\x63\x61reteam\x18\x02 \x03(\x0b\x32\x11.patient.CareTeam\x12!\n\x05\x63laim\x18\x03 \x01(\x0b\x32\x12.patient.Reference\x12%\n\tcontained\x18\x04 \x03(\x0b\x32\x12.patient.Contained\x12\x0f\n\x07\x63reated\x18\x05 \x01(\t\x12%\n\tdiagnosis\x18\x06 \x03(\x0b\x32\x12.patient.Diagnosis\x12\n\n\x02id\x18\x07 \x01(\t\x12\'\n\nidentifier\x18\x08 \x03(\x0b\x32\x13.patient.Identifier\x12%\n\tinsurance\x18\t \x03(\x0b\x32\x12.patient.Insurance\x12#\n\x07insurer\x18\n \x01(\x0b\x32\x12.patient.Reference\x12\x1b\n\x04item\x18\x0b \x03(\x0b\x32\r.patient.Item\x12\x0f\n\x07outcome\x18\x0c \x01(\t\x12#\n\x07patient\x18\r \x01(\x0b\x32\x12.patient.Reference\x12!\n\x07payment\x18\x0e \x01(\x0b\x32\x10.patient.Payment\x12$\n\x08provider\x18\x0f \x01(\x0b\x32\x12.patient.Reference\x12$\n\x08referral\x18\x10 \x01(\x0b\x32\x12.patient.Reference\x12+\n\x0cresourceType\x18\x11 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\x12 \x01(\x0e\x32\x0f.patient.Status\x12\x1d\n\x05total\x18\x13 \x03(\x0b\x32\x0e.patient.Total\x12\x1f\n\x04type\x18\x14 \x01(\x0b\x32\x11.patient.Category\x12\x0b\n\x03use\x18\x15 \x01(\t\"\x94\x02\n\x12ImmunizationObject\x12%\n\tencounter\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x02 \x01(\t\x12\x19\n\x11occurenceDateTime\x18\x03 \x01(\t\x12#\n\x07patient\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\x15\n\rprimarySource\x18\x05 \x01(\x08\x12+\n\x0cresourceType\x18\x06 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\x07 \x01(\x0e\x32\x0f.patient.Status\x12&\n\x0bvaccineCode\x18\x08 \x01(\x0b\x32\x11.patient.Category\"\xed\x02\n\x17MedicationRequestObject\x12\x12\n\nauthoredOn\x18\x01 \x01(\t\x12%\n\tencounter\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x03 \x01(\t\x12\x0e\n\x06intent\x18\x04 \x01(\t\x12\x34\n\x19medicationCodeableConcept\x18\x05 \x01(\x0b\x32\x11.patient.Category\x12+\n\x0freasonReference\x18\x06 \x03(\x0b\x32\x12.patient.Reference\x12%\n\trequester\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12+\n\x0cresourceType\x18\x08 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\t \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\n \x01(\x0b\x32\x12.patient.Reference\"\xac\x03\n\x11ObservationObject\x12#\n\x08\x63\x61tegory\x18\x01 \x03(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12%\n\tcomponent\x18\x03 \x03(\x0b\x32\x12.patient.Component\x12\x19\n\x11\x65\x66\x66\x65\x63tiveDateTime\x18\x04 \x01(\t\x12%\n\tencounter\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x06 \x01(\t\x12\x0e\n\x06issued\x18\x07 \x01(\t\x12+\n\x0cresourceType\x18\x08 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\t \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\n \x01(\x0b\x32\x12.patient.Reference\x12/\n\x14valueCodeableConcept\x18\x0b \x01(\x0b\x32\x11.patient.Category\x12(\n\rvalueQuantity\x18\x0c \x01(\x0b\x32\x11.patient.Quantity\"\xfb\x01\n\x12OrganizationObject\x12\x0e\n\x06\x61\x63tive\x18\x01 \x01(\x08\x12!\n\x07\x61\x64\x64ress\x18\x02 \x03(\x0b\x32\x10.patient.Address\x12\n\n\x02id\x18\x03 \x01(\t\x12\'\n\nidentifier\x18\x04 \x03(\x0b\x32\x13.patient.Identifier\x12\x0c\n\x04name\x18\x05 \x01(\t\x12+\n\x0cresourceType\x18\x06 \x01(\x0e\x32\x15.patient.ResourceType\x12!\n\x07telecom\x18\x07 \x03(\x0b\x32\x10.patient.Telecom\x12\x1f\n\x04type\x18\x08 \x03(\x0b\x32\x11.patient.Category\"\xb4\x03\n\rPatientObject\x12!\n\x07\x61\x64\x64ress\x18\x01 \x03(\x0b\x32\x10.patient.Address\x12\x11\n\tbirthDate\x18\x02 \x01(\t\x12-\n\rcommunication\x18\x03 \x03(\x0b\x32\x16.patient.Communication\x12%\n\textension\x18\x04 \x03(\x0b\x32\x12.patient.Extension\x12\x1f\n\x06gender\x18\x05 \x01(\x0e\x32\x0f.patient.Gender\x12\n\n\x02id\x18\x06 \x01(\t\x12\'\n\nidentifier\x18\x07 \x03(\x0b\x32\x13.patient.Identifier\x12(\n\rmaritalStatus\x18\x08 \x01(\x0b\x32\x11.patient.Category\x12\x1c\n\x14multipleBirthBoolean\x18\t \x01(\x08\x12\x1b\n\x04name\x18\n \x03(\x0b\x32\r.patient.Name\x12+\n\x0cresourceType\x18\x0b \x01(\x0e\x32\x15.patient.ResourceType\x12!\n\x07telecom\x18\x0c \x03(\x0b\x32\x10.patient.Telecom\x12\x0c\n\x04text\x18\r \x01(\t\"\x8a\x02\n\x12PractitionerObject\x12\x0e\n\x06\x61\x63tive\x18\x01 \x01(\x08\x12!\n\x07\x61\x64\x64ress\x18\x02 \x03(\x0b\x32\x10.patient.Address\x12\x1f\n\x06gender\x18\x03 \x01(\x0e\x32\x0f.patient.Gender\x12\n\n\x02id\x18\x04 \x01(\t\x12\'\n\nidentifier\x18\x05 \x03(\x0b\x32\x13.patient.Identifier\x12\x1b\n\x04name\x18\x06 \x03(\x0b\x32\r.patient.Name\x12+\n\x0cresourceType\x18\x07 \x01(\x0e\x32\x15.patient.ResourceType\x12!\n\x07telecom\x18\x08 \x03(\x0b\x32\x10.patient.Telecom\"\xaf\x02\n\x0fProcedureObject\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12%\n\tencounter\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x03 \x01(\t\x12(\n\x0fperformedPeriod\x18\x04 \x01(\x0b\x32\x0f.patient.Period\x12+\n\x0freasonReference\x18\x05 \x03(\x0b\x32\x12.patient.Reference\x12+\n\x0cresourceType\x18\x06 \x01(\x0e\x32\x15.patient.ResourceType\x12\x1f\n\x06status\x18\x07 \x01(\x0e\x32\x0f.patient.Status\x12#\n\x07subject\x18\x08 \x01(\x0b\x32\x12.patient.Reference\"\xbe\x05\n\rPatientRecord\x12\'\n\x07patient\x18\x01 \x01(\x0b\x32\x16.patient.PatientObject\x12)\n\x08\x63\x61rePlan\x18\x02 \x03(\x0b\x32\x17.patient.CarePlanObject\x12)\n\x08\x63\x61reTeam\x18\x03 \x03(\x0b\x32\x17.patient.CareTeamObject\x12#\n\x05\x63laim\x18\x04 \x03(\x0b\x32\x14.patient.ClaimObject\x12+\n\tcondition\x18\x05 \x03(\x0b\x32\x18.patient.ConditionObject\x12\x39\n\x10\x64iagnosticReport\x18\x06 \x03(\x0b\x32\x1f.patient.DiagnosticReportObject\x12+\n\tencounter\x18\x07 \x03(\x0b\x32\x18.patient.EncounterObject\x12\x41\n\x14\x65xplanationOfBenefit\x18\x08 \x03(\x0b\x32#.patient.ExplanationOfBenefitObject\x12\x31\n\x0cimmunization\x18\t \x03(\x0b\x32\x1b.patient.ImmunizationObject\x12;\n\x11medicationRequest\x18\n \x03(\x0b\x32 .patient.MedicationRequestObject\x12/\n\x0bobservation\x18\x0b \x03(\x0b\x32\x1a.patient.ObservationObject\x12\x30\n\x0borganiation\x18\x0c \x03(\x0b\x32\x1b.patient.OrganizationObject\x12\x31\n\x0cpractitioner\x18\r \x03(\x0b\x32\x1b.patient.PractitionerObject\x12+\n\tprocedure\x18\x0e \x03(\x0b\x32\x18.patient.ProcedureObject*W\n\x06Status\x12\n\n\x06\x41\x43TIVE\x10\x00\x12\r\n\tCOMPLETED\x10\x01\x12\t\n\x05\x46INAL\x10\x02\x12\x0b\n\x07STOPPED\x10\x03\x12\x0c\n\x08INACTIVE\x10\x04\x12\x0c\n\x08\x46INISHED\x10\x05*)\n\x06Gender\x12\x08\n\x04MALE\x10\x00\x12\n\n\x06\x46\x45MALE\x10\x01\x12\t\n\x05OTHER\x10\x02*\x83\x02\n\x0cResourceType\x12\r\n\tCARE_PLAN\x10\x00\x12\r\n\tCARE_TEAM\x10\x01\x12\t\n\x05\x43LAIM\x10\x02\x12\r\n\tCONDITION\x10\x03\x12\x15\n\x11\x44IAGNOSTIC_REPORT\x10\x04\x12\r\n\tENCOUNTER\x10\x05\x12\x1a\n\x16\x45XPLANATION_OF_BENEFIT\x10\x06\x12\x10\n\x0cIMMUNIZATION\x10\x07\x12\x16\n\x12MEDICATION_REQUEST\x10\x08\x12\x0f\n\x0bOBSERVATION\x10\t\x12\x10\n\x0cORGANIZATION\x10\n\x12\x0b\n\x07PATIENT\x10\x0b\x12\x10\n\x0cPRACTITIONER\x10\x0c\x12\r\n\tPROCEDURE\x10\rb\x06proto3')
+  serialized_pb=_b('\n\x10\x63ustomized.proto\x12\x07patient\"+\n\x08\x41\x63tivity\x12\x1f\n\x06\x64\x65tail\x18\x01 \x01(\x0b\x32\x0f.patient.Detail\"\x80\x01\n\x07\x41\x64\x64ress\x12\x0c\n\x04\x63ity\x18\x01 \x01(\t\x12\x0f\n\x07\x63ountry\x18\x02 \x01(\t\x12%\n\textension\x18\x03 \x03(\x0b\x32\x12.patient.Extension\x12\x0c\n\x04line\x18\x04 \x03(\t\x12\x12\n\npostalCode\x18\x05 \x01(\t\x12\r\n\x05state\x18\x06 \x01(\t\"T\n\x0c\x41\x64judication\x12\x1f\n\x06\x61mount\x18\x01 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x02 \x01(\x0b\x32\x11.patient.Category\")\n\x06\x41mount\x12\x10\n\x08\x63urrency\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x02\"v\n\x08\x43\x61reTeam\x12$\n\x08provider\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04role\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x03 \x01(\x05\x12\x11\n\treference\x18\x04 \x01(\t\"4\n\rCommunication\x12#\n\x08language\x18\x01 \x01(\x0b\x32\x11.patient.Category\"V\n\tComponent\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12(\n\rvalueQuantity\x18\x02 \x01(\x0b\x32\x11.patient.Quantity\"\xad\x02\n\tContained\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06intent\x18\x02 \x01(\t\x12%\n\tperformer\x18\x03 \x03(\x0b\x32\x12.patient.Reference\x12%\n\trequester\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x05 \x01(\t\x12\x0e\n\x06status\x18\x06 \x01(\t\x12#\n\x07subject\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12\'\n\x0b\x62\x65neficiary\x18\x08 \x01(\x0b\x32\x12.patient.Reference\x12!\n\x05payor\x18\t \x03(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04type\x18\n \x01(\x0b\x32\x11.patient.Category\"_\n\x06\x44\x65tail\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12$\n\x08location\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\x0e\n\x06status\x18\x03 \x01(\t\"n\n\tDiagnosis\x12.\n\x12\x64iagnosisReference\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12\x1f\n\x04type\x18\x03 \x03(\x0b\x32\x11.patient.Category\"`\n\x05\x45ntry\x12\x0f\n\x07\x66ullUrl\x18\x01 \x01(\t\x12!\n\x07request\x18\x02 \x01(\x0b\x32\x10.patient.Request\x12#\n\x08resource\x18\x03 \x03(\x0b\x32\x11.patient.Resource\"\xe1\x01\n\tExtension\x12%\n\textension\x18\x01 \x03(\x0b\x32\x12.patient.Extension\x12\x0b\n\x03url\x18\x02 \x01(\t\x12$\n\x0bvalueCoding\x18\x03 \x01(\x0b\x32\x0f.patient.Coding\x12\x13\n\x0bvalueString\x18\x04 \x01(\t\x12\x14\n\x0cvalueDecimal\x18\x05 \x01(\x02\x12\x11\n\tvalueCode\x18\x06 \x01(\t\x12&\n\x0cvalueAddress\x18\x07 \x01(\x0b\x32\x10.patient.Address\x12\x14\n\x0cvalueInteger\x18\x08 \x01(\x05\"Y\n\nIdentifier\x12\x0e\n\x06system\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\x12\x1f\n\x04type\x18\x03 \x01(\x0b\x32\x11.patient.Category\x12\x0b\n\x03use\x18\x04 \x01(\t\"R\n\tInsurance\x12$\n\x08\x63overage\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\r\n\x05\x66ocal\x18\x02 \x01(\x08\x12\x10\n\x08sequence\x18\x03 \x01(\x05\"\x8c\x03\n\x04Item\x12%\n\tencounter\x18\x01 \x03(\x0b\x32\x12.patient.Reference\x12+\n\x10productOrService\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x03 \x01(\x05\x12\x1b\n\x13informationSequence\x18\x04 \x03(\x05\x12\x1c\n\x03net\x18\x05 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x06 \x01(\x0b\x32\x11.patient.Category\x12\x32\n\x17locationCodeableConcept\x18\x07 \x01(\x0b\x32\x11.patient.Category\x12\'\n\x0eservicedPeriod\x18\x08 \x01(\x0b\x32\x0f.patient.Period\x12+\n\x0c\x61\x64judication\x18\t \x03(\x0b\x32\x15.patient.Adjudication\x12\x19\n\x11procedureSequence\x18\n \x03(\x05\x12\x19\n\x11\x64iagnosisSequence\x18\x0b \x03(\x05\"R\n\x04Name\x12\x0e\n\x06\x66\x61mily\x18\x01 \x01(\t\x12\r\n\x05given\x18\x02 \x03(\t\x12\x0e\n\x06prefix\x18\x03 \x03(\t\x12\x0b\n\x03use\x18\x04 \x01(\t\x12\x0e\n\x06suffix\x18\x05 \x03(\t\"z\n\x0bParticipant\x12&\n\nindividual\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\"\n\x06member\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04role\x18\x03 \x03(\x0b\x32\x11.patient.Category\"*\n\x07Payment\x12\x1f\n\x06\x61mount\x18\x01 \x01(\x0b\x32\x0f.patient.Amount\"M\n\tProcedure\x12.\n\x12procedureReference\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\x10\n\x08sequence\x18\x02 \x01(\x05\"&\n\x07Request\x12\x0e\n\x06method\x18\x01 \x01(\t\x12\x0b\n\x03url\x18\x02 \x01(\t\"I\n\x04Root\x12\x1d\n\x05\x65ntry\x18\x01 \x03(\x0b\x32\x0e.patient.Entry\x12\x14\n\x0cresourceType\x18\x02 \x01(\t\x12\x0c\n\x04type\x18\x03 \x01(\t\"s\n\x0eSupportingInfo\x12#\n\x08\x63\x61tegory\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12\x10\n\x08sequence\x18\x02 \x01(\x05\x12*\n\x0evalueReference\x18\x03 \x01(\x0b\x32\x12.patient.Reference\"5\n\x07Telecom\x12\x0e\n\x06system\x18\x01 \x01(\t\x12\x0b\n\x03use\x18\x02 \x01(\t\x12\r\n\x05value\x18\x03 \x01(\t\"#\n\x04Text\x12\x0b\n\x03\x64iv\x18\x01 \x01(\t\x12\x0e\n\x06status\x18\x02 \x01(\t\"n\n\x05Total\x12\x10\n\x08\x63urrency\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x02\x12\x1f\n\x06\x61mount\x18\x03 \x01(\x0b\x32\x0f.patient.Amount\x12#\n\x08\x63\x61tegory\x18\x04 \x01(\x0b\x32\x11.patient.Category\"7\n\x06\x43oding\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x0f\n\x07\x64isplay\x18\x02 \x01(\t\x12\x0e\n\x06system\x18\x03 \x01(\t\"E\n\x08Quantity\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x0e\n\x06system\x18\x02 \x01(\t\x12\x0c\n\x04unit\x18\x03 \x01(\t\x12\r\n\x05value\x18\x04 \x01(\x02\"/\n\tReference\x12\x11\n\treference\x18\x01 \x01(\t\x12\x0f\n\x07\x64isplay\x18\x02 \x01(\t\"9\n\x08\x43\x61tegory\x12\x1f\n\x06\x63oding\x18\x01 \x03(\x0b\x32\x0f.patient.Coding\x12\x0c\n\x04text\x18\x02 \x01(\t\"$\n\x06Period\x12\x0b\n\x03\x65nd\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\t\"\xf8\x05\n\x08Resource\x12\x14\n\x0cresourceType\x18\x01 \x01(\t\x12+\n\x08\x63\x61rePlan\x18\x02 \x01(\x0b\x32\x17.patient.CarePlanObjectH\x00\x12+\n\x08\x63\x61reTeam\x18\x03 \x01(\x0b\x32\x17.patient.CareTeamObjectH\x00\x12%\n\x05\x63laim\x18\x04 \x01(\x0b\x32\x14.patient.ClaimObjectH\x00\x12-\n\tcondition\x18\x05 \x01(\x0b\x32\x18.patient.ConditionObjectH\x00\x12;\n\x10\x64iagnosticReport\x18\x06 \x01(\x0b\x32\x1f.patient.DiagnosticReportObjectH\x00\x12-\n\tencounter\x18\x07 \x01(\x0b\x32\x18.patient.EncounterObjectH\x00\x12\x43\n\x14\x65xplanationOfBenefit\x18\x08 \x01(\x0b\x32#.patient.ExplanationOfBenefitObjectH\x00\x12\x33\n\x0cimmunization\x18\t \x01(\x0b\x32\x1b.patient.ImmunizationObjectH\x00\x12=\n\x11medicationRequest\x18\n \x01(\x0b\x32 .patient.MedicationRequestObjectH\x00\x12\x31\n\x0bobservation\x18\x0b \x01(\x0b\x32\x1a.patient.ObservationObjectH\x00\x12\x33\n\x0corganization\x18\x0c \x01(\x0b\x32\x1b.patient.OrganizationObjectH\x00\x12)\n\x07patient\x18\r \x01(\x0b\x32\x16.patient.PatientObjectH\x00\x12\x33\n\x0cpractitioner\x18\x0e \x01(\x0b\x32\x1b.patient.PractitionerObjectH\x00\x12-\n\tprocedure\x18\x0f \x01(\x0b\x32\x18.patient.ProcedureObjectH\x00\x42\n\n\x08resource\"\xbc\x01\n\x11\x44osageInstruction\x12\x10\n\x08sequence\x18\x01 \x01(\x05\x12\x17\n\x0f\x61sNeededBoolean\x18\x02 \x01(\x08\x12)\n\x0b\x64oseAndRate\x18\x03 \x03(\x0b\x32\x14.patient.DoseAndRate\x12\x1f\n\x06timing\x18\x04 \x01(\x0b\x32\x0f.patient.Timing\x12\x30\n\x15\x61\x64\x64itionalInstruction\x18\x05 \x03(\x0b\x32\x11.patient.Category\"?\n\x06Repeat\x12\x11\n\tfrequency\x18\x01 \x01(\x05\x12\x0e\n\x06period\x18\x02 \x01(\x02\x12\x12\n\nperiodUnit\x18\x03 \x01(\t\")\n\x06Timing\x12\x1f\n\x06repeat\x18\x01 \x01(\x0b\x32\x0f.patient.Repeat\"W\n\x0b\x44oseAndRate\x12\x1f\n\x04type\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12\'\n\x0c\x64oseQuantity\x18\x02 \x01(\x0b\x32\x11.patient.Quantity\"k\n\x05Onset\x12\x15\n\ronsetDateTime\x18\x01 \x01(\t\x12\x10\n\x08onsetAge\x18\x02 \x01(\x05\x12$\n\x0bonsetPeriod\x18\x03 \x01(\x0b\x32\x0f.patient.Period\x12\x13\n\x0bonsetString\x18\x04 \x01(\t\"\xdb\x01\n\x08Reaction\x12$\n\tsubstance\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12(\n\rmanifestation\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x12\r\n\x05onset\x18\x04 \x01(\t\x12#\n\x08severity\x18\x05 \x01(\x0b\x32\x11.patient.Category\x12(\n\rexposureRoute\x18\x06 \x01(\x0b\x32\x11.patient.Category\x12\x0c\n\x04note\x18\x07 \x01(\t\"Y\n\x08Instance\x12\x0b\n\x03uid\x18\x01 \x01(\t\x12!\n\x08sopClass\x18\x02 \x01(\x0b\x32\x0f.patient.Coding\x12\x0e\n\x06number\x18\x03 \x01(\x05\x12\r\n\x05title\x18\x04 \x01(\t\"\xbc\x01\n\x06Series\x12\x0b\n\x03uid\x18\x01 \x01(\t\x12\x0e\n\x06number\x18\x02 \x01(\x05\x12!\n\x08modality\x18\x03 \x01(\x0b\x32\x0f.patient.Coding\x12\x19\n\x11numberOfInstances\x18\x04 \x01(\x05\x12!\n\x08\x62odySite\x18\x05 \x01(\x0b\x32\x0f.patient.Coding\x12\x0f\n\x07started\x18\x06 \x01(\t\x12#\n\x08instance\x18\x07 \x03(\x0b\x32\x11.patient.Instance\"B\n\x0fHospitalization\x12/\n\x14\x64ischargeDisposition\x18\x01 \x01(\x0b\x32\x11.patient.Category\"7\n\x07\x43\x61rrier\x12\x18\n\x10\x64\x65viceIdentifier\x18\x01 \x01(\t\x12\x12\n\ncarrierHRF\x18\x02 \x01(\t\"(\n\nDeviceName\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\"\xad\x04\n\x18\x41llergyIntoleranceObject\x12\'\n\nidentifier\x18\x01 \x01(\x0b\x32\x13.patient.Identifier\x12)\n\x0e\x63linicalStatus\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12-\n\x12verificationStatus\x18\x03 \x01(\x0b\x32\x11.patient.Category\x12\x0c\n\x04type\x18\x04 \x01(\t\x12\x10\n\x08\x63\x61tegory\x18\x05 \x03(\t\x12\x13\n\x0b\x63riticality\x18\x06 \x01(\t\x12\x1f\n\x04\x63ode\x18\x07 \x01(\x0b\x32\x11.patient.Category\x12#\n\x07patient\x18\x08 \x01(\x0b\x32\x12.patient.Reference\x12%\n\tencounter\x18\t \x01(\x0b\x32\x12.patient.Reference\x12\x1d\n\x05onset\x18\n \x01(\x0b\x32\x0e.patient.Onset\x12\x14\n\x0crecordedDate\x18\x0b \x01(\t\x12$\n\x08recorder\x18\x0c \x01(\x0b\x32\x12.patient.Reference\x12$\n\x08\x61sserter\x18\r \x01(\x0b\x32\x12.patient.Reference\x12\x16\n\x0elastOccurrence\x18\x0e \x01(\t\x12\x0c\n\x04note\x18\x0f \x01(\t\x12\x14\n\x0cresourceType\x18\x10 \x01(\t\x12#\n\x08reaction\x18\x11 \x01(\x0b\x32\x11.patient.Reaction\x12\n\n\x02id\x18\x12 \x01(\t\"\x94\x03\n\x0e\x43\x61rePlanObject\x12#\n\x08\x61\x63tivity\x18\x01 \x03(\x0b\x32\x11.patient.Activity\x12%\n\taddresses\x18\x02 \x03(\x0b\x32\x12.patient.Reference\x12#\n\x08\x63\x61reTeam\x18\x03 \x03(\x0b\x32\x11.patient.CareTeam\x12#\n\x08\x63\x61tegory\x18\x04 \x03(\x0b\x32\x11.patient.Category\x12%\n\tencounter\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x06 \x01(\t\x12\x0e\n\x06intent\x18\x07 \x01(\t\x12\x1f\n\x06period\x18\x08 \x01(\x0b\x32\x0f.patient.Period\x12\x14\n\x0cresourceType\x18\t \x01(\t\x12\x0e\n\x06status\x18\n \x01(\t\x12#\n\x07subject\x18\x0b \x01(\x0b\x32\x12.patient.Reference\x12\x1b\n\x04text\x18\x0c \x01(\x0b\x32\r.patient.Text\x12 \n\x04goal\x18\r \x03(\x0b\x32\x12.patient.Reference\"\xb3\x02\n\x0e\x43\x61reTeamObject\x12%\n\tencounter\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x02 \x01(\t\x12\x30\n\x14managingOrganization\x18\x03 \x03(\x0b\x32\x12.patient.Reference\x12)\n\x0bparticipant\x18\x04 \x03(\x0b\x32\x14.patient.Participant\x12\x1f\n\x06period\x18\x05 \x01(\x0b\x32\x0f.patient.Period\x12%\n\nreasonCode\x18\x06 \x03(\x0b\x32\x11.patient.Category\x12\x14\n\x0cresourceType\x18\x07 \x01(\t\x12\x0e\n\x06status\x18\x08 \x01(\t\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\"\xa3\x04\n\x0b\x43laimObject\x12\'\n\x0e\x62illablePeriod\x18\x01 \x01(\x0b\x32\x0f.patient.Period\x12\x0f\n\x07\x63reated\x18\x02 \x01(\t\x12%\n\tdiagnosis\x18\x03 \x03(\x0b\x32\x12.patient.Diagnosis\x12\n\n\x02id\x18\x04 \x01(\t\x12%\n\tinsurance\x18\x05 \x03(\x0b\x32\x12.patient.Insurance\x12\x1b\n\x04item\x18\x06 \x03(\x0b\x32\r.patient.Item\x12#\n\x07patient\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12(\n\x0cprescription\x18\x08 \x01(\x0b\x32\x12.patient.Reference\x12#\n\x08priority\x18\t \x01(\x0b\x32\x11.patient.Category\x12%\n\tprocedure\x18\n \x03(\x0b\x32\x12.patient.Procedure\x12$\n\x08provider\x18\x0b \x01(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x0c \x01(\t\x12\x0e\n\x06status\x18\r \x01(\t\x12/\n\x0esupportingInfo\x18\x0e \x03(\x0b\x32\x17.patient.SupportingInfo\x12\x1d\n\x05total\x18\x0f \x01(\x0b\x32\x0e.patient.Total\x12\x1f\n\x04type\x18\x10 \x01(\x0b\x32\x11.patient.Category\x12\x0b\n\x03use\x18\x11 \x01(\t\"\xc2\x02\n\x0f\x43onditionObject\x12\x19\n\x11\x61\x62\x61tementDateTime\x18\x01 \x01(\t\x12)\n\x0e\x63linicalStatus\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x03 \x01(\x0b\x32\x11.patient.Category\x12%\n\tencounter\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x05 \x01(\t\x12\x15\n\ronsetDateTime\x18\x06 \x01(\t\x12\x14\n\x0crecordedDate\x18\x07 \x01(\t\x12\x14\n\x0cresourceType\x18\x08 \x01(\t\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\x12-\n\x12verificationStatus\x18\n \x01(\x0b\x32\x11.patient.Category\"\xcb\x02\n\x0c\x44\x65viceObject\x12\x14\n\x0cresourceType\x18\x01 \x01(\t\x12\n\n\x02id\x18\x02 \x01(\t\x12$\n\nudiCarrier\x18\x03 \x03(\x0b\x32\x10.patient.Carrier\x12\x0e\n\x06status\x18\x04 \x01(\t\x12\x1a\n\x12\x64istinctIdentifier\x18\x05 \x01(\t\x12\x17\n\x0fmanufactureDate\x18\x06 \x01(\t\x12\x16\n\x0e\x65xpirationDate\x18\x07 \x01(\t\x12\x11\n\tlotNumber\x18\x08 \x01(\t\x12\x14\n\x0cserialNumber\x18\t \x01(\t\x12\'\n\ndeviceName\x18\n \x03(\x0b\x32\x13.patient.DeviceName\x12\x1f\n\x04type\x18\x0b \x01(\x0b\x32\x11.patient.Category\x12#\n\x07patient\x18\x0c \x01(\x0b\x32\x12.patient.Reference\"\xab\x02\n\x16\x44iagnosticReportObject\x12#\n\x08\x63\x61tegory\x18\x01 \x03(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12\x19\n\x11\x65\x66\x66\x65\x63tiveDateTime\x18\x03 \x01(\t\x12%\n\tencounter\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x05 \x01(\t\x12\x0e\n\x06issued\x18\x06 \x01(\t\x12\x14\n\x0cresourceType\x18\x07 \x01(\t\x12\"\n\x06result\x18\x08 \x03(\x0b\x32\x12.patient.Reference\x12\x0e\n\x06status\x18\t \x01(\t\x12#\n\x07subject\x18\n \x01(\x0b\x32\x12.patient.Reference\"\xfc\x02\n\x0f\x45ncounterObject\x12\x1e\n\x05\x63lass\x18\x01 \x01(\x0b\x32\x0f.patient.Coding\x12\n\n\x02id\x18\x02 \x01(\t\x12)\n\x0bparticipant\x18\x03 \x03(\x0b\x32\x14.patient.Participant\x12\x1f\n\x06period\x18\x04 \x01(\x0b\x32\x0f.patient.Period\x12%\n\nreasonCode\x18\x05 \x03(\x0b\x32\x11.patient.Category\x12\x14\n\x0cresourceType\x18\x06 \x01(\t\x12+\n\x0fserviceProvider\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12\x0e\n\x06status\x18\x08 \x01(\t\x12#\n\x07subject\x18\t \x01(\x0b\x32\x12.patient.Reference\x12\x1f\n\x04type\x18\n \x03(\x0b\x32\x11.patient.Category\x12\x31\n\x0fhospitalization\x18\x0b \x01(\x0b\x32\x18.patient.Hospitalization\"\xa2\x05\n\x1a\x45xplanationOfBenefitObject\x12\'\n\x0e\x62illablePeriod\x18\x01 \x01(\x0b\x32\x0f.patient.Period\x12#\n\x08\x63\x61reTeam\x18\x02 \x03(\x0b\x32\x11.patient.CareTeam\x12!\n\x05\x63laim\x18\x03 \x01(\x0b\x32\x12.patient.Reference\x12%\n\tcontained\x18\x04 \x03(\x0b\x32\x12.patient.Contained\x12\x0f\n\x07\x63reated\x18\x05 \x01(\t\x12%\n\tdiagnosis\x18\x06 \x03(\x0b\x32\x12.patient.Diagnosis\x12\n\n\x02id\x18\x07 \x01(\t\x12\'\n\nidentifier\x18\x08 \x03(\x0b\x32\x13.patient.Identifier\x12%\n\tinsurance\x18\t \x03(\x0b\x32\x12.patient.Insurance\x12#\n\x07insurer\x18\n \x01(\x0b\x32\x12.patient.Reference\x12\x1b\n\x04item\x18\x0b \x03(\x0b\x32\r.patient.Item\x12\x0f\n\x07outcome\x18\x0c \x01(\t\x12#\n\x07patient\x18\r \x01(\x0b\x32\x12.patient.Reference\x12!\n\x07payment\x18\x0e \x01(\x0b\x32\x10.patient.Payment\x12$\n\x08provider\x18\x0f \x01(\x0b\x32\x12.patient.Reference\x12$\n\x08referral\x18\x10 \x01(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x11 \x01(\t\x12\x0e\n\x06status\x18\x12 \x01(\t\x12\x1d\n\x05total\x18\x13 \x03(\x0b\x32\x0e.patient.Total\x12\x1f\n\x04type\x18\x14 \x01(\x0b\x32\x11.patient.Category\x12\x0b\n\x03use\x18\x15 \x01(\t\"\xc2\x01\n\nGoalObject\x12\x14\n\x0cresourceType\x18\x01 \x01(\t\x12\n\n\x02id\x18\x02 \x01(\t\x12\x17\n\x0flifecycleStatus\x18\x03 \x01(\t\x12,\n\x11\x61\x63hievementStatus\x18\x04 \x01(\x0b\x32\x11.patient.Category\x12&\n\x0b\x64\x65scription\x18\x05 \x01(\x0b\x32\x11.patient.Category\x12#\n\x07subject\x18\x06 \x01(\x0b\x32\x12.patient.Reference\"\xa0\x02\n\x12ImagingStudyObject\x12\x14\n\x0cresourceType\x18\x01 \x01(\t\x12\n\n\x02id\x18\x02 \x01(\t\x12\'\n\nidentifier\x18\x03 \x03(\x0b\x32\x13.patient.Identifier\x12\x0e\n\x06status\x18\x04 \x01(\t\x12#\n\x07subject\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12%\n\tencounter\x18\x06 \x01(\x0b\x32\x12.patient.Reference\x12\x0f\n\x07started\x18\x07 \x01(\t\x12\x16\n\x0enumberOfSeries\x18\x08 \x01(\x05\x12\x19\n\x11numberOfInstances\x18\t \x01(\x05\x12\x1f\n\x06series\x18\n \x03(\x0b\x32\x0f.patient.Series\"\xed\x01\n\x12ImmunizationObject\x12%\n\tencounter\x18\x01 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x02 \x01(\t\x12\x1a\n\x12occurrenceDateTime\x18\x03 \x01(\t\x12#\n\x07patient\x18\x04 \x01(\x0b\x32\x12.patient.Reference\x12\x15\n\rprimarySource\x18\x05 \x01(\x08\x12\x14\n\x0cresourceType\x18\x06 \x01(\t\x12\x0e\n\x06status\x18\x07 \x01(\t\x12&\n\x0bvaccineCode\x18\x08 \x01(\x0b\x32\x11.patient.Category\"\xfc\x02\n\x17MedicationRequestObject\x12\x12\n\nauthoredOn\x18\x01 \x01(\t\x12%\n\tencounter\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x03 \x01(\t\x12\x0e\n\x06intent\x18\x04 \x01(\t\x12\x34\n\x19medicationCodeableConcept\x18\x05 \x01(\x0b\x32\x11.patient.Category\x12+\n\x0freasonReference\x18\x06 \x03(\x0b\x32\x12.patient.Reference\x12%\n\trequester\x18\x07 \x01(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x08 \x01(\t\x12\x0e\n\x06status\x18\t \x01(\t\x12#\n\x07subject\x18\n \x01(\x0b\x32\x12.patient.Reference\x12\x35\n\x11\x64osageInstruction\x18\x0b \x03(\x0b\x32\x1a.patient.DosageInstruction\"\x9a\x02\n\x1eMedicationAdministrationObject\x12\x14\n\x0cresourceType\x18\x01 \x01(\t\x12\n\n\x02id\x18\x02 \x01(\t\x12\x0e\n\x06status\x18\x03 \x01(\t\x12\x34\n\x19medicationCodeableConcept\x18\x04 \x01(\x0b\x32\x11.patient.Category\x12#\n\x07subject\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12#\n\x07\x63ontext\x18\x06 \x01(\x0b\x32\x12.patient.Reference\x12\x19\n\x11\x65\x66\x66\x65\x63tiveDateTime\x18\x07 \x01(\t\x12+\n\x0freasonReference\x18\x08 \x03(\x0b\x32\x12.patient.Reference\"\x99\x03\n\x11ObservationObject\x12#\n\x08\x63\x61tegory\x18\x01 \x03(\x0b\x32\x11.patient.Category\x12\x1f\n\x04\x63ode\x18\x02 \x01(\x0b\x32\x11.patient.Category\x12%\n\tcomponent\x18\x03 \x03(\x0b\x32\x12.patient.Component\x12\x19\n\x11\x65\x66\x66\x65\x63tiveDateTime\x18\x04 \x01(\t\x12%\n\tencounter\x18\x05 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x06 \x01(\t\x12\x0e\n\x06issued\x18\x07 \x01(\t\x12\x14\n\x0cresourceType\x18\x08 \x01(\t\x12\x0e\n\x06status\x18\t \x01(\t\x12#\n\x07subject\x18\n \x01(\x0b\x32\x12.patient.Reference\x12/\n\x14valueCodeableConcept\x18\x0b \x01(\x0b\x32\x11.patient.Category\x12(\n\rvalueQuantity\x18\x0c \x01(\x0b\x32\x11.patient.Quantity\x12\x13\n\x0bvalueString\x18\r \x01(\t\"\x8b\x02\n\x12OrganizationObject\x12\x0e\n\x06\x61\x63tive\x18\x01 \x01(\x08\x12!\n\x07\x61\x64\x64ress\x18\x02 \x03(\x0b\x32\x10.patient.Address\x12\n\n\x02id\x18\x03 \x01(\t\x12\'\n\nidentifier\x18\x04 \x03(\x0b\x32\x13.patient.Identifier\x12\x0c\n\x04name\x18\x05 \x01(\t\x12\x14\n\x0cresourceType\x18\x06 \x01(\t\x12!\n\x07telecom\x18\x07 \x03(\x0b\x32\x10.patient.Telecom\x12\x1f\n\x04type\x18\x08 \x03(\x0b\x32\x11.patient.Category\x12%\n\textension\x18\t \x03(\x0b\x32\x12.patient.Extension\"\xd3\x03\n\rPatientObject\x12!\n\x07\x61\x64\x64ress\x18\x01 \x03(\x0b\x32\x10.patient.Address\x12\x11\n\tbirthDate\x18\x02 \x01(\t\x12-\n\rcommunication\x18\x03 \x03(\x0b\x32\x16.patient.Communication\x12%\n\textension\x18\x04 \x03(\x0b\x32\x12.patient.Extension\x12\x0e\n\x06gender\x18\x05 \x01(\t\x12\n\n\x02id\x18\x06 \x01(\t\x12\'\n\nidentifier\x18\x07 \x03(\x0b\x32\x13.patient.Identifier\x12(\n\rmaritalStatus\x18\x08 \x01(\x0b\x32\x11.patient.Category\x12\x1c\n\x14multipleBirthBoolean\x18\t \x01(\x08\x12\x1b\n\x04name\x18\n \x03(\x0b\x32\r.patient.Name\x12\x14\n\x0cresourceType\x18\x0b \x01(\t\x12!\n\x07telecom\x18\x0c \x03(\x0b\x32\x10.patient.Telecom\x12\x1b\n\x04text\x18\r \x01(\x0b\x32\r.patient.Text\x12\x18\n\x10\x64\x65\x63\x65\x61sedDateTime\x18\x0e \x01(\t\x12\x1c\n\x14multipleBirthInteger\x18\x0f \x01(\x05\"\x89\x02\n\x12PractitionerObject\x12\x0e\n\x06\x61\x63tive\x18\x01 \x01(\x08\x12!\n\x07\x61\x64\x64ress\x18\x02 \x03(\x0b\x32\x10.patient.Address\x12\x0e\n\x06gender\x18\x03 \x01(\t\x12\n\n\x02id\x18\x04 \x01(\t\x12\'\n\nidentifier\x18\x05 \x03(\x0b\x32\x13.patient.Identifier\x12\x1b\n\x04name\x18\x06 \x03(\x0b\x32\r.patient.Name\x12\x14\n\x0cresourceType\x18\x07 \x01(\t\x12!\n\x07telecom\x18\x08 \x03(\x0b\x32\x10.patient.Telecom\x12%\n\textension\x18\t \x03(\x0b\x32\x12.patient.Extension\"\x87\x02\n\x0fProcedureObject\x12\x1f\n\x04\x63ode\x18\x01 \x01(\x0b\x32\x11.patient.Category\x12%\n\tencounter\x18\x02 \x01(\x0b\x32\x12.patient.Reference\x12\n\n\x02id\x18\x03 \x01(\t\x12(\n\x0fperformedPeriod\x18\x04 \x01(\x0b\x32\x0f.patient.Period\x12+\n\x0freasonReference\x18\x05 \x03(\x0b\x32\x12.patient.Reference\x12\x14\n\x0cresourceType\x18\x06 \x01(\t\x12\x0e\n\x06status\x18\x07 \x01(\t\x12#\n\x07subject\x18\x08 \x01(\x0b\x32\x12.patient.Reference\"\xc6\x07\n\rPatientRecord\x12\'\n\x07patient\x18\x01 \x01(\x0b\x32\x16.patient.PatientObject\x12)\n\x08\x63\x61rePlan\x18\x02 \x03(\x0b\x32\x17.patient.CarePlanObject\x12)\n\x08\x63\x61reTeam\x18\x03 \x03(\x0b\x32\x17.patient.CareTeamObject\x12#\n\x05\x63laim\x18\x04 \x03(\x0b\x32\x14.patient.ClaimObject\x12+\n\tcondition\x18\x05 \x03(\x0b\x32\x18.patient.ConditionObject\x12\x39\n\x10\x64iagnosticReport\x18\x06 \x03(\x0b\x32\x1f.patient.DiagnosticReportObject\x12+\n\tencounter\x18\x07 \x03(\x0b\x32\x18.patient.EncounterObject\x12\x41\n\x14\x65xplanationOfBenefit\x18\x08 \x03(\x0b\x32#.patient.ExplanationOfBenefitObject\x12\x31\n\x0cimmunization\x18\t \x03(\x0b\x32\x1b.patient.ImmunizationObject\x12;\n\x11medicationRequest\x18\n \x03(\x0b\x32 .patient.MedicationRequestObject\x12/\n\x0bobservation\x18\x0b \x03(\x0b\x32\x1a.patient.ObservationObject\x12\x31\n\x0corganization\x18\x0c \x03(\x0b\x32\x1b.patient.OrganizationObject\x12\x31\n\x0cpractitioner\x18\r \x03(\x0b\x32\x1b.patient.PractitionerObject\x12+\n\tprocedure\x18\x0e \x03(\x0b\x32\x18.patient.ProcedureObject\x12=\n\x12\x61llergyIntolerance\x18\x0f \x03(\x0b\x32!.patient.AllergyIntoleranceObject\x12!\n\x04goal\x18\x10 \x03(\x0b\x32\x13.patient.GoalObject\x12\x31\n\x0cimagingStudy\x18\x11 \x03(\x0b\x32\x1b.patient.ImagingStudyObject\x12%\n\x06\x64\x65vice\x18\x12 \x03(\x0b\x32\x15.patient.DeviceObject\x12I\n\x18medicationAdministration\x18\x13 \x03(\x0b\x32\'.patient.MedicationAdministrationObjectb\x06proto3')
 )
 
-_STATUS = _descriptor.EnumDescriptor(
-  name='Status',
-  full_name='patient.Status',
-  filename=None,
-  file=DESCRIPTOR,
-  values=[
-    _descriptor.EnumValueDescriptor(
-      name='ACTIVE', index=0, number=0,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='COMPLETED', index=1, number=1,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='FINAL', index=2, number=2,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='STOPPED', index=3, number=3,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='INACTIVE', index=4, number=4,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='FINISHED', index=5, number=5,
-      serialized_options=None,
-      type=None),
-  ],
-  containing_type=None,
-  serialized_options=None,
-  serialized_start=9875,
-  serialized_end=9962,
-)
-_sym_db.RegisterEnumDescriptor(_STATUS)
-
-Status = enum_type_wrapper.EnumTypeWrapper(_STATUS)
-_GENDER = _descriptor.EnumDescriptor(
-  name='Gender',
-  full_name='patient.Gender',
-  filename=None,
-  file=DESCRIPTOR,
-  values=[
-    _descriptor.EnumValueDescriptor(
-      name='MALE', index=0, number=0,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='FEMALE', index=1, number=1,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='OTHER', index=2, number=2,
-      serialized_options=None,
-      type=None),
-  ],
-  containing_type=None,
-  serialized_options=None,
-  serialized_start=9964,
-  serialized_end=10005,
-)
-_sym_db.RegisterEnumDescriptor(_GENDER)
-
-Gender = enum_type_wrapper.EnumTypeWrapper(_GENDER)
-_RESOURCETYPE = _descriptor.EnumDescriptor(
-  name='ResourceType',
-  full_name='patient.ResourceType',
-  filename=None,
-  file=DESCRIPTOR,
-  values=[
-    _descriptor.EnumValueDescriptor(
-      name='CARE_PLAN', index=0, number=0,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='CARE_TEAM', index=1, number=1,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='CLAIM', index=2, number=2,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='CONDITION', index=3, number=3,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='DIAGNOSTIC_REPORT', index=4, number=4,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='ENCOUNTER', index=5, number=5,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='EXPLANATION_OF_BENEFIT', index=6, number=6,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='IMMUNIZATION', index=7, number=7,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='MEDICATION_REQUEST', index=8, number=8,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='OBSERVATION', index=9, number=9,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='ORGANIZATION', index=10, number=10,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='PATIENT', index=11, number=11,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='PRACTITIONER', index=12, number=12,
-      serialized_options=None,
-      type=None),
-    _descriptor.EnumValueDescriptor(
-      name='PROCEDURE', index=13, number=13,
-      serialized_options=None,
-      type=None),
-  ],
-  containing_type=None,
-  serialized_options=None,
-  serialized_start=10008,
-  serialized_end=10267,
-)
-_sym_db.RegisterEnumDescriptor(_RESOURCETYPE)
-
-ResourceType = enum_type_wrapper.EnumTypeWrapper(_RESOURCETYPE)
-ACTIVE = 0
-COMPLETED = 1
-FINAL = 2
-STOPPED = 3
-INACTIVE = 4
-FINISHED = 5
-MALE = 0
-FEMALE = 1
-OTHER = 2
-CARE_PLAN = 0
-CARE_TEAM = 1
-CLAIM = 2
-CONDITION = 3
-DIAGNOSTIC_REPORT = 4
-ENCOUNTER = 5
-EXPLANATION_OF_BENEFIT = 6
-IMMUNIZATION = 7
-MEDICATION_REQUEST = 8
-OBSERVATION = 9
-ORGANIZATION = 10
-PATIENT = 11
-PRACTITIONER = 12
-PROCEDURE = 13
 
 
 
@@ -196,8 +35,8 @@ _ACTIVITY = _descriptor.Descriptor(
   fields=[
     _descriptor.FieldDescriptor(
       name='detail', full_name='patient.Activity.detail', index=0,
-      number=1, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -525,8 +364,8 @@ _CONTAINED = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.Contained.status', index=5,
-      number=6, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -571,7 +410,7 @@ _CONTAINED = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=597,
-  serialized_end=915,
+  serialized_end=898,
 )
 
 
@@ -598,8 +437,8 @@ _DETAIL = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.Detail.status', index=2,
-      number=3, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -615,8 +454,8 @@ _DETAIL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=917,
-  serialized_end=1029,
+  serialized_start=900,
+  serialized_end=995,
 )
 
 
@@ -660,8 +499,8 @@ _DIAGNOSIS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1031,
-  serialized_end=1141,
+  serialized_start=997,
+  serialized_end=1107,
 )
 
 
@@ -705,8 +544,8 @@ _ENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1143,
-  serialized_end=1239,
+  serialized_start=1109,
+  serialized_end=1205,
 )
 
 
@@ -752,6 +591,27 @@ _EXTENSION = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='valueCode', full_name='patient.Extension.valueCode', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='valueAddress', full_name='patient.Extension.valueAddress', index=6,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='valueInteger', full_name='patient.Extension.valueInteger', index=7,
+      number=8, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -764,8 +624,8 @@ _EXTENSION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1242,
-  serialized_end=1386,
+  serialized_start=1208,
+  serialized_end=1433,
 )
 
 
@@ -797,6 +657,13 @@ _IDENTIFIER = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='use', full_name='patient.Identifier.use', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -809,8 +676,8 @@ _IDENTIFIER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1388,
-  serialized_end=1464,
+  serialized_start=1435,
+  serialized_end=1524,
 )
 
 
@@ -854,8 +721,8 @@ _INSURANCE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1466,
-  serialized_end=1548,
+  serialized_start=1526,
+  serialized_end=1608,
 )
 
 
@@ -929,6 +796,20 @@ _ITEM = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='procedureSequence', full_name='patient.Item.procedureSequence', index=9,
+      number=10, type=5, cpp_type=1, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='diagnosisSequence', full_name='patient.Item.diagnosisSequence', index=10,
+      number=11, type=5, cpp_type=1, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -941,8 +822,8 @@ _ITEM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1551,
-  serialized_end=1893,
+  serialized_start=1611,
+  serialized_end=2007,
 )
 
 
@@ -981,6 +862,13 @@ _NAME = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='suffix', full_name='patient.Name.suffix', index=4,
+      number=5, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -993,8 +881,8 @@ _NAME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1895,
-  serialized_end=1961,
+  serialized_start=2009,
+  serialized_end=2091,
 )
 
 
@@ -1038,8 +926,8 @@ _PARTICIPANT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1963,
-  serialized_end=2085,
+  serialized_start=2093,
+  serialized_end=2215,
 )
 
 
@@ -1069,8 +957,8 @@ _PAYMENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2087,
-  serialized_end=2129,
+  serialized_start=2217,
+  serialized_end=2259,
 )
 
 
@@ -1107,8 +995,8 @@ _PROCEDURE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2131,
-  serialized_end=2208,
+  serialized_start=2261,
+  serialized_end=2338,
 )
 
 
@@ -1145,8 +1033,8 @@ _REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2210,
-  serialized_end=2248,
+  serialized_start=2340,
+  serialized_end=2378,
 )
 
 
@@ -1190,8 +1078,8 @@ _ROOT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2250,
-  serialized_end=2323,
+  serialized_start=2380,
+  serialized_end=2453,
 )
 
 
@@ -1235,8 +1123,8 @@ _SUPPORTINGINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2325,
-  serialized_end=2440,
+  serialized_start=2455,
+  serialized_end=2570,
 )
 
 
@@ -1280,8 +1168,8 @@ _TELECOM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2442,
-  serialized_end=2495,
+  serialized_start=2572,
+  serialized_end=2625,
 )
 
 
@@ -1318,8 +1206,8 @@ _TEXT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2497,
-  serialized_end=2532,
+  serialized_start=2627,
+  serialized_end=2662,
 )
 
 
@@ -1370,8 +1258,8 @@ _TOTAL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2534,
-  serialized_end=2644,
+  serialized_start=2664,
+  serialized_end=2774,
 )
 
 
@@ -1415,8 +1303,8 @@ _CODING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2646,
-  serialized_end=2701,
+  serialized_start=2776,
+  serialized_end=2831,
 )
 
 
@@ -1467,8 +1355,8 @@ _QUANTITY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2703,
-  serialized_end=2772,
+  serialized_start=2833,
+  serialized_end=2902,
 )
 
 
@@ -1505,8 +1393,8 @@ _REFERENCE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2774,
-  serialized_end=2821,
+  serialized_start=2904,
+  serialized_end=2951,
 )
 
 
@@ -1543,8 +1431,8 @@ _CATEGORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2823,
-  serialized_end=2880,
+  serialized_start=2953,
+  serialized_end=3010,
 )
 
 
@@ -1581,8 +1469,8 @@ _PERIOD = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2882,
-  serialized_end=2918,
+  serialized_start=3012,
+  serialized_end=3048,
 )
 
 
@@ -1595,8 +1483,8 @@ _RESOURCE = _descriptor.Descriptor(
   fields=[
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.Resource.resourceType', index=0,
-      number=1, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -1671,7 +1559,7 @@ _RESOURCE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='organiation', full_name='patient.Resource.organiation', index=11,
+      name='organization', full_name='patient.Resource.organization', index=11,
       number=12, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -1713,8 +1601,688 @@ _RESOURCE = _descriptor.Descriptor(
       name='resource', full_name='patient.Resource.resource',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=2921,
-  serialized_end=3703,
+  serialized_start=3051,
+  serialized_end=3811,
+)
+
+
+_DOSAGEINSTRUCTION = _descriptor.Descriptor(
+  name='DosageInstruction',
+  full_name='patient.DosageInstruction',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='sequence', full_name='patient.DosageInstruction.sequence', index=0,
+      number=1, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='asNeededBoolean', full_name='patient.DosageInstruction.asNeededBoolean', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='doseAndRate', full_name='patient.DosageInstruction.doseAndRate', index=2,
+      number=3, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='timing', full_name='patient.DosageInstruction.timing', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='additionalInstruction', full_name='patient.DosageInstruction.additionalInstruction', index=4,
+      number=5, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3814,
+  serialized_end=4002,
+)
+
+
+_REPEAT = _descriptor.Descriptor(
+  name='Repeat',
+  full_name='patient.Repeat',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='frequency', full_name='patient.Repeat.frequency', index=0,
+      number=1, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='period', full_name='patient.Repeat.period', index=1,
+      number=2, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='periodUnit', full_name='patient.Repeat.periodUnit', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4004,
+  serialized_end=4067,
+)
+
+
+_TIMING = _descriptor.Descriptor(
+  name='Timing',
+  full_name='patient.Timing',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='repeat', full_name='patient.Timing.repeat', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4069,
+  serialized_end=4110,
+)
+
+
+_DOSEANDRATE = _descriptor.Descriptor(
+  name='DoseAndRate',
+  full_name='patient.DoseAndRate',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='patient.DoseAndRate.type', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='doseQuantity', full_name='patient.DoseAndRate.doseQuantity', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4112,
+  serialized_end=4199,
+)
+
+
+_ONSET = _descriptor.Descriptor(
+  name='Onset',
+  full_name='patient.Onset',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='onsetDateTime', full_name='patient.Onset.onsetDateTime', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='onsetAge', full_name='patient.Onset.onsetAge', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='onsetPeriod', full_name='patient.Onset.onsetPeriod', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='onsetString', full_name='patient.Onset.onsetString', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4201,
+  serialized_end=4308,
+)
+
+
+_REACTION = _descriptor.Descriptor(
+  name='Reaction',
+  full_name='patient.Reaction',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='substance', full_name='patient.Reaction.substance', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='manifestation', full_name='patient.Reaction.manifestation', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='description', full_name='patient.Reaction.description', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='onset', full_name='patient.Reaction.onset', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='severity', full_name='patient.Reaction.severity', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='exposureRoute', full_name='patient.Reaction.exposureRoute', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='note', full_name='patient.Reaction.note', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4311,
+  serialized_end=4530,
+)
+
+
+_INSTANCE = _descriptor.Descriptor(
+  name='Instance',
+  full_name='patient.Instance',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='uid', full_name='patient.Instance.uid', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='sopClass', full_name='patient.Instance.sopClass', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='number', full_name='patient.Instance.number', index=2,
+      number=3, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='title', full_name='patient.Instance.title', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4532,
+  serialized_end=4621,
+)
+
+
+_SERIES = _descriptor.Descriptor(
+  name='Series',
+  full_name='patient.Series',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='uid', full_name='patient.Series.uid', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='number', full_name='patient.Series.number', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='modality', full_name='patient.Series.modality', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='numberOfInstances', full_name='patient.Series.numberOfInstances', index=3,
+      number=4, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bodySite', full_name='patient.Series.bodySite', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='started', full_name='patient.Series.started', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='instance', full_name='patient.Series.instance', index=6,
+      number=7, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4624,
+  serialized_end=4812,
+)
+
+
+_HOSPITALIZATION = _descriptor.Descriptor(
+  name='Hospitalization',
+  full_name='patient.Hospitalization',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='dischargeDisposition', full_name='patient.Hospitalization.dischargeDisposition', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4814,
+  serialized_end=4880,
+)
+
+
+_CARRIER = _descriptor.Descriptor(
+  name='Carrier',
+  full_name='patient.Carrier',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='deviceIdentifier', full_name='patient.Carrier.deviceIdentifier', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='carrierHRF', full_name='patient.Carrier.carrierHRF', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4882,
+  serialized_end=4937,
+)
+
+
+_DEVICENAME = _descriptor.Descriptor(
+  name='DeviceName',
+  full_name='patient.DeviceName',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='name', full_name='patient.DeviceName.name', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='patient.DeviceName.type', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4939,
+  serialized_end=4979,
+)
+
+
+_ALLERGYINTOLERANCEOBJECT = _descriptor.Descriptor(
+  name='AllergyIntoleranceObject',
+  full_name='patient.AllergyIntoleranceObject',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='identifier', full_name='patient.AllergyIntoleranceObject.identifier', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='clinicalStatus', full_name='patient.AllergyIntoleranceObject.clinicalStatus', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='verificationStatus', full_name='patient.AllergyIntoleranceObject.verificationStatus', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='patient.AllergyIntoleranceObject.type', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='category', full_name='patient.AllergyIntoleranceObject.category', index=4,
+      number=5, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='criticality', full_name='patient.AllergyIntoleranceObject.criticality', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='code', full_name='patient.AllergyIntoleranceObject.code', index=6,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='patient', full_name='patient.AllergyIntoleranceObject.patient', index=7,
+      number=8, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='encounter', full_name='patient.AllergyIntoleranceObject.encounter', index=8,
+      number=9, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='onset', full_name='patient.AllergyIntoleranceObject.onset', index=9,
+      number=10, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='recordedDate', full_name='patient.AllergyIntoleranceObject.recordedDate', index=10,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='recorder', full_name='patient.AllergyIntoleranceObject.recorder', index=11,
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='asserter', full_name='patient.AllergyIntoleranceObject.asserter', index=12,
+      number=13, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lastOccurrence', full_name='patient.AllergyIntoleranceObject.lastOccurrence', index=13,
+      number=14, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='note', full_name='patient.AllergyIntoleranceObject.note', index=14,
+      number=15, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='resourceType', full_name='patient.AllergyIntoleranceObject.resourceType', index=15,
+      number=16, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='reaction', full_name='patient.AllergyIntoleranceObject.reaction', index=16,
+      number=17, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='patient.AllergyIntoleranceObject.id', index=17,
+      number=18, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4982,
+  serialized_end=5539,
 )
 
 
@@ -1754,7 +2322,7 @@ _CAREPLANOBJECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='Encounter', full_name='patient.CarePlanObject.Encounter', index=4,
+      name='encounter', full_name='patient.CarePlanObject.encounter', index=4,
       number=5, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -1783,15 +2351,15 @@ _CAREPLANOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.CarePlanObject.resourceType', index=8,
-      number=9, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.CarePlanObject.status', index=9,
-      number=10, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=10, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -1804,8 +2372,15 @@ _CAREPLANOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='text', full_name='patient.CarePlanObject.text', index=11,
-      number=12, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='goal', full_name='patient.CarePlanObject.goal', index=12,
+      number=13, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -1821,8 +2396,8 @@ _CAREPLANOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3706,
-  serialized_end=4101,
+  serialized_start=5542,
+  serialized_end=5946,
 )
 
 
@@ -1834,7 +2409,7 @@ _CARETEAMOBJECT = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='Encounter', full_name='patient.CareTeamObject.Encounter', index=0,
+      name='encounter', full_name='patient.CareTeamObject.encounter', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -1877,15 +2452,15 @@ _CARETEAMOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.CareTeamObject.resourceType', index=6,
-      number=7, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.CareTeamObject.status', index=7,
-      number=8, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -1908,8 +2483,8 @@ _CARETEAMOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4104,
-  serialized_end=4451,
+  serialized_start=5949,
+  serialized_end=6256,
 )
 
 
@@ -1999,15 +2574,15 @@ _CLAIMOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ClaimObject.resourceType', index=11,
-      number=12, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=12, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.ClaimObject.status', index=12,
-      number=13, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=13, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2051,8 +2626,8 @@ _CLAIMOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4454,
-  serialized_end=5041,
+  serialized_start=6259,
+  serialized_end=6806,
 )
 
 
@@ -2114,8 +2689,8 @@ _CONDITIONOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ConditionObject.resourceType', index=7,
-      number=8, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2145,8 +2720,116 @@ _CONDITIONOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5044,
-  serialized_end=5389,
+  serialized_start=6809,
+  serialized_end=7131,
+)
+
+
+_DEVICEOBJECT = _descriptor.Descriptor(
+  name='DeviceObject',
+  full_name='patient.DeviceObject',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='resourceType', full_name='patient.DeviceObject.resourceType', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='patient.DeviceObject.id', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='udiCarrier', full_name='patient.DeviceObject.udiCarrier', index=2,
+      number=3, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='status', full_name='patient.DeviceObject.status', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='distinctIdentifier', full_name='patient.DeviceObject.distinctIdentifier', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='manufactureDate', full_name='patient.DeviceObject.manufactureDate', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='expirationDate', full_name='patient.DeviceObject.expirationDate', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lotNumber', full_name='patient.DeviceObject.lotNumber', index=7,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='serialNumber', full_name='patient.DeviceObject.serialNumber', index=8,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='deviceName', full_name='patient.DeviceObject.deviceName', index=9,
+      number=10, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='patient.DeviceObject.type', index=10,
+      number=11, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='patient', full_name='patient.DeviceObject.patient', index=11,
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7134,
+  serialized_end=7465,
 )
 
 
@@ -2201,8 +2884,8 @@ _DIAGNOSTICREPORTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.DiagnosticReportObject.resourceType', index=6,
-      number=7, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2215,13 +2898,13 @@ _DIAGNOSTICREPORTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.DiagnosticReportObject.status', index=8,
-      number=9, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='Subject', full_name='patient.DiagnosticReportObject.Subject', index=9,
+      name='subject', full_name='patient.DiagnosticReportObject.subject', index=9,
       number=10, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -2239,8 +2922,8 @@ _DIAGNOSTICREPORTOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5392,
-  serialized_end=5731,
+  serialized_start=7468,
+  serialized_end=7767,
 )
 
 
@@ -2288,8 +2971,8 @@ _ENCOUNTEROBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.EncounterObject.resourceType', index=5,
-      number=6, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2302,8 +2985,8 @@ _ENCOUNTEROBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.EncounterObject.status', index=7,
-      number=8, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2321,6 +3004,13 @@ _ENCOUNTEROBJECT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='hospitalization', full_name='patient.EncounterObject.hospitalization', index=10,
+      number=11, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -2333,8 +3023,8 @@ _ENCOUNTEROBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5734,
-  serialized_end=6105,
+  serialized_start=7770,
+  serialized_end=8150,
 )
 
 
@@ -2353,7 +3043,7 @@ _EXPLANATIONOFBENEFITOBJECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='careteam', full_name='patient.ExplanationOfBenefitObject.careteam', index=1,
+      name='careTeam', full_name='patient.ExplanationOfBenefitObject.careTeam', index=1,
       number=2, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -2459,15 +3149,15 @@ _EXPLANATIONOFBENEFITOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ExplanationOfBenefitObject.resourceType', index=16,
-      number=17, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=17, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.ExplanationOfBenefitObject.status', index=17,
-      number=18, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=18, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2504,8 +3194,168 @@ _EXPLANATIONOFBENEFITOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6108,
-  serialized_end=6822,
+  serialized_start=8153,
+  serialized_end=8827,
+)
+
+
+_GOALOBJECT = _descriptor.Descriptor(
+  name='GoalObject',
+  full_name='patient.GoalObject',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='resourceType', full_name='patient.GoalObject.resourceType', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='patient.GoalObject.id', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lifecycleStatus', full_name='patient.GoalObject.lifecycleStatus', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='achievementStatus', full_name='patient.GoalObject.achievementStatus', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='description', full_name='patient.GoalObject.description', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='subject', full_name='patient.GoalObject.subject', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8830,
+  serialized_end=9024,
+)
+
+
+_IMAGINGSTUDYOBJECT = _descriptor.Descriptor(
+  name='ImagingStudyObject',
+  full_name='patient.ImagingStudyObject',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='resourceType', full_name='patient.ImagingStudyObject.resourceType', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='patient.ImagingStudyObject.id', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='identifier', full_name='patient.ImagingStudyObject.identifier', index=2,
+      number=3, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='status', full_name='patient.ImagingStudyObject.status', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='subject', full_name='patient.ImagingStudyObject.subject', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='encounter', full_name='patient.ImagingStudyObject.encounter', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='started', full_name='patient.ImagingStudyObject.started', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='numberOfSeries', full_name='patient.ImagingStudyObject.numberOfSeries', index=7,
+      number=8, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='numberOfInstances', full_name='patient.ImagingStudyObject.numberOfInstances', index=8,
+      number=9, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='series', full_name='patient.ImagingStudyObject.series', index=9,
+      number=10, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9027,
+  serialized_end=9315,
 )
 
 
@@ -2531,7 +3381,7 @@ _IMMUNIZATIONOBJECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='occurenceDateTime', full_name='patient.ImmunizationObject.occurenceDateTime', index=2,
+      name='occurrenceDateTime', full_name='patient.ImmunizationObject.occurrenceDateTime', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -2553,15 +3403,15 @@ _IMMUNIZATIONOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ImmunizationObject.resourceType', index=5,
-      number=6, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.ImmunizationObject.status', index=6,
-      number=7, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2584,8 +3434,8 @@ _IMMUNIZATIONOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6825,
-  serialized_end=7101,
+  serialized_start=9318,
+  serialized_end=9555,
 )
 
 
@@ -2647,15 +3497,15 @@ _MEDICATIONREQUESTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.MedicationRequestObject.resourceType', index=7,
-      number=8, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.MedicationRequestObject.status', index=8,
-      number=9, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2663,6 +3513,13 @@ _MEDICATIONREQUESTOBJECT = _descriptor.Descriptor(
       name='subject', full_name='patient.MedicationRequestObject.subject', index=9,
       number=10, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='dosageInstruction', full_name='patient.MedicationRequestObject.dosageInstruction', index=10,
+      number=11, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2678,8 +3535,88 @@ _MEDICATIONREQUESTOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7104,
-  serialized_end=7469,
+  serialized_start=9558,
+  serialized_end=9938,
+)
+
+
+_MEDICATIONADMINISTRATIONOBJECT = _descriptor.Descriptor(
+  name='MedicationAdministrationObject',
+  full_name='patient.MedicationAdministrationObject',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='resourceType', full_name='patient.MedicationAdministrationObject.resourceType', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='patient.MedicationAdministrationObject.id', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='status', full_name='patient.MedicationAdministrationObject.status', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='medicationCodeableConcept', full_name='patient.MedicationAdministrationObject.medicationCodeableConcept', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='subject', full_name='patient.MedicationAdministrationObject.subject', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='context', full_name='patient.MedicationAdministrationObject.context', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='effectiveDateTime', full_name='patient.MedicationAdministrationObject.effectiveDateTime', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='reasonReference', full_name='patient.MedicationAdministrationObject.reasonReference', index=7,
+      number=8, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9941,
+  serialized_end=10223,
 )
 
 
@@ -2741,15 +3678,15 @@ _OBSERVATIONOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ObservationObject.resourceType', index=7,
-      number=8, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.ObservationObject.status', index=8,
-      number=9, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2774,6 +3711,13 @@ _OBSERVATIONOBJECT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='valueString', full_name='patient.ObservationObject.valueString', index=12,
+      number=13, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -2786,8 +3730,8 @@ _OBSERVATIONOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7472,
-  serialized_end=7900,
+  serialized_start=10226,
+  serialized_end=10635,
 )
 
 
@@ -2835,8 +3779,8 @@ _ORGANIZATIONOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.OrganizationObject.resourceType', index=5,
-      number=6, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2854,6 +3798,13 @@ _ORGANIZATIONOBJECT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='extension', full_name='patient.OrganizationObject.extension', index=8,
+      number=9, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -2866,8 +3817,8 @@ _ORGANIZATIONOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7903,
-  serialized_end=8154,
+  serialized_start=10638,
+  serialized_end=10905,
 )
 
 
@@ -2908,8 +3859,8 @@ _PATIENTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='gender', full_name='patient.PatientObject.gender', index=4,
-      number=5, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2950,8 +3901,8 @@ _PATIENTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.PatientObject.resourceType', index=10,
-      number=11, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2964,8 +3915,22 @@ _PATIENTOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='text', full_name='patient.PatientObject.text', index=12,
-      number=13, type=9, cpp_type=9, label=1,
+      number=13, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='deceasedDateTime', full_name='patient.PatientObject.deceasedDateTime', index=13,
+      number=14, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='multipleBirthInteger', full_name='patient.PatientObject.multipleBirthInteger', index=14,
+      number=15, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -2981,8 +3946,8 @@ _PATIENTOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8157,
-  serialized_end=8593,
+  serialized_start=10908,
+  serialized_end=11375,
 )
 
 
@@ -3009,8 +3974,8 @@ _PRACTITIONEROBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='gender', full_name='patient.PractitionerObject.gender', index=2,
-      number=3, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -3037,14 +4002,21 @@ _PRACTITIONEROBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.PractitionerObject.resourceType', index=6,
-      number=7, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='telecom', full_name='patient.PractitionerObject.telecom', index=7,
       number=8, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='extension', full_name='patient.PractitionerObject.extension', index=8,
+      number=9, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -3061,8 +4033,8 @@ _PRACTITIONEROBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8596,
-  serialized_end=8862,
+  serialized_start=11378,
+  serialized_end=11643,
 )
 
 
@@ -3110,15 +4082,15 @@ _PROCEDUREOBJECT = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='resourceType', full_name='patient.ProcedureObject.resourceType', index=5,
-      number=6, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='status', full_name='patient.ProcedureObject.status', index=6,
-      number=7, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -3141,8 +4113,8 @@ _PROCEDUREOBJECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8865,
-  serialized_end=9168,
+  serialized_start=11646,
+  serialized_end=11909,
 )
 
 
@@ -3231,7 +4203,7 @@ _PATIENTRECORD = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='organiation', full_name='patient.PatientRecord.organiation', index=11,
+      name='organization', full_name='patient.PatientRecord.organization', index=11,
       number=12, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -3251,6 +4223,41 @@ _PATIENTRECORD = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='allergyIntolerance', full_name='patient.PatientRecord.allergyIntolerance', index=14,
+      number=15, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='goal', full_name='patient.PatientRecord.goal', index=15,
+      number=16, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='imagingStudy', full_name='patient.PatientRecord.imagingStudy', index=16,
+      number=17, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='device', full_name='patient.PatientRecord.device', index=17,
+      number=18, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='medicationAdministration', full_name='patient.PatientRecord.medicationAdministration', index=18,
+      number=19, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -3263,8 +4270,8 @@ _PATIENTRECORD = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9171,
-  serialized_end=9873,
+  serialized_start=11912,
+  serialized_end=12878,
 )
 
 _ACTIVITY.fields_by_name['detail'].message_type = _DETAIL
@@ -3278,20 +4285,19 @@ _COMPONENT.fields_by_name['code'].message_type = _CATEGORY
 _COMPONENT.fields_by_name['valueQuantity'].message_type = _QUANTITY
 _CONTAINED.fields_by_name['performer'].message_type = _REFERENCE
 _CONTAINED.fields_by_name['requester'].message_type = _REFERENCE
-_CONTAINED.fields_by_name['status'].enum_type = _STATUS
 _CONTAINED.fields_by_name['subject'].message_type = _REFERENCE
 _CONTAINED.fields_by_name['beneficiary'].message_type = _REFERENCE
 _CONTAINED.fields_by_name['payor'].message_type = _REFERENCE
 _CONTAINED.fields_by_name['type'].message_type = _CATEGORY
 _DETAIL.fields_by_name['code'].message_type = _CATEGORY
 _DETAIL.fields_by_name['location'].message_type = _REFERENCE
-_DETAIL.fields_by_name['status'].enum_type = _STATUS
 _DIAGNOSIS.fields_by_name['diagnosisReference'].message_type = _REFERENCE
 _DIAGNOSIS.fields_by_name['type'].message_type = _CATEGORY
 _ENTRY.fields_by_name['request'].message_type = _REQUEST
 _ENTRY.fields_by_name['resource'].message_type = _RESOURCE
 _EXTENSION.fields_by_name['extension'].message_type = _EXTENSION
 _EXTENSION.fields_by_name['valueCoding'].message_type = _CODING
+_EXTENSION.fields_by_name['valueAddress'].message_type = _ADDRESS
 _IDENTIFIER.fields_by_name['type'].message_type = _CATEGORY
 _INSURANCE.fields_by_name['coverage'].message_type = _REFERENCE
 _ITEM.fields_by_name['encounter'].message_type = _REFERENCE
@@ -3312,7 +4318,6 @@ _SUPPORTINGINFO.fields_by_name['valueReference'].message_type = _REFERENCE
 _TOTAL.fields_by_name['amount'].message_type = _AMOUNT
 _TOTAL.fields_by_name['category'].message_type = _CATEGORY
 _CATEGORY.fields_by_name['coding'].message_type = _CODING
-_RESOURCE.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _RESOURCE.fields_by_name['carePlan'].message_type = _CAREPLANOBJECT
 _RESOURCE.fields_by_name['careTeam'].message_type = _CARETEAMOBJECT
 _RESOURCE.fields_by_name['claim'].message_type = _CLAIMOBJECT
@@ -3323,7 +4328,7 @@ _RESOURCE.fields_by_name['explanationOfBenefit'].message_type = _EXPLANATIONOFBE
 _RESOURCE.fields_by_name['immunization'].message_type = _IMMUNIZATIONOBJECT
 _RESOURCE.fields_by_name['medicationRequest'].message_type = _MEDICATIONREQUESTOBJECT
 _RESOURCE.fields_by_name['observation'].message_type = _OBSERVATIONOBJECT
-_RESOURCE.fields_by_name['organiation'].message_type = _ORGANIZATIONOBJECT
+_RESOURCE.fields_by_name['organization'].message_type = _ORGANIZATIONOBJECT
 _RESOURCE.fields_by_name['patient'].message_type = _PATIENTOBJECT
 _RESOURCE.fields_by_name['practitioner'].message_type = _PRACTITIONEROBJECT
 _RESOURCE.fields_by_name['procedure'].message_type = _PROCEDUREOBJECT
@@ -3358,8 +4363,8 @@ _RESOURCE.oneofs_by_name['resource'].fields.append(
   _RESOURCE.fields_by_name['observation'])
 _RESOURCE.fields_by_name['observation'].containing_oneof = _RESOURCE.oneofs_by_name['resource']
 _RESOURCE.oneofs_by_name['resource'].fields.append(
-  _RESOURCE.fields_by_name['organiation'])
-_RESOURCE.fields_by_name['organiation'].containing_oneof = _RESOURCE.oneofs_by_name['resource']
+  _RESOURCE.fields_by_name['organization'])
+_RESOURCE.fields_by_name['organization'].containing_oneof = _RESOURCE.oneofs_by_name['resource']
 _RESOURCE.oneofs_by_name['resource'].fields.append(
   _RESOURCE.fields_by_name['patient'])
 _RESOURCE.fields_by_name['patient'].containing_oneof = _RESOURCE.oneofs_by_name['resource']
@@ -3369,22 +4374,46 @@ _RESOURCE.fields_by_name['practitioner'].containing_oneof = _RESOURCE.oneofs_by_
 _RESOURCE.oneofs_by_name['resource'].fields.append(
   _RESOURCE.fields_by_name['procedure'])
 _RESOURCE.fields_by_name['procedure'].containing_oneof = _RESOURCE.oneofs_by_name['resource']
+_DOSAGEINSTRUCTION.fields_by_name['doseAndRate'].message_type = _DOSEANDRATE
+_DOSAGEINSTRUCTION.fields_by_name['timing'].message_type = _TIMING
+_DOSAGEINSTRUCTION.fields_by_name['additionalInstruction'].message_type = _CATEGORY
+_TIMING.fields_by_name['repeat'].message_type = _REPEAT
+_DOSEANDRATE.fields_by_name['type'].message_type = _CATEGORY
+_DOSEANDRATE.fields_by_name['doseQuantity'].message_type = _QUANTITY
+_ONSET.fields_by_name['onsetPeriod'].message_type = _PERIOD
+_REACTION.fields_by_name['substance'].message_type = _CATEGORY
+_REACTION.fields_by_name['manifestation'].message_type = _CATEGORY
+_REACTION.fields_by_name['severity'].message_type = _CATEGORY
+_REACTION.fields_by_name['exposureRoute'].message_type = _CATEGORY
+_INSTANCE.fields_by_name['sopClass'].message_type = _CODING
+_SERIES.fields_by_name['modality'].message_type = _CODING
+_SERIES.fields_by_name['bodySite'].message_type = _CODING
+_SERIES.fields_by_name['instance'].message_type = _INSTANCE
+_HOSPITALIZATION.fields_by_name['dischargeDisposition'].message_type = _CATEGORY
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['identifier'].message_type = _IDENTIFIER
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['clinicalStatus'].message_type = _CATEGORY
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['verificationStatus'].message_type = _CATEGORY
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['code'].message_type = _CATEGORY
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['patient'].message_type = _REFERENCE
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['onset'].message_type = _ONSET
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['recorder'].message_type = _REFERENCE
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['asserter'].message_type = _REFERENCE
+_ALLERGYINTOLERANCEOBJECT.fields_by_name['reaction'].message_type = _REACTION
 _CAREPLANOBJECT.fields_by_name['activity'].message_type = _ACTIVITY
 _CAREPLANOBJECT.fields_by_name['addresses'].message_type = _REFERENCE
 _CAREPLANOBJECT.fields_by_name['careTeam'].message_type = _CARETEAM
 _CAREPLANOBJECT.fields_by_name['category'].message_type = _CATEGORY
-_CAREPLANOBJECT.fields_by_name['Encounter'].message_type = _REFERENCE
+_CAREPLANOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
 _CAREPLANOBJECT.fields_by_name['period'].message_type = _PERIOD
-_CAREPLANOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_CAREPLANOBJECT.fields_by_name['status'].enum_type = _STATUS
 _CAREPLANOBJECT.fields_by_name['subject'].message_type = _REFERENCE
-_CARETEAMOBJECT.fields_by_name['Encounter'].message_type = _REFERENCE
+_CAREPLANOBJECT.fields_by_name['text'].message_type = _TEXT
+_CAREPLANOBJECT.fields_by_name['goal'].message_type = _REFERENCE
+_CARETEAMOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
 _CARETEAMOBJECT.fields_by_name['managingOrganization'].message_type = _REFERENCE
 _CARETEAMOBJECT.fields_by_name['participant'].message_type = _PARTICIPANT
 _CARETEAMOBJECT.fields_by_name['period'].message_type = _PERIOD
 _CARETEAMOBJECT.fields_by_name['reasonCode'].message_type = _CATEGORY
-_CARETEAMOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_CARETEAMOBJECT.fields_by_name['status'].enum_type = _STATUS
 _CARETEAMOBJECT.fields_by_name['subject'].message_type = _REFERENCE
 _CLAIMOBJECT.fields_by_name['billablePeriod'].message_type = _PERIOD
 _CLAIMOBJECT.fields_by_name['diagnosis'].message_type = _DIAGNOSIS
@@ -3395,35 +4424,33 @@ _CLAIMOBJECT.fields_by_name['prescription'].message_type = _REFERENCE
 _CLAIMOBJECT.fields_by_name['priority'].message_type = _CATEGORY
 _CLAIMOBJECT.fields_by_name['procedure'].message_type = _PROCEDURE
 _CLAIMOBJECT.fields_by_name['provider'].message_type = _REFERENCE
-_CLAIMOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_CLAIMOBJECT.fields_by_name['status'].enum_type = _STATUS
 _CLAIMOBJECT.fields_by_name['supportingInfo'].message_type = _SUPPORTINGINFO
 _CLAIMOBJECT.fields_by_name['total'].message_type = _TOTAL
 _CLAIMOBJECT.fields_by_name['type'].message_type = _CATEGORY
 _CONDITIONOBJECT.fields_by_name['clinicalStatus'].message_type = _CATEGORY
 _CONDITIONOBJECT.fields_by_name['code'].message_type = _CATEGORY
 _CONDITIONOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
-_CONDITIONOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _CONDITIONOBJECT.fields_by_name['subject'].message_type = _REFERENCE
 _CONDITIONOBJECT.fields_by_name['verificationStatus'].message_type = _CATEGORY
+_DEVICEOBJECT.fields_by_name['udiCarrier'].message_type = _CARRIER
+_DEVICEOBJECT.fields_by_name['deviceName'].message_type = _DEVICENAME
+_DEVICEOBJECT.fields_by_name['type'].message_type = _CATEGORY
+_DEVICEOBJECT.fields_by_name['patient'].message_type = _REFERENCE
 _DIAGNOSTICREPORTOBJECT.fields_by_name['category'].message_type = _CATEGORY
 _DIAGNOSTICREPORTOBJECT.fields_by_name['code'].message_type = _CATEGORY
 _DIAGNOSTICREPORTOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
-_DIAGNOSTICREPORTOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _DIAGNOSTICREPORTOBJECT.fields_by_name['result'].message_type = _REFERENCE
-_DIAGNOSTICREPORTOBJECT.fields_by_name['status'].enum_type = _STATUS
-_DIAGNOSTICREPORTOBJECT.fields_by_name['Subject'].message_type = _REFERENCE
-_ENCOUNTEROBJECT.fields_by_name['class'].message_type = _CATEGORY
+_DIAGNOSTICREPORTOBJECT.fields_by_name['subject'].message_type = _REFERENCE
+_ENCOUNTEROBJECT.fields_by_name['class'].message_type = _CODING
 _ENCOUNTEROBJECT.fields_by_name['participant'].message_type = _PARTICIPANT
 _ENCOUNTEROBJECT.fields_by_name['period'].message_type = _PERIOD
 _ENCOUNTEROBJECT.fields_by_name['reasonCode'].message_type = _CATEGORY
-_ENCOUNTEROBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _ENCOUNTEROBJECT.fields_by_name['serviceProvider'].message_type = _REFERENCE
-_ENCOUNTEROBJECT.fields_by_name['status'].enum_type = _STATUS
 _ENCOUNTEROBJECT.fields_by_name['subject'].message_type = _REFERENCE
 _ENCOUNTEROBJECT.fields_by_name['type'].message_type = _CATEGORY
+_ENCOUNTEROBJECT.fields_by_name['hospitalization'].message_type = _HOSPITALIZATION
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['billablePeriod'].message_type = _PERIOD
-_EXPLANATIONOFBENEFITOBJECT.fields_by_name['careteam'].message_type = _CARETEAM
+_EXPLANATIONOFBENEFITOBJECT.fields_by_name['careTeam'].message_type = _CARETEAM
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['claim'].message_type = _REFERENCE
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['contained'].message_type = _CONTAINED
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['diagnosis'].message_type = _DIAGNOSIS
@@ -3435,57 +4462,57 @@ _EXPLANATIONOFBENEFITOBJECT.fields_by_name['patient'].message_type = _REFERENCE
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['payment'].message_type = _PAYMENT
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['provider'].message_type = _REFERENCE
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['referral'].message_type = _REFERENCE
-_EXPLANATIONOFBENEFITOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_EXPLANATIONOFBENEFITOBJECT.fields_by_name['status'].enum_type = _STATUS
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['total'].message_type = _TOTAL
 _EXPLANATIONOFBENEFITOBJECT.fields_by_name['type'].message_type = _CATEGORY
+_GOALOBJECT.fields_by_name['achievementStatus'].message_type = _CATEGORY
+_GOALOBJECT.fields_by_name['description'].message_type = _CATEGORY
+_GOALOBJECT.fields_by_name['subject'].message_type = _REFERENCE
+_IMAGINGSTUDYOBJECT.fields_by_name['identifier'].message_type = _IDENTIFIER
+_IMAGINGSTUDYOBJECT.fields_by_name['subject'].message_type = _REFERENCE
+_IMAGINGSTUDYOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
+_IMAGINGSTUDYOBJECT.fields_by_name['series'].message_type = _SERIES
 _IMMUNIZATIONOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
 _IMMUNIZATIONOBJECT.fields_by_name['patient'].message_type = _REFERENCE
-_IMMUNIZATIONOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_IMMUNIZATIONOBJECT.fields_by_name['status'].enum_type = _STATUS
 _IMMUNIZATIONOBJECT.fields_by_name['vaccineCode'].message_type = _CATEGORY
 _MEDICATIONREQUESTOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
 _MEDICATIONREQUESTOBJECT.fields_by_name['medicationCodeableConcept'].message_type = _CATEGORY
 _MEDICATIONREQUESTOBJECT.fields_by_name['reasonReference'].message_type = _REFERENCE
 _MEDICATIONREQUESTOBJECT.fields_by_name['requester'].message_type = _REFERENCE
-_MEDICATIONREQUESTOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_MEDICATIONREQUESTOBJECT.fields_by_name['status'].enum_type = _STATUS
 _MEDICATIONREQUESTOBJECT.fields_by_name['subject'].message_type = _REFERENCE
+_MEDICATIONREQUESTOBJECT.fields_by_name['dosageInstruction'].message_type = _DOSAGEINSTRUCTION
+_MEDICATIONADMINISTRATIONOBJECT.fields_by_name['medicationCodeableConcept'].message_type = _CATEGORY
+_MEDICATIONADMINISTRATIONOBJECT.fields_by_name['subject'].message_type = _REFERENCE
+_MEDICATIONADMINISTRATIONOBJECT.fields_by_name['context'].message_type = _REFERENCE
+_MEDICATIONADMINISTRATIONOBJECT.fields_by_name['reasonReference'].message_type = _REFERENCE
 _OBSERVATIONOBJECT.fields_by_name['category'].message_type = _CATEGORY
 _OBSERVATIONOBJECT.fields_by_name['code'].message_type = _CATEGORY
 _OBSERVATIONOBJECT.fields_by_name['component'].message_type = _COMPONENT
 _OBSERVATIONOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
-_OBSERVATIONOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_OBSERVATIONOBJECT.fields_by_name['status'].enum_type = _STATUS
 _OBSERVATIONOBJECT.fields_by_name['subject'].message_type = _REFERENCE
 _OBSERVATIONOBJECT.fields_by_name['valueCodeableConcept'].message_type = _CATEGORY
 _OBSERVATIONOBJECT.fields_by_name['valueQuantity'].message_type = _QUANTITY
 _ORGANIZATIONOBJECT.fields_by_name['address'].message_type = _ADDRESS
 _ORGANIZATIONOBJECT.fields_by_name['identifier'].message_type = _IDENTIFIER
-_ORGANIZATIONOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _ORGANIZATIONOBJECT.fields_by_name['telecom'].message_type = _TELECOM
 _ORGANIZATIONOBJECT.fields_by_name['type'].message_type = _CATEGORY
+_ORGANIZATIONOBJECT.fields_by_name['extension'].message_type = _EXTENSION
 _PATIENTOBJECT.fields_by_name['address'].message_type = _ADDRESS
 _PATIENTOBJECT.fields_by_name['communication'].message_type = _COMMUNICATION
 _PATIENTOBJECT.fields_by_name['extension'].message_type = _EXTENSION
-_PATIENTOBJECT.fields_by_name['gender'].enum_type = _GENDER
 _PATIENTOBJECT.fields_by_name['identifier'].message_type = _IDENTIFIER
 _PATIENTOBJECT.fields_by_name['maritalStatus'].message_type = _CATEGORY
 _PATIENTOBJECT.fields_by_name['name'].message_type = _NAME
-_PATIENTOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _PATIENTOBJECT.fields_by_name['telecom'].message_type = _TELECOM
+_PATIENTOBJECT.fields_by_name['text'].message_type = _TEXT
 _PRACTITIONEROBJECT.fields_by_name['address'].message_type = _ADDRESS
-_PRACTITIONEROBJECT.fields_by_name['gender'].enum_type = _GENDER
 _PRACTITIONEROBJECT.fields_by_name['identifier'].message_type = _IDENTIFIER
 _PRACTITIONEROBJECT.fields_by_name['name'].message_type = _NAME
-_PRACTITIONEROBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
 _PRACTITIONEROBJECT.fields_by_name['telecom'].message_type = _TELECOM
+_PRACTITIONEROBJECT.fields_by_name['extension'].message_type = _EXTENSION
 _PROCEDUREOBJECT.fields_by_name['code'].message_type = _CATEGORY
 _PROCEDUREOBJECT.fields_by_name['encounter'].message_type = _REFERENCE
 _PROCEDUREOBJECT.fields_by_name['performedPeriod'].message_type = _PERIOD
 _PROCEDUREOBJECT.fields_by_name['reasonReference'].message_type = _REFERENCE
-_PROCEDUREOBJECT.fields_by_name['resourceType'].enum_type = _RESOURCETYPE
-_PROCEDUREOBJECT.fields_by_name['status'].enum_type = _STATUS
 _PROCEDUREOBJECT.fields_by_name['subject'].message_type = _REFERENCE
 _PATIENTRECORD.fields_by_name['patient'].message_type = _PATIENTOBJECT
 _PATIENTRECORD.fields_by_name['carePlan'].message_type = _CAREPLANOBJECT
@@ -3498,9 +4525,14 @@ _PATIENTRECORD.fields_by_name['explanationOfBenefit'].message_type = _EXPLANATIO
 _PATIENTRECORD.fields_by_name['immunization'].message_type = _IMMUNIZATIONOBJECT
 _PATIENTRECORD.fields_by_name['medicationRequest'].message_type = _MEDICATIONREQUESTOBJECT
 _PATIENTRECORD.fields_by_name['observation'].message_type = _OBSERVATIONOBJECT
-_PATIENTRECORD.fields_by_name['organiation'].message_type = _ORGANIZATIONOBJECT
+_PATIENTRECORD.fields_by_name['organization'].message_type = _ORGANIZATIONOBJECT
 _PATIENTRECORD.fields_by_name['practitioner'].message_type = _PRACTITIONEROBJECT
 _PATIENTRECORD.fields_by_name['procedure'].message_type = _PROCEDUREOBJECT
+_PATIENTRECORD.fields_by_name['allergyIntolerance'].message_type = _ALLERGYINTOLERANCEOBJECT
+_PATIENTRECORD.fields_by_name['goal'].message_type = _GOALOBJECT
+_PATIENTRECORD.fields_by_name['imagingStudy'].message_type = _IMAGINGSTUDYOBJECT
+_PATIENTRECORD.fields_by_name['device'].message_type = _DEVICEOBJECT
+_PATIENTRECORD.fields_by_name['medicationAdministration'].message_type = _MEDICATIONADMINISTRATIONOBJECT
 DESCRIPTOR.message_types_by_name['Activity'] = _ACTIVITY
 DESCRIPTOR.message_types_by_name['Address'] = _ADDRESS
 DESCRIPTOR.message_types_by_name['Adjudication'] = _ADJUDICATION
@@ -3532,24 +4564,37 @@ DESCRIPTOR.message_types_by_name['Reference'] = _REFERENCE
 DESCRIPTOR.message_types_by_name['Category'] = _CATEGORY
 DESCRIPTOR.message_types_by_name['Period'] = _PERIOD
 DESCRIPTOR.message_types_by_name['Resource'] = _RESOURCE
+DESCRIPTOR.message_types_by_name['DosageInstruction'] = _DOSAGEINSTRUCTION
+DESCRIPTOR.message_types_by_name['Repeat'] = _REPEAT
+DESCRIPTOR.message_types_by_name['Timing'] = _TIMING
+DESCRIPTOR.message_types_by_name['DoseAndRate'] = _DOSEANDRATE
+DESCRIPTOR.message_types_by_name['Onset'] = _ONSET
+DESCRIPTOR.message_types_by_name['Reaction'] = _REACTION
+DESCRIPTOR.message_types_by_name['Instance'] = _INSTANCE
+DESCRIPTOR.message_types_by_name['Series'] = _SERIES
+DESCRIPTOR.message_types_by_name['Hospitalization'] = _HOSPITALIZATION
+DESCRIPTOR.message_types_by_name['Carrier'] = _CARRIER
+DESCRIPTOR.message_types_by_name['DeviceName'] = _DEVICENAME
+DESCRIPTOR.message_types_by_name['AllergyIntoleranceObject'] = _ALLERGYINTOLERANCEOBJECT
 DESCRIPTOR.message_types_by_name['CarePlanObject'] = _CAREPLANOBJECT
 DESCRIPTOR.message_types_by_name['CareTeamObject'] = _CARETEAMOBJECT
 DESCRIPTOR.message_types_by_name['ClaimObject'] = _CLAIMOBJECT
 DESCRIPTOR.message_types_by_name['ConditionObject'] = _CONDITIONOBJECT
+DESCRIPTOR.message_types_by_name['DeviceObject'] = _DEVICEOBJECT
 DESCRIPTOR.message_types_by_name['DiagnosticReportObject'] = _DIAGNOSTICREPORTOBJECT
 DESCRIPTOR.message_types_by_name['EncounterObject'] = _ENCOUNTEROBJECT
 DESCRIPTOR.message_types_by_name['ExplanationOfBenefitObject'] = _EXPLANATIONOFBENEFITOBJECT
+DESCRIPTOR.message_types_by_name['GoalObject'] = _GOALOBJECT
+DESCRIPTOR.message_types_by_name['ImagingStudyObject'] = _IMAGINGSTUDYOBJECT
 DESCRIPTOR.message_types_by_name['ImmunizationObject'] = _IMMUNIZATIONOBJECT
 DESCRIPTOR.message_types_by_name['MedicationRequestObject'] = _MEDICATIONREQUESTOBJECT
+DESCRIPTOR.message_types_by_name['MedicationAdministrationObject'] = _MEDICATIONADMINISTRATIONOBJECT
 DESCRIPTOR.message_types_by_name['ObservationObject'] = _OBSERVATIONOBJECT
 DESCRIPTOR.message_types_by_name['OrganizationObject'] = _ORGANIZATIONOBJECT
 DESCRIPTOR.message_types_by_name['PatientObject'] = _PATIENTOBJECT
 DESCRIPTOR.message_types_by_name['PractitionerObject'] = _PRACTITIONEROBJECT
 DESCRIPTOR.message_types_by_name['ProcedureObject'] = _PROCEDUREOBJECT
 DESCRIPTOR.message_types_by_name['PatientRecord'] = _PATIENTRECORD
-DESCRIPTOR.enum_types_by_name['Status'] = _STATUS
-DESCRIPTOR.enum_types_by_name['Gender'] = _GENDER
-DESCRIPTOR.enum_types_by_name['ResourceType'] = _RESOURCETYPE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Activity = _reflection.GeneratedProtocolMessageType('Activity', (_message.Message,), {
@@ -3769,6 +4814,90 @@ Resource = _reflection.GeneratedProtocolMessageType('Resource', (_message.Messag
   })
 _sym_db.RegisterMessage(Resource)
 
+DosageInstruction = _reflection.GeneratedProtocolMessageType('DosageInstruction', (_message.Message,), {
+  'DESCRIPTOR' : _DOSAGEINSTRUCTION,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.DosageInstruction)
+  })
+_sym_db.RegisterMessage(DosageInstruction)
+
+Repeat = _reflection.GeneratedProtocolMessageType('Repeat', (_message.Message,), {
+  'DESCRIPTOR' : _REPEAT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Repeat)
+  })
+_sym_db.RegisterMessage(Repeat)
+
+Timing = _reflection.GeneratedProtocolMessageType('Timing', (_message.Message,), {
+  'DESCRIPTOR' : _TIMING,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Timing)
+  })
+_sym_db.RegisterMessage(Timing)
+
+DoseAndRate = _reflection.GeneratedProtocolMessageType('DoseAndRate', (_message.Message,), {
+  'DESCRIPTOR' : _DOSEANDRATE,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.DoseAndRate)
+  })
+_sym_db.RegisterMessage(DoseAndRate)
+
+Onset = _reflection.GeneratedProtocolMessageType('Onset', (_message.Message,), {
+  'DESCRIPTOR' : _ONSET,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Onset)
+  })
+_sym_db.RegisterMessage(Onset)
+
+Reaction = _reflection.GeneratedProtocolMessageType('Reaction', (_message.Message,), {
+  'DESCRIPTOR' : _REACTION,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Reaction)
+  })
+_sym_db.RegisterMessage(Reaction)
+
+Instance = _reflection.GeneratedProtocolMessageType('Instance', (_message.Message,), {
+  'DESCRIPTOR' : _INSTANCE,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Instance)
+  })
+_sym_db.RegisterMessage(Instance)
+
+Series = _reflection.GeneratedProtocolMessageType('Series', (_message.Message,), {
+  'DESCRIPTOR' : _SERIES,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Series)
+  })
+_sym_db.RegisterMessage(Series)
+
+Hospitalization = _reflection.GeneratedProtocolMessageType('Hospitalization', (_message.Message,), {
+  'DESCRIPTOR' : _HOSPITALIZATION,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Hospitalization)
+  })
+_sym_db.RegisterMessage(Hospitalization)
+
+Carrier = _reflection.GeneratedProtocolMessageType('Carrier', (_message.Message,), {
+  'DESCRIPTOR' : _CARRIER,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.Carrier)
+  })
+_sym_db.RegisterMessage(Carrier)
+
+DeviceName = _reflection.GeneratedProtocolMessageType('DeviceName', (_message.Message,), {
+  'DESCRIPTOR' : _DEVICENAME,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.DeviceName)
+  })
+_sym_db.RegisterMessage(DeviceName)
+
+AllergyIntoleranceObject = _reflection.GeneratedProtocolMessageType('AllergyIntoleranceObject', (_message.Message,), {
+  'DESCRIPTOR' : _ALLERGYINTOLERANCEOBJECT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.AllergyIntoleranceObject)
+  })
+_sym_db.RegisterMessage(AllergyIntoleranceObject)
+
 CarePlanObject = _reflection.GeneratedProtocolMessageType('CarePlanObject', (_message.Message,), {
   'DESCRIPTOR' : _CAREPLANOBJECT,
   '__module__' : 'customized_pb2'
@@ -3797,6 +4926,13 @@ ConditionObject = _reflection.GeneratedProtocolMessageType('ConditionObject', (_
   })
 _sym_db.RegisterMessage(ConditionObject)
 
+DeviceObject = _reflection.GeneratedProtocolMessageType('DeviceObject', (_message.Message,), {
+  'DESCRIPTOR' : _DEVICEOBJECT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.DeviceObject)
+  })
+_sym_db.RegisterMessage(DeviceObject)
+
 DiagnosticReportObject = _reflection.GeneratedProtocolMessageType('DiagnosticReportObject', (_message.Message,), {
   'DESCRIPTOR' : _DIAGNOSTICREPORTOBJECT,
   '__module__' : 'customized_pb2'
@@ -3818,6 +4954,20 @@ ExplanationOfBenefitObject = _reflection.GeneratedProtocolMessageType('Explanati
   })
 _sym_db.RegisterMessage(ExplanationOfBenefitObject)
 
+GoalObject = _reflection.GeneratedProtocolMessageType('GoalObject', (_message.Message,), {
+  'DESCRIPTOR' : _GOALOBJECT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.GoalObject)
+  })
+_sym_db.RegisterMessage(GoalObject)
+
+ImagingStudyObject = _reflection.GeneratedProtocolMessageType('ImagingStudyObject', (_message.Message,), {
+  'DESCRIPTOR' : _IMAGINGSTUDYOBJECT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.ImagingStudyObject)
+  })
+_sym_db.RegisterMessage(ImagingStudyObject)
+
 ImmunizationObject = _reflection.GeneratedProtocolMessageType('ImmunizationObject', (_message.Message,), {
   'DESCRIPTOR' : _IMMUNIZATIONOBJECT,
   '__module__' : 'customized_pb2'
@@ -3831,6 +4981,13 @@ MedicationRequestObject = _reflection.GeneratedProtocolMessageType('MedicationRe
   # @@protoc_insertion_point(class_scope:patient.MedicationRequestObject)
   })
 _sym_db.RegisterMessage(MedicationRequestObject)
+
+MedicationAdministrationObject = _reflection.GeneratedProtocolMessageType('MedicationAdministrationObject', (_message.Message,), {
+  'DESCRIPTOR' : _MEDICATIONADMINISTRATIONOBJECT,
+  '__module__' : 'customized_pb2'
+  # @@protoc_insertion_point(class_scope:patient.MedicationAdministrationObject)
+  })
+_sym_db.RegisterMessage(MedicationAdministrationObject)
 
 ObservationObject = _reflection.GeneratedProtocolMessageType('ObservationObject', (_message.Message,), {
   'DESCRIPTOR' : _OBSERVATIONOBJECT,
