@@ -53,7 +53,9 @@ def write_proto(pr, fname):
 
 def read_proto(fname):
     with open(fname, 'rb') as fp:
-        return pb2.PatientRecord().ParseFromString(fp.read())
+        rec = pb2.PatientRecord()
+        rec.ParseFromString(fp.read())
+        return rec
 
 def main():
     message_map = parse_proto('customized.proto')

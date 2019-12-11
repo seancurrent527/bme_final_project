@@ -4,9 +4,13 @@ FNAME = 'synthea/output/fhir/Cristy798_Schroeder447_eaecbe09-10af-41b5-8d0f-a95b
 
 FIELD_TYPE_CONVERSIONS = {}
 
-def parse_json(fname):
-    with open(fname, 'r') as fp:
+def read_json(fname):
+    with open(fname, 'r', encoding='utf-8') as fp:
         return json.load(fp)
+
+def write_json(js, fname):
+    with open(fname, 'w') as fp:
+        json.dump(js, fp)
 
 def unpack_fields(root):
     if type(root) is dict:
@@ -39,7 +43,7 @@ def unpack_objects(root, result = None, name = 'root'):
         return result
 
 def main():
-    obj = parse_json(FNAME)
+    obj = read_json(FNAME)
     st = set()
     for d in obj['entry']:
         st.add(d['resource']['resourceType'])
